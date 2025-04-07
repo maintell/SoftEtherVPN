@@ -13,7 +13,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// §È§ÅEresources
+// §È§ˇEresources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
 #ifdef _WIN32
@@ -1847,8 +1847,7 @@ BEGIN
     PUSHBUTTON      "@B_CERT_TOOL",B_CERT_TOOL,171,248,86,14
     ICON            ICO_SECURE,S_SMARTCARD_ICON,45,266,18,18
     PUSHBUTTON      "@B_SECURE_MANAGER",B_SECURE_MANAGER,67,269,96,14
-    PUSHBUTTON      "@B_SELECT_SECURE",B_SELECT_SECURE,171,269,86,14
-    PUSHBUTTON      "@B_ABOUT",B_ABOUT,14,288,76,14
+    PUSHBUTTON      "@B_SELECT_SECURE",B_SELECT_SECURE,171,269,86,14    
     PUSHBUTTON      "@IDCANCEL",IDCANCEL,98,288,159,14
 END
 
@@ -2778,7 +2777,6 @@ BEGIN
     PUSHBUTTON      "@B_INFO",B_INFO,186,275,97,15
     PUSHBUTTON      "@B_PASSWORD",B_PASSWORD,7,305,97,15
     PUSHBUTTON      "@B_REFRESH",B_REFRESH,109,305,71,15
-    PUSHBUTTON      "@B_ABOUT",B_ABOUT,192,305,71,15
     PUSHBUTTON      "@IDCANCEL",IDCANCEL,279,305,65,15
 END
 
@@ -3691,7 +3689,6 @@ BEGIN
     CONTROL         "@R_LOCAL",R_LOCAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,40,78,200,15
     RTEXT           "@S_HOSTNAME",S_HOSTNAME,33,98,49,10
     COMBOBOX        C_HOSTNAME,86,96,150,91,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
-    PUSHBUTTON      "@B_ABOUT",B_ABOUT,14,130,50,14
     DEFPUSHBUTTON   "@IDOK",IDOK,158,130,52,14
     PUSHBUTTON      "@IDCANCEL",IDCANCEL,216,130,52,14
 END
@@ -4845,10 +4842,6 @@ BEGIN
         MENUITEM "@CMD_LANGUAGE",               CMD_LANGUAGE
         MENUITEM "@CMD_OPTION",                 CMD_OPTION
     END
-    POPUP "@CMD_TOP_HELP"
-    BEGIN
-        MENUITEM "@CMD_ABOUT",                  CMD_ABOUT
-    END
 END
 
 M_VOICE_BACKUP MENU 
@@ -4869,12 +4862,12 @@ END
 //
 
 BIN_WINPCAP             BIN                     "Dummy.bin"
-#endif    // §È§ÅEresources
+#endif    // §È§ˇEresources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// §§§ÅE(•x∆W) resources
+// §§§ˇE(•x∆W) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
 #ifdef _WIN32
@@ -4890,12 +4883,12 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 ICO_LANG_TRADITIONAL_CHINESE ICON                    "LANG_TRADITIONAL_CHINESE.ico"
-#endif    // §§§ÅE(•x∆W) resources
+#endif    // §§§ˇE(•x∆W) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// ≠^§ÅE(¨ÅEÅE resources
+// ≠^§ˇE(¨ˇEˇE resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 #ifdef _WIN32
@@ -4956,7 +4949,7 @@ BMP_ZURUKKO             BITMAP                  "Zurukko.bmp"
 BMP_VPNGATEEN           BITMAP                  "VPNGateEN.bmp"
 BMP_VPNGATEJA           BITMAP                  "VPNGateJA.bmp"
 BMP_UNIVTSUKUBA         BITMAP                  "UnivTsukuba.bmp"
-#endif    // ≠^§ÅE(¨ÅEÅE resources
+#endif    // ≠^§ˇE(¨ˇEˇE resources
 /////////////////////////////////////////////////////////////////////////////
 
 

@@ -1,6 +1,6 @@
-﻿# SoftEther VPN String Table
-# Copyright (c) all contributors on SoftEther VPN project in GitHub.
-# Copyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.
+﻿# Eissoft VPN String Table
+# Copyright (c) all contributors on Eissoft VPN project in GitHub.
+# Copyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.
 #
 # https://www.softether.org/
 #
@@ -35,20 +35,20 @@ LANGSTR					Traditional_Chinese
 
 STRTABLE_ID				SE_VPN_20121007
 
-CM_JAPANESE_ONLY_OLD_STARTUP	%s\\SoftEther VPN Client 2.0 タスクトレイ.lnk
+CM_JAPANESE_ONLY_OLD_STARTUP	%s\\Eissoft VPN Client 2.0 タスクトレイ.lnk
 
 
 # 軟體資訊
-PRODUCT_NAME_VPN_CLI	SoftEther VPN Client Developer Edition
-PRODUCT_NAME_VPN_CMGR	SoftEther VPN Developer Edition Client 管理器
-PRODUCT_NAME_VPN_SVR	SoftEther VPN Server Developer Edition
-PRODUCT_NAME_VPN_BRIDGE	SoftEther VPN Bridge Developer Edition
-PRODUCT_NAME_VPN_SMGR	SoftEther VPN Developer Edition Server 管理器
-PRODUCT_NAME_ELOGSVC	SoftEther EtherLogger Developer Edition
-PRODUCT_NAME_ELOGMGR	SoftEther EtherLogger Developer Edition
+PRODUCT_NAME_VPN_CLI	Eissoft VPN Client 
+PRODUCT_NAME_VPN_CMGR	Eissoft VPN  Client 管理器
+PRODUCT_NAME_VPN_SVR	Eissoft VPN Server 
+PRODUCT_NAME_VPN_BRIDGE	Eissoft VPN Bridge 
+PRODUCT_NAME_VPN_SMGR	Eissoft VPN  Server 管理器
+PRODUCT_NAME_ELOGSVC	Eissoft EtherLogger 
+PRODUCT_NAME_ELOGMGR	Eissoft EtherLogger 
 
 # 軟體更新檢查用的 Family Name
-PRODUCT_FAMILY_NAME		SoftEtherDev
+PRODUCT_FAMILY_NAME		EissoftDev
 
 
 # BRANDED_C_TO_S		Branded_VPN
@@ -71,7 +71,7 @@ ERR_1					伺服器連接失敗。請檢查網路連接，確保目標伺服器�
 ERR_2					協定錯誤。目標伺服器返回錯誤。
 ERR_3					連接中斷。
 ERR_4					協定錯誤。
-ERR_5					非 SoftEther VPN 軟體用戶端已連接到該埠。
+ERR_5					非 Eissoft VPN 軟體用戶端已連接到該埠。
 ERR_6					命令被用戶取消。
 ERR_7					伺服器拒絕指定的認證方式。
 ERR_8					指定的虛擬 HUB 在該伺服器上不存在。
@@ -137,13 +137,13 @@ ERR_67					虛擬 HUB 上已存在指定名稱的群組。
 ERR_68					具有指定名稱的用戶在伺服器上已存在，但身份驗證類型不是密碼驗證。無法更改密碼。
 ERR_69					用戶名或舊密碼輸入不正確。請注意密碼有大小寫區分。
 ERR_70					埼玉。
-ERR_71					因應日本經濟產業省命令，SoftEther 暫停當前配發。
-ERR_72					因應 IPA 命令，SoftEther 暫停當前配發。
+ERR_71					因應日本經濟產業省命令，Eissoft 暫停當前配發。
+ERR_72					因應 IPA 命令，Eissoft 暫停當前配發。
 ERR_73					無法斷開級聯會話。要刪除會話，請停止級聯。
 ERR_74					VPN Server 的連接設置未完成。請先完成 VPN 連接設置。
 ERR_75					虛擬私人網路 VPN Server 連接已經開始。
 ERR_76					未連接到 VPN Server。
-ERR_77					指定的 X509 證書檔不包含 RSA 1024 bit，1536 bit，2048 bit，3072 bit 位或 4096 bit 的公共金鑰。SoftEther VPN 軟體僅支援 RSA 1024 bit，1536 bit，2048 bit，3072 bit 位或 4096 bit 證書。
+ERR_77					指定的 X509 證書檔不包含 RSA 1024 bit，1536 bit，2048 bit，3072 bit 位或 4096 bit 的公共金鑰。Eissoft VPN 軟體僅支援 RSA 1024 bit，1536 bit，2048 bit，3072 bit 位或 4096 bit 證書。
 ERR_78					無法斷開 SecureNAT 會話。要刪除會話，請停止 SecureNAT 功能。
 ERR_79					無法在群集環境中啟用 SecureNAT。
 ERR_80					SecureNAT 未開始工作。
@@ -181,14 +181,14 @@ ERR_111					記憶體不足。
 ERR_112					指定的對象已存在。
 ERR_113					發生致命的錯誤。很可能是該程式的操作無法繼續。
 ERR_114					目標 VPN Server 已檢測到軟體許可證錯誤。連接被拒絕。請與 VPN Server 管理員聯繫。
-ERR_115					通過 Internet 連接到 SoftEther 公司提供的一個重要伺服器的目標 VPN Server 無法驗證許可證。請稍候，或與 VPN Server 管理員聯繫，要求檢查伺服器日誌檔和檢查伺服器本身的 Internet 連接狀態。
+ERR_115					通過 Internet 連接到 Eissoft 公司提供的一個重要伺服器的目標 VPN Server 無法驗證許可證。請稍候，或與 VPN Server 管理員聯繫，要求檢查伺服器日誌檔和檢查伺服器本身的 Internet 連接狀態。
 ERR_116					用戶端的軟體許可證錯誤。連接被拒絕。
 ERR_117					命令或檔案名不正確
 ERR_118					許可證金鑰不正確
 ERR_119					VPN Server 上沒有註冊有效的產品許可證。請與 VPN Server 管理員聯繫。
 ERR_120					VPN Server 作為群集運行所需要的許可證未註冊。請與 VPN Server 的管理員。
-ERR_121					VPN 連接設置已使用“Web 安裝程式創建工具包”或“簡單安裝程式創建工具包”安裝。目標伺服器版本不支援支援 SoftEther VPN 的 2.0 管理包。請與系統管理員或安裝程式創建者聯繫。
-ERR_122					與 VPN Server SDK for .NET，它只能連接到 SoftEther VPN Server 版本，支援 SoftEther VPN 的 2.0 管理包。 VPN Server 的目標不是一個版本，支援 SoftEther VPN 的 2.0 管理包。與系統管理員聯繫。
+ERR_121					VPN 連接設置已使用“Web 安裝程式創建工具包”或“簡單安裝程式創建工具包”安裝。目標伺服器版本不支援支援 Eissoft VPN 的 2.0 管理包。請與系統管理員或安裝程式創建者聯繫。
+ERR_122					與 VPN Server SDK for .NET，它只能連接到 Eissoft VPN Server 版本，支援 Eissoft VPN 的 2.0 管理包。 VPN Server 的目標不是一個版本，支援 Eissoft VPN 的 2.0 管理包。與系統管理員聯繫。
 ERR_123					試用版軟體在目標伺服器上已過期。聯繫伺服器的系統管理員以下載新的測試版或從 http://www.softether.com/ 下載完整版本。
 
 # ----- 不完全翻訳ここから -----
@@ -212,11 +212,11 @@ ERR_139					動態 DNS 伺服器的連接被中斷。
 ERR_140					無法初始化 ICMP(PING)協定。 VPN Server 的進程可能以普通使用者許可權在運行。在這種情況下， VPN Server 作為系統服務運行。 (在 Linux / UNIX，以 root 許可權運行)。
 ERR_141					無法打開 DNS 埠 53。請確認沒有其他的 DNS 伺服器程式(例如，BIND 或 Microsoft DNS 伺服器)在同一台電腦上。如果有衝突的服務，停止他們。或在 Linux/ UNIX 的 root 許可權運行 VPN Server 的進程。
 ERR_142					OpenVPN Server 功能未啟用。
-ERR_143					證書驗證功能和外部伺服器驗證功能尚未在 SoftEther VPN 的開源版本上實施。可以選擇匿名身份驗證或密碼驗證來代替。
+ERR_143					證書驗證功能和外部伺服器驗證功能尚未在 Eissoft VPN 的開源版本上實施。可以選擇匿名身份驗證或密碼驗證來代替。
 ERR_144					不可接受的操作。使用 VPN Gate 控制台更改 VPN Gate 中繼伺服器設置。
 ERR_145					不可接受的操作。使用 VPN Gate 實用工具修改 VPN Gate 公共 VPN 中繼伺服器的連接設置。
 ERR_146					VPN Gate 服務運行在 VPN 用戶端程式內。在此螢幕上，你不能停止 VPN Gate 服務。使用 VPN 用戶端管理器來啟用或禁用 VPN Gate 服務。
-ERR_147					不支援此功能。它尚未在 SoftEther VPN 的開源版本上實施。
+ERR_147					不支援此功能。它尚未在 Eissoft VPN 的開源版本上實施。
 ERR_148					VPN 連接被中斷，因為該系統被暫停。
 ERR_149					目標 VPN Server 的證書與指定的主機名稱不匹配。
 ERR_150					找不到連接雙方都支持的 TLS 版本。這通常意味著一方可能正在使用已被另一方禁用的過時的 TLS 版本。
@@ -375,7 +375,7 @@ SEC_OBJECT_EXPORT_OK	從智慧卡中讀取的資料已被保存。
 SEC_NEW_CERT_IMPORT_OK	新創建的證書已被寫入智慧卡。
 SEC_CURRENT_DEVICE		當前選中設備 %S。
 SEC_CURRENT_NO_DEVICE	選擇要使用的智慧卡。
-SEC_NO_SECURE_DEVICE	系統中沒有安裝與 SoftEther VPN 相容的智慧卡或硬體安全標記設備。\r\n\r\n要使用智慧卡或硬體標記，需要在 Windows 中安裝 PKCS#11 相容設備驅動。並且， SoftEther VPN 需要支援此設備類型。\r\n請確定已安裝系統相容設備驅動。\r\n請在 SoftEther 有限公司網站上查閱 SoftEther VPN 相容設備清單。而且，將軟體更新到最新版本也有助於增大設備相容範圍。
+SEC_NO_SECURE_DEVICE	系統中沒有安裝與 Eissoft VPN 相容的智慧卡或硬體安全標記設備。\r\n\r\n要使用智慧卡或硬體標記，需要在 Windows 中安裝 PKCS#11 相容設備驅動。並且， Eissoft VPN 需要支援此設備類型。\r\n請確定已安裝系統相容設備驅動。\r\n請在 Eissoft 有限公司網站上查閱 Eissoft VPN 相容設備清單。而且，將軟體更新到最新版本也有助於增大設備相容範圍。
 SEC_PIN_DEVICE_OPEN_ERR	無法連接設備 "%S"。請確保硬體正確連接。
 SEC_PIN_CURRENT_BAD		當前的 PIN 碼是不正確的。
 SEC_PIN_CHANGE_FAILED	更改 PIN 碼失敗。
@@ -462,11 +462,11 @@ WINVER_ERROR_PC_REMOTE	遠端伺服器
 
 
 # 開源版本的警告
-OSS_MSG					歡迎來到 SoftEther VPN 伺服器學術版 !\r\n\r\n此 VPN 伺服器作為日本筑波大學的一個學術研究由免費軟體發展的，且由，開源 SoftEther 項目 (http://www.softether.org/) 為公眾利益免費發佈的。\r\n\r\nSoftEther VPN 軟體是作為筑波大學和 SoftEther 公司之間的聯合研究合同的一部分而發佈給公眾的。SoftEther VPN 軟體的開發和發佈僅為學術研究目的。因此，對 SoftEther VPN 軟體不提供支援服務，即使它包含錯誤或漏洞。用戶將對使用 SoftEther VPN 的結果承擔責任。 SoftEther VPN 的開發者和發行者都將永遠不會為任何後果或損失承擔責任。\r\n\r\n在您同意上述啟示後，使用 SoftEther VPN 伺服器享受 VPN 通信。\r\n\r\n對於 SoftEther VPN 的更多細節，請參閱 http://www.softether.org/。\r\n\r\n
+OSS_MSG					歡迎來到 Eissoft VPN 伺服器學術版 !\r\n\r\n此 VPN 伺服器作為日本筑波大學的一個學術研究由免費軟體發展的，且由，開源 Eissoft 項目 (http://www.softether.org/) 為公眾利益免費發佈的。\r\n\r\nEissoft VPN 軟體是作為筑波大學和 Eissoft 公司之間的聯合研究合同的一部分而發佈給公眾的。Eissoft VPN 軟體的開發和發佈僅為學術研究目的。因此，對 Eissoft VPN 軟體不提供支援服務，即使它包含錯誤或漏洞。用戶將對使用 Eissoft VPN 的結果承擔責任。 Eissoft VPN 的開發者和發行者都將永遠不會為任何後果或損失承擔責任。\r\n\r\n在您同意上述啟示後，使用 Eissoft VPN 伺服器享受 VPN 通信。\r\n\r\n對於 Eissoft VPN 的更多細節，請參閱 http://www.softether.org/。\r\n\r\n
 
 
 # NAT Traversal warning
-NATT_MSG				** 使用 NAT 穿透 (UDP 打洞) - 它可能是不穩定的 **\r\n\r\n此 VPN 用戶端通過使用 NAT 穿透 (UDP 打洞) 技術連接到 VPN 伺服器 '%S'。\r\n\r\nNAT 穿透允許位於 NAT 盒後面的 VPN 伺服器接受來自 NAT 盒中的、沒有任何埠映射設置的 VPN 用戶端的 VPN 連接。\r\n\r\n然而，基於 NAT 穿透的 VPN 會話有時會變得不穩定，因為 NAT 穿透使用的是基於 UDP 的協定。例如，如果在 VPN 伺服器和 VPN 用戶端之間有一個不好的 NAT 盒子， VPN 隧道每 5 分鐘斷開一次。一些大規模 NAT 閘道使用便宜的網際網路服務供應商，有時會造成 NAT 穿透的同樣問題。這是路由器或網際網路服務供應商的問題。這不是 SoftEther VPN 軟體的問題。\r\n\r\n為了解決這個不穩定的隧道問題，您應該直接連接到 VPN 伺服器的 TCP 監聽埠，而不是使用 NAT 穿透功能。要使用 TCP 直接連接到 VPN 伺服器， VPN 伺服器的監聽埠必須通過在 NAT 盒的埠映射設置暴露到網際網路上。請詢問 NAT 盒的管理員或參閱 NAT 盒的手冊在 NAT 盒上添加埠映射設置。\r\n\r\n如果此消息仍是 VPN 伺服器暴露了一個 TCP 埠到網際網路後，檢查 VPN 用戶端連接設置螢幕上的 "禁用 NAT-T" 核取方塊。\r\n\r\n
+NATT_MSG				** 使用 NAT 穿透 (UDP 打洞) - 它可能是不穩定的 **\r\n\r\n此 VPN 用戶端通過使用 NAT 穿透 (UDP 打洞) 技術連接到 VPN 伺服器 '%S'。\r\n\r\nNAT 穿透允許位於 NAT 盒後面的 VPN 伺服器接受來自 NAT 盒中的、沒有任何埠映射設置的 VPN 用戶端的 VPN 連接。\r\n\r\n然而，基於 NAT 穿透的 VPN 會話有時會變得不穩定，因為 NAT 穿透使用的是基於 UDP 的協定。例如，如果在 VPN 伺服器和 VPN 用戶端之間有一個不好的 NAT 盒子， VPN 隧道每 5 分鐘斷開一次。一些大規模 NAT 閘道使用便宜的網際網路服務供應商，有時會造成 NAT 穿透的同樣問題。這是路由器或網際網路服務供應商的問題。這不是 Eissoft VPN 軟體的問題。\r\n\r\n為了解決這個不穩定的隧道問題，您應該直接連接到 VPN 伺服器的 TCP 監聽埠，而不是使用 NAT 穿透功能。要使用 TCP 直接連接到 VPN 伺服器， VPN 伺服器的監聽埠必須通過在 NAT 盒的埠映射設置暴露到網際網路上。請詢問 NAT 盒的管理員或參閱 NAT 盒的手冊在 NAT 盒上添加埠映射設置。\r\n\r\n如果此消息仍是 VPN 伺服器暴露了一個 TCP 埠到網際網路後，檢查 VPN 用戶端連接設置螢幕上的 "禁用 NAT-T" 核取方塊。\r\n\r\n
 
 
 #虛擬 HUB 管理選項
@@ -676,10 +676,10 @@ CT_b_support_redirect_url_acl	支持訪問列表 HTTP URL 改道
 CT_b_is_in_vm			虛擬機器上運行
 CT_b_support_azure		支持 VPN Azure
 CT_b_support_aes_ni	支援 CPU AES 加密加速功能 (AES-NI)
-CT_b_using_selow_driver	支持 SoftEther Lightweight Kernel-mode Ethernet Driver
+CT_b_using_selow_driver	支持 Eissoft Lightweight Kernel-mode Ethernet Driver
 CT_b_support_vgs		支援 VPN Gate 服務的伺服器功能
 CT_b_support_vgs_in_client	VPN Gate 服務的伺服器功能 (VPN 用戶端集成)
-CT_b_is_softether		SoftEther VPN 的免費或開源版
+CT_b_is_softether		Eissoft VPN 的免費或開源版
 CT_b_suppport_push_route		靜態路由表推送功能
 CT_b_suppport_push_route_config	靜態路由表推送功能 (可配置)
 
@@ -787,18 +787,18 @@ REMOTE_DEF_TITLE		指定你要進行遠端連接的電腦。
 
 
 # 關於客戶通知服務
-CN_TITLE				SoftEther VPN Client Developer Edition
+CN_TITLE				Eissoft VPN Client 
 
 
 # 關於連線管理員
-CM_TITLE				SoftEther VPN Client Developer Edition 管理器
+CM_TITLE				Eissoft VPN Client  管理器
 CM_PW_LOCALMACHINE		我的電腦
 CM_NO_REMOTE			VPN Client 服務運行在 %s 上，不允許遠端連接。
 CM_CONNECT_FAILED		無法連接到 %s 上的 VPN Client 服務。\r\n確認 VPN 服務已開啟並正常運行。
 CM_BAD_PASSWORD			密碼錯誤。請重新輸入密碼。密碼大小寫敏感。
 CM_NUM_CONN_COUNT		VPN 連接中: %u 帳戶
 CM_CONN_NO				未連接
-CM_PRODUCT_NAME			SoftEther VPN Client Build %u
+CM_PRODUCT_NAME			Eissoft VPN Client Build %u
 CM_ACCOUNT_COLUMN_1		VPN 連接設置名稱
 CM_ACCOUNT_COLUMN_2		狀態
 CM_ACCOUNT_COLUMN_3		VPN Server 主機名稱(地址)
@@ -978,7 +978,7 @@ CM_VPN_FILE_IMPORT_NG	無法導入 VPN 連接設置檔案。由於 VPN Client �
 CM_VLAN_INSTALLING		請稍候...
 CM_SECURE_MUST_LOCAL	因為目前您對遠端電腦進行連接並管理 VPN Client，因此無法修改智慧卡設置。
 CM_DETAIL_MODE_LINK_STR	使用級聯，則“通過橋接器，路由模式連接”始終啟用。
-CM_TRAY_INITING			SoftEther VPN
+CM_TRAY_INITING			Eissoft VPN
 CM_TRAY_NOT_CONNECTED	\r\n未連接
 CM_TRAY_CONNECTING		\r\n正在連接
 CM_TRAY_CONNECTED		\r\n已連接
@@ -1016,7 +1016,7 @@ CM_TRAY_ICON_RESTORE	工具列圖示已被清除。\r\n\r\n要恢復該圖示，
 CM_WOULDYOULOAD_IE_PROXY	目前，這台電腦的 Internet Explorer 配置使用代理伺服器"%S"。\r\n您想在新的 VPN 連接設置中應用當前代理設置嗎？\r\n\r\n點擊“是”使用Internet Explorer 的代理設置。\r\n點擊“否”使用直接連接至 VPN Server(不是代理伺服器)。\r\n此設置可以在連接設置的屬性視窗、在今後的任何時間進行修改。
 CM_MSG_TITLE			VPN Server "%S" (虛擬 HUB: "%S")
 CM_JUMPLIST_RCCONNECT	最近使用的連接設置
-CM_VPNGATE_MESSAGE		在 VPN Gate 學術項目網站上有一個公共 VPN 中繼伺服器列表。\r\n網際網路上的任何人都可以建立 VPN 連接至任一列表上的 VPN 伺服器。無需用戶註冊。\r\n\r\nVPN Gate 不是 SoftEther VPN 的一部分。\r\n此圖示只提供了一個超連結到 http://www.vpngate.net/。\r\n\r\n安裝帶有 SoftEther VPN Client 的 VPN Gate Client 外掛程式。它可用簡單的配置連接到 VPN Gate 的一個公共 VPN 中繼伺服器。\r\n\r\n你想訪問 http://www.vpngate.net/ (設在日本筑波大學) ?
+CM_VPNGATE_MESSAGE		在 VPN Gate 學術項目網站上有一個公共 VPN 中繼伺服器列表。\r\n網際網路上的任何人都可以建立 VPN 連接至任一列表上的 VPN 伺服器。無需用戶註冊。\r\n\r\nVPN Gate 不是 Eissoft VPN 的一部分。\r\n此圖示只提供了一個超連結到 http://www.vpngate.net/。\r\n\r\n安裝帶有 Eissoft VPN Client 的 VPN Gate Client 外掛程式。它可用簡單的配置連接到 VPN Gate 的一個公共 VPN 中繼伺服器。\r\n\r\n你想訪問 http://www.vpngate.net/ (設在日本筑波大學) ?
 CM_VLAN_REINSTALL_MSG	After reinstalling the Virtual Network Adapter driver, the current Virtual Network Adapter's MAC address will change. Also, all TCP/IP settings within the Virtual Network Adapter will reset.\r\n\r\nIn case the reinstalled Virtual Network Adapter fails to work, delete it and create a new one. If it still doesn't work properly, please create a new Virtual Network Adapter with a different name.
 
 
@@ -1059,9 +1059,9 @@ VGS_NO_HUB_YET			為了設置消息，首先你得啟用 VPN Gate 服務。在�
 
 VGC_TITLE				VPN Gate 外掛程式消息
 
-VGC_VER_DIFF			VPN Gate 用戶端外掛程式的版本與 SoftEther VPN 用戶端相異。\r\n\r\n- 當前的 VPN Gate 外掛程式: Build %u\r\n- 當前的 SoftEther VPN 用戶端: Build %u\r\n\r\n推薦下載並安裝 VPN Gate 外掛程式 Build %u，否則可能出現通信錯誤或清單更新出錯。VPN 伺服器列表更新失敗多次，請更新 VPN Gate 外掛程式版本。\r\n\r\n最新的 VPN Gate 外掛程式可用於 http://www.vpngate.net/。\r\n(如果您無法直接訪問上述網站，請使用鏡像網站。)\r\n\r\n)\r\n\r\n
+VGC_VER_DIFF			VPN Gate 用戶端外掛程式的版本與 Eissoft VPN 用戶端相異。\r\n\r\n- 當前的 VPN Gate 外掛程式: Build %u\r\n- 當前的 Eissoft VPN 用戶端: Build %u\r\n\r\n推薦下載並安裝 VPN Gate 外掛程式 Build %u，否則可能出現通信錯誤或清單更新出錯。VPN 伺服器列表更新失敗多次，請更新 VPN Gate 外掛程式版本。\r\n\r\n最新的 VPN Gate 外掛程式可用於 http://www.vpngate.net/。\r\n(如果您無法直接訪問上述網站，請使用鏡像網站。)\r\n\r\n)\r\n\r\n
 
-VGS_STOP				VPN Gate 服務將在您點擊 確定 按鈕後停止。\r\n\r\n在 VPN Gate 服務被停止後，這台電腦將不會接受新的 VPN 連接請求，但是，仍然活躍的 VPN 會話可能會殘留。\r\n (這類 VPN 會話有時在枚舉中不可見。) \r\n\r\n要想徹底終止所有仍然活躍的 VPN 會話，重啟 SoftEther VPN Server 或者 SoftEther VPN Client 服務，或者重新開機這台電腦。
+VGS_STOP				VPN Gate 服務將在您點擊 確定 按鈕後停止。\r\n\r\n在 VPN Gate 服務被停止後，這台電腦將不會接受新的 VPN 連接請求，但是，仍然活躍的 VPN 會話可能會殘留。\r\n (這類 VPN 會話有時在枚舉中不可見。) \r\n\r\n要想徹底終止所有仍然活躍的 VPN 會話，重啟 Eissoft VPN Server 或者 Eissoft VPN Client 服務，或者重新開機這台電腦。
 
 VGS_START				This will activate the VPN Gate Relay Service function.\r\n\r\nVPN Gate Relay Service function must be activated by your own risk.\r\nSome countries prohibit using of encrypted VPN by laws.\r\nFor more details about VPN Gate Relay Service please visit http://www.vpngate.net/en/join.aspx.\r\n\r\nThe VPN Gate Academic Experiment Service is operated as a research project at the graduate school on University of Tsukuba, Japan. The service is governed under the Japanese laws. Other countries' laws are none of our concerns nor responsibilities.\r\n\r\nBy nature, there are almost 200 countries in the World, with different laws. It is impossible to verify every countries' laws and regulations and make the software comply with all countries' laws in advance to release the software. If a user uses VPN Gate service in a specific country, and damaged by public servants of the authority, the developer of either the service or software will never be liable to recover or compensate such damages or criminal responsibilities.\r\nBy using this software and service, the user must observe all concerned laws and rules with user's own responsibility. The user will be completely liable to any damages and responsibilities which are results of using this software and service, regardless of either inside or outside of Japan's territory.\r\nIf you don't agree nor understand the above warnings, do not use any of VPN Gate Academic Experiment Service functions.
 
@@ -1096,7 +1096,7 @@ SVC_HIDE_TRAY_MSG		啟動 %S 使用者模式時將隱藏工作列圖示。\r\n�
 
 
 #關於服務 (UNIX)
-UNIX_SVC_HELP			%S service program\nCopyright (c) all contributors on SoftEther VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.\nAll Rights Reserved.\n\n%S command usage:\n %S start  - Start the %S service.\n %S stop   - Stop the %S service if the service has been already started.\n\n
+UNIX_SVC_HELP			%S service program\nCopyright (c) all contributors on Eissoft VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.\nAll Rights Reserved.\n\n%S command usage:\n %S start  - Start the %S service.\n %S stop   - Stop the %S service if the service has been already started.\n\n
 UNIX_SVC_STARTED		The %S service has been started.\n
 UNIX_SVC_STOPPING		Stopping the %S service ...\n
 UNIX_SVC_STOPPED		%S service has been stopped.\n
@@ -1107,56 +1107,56 @@ UNIX_SVC_ERROR_FORK		Failed to create child process for the %S service.\n
 UNIX_SVC_NONROOT		\nWarning: The current user context is non-root. It is recommended to run the VPN service by the root user. Although the VPN service may run under non-root users, some privilege-required functions (e.g. the local bridge function) need the root privilege.\n
 
 
-# 服務定義 (SoftEther VPN Client)
+# 服務定義 (Eissoft VPN Client)
 SVC_VPNCLIENT_NAME		vpnclient
-SVC_VPNCLIENT_TITLE		SoftEther VPN Client
-SVC_VPNCLIENT_DESCRIPT	它為 SoftEther VPN Client 管理虛擬網路介面卡設備驅動和連接服務。當服務停止時，此電腦將無法使用 SoftEther VPN Client 連接到 SoftEther VPN Server。
+SVC_VPNCLIENT_TITLE		Eissoft VPN Client
+SVC_VPNCLIENT_DESCRIPT	它為 Eissoft VPN Client 管理虛擬網路介面卡設備驅動和連接服務。當服務停止時，此電腦將無法使用 Eissoft VPN Client 連接到 Eissoft VPN Server。
 
 
-# 服務定義 (SoftEther VPN Server)
+# 服務定義 (Eissoft VPN Server)
 SVC_VPNSERVER_NAME		vpnserver
-SVC_VPNSERVER_TITLE		SoftEther VPN Server
-SVC_VPNSERVER_DESCRIPT	它管理 SoftEther VPN Server 服務進程。SoftEther VPN Server 通過 TCP/IP 協議提供高性能 SoftEther VPN Server 功能。當此服務被停止時，此電腦上的 SoftEther VPN Client 也將停止，且 SoftEther VPN Client 將無法與此電腦建立 VPN 連接。
+SVC_VPNSERVER_TITLE		Eissoft VPN Server
+SVC_VPNSERVER_DESCRIPT	它管理 Eissoft VPN Server 服務進程。Eissoft VPN Server 通過 TCP/IP 協議提供高性能 Eissoft VPN Server 功能。當此服務被停止時，此電腦上的 Eissoft VPN Client 也將停止，且 Eissoft VPN Client 將無法與此電腦建立 VPN 連接。
 
 
-# 服務定義 (SoftEther VPN Bridge)
+# 服務定義 (Eissoft VPN Bridge)
 SVC_VPNBRIDGE_NAME		vpnbridge
-SVC_VPNBRIDGE_TITLE		SoftEther VPN Bridge
-SVC_VPNBRIDGE_DESCRIPT	它管理 SoftEther VPN Bridge 服務進程。SoftEther VPN Bridge 提供此電腦連接的網路與遠端 SoftEther VPN Server 之間的連接。當此服務被停止時，此電腦上的 SoftEther VPN Bridge 也將停止，且無法再通過橋接器連接進行通信。
+SVC_VPNBRIDGE_TITLE		Eissoft VPN Bridge
+SVC_VPNBRIDGE_DESCRIPT	它管理 Eissoft VPN Bridge 服務進程。Eissoft VPN Bridge 提供此電腦連接的網路與遠端 Eissoft VPN Server 之間的連接。當此服務被停止時，此電腦上的 Eissoft VPN Bridge 也將停止，且無法再通過橋接器連接進行通信。
 
 
-# 服務定義 (SoftEther VPN Client)
+# 服務定義 (Eissoft VPN Client)
 SVC_SEVPNCLIENTDEV_NAME		sevpnclientdev
-SVC_SEVPNCLIENTDEV_TITLE		SoftEther VPN Client Developer Edition
-SVC_SEVPNCLIENTDEV_DESCRIPT	它為 SoftEther VPN Client 管理虛擬網路介面卡設備驅動和連接服務。當服務停止時，此電腦將無法使用 SoftEther VPN Client 連接到 SoftEther VPN Server。
+SVC_SEVPNCLIENTDEV_TITLE		Eissoft VPN Client 
+SVC_SEVPNCLIENTDEV_DESCRIPT	它為 Eissoft VPN Client 管理虛擬網路介面卡設備驅動和連接服務。當服務停止時，此電腦將無法使用 Eissoft VPN Client 連接到 Eissoft VPN Server。
 
 
-# 服務定義 (SoftEther VPN Server)
+# 服務定義 (Eissoft VPN Server)
 SVC_SEVPNSERVERDEV_NAME		sevpnserverdev
-SVC_SEVPNSERVERDEV_TITLE		SoftEther VPN Server Developer Edition
-SVC_SEVPNSERVERDEV_DESCRIPT	它管理 SoftEther VPN Server 服務進程。SoftEther VPN Server 通過 TCP/IP 協議提供高性能 SoftEther VPN Server 功能。當此服務被停止時，此電腦上的 SoftEther VPN Client 也將停止，且 SoftEther VPN Client 將無法與此電腦建立 VPN 連接。
+SVC_SEVPNSERVERDEV_TITLE		Eissoft VPN Server 
+SVC_SEVPNSERVERDEV_DESCRIPT	它管理 Eissoft VPN Server 服務進程。Eissoft VPN Server 通過 TCP/IP 協議提供高性能 Eissoft VPN Server 功能。當此服務被停止時，此電腦上的 Eissoft VPN Client 也將停止，且 Eissoft VPN Client 將無法與此電腦建立 VPN 連接。
 
 
-# 服務定義 (SoftEther VPN Bridge)
+# 服務定義 (Eissoft VPN Bridge)
 SVC_SEVPNBRIDGEDEV_NAME		sevpnbridgedev
-SVC_SEVPNBRIDGEDEV_TITLE		SoftEther VPN Bridge Developer Edition
-SVC_SEVPNBRIDGEDEV_DESCRIPT	它管理 SoftEther VPN Bridge 服務進程。SoftEther VPN Bridge 提供此電腦連接的網路與遠端 SoftEther VPN Server 之間的連接。當此服務被停止時，此電腦上的 SoftEther VPN Bridge 也將停止，且無法再通過橋接器連接進行通信。
+SVC_SEVPNBRIDGEDEV_TITLE		Eissoft VPN Bridge 
+SVC_SEVPNBRIDGEDEV_DESCRIPT	它管理 Eissoft VPN Bridge 服務進程。Eissoft VPN Bridge 提供此電腦連接的網路與遠端 Eissoft VPN Server 之間的連接。當此服務被停止時，此電腦上的 Eissoft VPN Bridge 也將停止，且無法再通過橋接器連接進行通信。
 
 
-# 服務定義 (SoftEther VPN User-mode Router)
+# 服務定義 (Eissoft VPN User-mode Router)
 SVC_VPNROUTER_NAME		vpnrouter
-SVC_VPNROUTER_TITLE		SoftEther VPN Router Developer Edition
-SVC_VPNROUTER_DESCRIPT	這是用來管理 SoftEther VPN 路由器(服務模式)的伺服器進程。 SoftEther VPN 的路由器是一個程式，它提供了一個虛擬 NAT 和 DHCP 伺服器，在使用者模式下運行，通過使用簡單的操作，它可以建立一個在虛擬 IP 網路和一個物理 IP 網路之間的安全連接。如果此服務被停止，在這台電腦上的 SoftEther VPN 路由器將停止， SoftEther VPN Client 將無法在這台電腦上使用路由服務。
+SVC_VPNROUTER_TITLE		Eissoft VPN Router 
+SVC_VPNROUTER_DESCRIPT	這是用來管理 Eissoft VPN 路由器(服務模式)的伺服器進程。 Eissoft VPN 的路由器是一個程式，它提供了一個虛擬 NAT 和 DHCP 伺服器，在使用者模式下運行，通過使用簡單的操作，它可以建立一個在虛擬 IP 網路和一個物理 IP 網路之間的安全連接。如果此服務被停止，在這台電腦上的 Eissoft VPN 路由器將停止， Eissoft VPN Client 將無法在這台電腦上使用路由服務。
 
 
 # サービス定義 (EtherLogger)
 SVC_ELOGSVC_NAME		elogsvc
-SVC_ELOGSVC_TITLE		SoftEther EtherLogger Developer Edition
-SVC_ELOGSVC_DESCRIPT	SoftEther EtherLogger 是一個捕捉從局域網卡連接到電腦上資料流程的服務，保存由管理員指定類型的封包的包頭日誌，所有資料以文字檔格式。
+SVC_ELOGSVC_TITLE		Eissoft EtherLogger 
+SVC_ELOGSVC_DESCRIPT	Eissoft EtherLogger 是一個捕捉從局域網卡連接到電腦上資料流程的服務，保存由管理員指定類型的封包的包頭日誌，所有資料以文字檔格式。
 
 
-#關於 SoftEther VPN Server 管理器
-SM_TITLE				SoftEther VPN Developer Edition Server 管理器
+#關於 Eissoft VPN Server 管理器
+SM_TITLE				Eissoft VPN  Server 管理器
 SM_LOCALHOST			本地主機 (此伺服器)
 SM_SERVER_BRIDGE_TITLE	管理 VPN Bridge "%S"
 SM_S_VHUB_BRIDGE		當使用 VPN Bridge 時，管理虛擬 HUB“BRIDGE”運行 VPN Bridge 的管理。
@@ -1519,11 +1519,11 @@ SM_SNAT_IS_KERNEL		核心模式 NAT 功能運作中
 SM_SNAT_IS_RAW			Raw IP 模式 NAT 功能運作中
 SM_BRIDGE_TOO_OLD_VER	當前連接的 VPN Server 版本不支援本地橋接器功能。\r\n請更新到最新版本。
 SM_BRIDGE_UNSUPPORTED	當前連接的 VPN Server 運行的作業系統無法使用本地橋接器功能。請參閱 VPN Server 線上文檔以獲得支援本地橋接器功能的作業系統清單。
-SM_BRIDGE_WPCAP_REMOTE	為在此 VPN Server 上使用本地橋接器功能，您必須安裝 WinPcap 軟體。WinPcap 軟體當前沒有在伺服器上安裝。\r\n\r\n要進行 WinPcap 軟體的安裝，您必須在運行 VPN Server 的伺服器上啟動 SoftEther VPN Server 管理器，然後連接到本機 (您自己電腦的位置)，打開本地橋接器功能設置視窗。\r\n首先退出此管理會話，然後在此伺服器上啟動 SoftEther VPN Server 管理器之後，連接到本機並繼續設置進程。
-SM_BRIDGE_WPCAP_ROOT	為在此 VPN Server 上使用本地橋接器功能，您必須安裝 WinPcap 軟體。\r\n\r\n若要繼續安裝，您必須以管理員身份登入到此電腦上。\r\n以管理員身份登入，然後再次啟動 SoftEther VPN Server 管理器。
+SM_BRIDGE_WPCAP_REMOTE	為在此 VPN Server 上使用本地橋接器功能，您必須安裝 WinPcap 軟體。WinPcap 軟體當前沒有在伺服器上安裝。\r\n\r\n要進行 WinPcap 軟體的安裝，您必須在運行 VPN Server 的伺服器上啟動 Eissoft VPN Server 管理器，然後連接到本機 (您自己電腦的位置)，打開本地橋接器功能設置視窗。\r\n首先退出此管理會話，然後在此伺服器上啟動 Eissoft VPN Server 管理器之後，連接到本機並繼續設置進程。
+SM_BRIDGE_WPCAP_ROOT	為在此 VPN Server 上使用本地橋接器功能，您必須安裝 WinPcap 軟體。\r\n\r\n若要繼續安裝，您必須以管理員身份登入到此電腦上。\r\n以管理員身份登入，然後再次啟動 Eissoft VPN Server 管理器。
 SM_BRIDGE_WPCAP_INSTALL	為在此 VPN Server 上使用本地橋接器功能，您必須安裝 WinPcap 軟體。WinPcap 軟體當前沒有在伺服器上安裝。\r\n\r\nWinPcap 是一個與 VPN Server 捆綁在一起的免費軟體。\r\n\r\n請問您是否開始安裝 WinPcap ?
 SM_BRIDGE_WPCAP_REBOOT1	WinPcap 安裝完成後，您在使用本地橋接器功能之前必須重新開機電腦。\r\n\r\n在您手動重啟電腦並啟動 VPN Server 後，配置本地橋接器功能的設置。
-SM_BRIDGE_WPCAP_REBOOT2	WinPcap 安裝完成後，您在使用本地橋接器功能之前必須重新開機電腦。\r\n\r\n重新啟動 SoftEther VPN Server 會花費一點時間，但所有當前正連接到 VPN Server 的會話將被切斷\r\n此管理會話也將被切斷，所以您將需要重新連接。\r\n\r\n您是否要重啟 SoftEther VPN Server 服務?
+SM_BRIDGE_WPCAP_REBOOT2	WinPcap 安裝完成後，您在使用本地橋接器功能之前必須重新開機電腦。\r\n\r\n重新啟動 Eissoft VPN Server 會花費一點時間，但所有當前正連接到 VPN Server 的會話將被切斷\r\n此管理會話也將被切斷，所以您將需要重新連接。\r\n\r\n您是否要重啟 Eissoft VPN Server 服務?
 SM_BRIDGE_RESOURCE		無法載入 WinPcap 的驅動程式。
 SM_BRIDGE_COLUMN_1		編號
 SM_BRIDGE_COLUMN_2		虛擬 HUB 名稱
@@ -1630,7 +1630,7 @@ SM_SETUP_BRIDGE_ONLY	您當前連接到 VPN Bridge ，您只能為“多點 VPN 
 SM_SETUP_BRIDGE_EDGE	每個網站的 VPN Bridge(&E)
 SM_SETUP_WARNING		當前 VPN Server 或 VPN Bridge 的設置將被初始化。\r\n您是否確定?
 SM_SETUP_SELECT			選擇乙太網設備建立橋接
-SM_SETUP_NO_LICENSE_KEY	目前此 SoftEther VPN Server 上沒有註冊任何一個許可證。\r\n\r\n如果要作為 VPN Server 運行 SoftEther VPN Server，您必須輸入一個許可證金鑰。\r\n您是否要打開授權管理器視窗? ?\r\n\r\n(作為試用版使用 VPN Server ，您必須從 SoftEther VPN Project 的網站獲取試用金鑰。\r\n點擊“是”並點擊獲取或延長許可證按鈕獲取一個試用金鑰。
+SM_SETUP_NO_LICENSE_KEY	目前此 Eissoft VPN Server 上沒有註冊任何一個許可證。\r\n\r\n如果要作為 VPN Server 運行 Eissoft VPN Server，您必須輸入一個許可證金鑰。\r\n您是否要打開授權管理器視窗? ?\r\n\r\n(作為試用版使用 VPN Server ，您必須從 Eissoft VPN Project 的網站獲取試用金鑰。\r\n點擊“是”並點擊獲取或延長許可證按鈕獲取一個試用金鑰。
 
 # ----- 不完全翻訳ここから -----
 SM_HUBEXT_OPTION_TITLE	虛擬 HUB 擴展選項
@@ -1685,7 +1685,7 @@ SM_FACTORY_DEFAULT_WARNING	這將在 VPN Server / Bridge 上執行出廠復位�
 SM_FACTORY_DEFAULT_PERFORMED	在伺服器上正在執行出廠回復操作。\r\n\r\n按“確定”退出當前 VPN Server 管理器的會話“。\r\n退出後，請重新啟動 VPN Server 管理器並再次連接到 VPN Server。\r\n然後你會看到 VPN Server 復位。
 SM_AZURE_STATUS_CONNECTED	狀態: 已連接
 SM_AZURE_STATUS_NOT_CONNECTED	狀態: 沒有連接
-SM_NO_BRIDGE_NICS		無物理網路介面卡、適合本地橋在 VPN 伺服器電腦上被發現。\r\n為了創建一個本地橋，你必須在電腦上至少安裝一個物理網路介面卡。\r\n您不能為本地橋使用 Wi-Fi 適配器或 3G 適配器。\r\n請安裝一個相容有線乙太網的物理網路介面卡。\r\n\r\n如果最近安裝的網路介面卡沒有出現，重新開機電腦。\r\n\r\n如果本地橋無論如何不能使用，你可以使用“SecureNAT 功能”代替。\r\n\r\n如果你有一定的原因使用不同尋常的網路介面卡（即 Wi-Fi 網路連接適配器，3G 適配器或虛擬適配器），設置“ShowAllInterfaces”變數在“LocalBridgeList”指令為“true”，然後重啟VPN伺服器。然後，這些設備將出現在名單上。（僅限於進階 Windows 用戶）。\r\n\r\n若是在 Windows Update 後發生此狀況，請重新安裝 SoftEther VPN Server 或是 SoftEther VPN Bridge 。
+SM_NO_BRIDGE_NICS		無物理網路介面卡、適合本地橋在 VPN 伺服器電腦上被發現。\r\n為了創建一個本地橋，你必須在電腦上至少安裝一個物理網路介面卡。\r\n您不能為本地橋使用 Wi-Fi 適配器或 3G 適配器。\r\n請安裝一個相容有線乙太網的物理網路介面卡。\r\n\r\n如果最近安裝的網路介面卡沒有出現，重新開機電腦。\r\n\r\n如果本地橋無論如何不能使用，你可以使用“SecureNAT 功能”代替。\r\n\r\n如果你有一定的原因使用不同尋常的網路介面卡（即 Wi-Fi 網路連接適配器，3G 適配器或虛擬適配器），設置“ShowAllInterfaces”變數在“LocalBridgeList”指令為“true”，然後重啟VPN伺服器。然後，這些設備將出現在名單上。（僅限於進階 Windows 用戶）。\r\n\r\n若是在 Windows Update 後發生此狀況，請重新安裝 Eissoft VPN Server 或是 Eissoft VPN Bridge 。
 SM_CERT_MESSAGE			The current SSL self-signed root certificate on this VPN Server is in the old format.\r\n\r\nSome versions of OpenVPN Connect for Android have a bug to misinterpret SSL certificates in the old format. It might cause the connection problem from OpenVPN Connect for Android to this VPN Server.\r\n\r\nIf you are planning to use OpenVPN Connect for Android as a VPN client, it is recommended to regenerate the SSL server certificate.\r\n\r\nDo you want to regenerate the server certificate now? 
 SM_CERT_MESSAGE_CLI		--- Caution ---\r\n\r\nThe current SSL self-signed root certificate on this VPN Server is in the old format.\r\n\r\nSome versions of OpenVPN Connect for Android have a bug to misinterpret SSL certificates in the old format. It might cause the connection problem from OpenVPN Connect for Android to this VPN Server.\r\n\r\nIf you are planning to use OpenVPN Connect for Android as a VPN client, it is recommended to regenerate the SSL server certificate.\r\n\r\nTo regenerate and update the server certificate, execute the "ServerCertRegenerate" command after updating the VPN Server to the latest version.
 SM_CERT_NEED_ROOT		The specified SSL certificate is a sub-certificate which was issued by a CA (Certificate Authority).\r\n\r\nIf you are planning to support either Microsoft SSTP or OpenVPN protocol on this VPN server, you have to install the root certificate and all intermediate certificates (if exists) on this VPN Server.\r\n\r\nTo install these certificates, copy the root certificate and all intermediate certificate files (in the X.509 format) into the "chain_certs" subdirectory on the directory which is VPN Server has been installed on.\r\n\r\nIf you don't know how to obtain root and intermediate certificate files for your certificate authority (CA), please refer to the CA's web site or contact technical support staffs of the CA.
@@ -1743,7 +1743,7 @@ NM_PUSH_ROUTE_WARNING	靜態路由表中指定的文本可能有語法錯誤。
 
 #關於版本資訊
 ABOUT_CAPTION			關於 %s
-BETA_EXPIRES			因為目前安裝的 SoftEther VPN 軟體是測試版，您無法在完整版的更新測試版發佈後繼續使用此測試版。\r\n請訪問 http://selinks.org/ 以獲取 SoftEther VPN 軟體的最新版本。
+BETA_EXPIRES			因為目前安裝的 Eissoft VPN 軟體是測試版，您無法在完整版的更新測試版發佈後繼續使用此測試版。\r\n請訪問 http://selinks.org/ 以獲取 Eissoft VPN 軟體的最新版本。
 
 
 #關於日誌保存
@@ -1754,10 +1754,10 @@ L_LINE					------------------------------------------------------
 
 # (服務端日誌)
 LS_START_UTF8			Log Messages are written with UTF-8 Encoding Format.
-LS_START_1				SoftEther VPN Server 已啟動。
+LS_START_1				Eissoft VPN Server 已啟動。
 LS_START_2				%S %S
 LS_START_3				%S
-LS_END_1				SoftEther VPN Server 引擎已成功關閉。
+LS_END_1				Eissoft VPN Server 引擎已成功關閉。
 LS_END_2				服務端引擎關閉進程已啟動。
 LS_STOP_ALL_LISTENER	將停止所有 TCP 監聽器。
 LS_STOP_ALL_LISTENER_2	已停止所有 TCP 監聽器。
@@ -1799,7 +1799,7 @@ LS_HUB_NOT_FOUND		連接 "%S": 客戶端正在嘗試連接的虛擬 HUB "%S" 在
 LS_WG_KEY_NOT_FOUND		Connection "%S": The WireGuard key is not associated with a user on the server.
 LS_IP_DENIED			連接 "%S": 基於虛擬 HUB 上定義的源 IP 訪問限制列表，用戶端的源 IP 位址 "%S" 被拒絕。
 LS_LICENSE_ERROR		連接 "%S": 因為發生許可證相關錯誤，用戶端無法連接到服務端。
-LS_BETA_EXPIRES			SoftEther VPN Server 測試版已過期。測試版使用期限已到。請從 http://selinks.org/ 下載新的測試版或完整版。
+LS_BETA_EXPIRES			Eissoft VPN Server 測試版已過期。測試版使用期限已到。請從 http://selinks.org/ 下載新的測試版或完整版。
 LS_TICKET_1				新的用戶端鑒權票證已發佈為群集成員 "%S"。虛擬機器 HUB "%S"，用戶名 "%S" ("%S")，會話名 "%S"，票證 "%S"。
 LS_TICKET_2				新的用戶端鑒權票證已從群集控制器接收。虛擬機器 HUB "%S"，用戶名 "%S" ("%S")，會話名 "%S"，票證 "%S"，有效期限 %u 秒。
 LS_ENUM_HUB				連接 "%S": 此服務端上已枚舉 %u 個虛擬 HUB 伺服器。
@@ -1946,8 +1946,8 @@ LH_AUTH_EXTERNAL		外部伺服器身份驗證
 LH_AUTH_WIREGUARD_KEY	WireGuard public key authentication
 LH_AUTH_OPENVPN_CERT	OpenVPN certificate authentication
 LH_AUTH_RADIUS_NOT_SUPPORT	連接 "%S": 用戶 "%S" 身份驗證方法 RADIUS 或 Active Directory (NT 域)，但 VPN Server 是 "%S"，因為 RADIUS 或 Active Directory (NT 域)不能使用。連接被拒絕。
-LH_AUTH_RADIUS_NOT_SUPPORT_ON_OPEN_SOURCE	"%S" 的連接方法: 用戶 "%S" 的身份驗證方法被指定為 RADIUS 身份驗證或 Active Directory 身份驗證 (NT 域驗證)。然而，這樣一個外部用戶身份驗證功能尚未在 SoftEther VPN 的開源版本上實施。該連接將被拒絕。
-LH_AUTH_CERT_NOT_SUPPORT_ON_OPEN_SOURCE	"%S" 的連接方法: 用戶 "%S" 的身份驗證方法被指定為證書認證。然而，證書驗證功能尚未在 SoftEther VPN 的開源版本上實施。該連接將被拒絕。
+LH_AUTH_RADIUS_NOT_SUPPORT_ON_OPEN_SOURCE	"%S" 的連接方法: 用戶 "%S" 的身份驗證方法被指定為 RADIUS 身份驗證或 Active Directory 身份驗證 (NT 域驗證)。然而，這樣一個外部用戶身份驗證功能尚未在 Eissoft VPN 的開源版本上實施。該連接將被拒絕。
+LH_AUTH_CERT_NOT_SUPPORT_ON_OPEN_SOURCE	"%S" 的連接方法: 用戶 "%S" 的身份驗證方法被指定為證書認證。然而，證書驗證功能尚未在 Eissoft VPN 的開源版本上實施。該連接將被拒絕。
 LH_AUTH_OK				連接 "%S": 成功認證為用戶 "%S"。
 LH_AUTH_OK_CERT			虛擬 HUB 的安全帳戶管理器已經從 VPN Client 接收到如下證書，且接受了其內容作為當使用者 "%S" 登入時的證書: %s
 LH_AUTH_NG_CERT			虛擬 HUB 的安全帳戶管理器已經從 VPN Client 接收到如下證書，但拒絕了其內容作為當使用者 "%S" 登入時的證書，因為此證書的內容匹配虛擬 HUB 中註冊的廢止內容清單: %s
@@ -2105,10 +2105,10 @@ LA_SET_SPECIAL_LISTENER	特殊監聽器啟用/禁用狀態已變更。
 
 
 # (用戶端日誌)
-LC_START_1				已啟動 SoftEther VPN Client 引擎。
+LC_START_1				已啟動 Eissoft VPN Client 引擎。
 LC_START_2				%S %S
 LC_START_3				%S
-LC_END					已關閉 SoftEther VPN Client 引擎。
+LC_END					已關閉 Eissoft VPN Client 引擎。
 LC_LOAD_CONFIG_1		載入設定檔。
 LC_LOAD_CONFIG_2		設定檔已已載入。
 LC_LOAD_CONFIG_3		設定檔不存在。使用初始設置。
@@ -2185,8 +2185,8 @@ UT_SM_ST_WINS_2			WINS 伺服器 2
 
 
 # 關於乙太網記錄器管理器
-EM_TITLE				SoftEther 乙太網記錄器管理器
-EM_REMOTE_TITLE			您可以連接並管理 SoftEther 乙太網記錄器服務。\r\n輸入乙太網記錄器服務進行管理的電腦上運行的主機名稱和 IP 位址。您也可以通過使用“:”(冒號)連接埠號。
+EM_TITLE				Eissoft 乙太網記錄器管理器
+EM_REMOTE_TITLE			您可以連接並管理 Eissoft 乙太網記錄器服務。\r\n輸入乙太網記錄器服務進行管理的電腦上運行的主機名稱和 IP 位址。您也可以通過使用“:”(冒號)連接埠號。
 EM_MAIN_COLUMN_1		網路介面卡名
 EM_MAIN_COLUMN_2		狀態
 EM_MAIN_OK				操作中
@@ -2195,14 +2195,14 @@ EM_ADD_NEW				添加新捕獲的設備
 EM_ADD_EDIT				編輯捕捉設置
 EM_DELETE_CONFIRM		您確定您要刪除捕捉設置 "%S" 嗎？
 EM_NO_LICENSE_COLUMN	注意:
-EM_NO_LICENSE			因為甚至沒有一個產品許可證被註冊，此 SoftEther 乙太網記錄器將無法操作。
+EM_NO_LICENSE			因為甚至沒有一個產品許可證被註冊，此 Eissoft 乙太網記錄器將無法操作。
 
-EM_UNSUPPORTED	禁用在此作業系統上正在運行的 SoftEther 乙太網記錄器。對於 SoftEther 乙太網記錄器可以使用的清單，請參閱 SoftEther 乙太網記錄器的線上文檔。
-EM_WPCAP_REMOTE	為了使用 SoftEther 乙太網記錄器，你需要安裝WinPcap軟體。WinPcap 軟體目前在伺服器電腦上沒有安裝。\r\n\r\n要繼續安裝 WinPcap 軟體，你必須開啟正在運行 VPN Server 的那台伺服器電腦上的 SoftEther 乙太網記錄器管理器，然後再連接到本地主機(您自己的電腦的位置)，會顯示本地橋功能設置視窗。 \r\n要繼續，首先退出管理會話，然後，在伺服器電腦上啟動 SoftEther 乙太網記錄器管理器之後，連接到本地主機，並繼續設置過程。
-EM_WPCAP_ROOT	為了使用 SoftEther 乙太網記錄器，你需要安裝WinPcap軟體。 \r\n\r\n要繼續安裝，您必須具有管理員許可權作為使用者登入到這台電腦。\r\n作為管理員登入，重新啟動 SoftEther VPN Server 管理器。
-EM_WPCAP_INSTALL	為了使用 SoftEther 乙太網記錄器，你需要安裝WinPcap軟體。WinPcap 軟體目前在伺服器電腦上沒有安裝。 \r\n\r\nWinPcap 是一個易於安裝的免費軟體，與 VPN Server 捆綁在一起。\r\n\r\n您要開始安裝 WinPcap 嗎？
-EM_WPCAP_REBOOT1	在 WinPcap 安裝完成後，在使用 SoftEther 乙太網記錄器前，你必須重新開機電腦。\r\n\r\n在您手動重新開機電腦和 SoftEther 乙太網記錄器後，重新配置設置。
-EM_WPCAP_REBOOT2	在 WinPcap 安裝後，你必須重新開機 SoftEther 乙太網記錄器服務。 \r\n\r\n它僅需要很短的時間重新開機 SoftEther 乙太網記錄器服務，但是所有當前連接到 SoftEther 乙太網記錄器的管理會話將被斷開。 \r\n此管理會話也將被斷開，因此您需要重新連接並繼續。\r\n\r\n您是要重新開機 SoftEther 乙太網記錄器服務嗎？
+EM_UNSUPPORTED	禁用在此作業系統上正在運行的 Eissoft 乙太網記錄器。對於 Eissoft 乙太網記錄器可以使用的清單，請參閱 Eissoft 乙太網記錄器的線上文檔。
+EM_WPCAP_REMOTE	為了使用 Eissoft 乙太網記錄器，你需要安裝WinPcap軟體。WinPcap 軟體目前在伺服器電腦上沒有安裝。\r\n\r\n要繼續安裝 WinPcap 軟體，你必須開啟正在運行 VPN Server 的那台伺服器電腦上的 Eissoft 乙太網記錄器管理器，然後再連接到本地主機(您自己的電腦的位置)，會顯示本地橋功能設置視窗。 \r\n要繼續，首先退出管理會話，然後，在伺服器電腦上啟動 Eissoft 乙太網記錄器管理器之後，連接到本地主機，並繼續設置過程。
+EM_WPCAP_ROOT	為了使用 Eissoft 乙太網記錄器，你需要安裝WinPcap軟體。 \r\n\r\n要繼續安裝，您必須具有管理員許可權作為使用者登入到這台電腦。\r\n作為管理員登入，重新啟動 Eissoft VPN Server 管理器。
+EM_WPCAP_INSTALL	為了使用 Eissoft 乙太網記錄器，你需要安裝WinPcap軟體。WinPcap 軟體目前在伺服器電腦上沒有安裝。 \r\n\r\nWinPcap 是一個易於安裝的免費軟體，與 VPN Server 捆綁在一起。\r\n\r\n您要開始安裝 WinPcap 嗎？
+EM_WPCAP_REBOOT1	在 WinPcap 安裝完成後，在使用 Eissoft 乙太網記錄器前，你必須重新開機電腦。\r\n\r\n在您手動重新開機電腦和 Eissoft 乙太網記錄器後，重新配置設置。
+EM_WPCAP_REBOOT2	在 WinPcap 安裝後，你必須重新開機 Eissoft 乙太網記錄器服務。 \r\n\r\n它僅需要很短的時間重新開機 Eissoft 乙太網記錄器服務，但是所有當前連接到 Eissoft 乙太網記錄器的管理會話將被斷開。 \r\n此管理會話也將被斷開，因此您需要重新連接並繼續。\r\n\r\n您是要重新開機 Eissoft 乙太網記錄器服務嗎？
 EM_RESOURCE		無法讀取 WinPcap 驅動
 
 
@@ -2227,15 +2227,15 @@ S_PIN_CODE				&PIN 碼:
 PREFIX					D_PKCSUTIL
 CAPTION					PKCS#12 寫入工具
 S_TITLE					ePass 1000 USB 標記 PKCS#12 寫入工具
-STATIC1					通過使用此工具，您可以將您選擇的 PKCS#12 檔(證書檔)寫入 ePass 1000 USB 硬體安全標記。\r\n\r\n寫入證書檔的 USB 可以用於 SoftEther VPN 的身份驗證。
+STATIC1					通過使用此工具，您可以將您選擇的 PKCS#12 檔(證書檔)寫入 ePass 1000 USB 硬體安全標記。\r\n\r\n寫入證書檔的 USB 可以用於 Eissoft VPN 的身份驗證。
 STATIC2					寫入 PKCS#12 文件
-STATIC3					要將一個現有的 PKCS#12 檔寫入 USB 標記，按一下“寫入”。\r\n注意: 如果 USB 標記中已經儲存了 SoftEther VPN 的 PKCS#12 證書，則已儲存的檔將被覆蓋。
+STATIC3					要將一個現有的 PKCS#12 檔寫入 USB 標記，按一下“寫入”。\r\n注意: 如果 USB 標記中已經儲存了 Eissoft VPN 的 PKCS#12 證書，則已儲存的檔將被覆蓋。
 B_WRITE					寫入(&W)
 STATIC4					從 USB 標記擦除 PKCS#12 證書。
-STATIC5					您可以從已儲存 SoftEther VPN PKCS#12 證書的 USB 標記擦除證書數據。
+STATIC5					您可以從已儲存 Eissoft VPN PKCS#12 證書的 USB 標記擦除證書數據。
 B_ERASE					擦除(&E)
 IDCANCEL				退出工具(&X)
-S_COPYRIGHT				Copyright (c) SoftEther VPN Project.\r\nAll Rights Reserved.
+S_COPYRIGHT				Copyright (c) Eissoft VPN Project.\r\nAll Rights Reserved.
 
 
 PREFIX					D_PASSPHRASE
@@ -2247,7 +2247,7 @@ IDCANCEL				取消
 
 
 PREFIX					D_NM_CONNECT
-CAPTION					連接到 SoftEther VPN 使用者模式路由器
+CAPTION					連接到 Eissoft VPN 使用者模式路由器
 S_TITLE					正在連接 %S ...
 
 
@@ -2468,7 +2468,7 @@ B_DELETE				刪除(&D)
 
 PREFIX					D_CM_PASSWORD
 CAPTION					設置密碼 - VPN Client 管理器
-S_TITLE					您可以設置密碼來限制此 SoftEther VPN Client 服務。\r\n設置密碼後，在下次使用 VPN Client 連線管理員到 SoftEther VPN Client 服務時，您將被被要求輸入密碼。
+S_TITLE					您可以設置密碼來限制此 Eissoft VPN Client 服務。\r\n設置密碼後，在下次使用 VPN Client 連線管理員到 Eissoft VPN Client 服務時，您將被被要求輸入密碼。
 STATIC1					設置用戶端管理密碼:
 R_USE_PASSWORD			使用密碼(&U)
 R_REMOTE_ONLY			僅在遠端操作時需要密碼(&R)
@@ -2504,12 +2504,12 @@ STATIC7					保持網際網路連接功能(&K)
 
 
 PREFIX					D_ABOUT
-S_INFO1					SoftEther VPN %u.0 Developer Edition (Ver %u.%02u, Build %u)
-S_INFO2				Licensed under the Apache License, Version 2.0.\r\nCopyright (c) 2012-%u all contributors on SoftEther VPN project in GitHub. All Rights Reserved.\r\nWeb Site: http://www.softether.org/\r\n%S
+S_INFO1					Eissoft VPN %u.0  (Ver %u.%02u, Build %u)
+S_INFO2				Licensed under the Apache License, Version 2.0.\r\nCopyright (c) 2012-%u all contributors on Eissoft VPN project in GitHub. All Rights Reserved.\r\nWeb Site: http://www.softether.org/\r\n%S
 S_INFO3					This product includes the following software components:\r\nBitVisor: Copyright (c) 2007, 2008 University of Tsukuba. Copyright (C) 2007, 2008 National Institute of Information and Communications Technology. All rights reserved. / Microsoft(R) C Runtime Library: (c) 2007 Microsoft Corporation. All Rights Reserved. / PKCS #11 Cryptographic Token Interface (Cryptoki): Copyright (c) RSA Security Inc. / WinPcap: Copyright (c) 2001 - 2003 NetGroup, Politecnico di Torino (Italy). All rights reserved. / libedit: Copyright (c) 1992, 1993 The Regents of the University of California. All rights reserved. / libiconv: Copyright (C) 2007 Free Software Foundation, Inc. / ncurses: Copyright (c) 1998-2005, 2006 Free Software Foundation, Inc. / OpenSSL: Copyright (c) 1998-2011 The OpenSSL Project. All rights reserved. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). / zlib: (C) 1995-2004 Jean-loup Gailly and Mark Adler. / Special Thanks to: Software Laboratory, Academic Computing Communication Center, Industrial Liaison and Cooperative Research Center and Professor Yasushi Shinjo in University of Tsukuba, Japan.
-S_INFO4					此 VPN 伺服器作為的一個學術研究且由 (http://www.softether.org/) 為公眾利益免費發佈的。本軟體是日本筑波大學 SoftEther 專案下開發的免費軟體，無任何擔保。開發人員、版權所有者或分銷商在任何情況下對於使用本軟體的任何索賠、損害賠償或其他情況不承擔責任。\r\n\r\nSoftEther VPN 是日本政府的研究和開發項目的一項工作，由日本的經濟、貿易和工業部資助，由資訊化推進機構管理。
+S_INFO4					此 VPN 伺服器作為的一個學術研究且由 (http://www.softether.org/) 為公眾利益免費發佈的。本軟體是日本筑波大學 Eissoft 專案下開發的免費軟體，無任何擔保。開發人員、版權所有者或分銷商在任何情況下對於使用本軟體的任何索賠、損害賠償或其他情況不承擔責任。\r\n\r\nEissoft VPN 是日本政府的研究和開發項目的一項工作，由日本的經濟、貿易和工業部資助，由資訊化推進機構管理。
 IDCANCEL				確定(&O)
-B_WEB 					訪問 SoftEther VPN 和網站 (&W)...
+B_WEB 					訪問 Eissoft VPN 和網站 (&W)...
 B_EULA					最終用戶許可
 B_IMPORTANT				重要啟事
 B_LEGAL					法律啟事
@@ -2549,8 +2549,8 @@ S_STATIC				※注意: 如果認證類型是 RADIUS 或 NT 域認證，您不能
 
 
 PREFIX					D_SM_MAIN
-CAPTION					SoftEther VPN Developer Edition Server 管理器
-STATIC1					SoftEther VPN Server 連接設置(&S):
+CAPTION					Eissoft VPN  Server 管理器
+STATIC1					Eissoft VPN Server 連接設置(&S):
 STATIC2					VPN Server 或 VPN Bridge 的連接設置被定義如下。按兩下該項以連接到服務端。\r\n要添加新連接，按一下“新設置”。
 B_NEW_SETTING			新設置(&N)
 B_EDIT_SETTING			編輯設置(&E)
@@ -2559,7 +2559,7 @@ IDOK					連接(&C)
 B_SECURE_MANAGER		智慧卡管理器(&S)...
 B_SELECT_SECURE			選擇智慧卡(&M)...
 B_ABOUT					版本資訊(&A)...
-IDCANCEL				退出 SoftEther VPN Server 管理器(&X)
+IDCANCEL				退出 Eissoft VPN Server 管理器(&X)
 B_CERT_TOOL				製作證書
 
 
@@ -2594,7 +2594,7 @@ IDCANCEL				取消
 
 
 PREFIX					D_SM_SERVER
-CAPTION					%s - SoftEther VPN Server 管理器
+CAPTION					%s - Eissoft VPN Server 管理器
 S_TITLE					管理 VPN Server "%S"
 S_VHUB_BRIDGE			通過此 VPN Server 託管的虛擬 HUB (&Z):
 IDOK					管理虛擬 HUB (&A)
@@ -3153,10 +3153,10 @@ B_SETTING				VPN Server 的連接設置(&S)
 B_CONNECT				連接(&C)
 B_DISCONNECT			斷開(&D)
 STATIC3					使用者模式路由器的操作設置
-STATIC4					您可以在 SoftEther VPN 使用者模式路由器的虛擬網路上設置操作。
+STATIC4					您可以在 Eissoft VPN 使用者模式路由器的虛擬網路上設置操作。
 B_OPTION				使用者模式路由器的操作設置(&O)
 STATIC5					使用者模式路由器的操作狀態
-STATIC6					顯示 SoftEther VPN 使用者模式路由器的當前操作狀態
+STATIC6					顯示 Eissoft VPN 使用者模式路由器的當前操作狀態
 B_NAT					虛擬NAT狀態(&N)
 B_DHCP					虛擬 DHCP 伺服器狀態(&H)
 B_STATUS				使用者模式路由器狀態(&R)
@@ -3219,7 +3219,7 @@ IDCANCEL				關閉(&X)
 
 PREFIX					D_NM_CHANGE_PASSWORD
 CAPTION					變更 %S 的管理員密碼
-S_TITLE					您可以變更 SoftEther VPN 使用者模式路由(%S) 的管理員密碼。輸入新密碼後請按一下“確定”。
+S_TITLE					您可以變更 Eissoft VPN 使用者模式路由(%S) 的管理員密碼。輸入新密碼後請按一下“確定”。
 STATIC1					新密碼(&P):
 STATIC2					確認輸入(&C):
 IDOK					確定(&O)
@@ -3273,8 +3273,8 @@ STATIC1					VPN Client 虛擬網路介面卡已安裝。\r\n需要關閉 Windows
 
 
 PREFIX					D_EM_MAIN
-CAPTION					SoftEther 乙太網記錄器管理器
-STATIC1					SoftEther 乙太網記錄器是一個服務，可以捕捉流經電腦上網路介面卡的資料。而且，可以封包包頭保存為管理員指定類型的日誌檔，所有資料保存為文字檔。\r\n\r\n目前，下列捕捉設備正在運行中。
+CAPTION					Eissoft 乙太網記錄器管理器
+STATIC1					Eissoft 乙太網記錄器是一個服務，可以捕捉流經電腦上網路介面卡的資料。而且，可以封包包頭保存為管理員指定類型的日誌檔，所有資料保存為文字檔。\r\n\r\n目前，下列捕捉設備正在運行中。
 B_PASSWORD				管理員密碼(&P)
 B_LICENSE				許可證(&L)
 B_ADD					添加(&A)
@@ -3336,21 +3336,21 @@ IDCANCEL				Cancel
 
 PREFIX					D_EM_LICENSE
 CAPTION					添加或刪除許可證
-STATIC1					要使用 SoftEther 乙太網記錄器，您必須獲取一個有效地許可證並註冊許可證金鑰。使用此視窗，您可以註冊一個新的許可證金鑰，刪除一個已註冊的許可證金鑰，顯示當前許可證清單和許可證模式。
+STATIC1					要使用 Eissoft 乙太網記錄器，您必須獲取一個有效地許可證並註冊許可證金鑰。使用此視窗，您可以註冊一個新的許可證金鑰，刪除一個已註冊的許可證金鑰，顯示當前許可證清單和許可證模式。
 S_BOLD					當前已註冊許可證列表 (&L) :
 B_OBTAIN				獲取許可證 (&O)
 STATIC2					點擊“獲取許可證” 來顯示介紹如何獲取許可證的網站。
 B_ADD					註冊新許可證金鑰
 B_DEL					刪除 (&D)
 IDOK					許可證相關資訊 (&I)
-STATIC3					選擇一個許可證，點擊“許可證相關資訊” 來連接到SoftEther有限公司網站 (softether.com)，來查詢被選許可證的相關註冊資訊。
-S_BOLD2					當前 SoftEther 乙太網記錄器許可證模式 (&M) :
+STATIC3					選擇一個許可證，點擊“許可證相關資訊” 來連接到Eissoft有限公司網站 (softether.com)，來查詢被選許可證的相關註冊資訊。
+S_BOLD2					當前 Eissoft 乙太網記錄器許可證模式 (&M) :
 IDCANCEL				關閉 (&X)
 
 
 PREFIX					D_EM_LICENSE_ADD
 CAPTION					註冊新許可證金鑰
-S_INFO					您可以註冊一個 SoftEther 乙太網記錄器產品許可證金鑰。
+S_INFO					您可以註冊一個 Eissoft 乙太網記錄器產品許可證金鑰。
 STATIC1					許可證金鑰由36個字母數位字元和連字號組成。它是證明許可證所有權的關鍵代碼。\r\n\r\n當此軟體收到一個許可證證書時，許可證金鑰就被列印到此許可證證書上了。如果此許可證是線上購買的，則許可證金鑰可以通過email提供，並在購買頁面顯示。許可證金鑰也可能通過其他方式送達。如果您不知道許可證金鑰位置，請向許可證出售者詢問。
 STATIC2					請輸入正確的許可證金鑰 (&I) :
 STATIC3					每組6字，分組輸入許可證金鑰。您不需要輸入連字號。也可以複製&&粘貼許可證金鑰。
@@ -3748,21 +3748,21 @@ IDCANCEL				關閉(&C)
 
 PREFIX					D_SM_LICENSE
 CAPTION					添加或刪除許可證
-STATIC1					使用 SoftEther VPN Server 必須取得有效的許可證並註冊許可證金鑰。你可以註冊一個新的許可證金鑰，刪除已註冊的許可證金鑰並在此顯示當前許可證清單和 VPN Server 的許可證模式。
+STATIC1					使用 Eissoft VPN Server 必須取得有效的許可證並註冊許可證金鑰。你可以註冊一個新的許可證金鑰，刪除已註冊的許可證金鑰並在此顯示當前許可證清單和 VPN Server 的許可證模式。
 S_BOLD					當前已註冊的許可證金鑰(&L):
 B_OBTAIN				獲取或延長許可證(&O)
 STATIC2					點擊“獲取或延長許可證”以訪問將提供有關如何獲取許可證說明的網站。
 B_ADD					添加一個許可證金鑰(&A)
 B_DEL					刪除(&D)
 IDOK					許可證相關資訊(&I)
-STATIC3					選擇一個許可證，點擊“許可證相關資訊”來連接到 SoftEther 有限公司網站 (softether.com)，來查詢被選許可證的相關註冊資訊。
-S_BOLD2					當前許可和 SoftEther VPN Server 模式(&M):
+STATIC3					選擇一個許可證，點擊“許可證相關資訊”來連接到 Eissoft 有限公司網站 (softether.com)，來查詢被選許可證的相關註冊資訊。
+S_BOLD2					當前許可和 Eissoft VPN Server 模式(&M):
 IDCANCEL				退出(&X)
 
 
 PREFIX					D_SM_LICENSE_ADD
 CAPTION					添加許可證金鑰
-S_INFO					您可以註冊一個 SoftEther VPN Server 產品許可證或連接許可證。
+S_INFO					您可以註冊一個 Eissoft VPN Server 產品許可證或連接許可證。
 STATIC1					許可證金鑰長度為 36 字母數位字元和破折號組合 ( '-' )。他們是證明一個許可證所有權的關鍵代碼。\r\n\r\n當許可證證書與此軟體一起收到時，許可證金鑰印在此授權證書上。如果本軟體的許可證是網上購買的，許可證金鑰是由電子郵件或購買許可證的網站提供的。許可證金鑰也可以通過一些其他方法寫下來。如果你不知道的許可證金鑰寫在哪裡，問賣給你許可證的供應商。
 STATIC2					請準確輸入許可證金鑰(&I):
 STATIC3					分組輸入許可證金鑰，每組6位。您不需要輸入破折號。您也可以複製 && 粘貼許可證金鑰。
@@ -3772,23 +3772,23 @@ IDCANCEL				取消
 
 
 PREFIX					D_FREEINFO
-CAPTION					SoftEther VPN Server 的免費版
-S_INFO_1				感謝您試用 SoftEther VPN Server 免費版。
-S_INFO_2				SoftEther VPN Server 運行在目標伺服器 "%S" 上是免費版供個人使用。\r\n當使用免費版時，您可以使用所有的 SoftEther VPN Server 的功能，但使用者協定禁止以下的使用。
+CAPTION					Eissoft VPN Server 的免費版
+S_INFO_1				感謝您試用 Eissoft VPN Server 免費版。
+S_INFO_2				Eissoft VPN Server 運行在目標伺服器 "%S" 上是免費版供個人使用。\r\n當使用免費版時，您可以使用所有的 Eissoft VPN Server 的功能，但使用者協定禁止以下的使用。
 S_INFO_3				通過 VPN Server 的商業目的旅行的通迅中使用。
-S_INFO_4				請注意，如果軟體基於上述禁止使用的情況下被使用，這樣就違反了 SoftEther VPN Server 使用者協定。一旦你取得了 SoftEther VPN Server 的定期產品許可證，上述限制即可解除。關於常規產品版本的詳細資訊，請訪問 www.softether.com。\r\n如果該伺服器在上述描述的情況下被使用，請通過我們的網站 www.softether.com 聯繫我們。請注意: 當連接到 VPN Server 的免費版，此視窗將出現。當使用除免費版以外的其他們版本時，此視窗不出現。\n\n注意: 除了這個通知視窗，免費版軟體和產品版軟體之間沒有任何差別。
+S_INFO_4				請注意，如果軟體基於上述禁止使用的情況下被使用，這樣就違反了 Eissoft VPN Server 使用者協定。一旦你取得了 Eissoft VPN Server 的定期產品許可證，上述限制即可解除。關於常規產品版本的詳細資訊，請訪問 www.softether.com。\r\n如果該伺服器在上述描述的情況下被使用，請通過我們的網站 www.softether.com 聯繫我們。請注意: 當連接到 VPN Server 的免費版，此視窗將出現。當使用除免費版以外的其他們版本時，此視窗不出現。\n\n注意: 除了這個通知視窗，免費版軟體和產品版軟體之間沒有任何差別。
 B_HIDE					下次隱藏此視窗(&H)
 IDCANCEL				確定(&O)
 
 
 PREFIX					D_CM_SETTING
-CAPTION					切換 SoftEther VPN Client 工作模式
-STATIC1					您可以使用 SoftEther VPN Client 的“標準模式”或“簡單模式”。要切換到另一種模式，勾選下面相應的核取方塊。
+CAPTION					切換 Eissoft VPN Client 工作模式
+STATIC1					您可以使用 Eissoft VPN Client 的“標準模式”或“簡單模式”。要切換到另一種模式，勾選下面相應的核取方塊。
 R_NORMAL				標準模式(&N)
 R_EASY					簡單模式(&E)
-STATIC2					當使用“標準模式”時，您可以進行 SoftEther VPN Client 軟體提供的所有操作。我們建議一般使用者和系統管理員使用此模式。
+STATIC2					當使用“標準模式”時，您可以進行 Eissoft VPN Client 軟體提供的所有操作。我們建議一般使用者和系統管理員使用此模式。
 STATIC3					“簡單模式”只允許最常用的操作，如連接到 VPN Server。我們建議初級使用者使用這種模式。
-STATIC4					通過使用設置鎖，您可以通過使用一個在 SoftEther VPN Client 註冊的連接設置連接到一個 VPN Server ，但這樣做，您無法變更連接設置的參數、創建一個新的連接設置或者刪除一個連接設置。
+STATIC4					通過使用設置鎖，您可以通過使用一個在 Eissoft VPN Client 註冊的連接設置連接到一個 VPN Server ，但這樣做，您無法變更連接設置的參數、創建一個新的連接設置或者刪除一個連接設置。
 R_LOCK					啟用設置鎖(&L)
 S_PASSWORD1				您可以指定一個密碼。下次禁用設置鎖時將被要注輸入該密碼。
 S_PASSWORD2				密碼(&P):
@@ -3800,7 +3800,7 @@ B_VGS					VPN 和門戶服務設置 (&G)...
 
 
 PREFIX					D_CM_EASY
-CAPTION					SoftEther VPN Client 簡易管理器 (Developer Edition)
+CAPTION					Eissoft VPN Client 簡易管理器 ()
 B_MODE					切換運行模式(&M)
 IDCANCEL				關閉(&C)
 B_STATUS				查看連接模式(&S)
@@ -3808,9 +3808,9 @@ B_VGC					VPN Gate 學術專案
 
 
 PREFIX					D_SM_SETUP
-CAPTION					SoftEther VPN Server / Bridge 簡單安裝 (Developer Edition)
-S_TITLE					SoftEther VPN Server / Bridge 簡單安裝 (Developer Edition)
-IDC_STATIC_1			通過使用此安裝，您可以為以下使用和目的輕鬆地安裝 SoftEther VPN Server 或 VPN Bridge。退出安裝後，您可以使用 VPN Server 管理器自由配置更進階的設置。
+CAPTION					Eissoft VPN Server / Bridge 簡單安裝 ()
+S_TITLE					Eissoft VPN Server / Bridge 簡單安裝 ()
+IDC_STATIC_1			通過使用此安裝，您可以為以下使用和目的輕鬆地安裝 Eissoft VPN Server 或 VPN Bridge。退出安裝後，您可以使用 VPN Server 管理器自由配置更進階的設置。
 S_BOLD					選擇你要構建的 VPN Server 類型。可以一起選擇多種類型。
 C_REMOTE				遠端存取 VPN Server (&R)
 S_REMOTE_1				遠端存取 VPN Server 允許 VPN Client 電腦遠端存取現有的乙太網段，如公司局域網。\n\n連接到 VPN Server 的任何 VPN Client 都能訪問到網路，就像他們直接的、物理的連接到網路一樣。
@@ -3850,9 +3850,9 @@ B_SECURENAT				配置 SecureNAT
 
 
 PREFIX					D_CPU64_WARNING
-CAPTION					SoftEther VPN 64 位元版本資訊
-S_BOLD					當前安裝的 SoftEther VPN 軟體是 32 位元版本，但正在運行的 Windows 作業系統是 64 位元版本。
-S_INFO					您可以在 Windows 64 位元版本上運行 SoftEther VPN 軟體 32 位元版本，但這將運行 Windows 的 32 位元模擬器，並導致性能降低。\r\n也有一些功能不支持的可能性。 我們強烈建議您當在 64 位 Windows 運行它時，安裝並使用 SoftEther VPN 軟體的 64 位元版本。\r\n您可以從 http://selinks.org/ 下載 SoftEther VPN 軟體的 64 位元版本。此對話方塊將在 30 秒後自動關閉。
+CAPTION					Eissoft VPN 64 位元版本資訊
+S_BOLD					當前安裝的 Eissoft VPN 軟體是 32 位元版本，但正在運行的 Windows 作業系統是 64 位元版本。
+S_INFO					您可以在 Windows 64 位元版本上運行 Eissoft VPN 軟體 32 位元版本，但這將運行 Windows 的 32 位元模擬器，並導致性能降低。\r\n也有一些功能不支持的可能性。 我們強烈建議您當在 64 位 Windows 運行它時，安裝並使用 Eissoft VPN 軟體的 64 位元版本。\r\n您可以從 http://selinks.org/ 下載 Eissoft VPN 軟體的 64 位元版本。此對話方塊將在 30 秒後自動關閉。
 IDOK					確定(&O)
 
 
@@ -3990,7 +3990,7 @@ S_11					進階重定向功能可以向重新定向的 CGI 提供 VPN 會話資�
 
 PREFIX					D_SW_WELCOME
 CAPTION					D_SW_WELCOME
-S_WELCOME				SoftEther VPN 為日本筑波大學開發的免費軟體。具有終極相容許多設備的高性能 VPN。支援 Windows、Mac、智慧型手機、平板電腦 (iPhone、iPad、安卓、Windows RT) 和思科或其他 VPN 路由器。SoftEther VPN 也接受 OpenVPN 和 MS-SSTP VPN 用戶端。
+S_WELCOME				Eissoft VPN 為日本筑波大學開發的免費軟體。具有終極相容許多設備的高性能 VPN。支援 Windows、Mac、智慧型手機、平板電腦 (iPhone、iPad、安卓、Windows RT) 和思科或其他 VPN 路由器。Eissoft VPN 也接受 OpenVPN 和 MS-SSTP VPN 用戶端。
 S_TITLE				可以對應所有主流設備的開源 VPN 軟體
 
 PREFIX					D_SW_MODE
@@ -3999,7 +3999,7 @@ R_SYSTEM				系統模式(推薦)(&S)
 R_USER					使用者模式(&U)
 S_1						正常安裝本 VPN 軟體。要求管理員許可權。
 S_USER					以普通使用者許可權安裝本 VPN 軟體。不需要管理員許可權。有些諸如本地橋功能是不能使用的。只有在"%s"用戶登入 Windows 時，才會運行本軟體.
-S_2						SoftEther VPN 可以有兩種方法安裝。\r\n\r\n通常請選擇系統模式。\r\n\r\n如果您由於一些原因不能使用管理員許可權，您可以選擇使用者模式來繼續安裝。
+S_2						Eissoft VPN 可以有兩種方法安裝。\r\n\r\n通常請選擇系統模式。\r\n\r\n如果您由於一些原因不能使用管理員許可權，您可以選擇使用者模式來繼續安裝。
 
 
 PREFIX					D_SW_NOT_ADMIN
@@ -4021,7 +4021,7 @@ B_AGREE					我同意使用者授權合約。(&A)
 
 PREFIX					D_SW_WARNING
 CAPTION					D_SW_WARNING
-S_1						SoftEther VPN 軟體有超乎想像的、強大的通信能力。請在使用前仔細閱讀重要注意事項。
+S_1						Eissoft VPN 軟體有超乎想像的、強大的通信能力。請在使用前仔細閱讀重要注意事項。
 
 
 PREFIX					D_SW_DIR
@@ -4045,7 +4045,7 @@ S_INFO7					點擊繼續以執行安裝。
 PREFIX					D_SW_PERFORM
 CAPTION					D_SW_PERFORM
 S_INFO					%s 安裝正在進行。\r\n請耐心等待...
-S_INFO8					SoftEther VPN 是日本政府的研究和開發項目的一項工作，由日本的經濟、貿易和工業部資助，由資訊化推進機構管理。
+S_INFO8					Eissoft VPN 是日本政府的研究和開發項目的一項工作，由日本的經濟、貿易和工業部資助，由資訊化推進機構管理。
 
 
 PREFIX					D_SW_ERROR
@@ -4056,7 +4056,7 @@ S_INFO					出現錯誤，%s 安裝中止。\r\n\r\n如果你想繼續，請重�
 PREFIX					D_SW_FINISH
 CAPTION					D_SW_FINISH
 S_INFO					%s 安裝過程已成功完成。
-S_INFO8					SoftEther VPN 是日本政府的研究和開發項目的一項工作，由日本的經濟、貿易和工業部資助，由資訊化推進機構管理。
+S_INFO8					Eissoft VPN 是日本政府的研究和開發項目的一項工作，由日本的經濟、貿易和工業部資助，由資訊化推進機構管理。
 
 
 PREFIX					D_SW_UNINST1
@@ -4068,7 +4068,7 @@ S_TITLE					%s 移除精靈
 PREFIX					D_SW_EASY1
 CAPTION					D_SW_EASY1
 S_WELCOME				在一個企業裡為許多電腦安裝和設置 VPN Client 是很辛苦的工作。
-S_TITLE					什麼是 SoftEther VPN Client 簡單安裝程式?
+S_TITLE					什麼是 Eissoft VPN Client 簡單安裝程式?
 S_WELCOME2				簡單安裝程式創建器是為公司管理員使用的一個工具。您可以通過使用簡單安裝程式創建器用嵌入的某個具體 VPN 連接設置來創建一個 VPN Client 安裝程式。個人用戶還可以開發此工具。
 S_WELCOME3				通過使用檔案伺服器或者 e-mail，可以將一個已創建的簡單安裝程式分發給公司的員工。如果使用者運行簡單安裝程式， VPN Client 會被安裝、 VPN 連接設置會被導入完成，並且 VPN 連接也會自動啟動。
 
@@ -4089,9 +4089,9 @@ B_EASYMODE				安裝時將 VPN Client 管理器設置成簡單模式(&E)
 
 PREFIX					D_SW_WEB1
 CAPTION					D_SW_WEB1
-S_WELCOME				您可以創建一個 SoftEther VPN Client Web 安裝工具，並且將它上傳到公司的 Web 伺服器。用戶打開網頁就能自動安裝 SoftEther VPN Client，您也可以設置自動輸入和快速啟動一個已內建的 VPN 連接設置。
-S_TITLE					SoftEther VPN Web 安裝工具是什麼？
-S_WELCOME2				已生成的 Web 安裝工具可以當做 HTML 檔放在內聯網 Web 伺服器上。如果一個公司員工連接到該 HTML 檔的 URL 上這個 SoftEther VPN Client 安裝工具就會被執行。
+S_WELCOME				您可以創建一個 Eissoft VPN Client Web 安裝工具，並且將它上傳到公司的 Web 伺服器。用戶打開網頁就能自動安裝 Eissoft VPN Client，您也可以設置自動輸入和快速啟動一個已內建的 VPN 連接設置。
+S_TITLE					Eissoft VPN Web 安裝工具是什麼？
+S_WELCOME2				已生成的 Web 安裝工具可以當做 HTML 檔放在內聯網 Web 伺服器上。如果一個公司員工連接到該 HTML 檔的 URL 上這個 Eissoft VPN Client 安裝工具就會被執行。
 S_WELCOME3				使用 ActiveX 控制。支援在 Windows 2000 或更高版本上的 Internet Explorer 5.0 或更高版本的瀏覽器。不支援其他瀏覽器或更低級的作業系統(如 Windows 98) 。
 
 
@@ -4124,7 +4124,7 @@ S_LATEST_STR			Ver %S%s
 
 PREFIX					D_UPDATE_CONFIG
 CAPTION					更新提醒設定
-S_INFO					當新版本將要發佈時，請定期查詢 %s 的新版本和彈出提示窗口。\r\n\r\nHTTPS 封包將會用在本電腦和位於日本筑波的 SoftEther 升級伺服器之間，用於查詢有無升級資訊。個人資訊不會外泄。
+S_INFO					當新版本將要發佈時，請定期查詢 %s 的新版本和彈出提示窗口。\r\n\r\nHTTPS 封包將會用在本電腦和位於日本筑波的 Eissoft 升級伺服器之間，用於查詢有無升級資訊。個人資訊不會外泄。
 S_TITLE					%s 升級以及提示設置
 S_ENABLE				啟用更新提醒(&E)
 S_DISABLE				停用更新提醒(&D)
@@ -4145,7 +4145,7 @@ CAPTION					VPN Azure 服務設置
 S_TITLE					VPN Azure 雲 VPN 服務（免費）
 S_1						VPN Azure 可以更容易地建立一個 VPN 會話，從你家裡的電腦到你辦公室的電腦。當一個 VPN 連接建立了，您可以訪問您公司私人網路絡上的任何其他伺服器。
 S_2						在辦公室的電腦（VPN 伺服器）上，你並不需要一個全球 IP 位址。它可以在防火牆或 NAT 後面工作。無需網路系統管理員的配置。您可以在您的家用電腦使用 Windows 內置的 SSTP VPN 用戶端。
-S_3						VPN Azure 是一個雲 VPN 服務由 SoftEther 公司經營。 VPN Azure 是免費的，可提供給任何人。按右邊的按鈕可以查看詳細資訊和如何使用的說明。
+S_3						VPN Azure 是一個雲 VPN 服務由 Eissoft 公司經營。 VPN Azure 是免費的，可提供給任何人。按右邊的按鈕可以查看詳細資訊和如何使用的說明。
 B_BOLD					VPN Azure 設置
 R_ENABLE				啟用 VPN Azure(&E)
 R_DISABLE				禁用 VPN Azure(&D)
@@ -4170,7 +4170,7 @@ IDCANCEL				取消
 
 
 PREFIX					D_VGC_LIST
-CAPTION					SoftEther VPN 用戶端的 VPN Gate 學術試驗專案外掛程式
+CAPTION					Eissoft VPN 用戶端的 VPN Gate 學術試驗專案外掛程式
 S_TITLE					VPN Gate 公共 VPN 中繼伺服器
 S_INFO1					通過使用 VPN 連接經由全世界志願者提供的公共 VPN 伺服器獲得自由訪問網際網路。繞過您的本地故障防火牆的封包攔截，並安全地隱藏你的 IP 地址。
 IDOK					連接到 VPN 伺服器(&C)
@@ -4234,7 +4234,7 @@ S1						VPN Gate 學術實驗服務是作為日本筑波大學研究生院的一
 S2						從本質上講，在世界上有近 200 個國家，都有不同的法律。不可能在軟體發佈前去驗證每一個國家的法律和法規，並使我們的軟體符合所有國家的法律。如果使用者在一個特定的國家使用 VPN Gate 服務，損壞公務人員的權力，服務或軟體的開發者將永遠不會負責恢復或補償等損害或刑事責任。
 S3						通過使用本軟體和服務，使用者有自己的義務必須遵守所有相關的法律和規則。使用者將完全承擔任何損失和使用本軟體及服務導致的責任，無論日本領土以內還是以外。
 S4						如果你不同意也不理解上述警告，不要使用任何 VPN Gate 學術實驗服務功能。
-S5						注: VPN Gate 僅僅是學術目的的一個研究專案。VPN Gate 是作為 SoftEther VPN 的一個外掛程式被開發的。然而，VPN Gate 的每一部分都是在筑波大學的這一研究項目被開發的。VPN Gate 的任何部分都不是 SoftEther 公司開發的。VPN Gate 研究項目不是由 SoftEther 公司引導、經營，推廣和保證的。
+S5						注: VPN Gate 僅僅是學術目的的一個研究專案。VPN Gate 是作為 Eissoft VPN 的一個外掛程式被開發的。然而，VPN Gate 的每一部分都是在筑波大學的這一研究項目被開發的。VPN Gate 的任何部分都不是 Eissoft 公司開發的。VPN Gate 研究項目不是由 Eissoft 公司引導、經營，推廣和保證的。
 R_NEVER					請不要再次顯示此消息(&S)
 B_WEB					訪問 VPN Gate 和網站 ...
 IDOK					同意(&A)
@@ -4245,7 +4245,7 @@ S_BOLD					注意! 不要在 VPN 通訊禁止的國家使用 VPN Gate 服務。
 PREFIX					D_NM_PUSH
 CAPTION					編輯該靜態路由表以推送
 S1						這個虛擬 DHCP 伺服器可以推送帶 DHCP 應答消息的無類靜態路由 (RFC 3442) 至 VPN 用戶端。
-S2						VPN 用戶端是否能夠識別無類靜態路由 (RFC 3442) 取決於目標 VPN 用戶端軟體。SoftEther VPN 用戶端和 OpenVPN 用戶端都支援無類靜態路由。在 L2TP/IPSec 和 MS-SSTP 協議上，相容性取決於用戶端軟體的實施。
+S2						VPN 用戶端是否能夠識別無類靜態路由 (RFC 3442) 取決於目標 VPN 用戶端軟體。Eissoft VPN 用戶端和 OpenVPN 用戶端都支援無類靜態路由。在 L2TP/IPSec 和 MS-SSTP 協議上，相容性取決於用戶端軟體的實施。
 S3						如果你清除了虛擬 DHCP 伺服器選項的預設閘道器欄位，您就可以實現拆分隧道。在用戶端一側，為了使用拆分隧道， L2TP/IPSec 和 MS-SSTP 用戶端需要配置為不創建預設閘道器。
 S4						您還可以通過現有的外部 DHCP 伺服器推送無類靜態路由 (RFC 3442)。在這種情況下，在 SecureNAT 禁用虛擬 DHCP 伺服器功能，在這一螢幕上你不需要設置無類路由。
 S5						編輯該靜態路由表以推送
@@ -4495,8 +4495,8 @@ CMD_DISCONNECTED_MSG		\n---Error---\n\n與您正管理的主機通信會話被�
 
 
 # VPN CMD 命令
-CMD_VPNCMD					SoftEther VPN Developer Edition 命令列管理工具
-CMD_VPNCMD_HELP				“vpncmd ”程式是一個允許您通過使用命令列來管理 SoftEther VPN 軟體的實用工具。通過使用 vpncmd，您可以連接到運行在本地或遠端電腦的 VPN Client，VPN Server 或 VPN Bridge 並管理它們。此外，通過使用 VPN 工具模式，您可以調用網路傳送速率測試工具和證書創建功能。即使不連接到 VPN Server 或 VPN Client，vpncmd 也是可以使用的。\n當使用 vpncmd 時，如果檔案名是通過使用 /IN 和 /OUT 參數指定的，該命令就可以根據一個檔被批量執行。該檔列舉了可執行命令的檔和執行結果可以被寫入檔中。通常，vpncmd 啟動後命令提示符會出現，但是，當用 /IN 參數指定一個輸入檔時，在輸入檔的所有行執行完成後，該程式將自動終止。此外，當指定 /CMD 參數來執行一個命令時，在命令執行完成後，程式將自動終止。您不能同時刻指定 /IN 參數和 /CMD 參數。vpncmd 程式的終止代碼將是最後執行命令的錯誤代碼 (在成功執行的情況下是 0)。在 Windows 環境下，當具有管理員許可權的用戶一次或多次啟動 vpncmd 時，有可能只需輸入 "vpncmd" 到 Windows 命令提示符或 [運行...] Windows 啟動 vpncmd。為了在 UNIX 系統下得到同樣的結果，您可以手動設置，PATH 環境是可變的。
+CMD_VPNCMD					Eissoft VPN  命令列管理工具
+CMD_VPNCMD_HELP				“vpncmd ”程式是一個允許您通過使用命令列來管理 Eissoft VPN 軟體的實用工具。通過使用 vpncmd，您可以連接到運行在本地或遠端電腦的 VPN Client，VPN Server 或 VPN Bridge 並管理它們。此外，通過使用 VPN 工具模式，您可以調用網路傳送速率測試工具和證書創建功能。即使不連接到 VPN Server 或 VPN Client，vpncmd 也是可以使用的。\n當使用 vpncmd 時，如果檔案名是通過使用 /IN 和 /OUT 參數指定的，該命令就可以根據一個檔被批量執行。該檔列舉了可執行命令的檔和執行結果可以被寫入檔中。通常，vpncmd 啟動後命令提示符會出現，但是，當用 /IN 參數指定一個輸入檔時，在輸入檔的所有行執行完成後，該程式將自動終止。此外，當指定 /CMD 參數來執行一個命令時，在命令執行完成後，程式將自動終止。您不能同時刻指定 /IN 參數和 /CMD 參數。vpncmd 程式的終止代碼將是最後執行命令的錯誤代碼 (在成功執行的情況下是 0)。在 Windows 環境下，當具有管理員許可權的用戶一次或多次啟動 vpncmd 時，有可能只需輸入 "vpncmd" 到 Windows 命令提示符或 [運行...] Windows 啟動 vpncmd。為了在 UNIX 系統下得到同樣的結果，您可以手動設置，PATH 環境是可變的。
 CMD_VPNCMD_ARGS				vpncmd [host:port] [/CLIENT|/SERVER|/TOOLS] [/HUB:hub] [/ADMINHUB:adminhub] [/PASSWORD:password] [/IN:infile] [/OUT:outfile] [/CMD commands...]
 CMD_VPNCMD_[host:port]		通過指定格式的參數 [主機名稱:埠號]，可自動連接到主機。如果這是沒有指定的，會出現一個提示讓輸入連接目的地。當連接到一個 VPN Client，您不能指定一個埠號。
 CMD_VPNCMD_CLIENT			連接到 VPN 客戶做管理。您不能指定它與 /SERVER 一起做。
@@ -4516,7 +4516,7 @@ CMD_VPNCMD_HOST_2			指定的主機名稱或正在運行的目標 VPN Client 電
 CMD_VPNCMD_HOST_3			目標 IP 位址的主機名稱:
 CMD_VPNCMD_HUB_1			如果通過虛擬 HUB 管理模式連接到伺服器，請輸入虛擬 HUB 的名稱。\n如果通過伺服器管理模式連接，無須輸入任何內容請按Backspace鍵。\n
 CMD_VPNCMD_HUB_2			指定虛擬 HUB 名稱:
-CMD_VPNCMD_ABOUT			SoftEther VPN 命令列管理工具 (vpncmd 命令)\nDeveloper Edition\n%S\n%S\nCopyright (c) all contributors on SoftEther VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.\nAll rights reserved.\n
+CMD_VPNCMD_ABOUT			Eissoft VPN 命令列管理工具 (vpncmd 命令)\n\n%S\n%S\nCopyright (c) all contributors on Eissoft VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.\nAll rights reserved.\n
 CMD_VPNCMD_PASSWORD_1		訪問被拒絕。可能是密碼不正確，或者是您以不正確的管理模式連接。您可以嘗試再次輸入密碼。要取消，請按 Ctrl + D。
 CMD_VPNCMD_PASSWORD_2		密碼: 
 CMD_VPNCMD_ERROR			發生錯誤。(錯誤代碼: %u)\n%s
@@ -4638,7 +4638,7 @@ CMD_ProtoOptionsGet_Column_Value		Value
 CMD_ProtoOptionsGet_Column_Description	Description
 
 # ProtoOptions
-CMD_ProtoOptions_Description_OpenVPN_DefaultClientOption			When OpenVPN is compiled without OCC code, it doesn't send the options string to the server. The original OpenVPN server still works, because the configuration is static. SoftEther VPN is heuristic and wants to support as many different configurations as possible. This option allows to define the string that is sent to clients built without OCC code, so that they can successfully connect.
+CMD_ProtoOptions_Description_OpenVPN_DefaultClientOption			When OpenVPN is compiled without OCC code, it doesn't send the options string to the server. The original OpenVPN server still works, because the configuration is static. Eissoft VPN is heuristic and wants to support as many different configurations as possible. This option allows to define the string that is sent to clients built without OCC code, so that they can successfully connect.
 CMD_ProtoOptions_Description_OpenVPN_Obfuscation					This may help an OpenVPN client bypass firewalls that are aware of the protocol and block it. The same XOR mask has to be applied client-side, otherwise it will not be able to connect with certain obfuscation methods!
 CMD_ProtoOptions_Description_OpenVPN_ObfuscationMask				Mask used to XOR the bytes in the packet (used for certain obfuscation modes).
 CMD_ProtoOptions_Description_OpenVPN_PingSendInterval				Interval in milliseconds between each ping packet transmission.
@@ -6199,7 +6199,7 @@ CMD_DhcpSet_DNS				指定被通知到用戶端的主 DNS 伺服器的 IP 地址�
 CMD_DhcpSet_DNS2			指定被通知到用戶端的次要 DNS 伺服器 IP 地址。當 SecureNAT 功能的虛擬 NAT 功能已經啟用並正在運行時，您可以為此指定一個 SecureNAT 虛擬主機 IP 位址。如果您指定的是 0 或者 none，那麼用戶端就不會被 DNS 伺服器地址通知。
 CMD_DhcpSet_DOMAIN			指定功能變數名稱通知客戶。如果指定 none，該功能變數名稱不通知客戶。
 CMD_DhcpSet_LOG				指定是否將虛擬 DHCP 伺服器運行保存為安全性記錄檔。指定 "yes" 則保存。此值與虛擬 NAT 功能的日誌保存設置是聯動的。
-CMD_DhcpSet_PUSHROUTE	指定靜態路由表推送。\n例如: "192.168.5.0/255.255.255.0/192.168.4.254, 10.0.0.0/255.0.0.0/192.168.4.253"\n用逗號或空格字元來拆分多條目 (最多 64 條目)。每個條目必須以 "IP 網路位址/子網路遮罩/閘道 IP 地址" 的格式來指定。 \n這個虛擬 DHCP 伺服器可以推送帶DHCP應答消息的無類靜態路由 (RFC 3442) 至 VPN 用戶端。\nVPN 用戶端是否能夠識別無類靜態路由 (RFC 3442) 取決於目標VPN用戶端軟體。SoftEther VPN 用戶端和 OpenVPN 用戶端都支援無類靜態路由。在 L2TP/IPSec 和 MS-SSTP 協議上，相容性取決於用戶端軟體的實施。如果你清除了虛擬 DHCP 伺服器選項的預設閘道器欄位，您就可以實現拆分隧道。在用戶端一側，為了使用拆分隧道，L2TP/IPSec 和 MS-SSTP 用戶端需要配置為不創建預設閘道器。\n您還可以通過現有的外部 DHCP 伺服器推送無類靜態路由 (RFC 3442)。在這種情況下，在 SecureNAT 禁用虛擬 DHCP 伺服器功能，在這一螢幕上你不需要設置無類路由。\n請參閱 RFC 3442 以瞭解無類路由。
+CMD_DhcpSet_PUSHROUTE	指定靜態路由表推送。\n例如: "192.168.5.0/255.255.255.0/192.168.4.254, 10.0.0.0/255.0.0.0/192.168.4.253"\n用逗號或空格字元來拆分多條目 (最多 64 條目)。每個條目必須以 "IP 網路位址/子網路遮罩/閘道 IP 地址" 的格式來指定。 \n這個虛擬 DHCP 伺服器可以推送帶DHCP應答消息的無類靜態路由 (RFC 3442) 至 VPN 用戶端。\nVPN 用戶端是否能夠識別無類靜態路由 (RFC 3442) 取決於目標VPN用戶端軟體。Eissoft VPN 用戶端和 OpenVPN 用戶端都支援無類靜態路由。在 L2TP/IPSec 和 MS-SSTP 協議上，相容性取決於用戶端軟體的實施。如果你清除了虛擬 DHCP 伺服器選項的預設閘道器欄位，您就可以實現拆分隧道。在用戶端一側，為了使用拆分隧道，L2TP/IPSec 和 MS-SSTP 用戶端需要配置為不創建預設閘道器。\n您還可以通過現有的外部 DHCP 伺服器推送無類靜態路由 (RFC 3442)。在這種情況下，在 SecureNAT 禁用虛擬 DHCP 伺服器功能，在這一螢幕上你不需要設置無類路由。\n請參閱 RFC 3442 以瞭解無類路由。
 CMD_DhcpSet_Prompt_START	分發地址範圍的開始: 
 CMD_DhcpSet_Prompt_END		分發地址範圍的結束: 
 CMD_DhcpSet_Prompt_MASK		子網路遮罩: 
@@ -6336,7 +6336,7 @@ CMD_AcDel_Prompt_ID			要刪除的規則的 ID:
 
 # LicenseAdd 命令
 CMD_LicenseAdd				註冊新的許可證金鑰
-CMD_LicenseAdd_Help			在 SoftEther VPN Server 註冊新的許可證金鑰。\n要使用 SoftEther VPN Server，需獲取有效的許可證，並註冊許可證金鑰。許可證金鑰是由 36 個字母數位字元和連字號 ( '-' ) 組成的，以證明許可證所有權的金鑰的代碼。\n一起獲得本軟體及許可證證書時，許可證金鑰會被印刷在許可證證書上。如果線上購買本軟體的許可證時，許可證金鑰會在購買時的網頁畫面或郵件中記載。此外，許可證金鑰還可能其他以方法被記載。如有不明，請諮詢許可證的銷售方。\n\n要獲取目前註冊的許可證清單，使用 LicenseList 指令。\n要顯示目前 VPN Server 的許可證狀態，使用 LicenseStatus 指令。\n要運行此指令，需要 VPN Server 的管理員許可權。\n該指令虛擬專用橋不能運行。
+CMD_LicenseAdd_Help			在 Eissoft VPN Server 註冊新的許可證金鑰。\n要使用 Eissoft VPN Server，需獲取有效的許可證，並註冊許可證金鑰。許可證金鑰是由 36 個字母數位字元和連字號 ( '-' ) 組成的，以證明許可證所有權的金鑰的代碼。\n一起獲得本軟體及許可證證書時，許可證金鑰會被印刷在許可證證書上。如果線上購買本軟體的許可證時，許可證金鑰會在購買時的網頁畫面或郵件中記載。此外，許可證金鑰還可能其他以方法被記載。如有不明，請諮詢許可證的銷售方。\n\n要獲取目前註冊的許可證清單，使用 LicenseList 指令。\n要顯示目前 VPN Server 的許可證狀態，使用 LicenseStatus 指令。\n要運行此指令，需要 VPN Server 的管理員許可權。\n該指令虛擬專用橋不能運行。
 CMD_LicenseAdd_Args			LicenseAdd [key]
 CMD_LicenseAdd_[key]		指定要註冊的許可證金鑰。36 位元字母數位，6 個一組以連字號分隔，進行指定。
 CMD_LicenseAdd_Prompt_Key	許可證金鑰: 
@@ -6344,7 +6344,7 @@ CMD_LicenseAdd_Prompt_Key	許可證金鑰:
 
 # LicenseDel 命令
 CMD_LicenseDel				刪除已註冊許可
-CMD_LicenseDel_Help			從 SoftEther VPN Server 上目前註冊的許可證名單中刪除指定的許可證。\n\n要獲得目前註冊的許可證名單，使用 LicenseList 指令。\n要顯示目前的 VPN Server 的許可證狀態，使用 LicenseStatus 指令。\n要運行此指令，需要 VPN Server 管理員許可權。\n此指令，虛擬專用橋不能運行。
+CMD_LicenseDel_Help			從 Eissoft VPN Server 上目前註冊的許可證名單中刪除指定的許可證。\n\n要獲得目前註冊的許可證名單，使用 LicenseList 指令。\n要顯示目前的 VPN Server 的許可證狀態，使用 LicenseStatus 指令。\n要運行此指令，需要 VPN Server 管理員許可權。\n此指令，虛擬專用橋不能運行。
 CMD_LicenseDel_Args			LicenseDel [id]
 CMD_LicenseDel_[id]			指定要刪除的的許可證的號碼。
 CMD_LicenseDel_Prompt_ID	刪除許可證號碼: 
@@ -6352,19 +6352,19 @@ CMD_LicenseDel_Prompt_ID	刪除許可證號碼:
 
 # LicenseList 命令
 CMD_LicenseList				獲得已註冊許可證的列表
-CMD_LicenseList_Help		在 SoftEther VPN Server 上顯示目前註冊許可證的許可證金鑰，許可證類型，狀態，有效期限，許可證 ID，許可證類型 ID，伺服器 ID 和編號 ID 的列表。\n\n要顯示目前的 VPN Server 的許可證狀態，使用 LicenseStatus 指令。\n要運行此指令，需要 VPN Server 管理員許可權。\n此命令，虛擬專用橋不能運行。
+CMD_LicenseList_Help		在 Eissoft VPN Server 上顯示目前註冊許可證的許可證金鑰，許可證類型，狀態，有效期限，許可證 ID，許可證類型 ID，伺服器 ID 和編號 ID 的列表。\n\n要顯示目前的 VPN Server 的許可證狀態，使用 LicenseStatus 指令。\n要運行此指令，需要 VPN Server 管理員許可權。\n此命令，虛擬專用橋不能運行。
 CMD_LicenseList_Args		LicenseList
 
 
 # LicenseStatus 命令
 CMD_LicenseStatus			獲取目前的 VPN Server 狀態
-CMD_LicenseStatus_Help		獲取並顯示當前 SoftEther VPN Server 的許可證狀態。 \n顯示 SoftEther VPN Server 目前產品版本名稱，伺服器 ID，產品許可證的有效期限，及可以利用的用戶端連接許可證數和橋連接許可證數。\n\n要運行此指令，需要 VPN Server 管理員許可權。\n此指令，虛擬專用橋不能運行。
+CMD_LicenseStatus_Help		獲取並顯示當前 Eissoft VPN Server 的許可證狀態。 \n顯示 Eissoft VPN Server 目前產品版本名稱，伺服器 ID，產品許可證的有效期限，及可以利用的用戶端連接許可證數和橋連接許可證數。\n\n要運行此指令，需要 VPN Server 管理員許可權。\n此指令，虛擬專用橋不能運行。
 CMD_LicenseStatus_Args		LicenseStatus
 
-# SoftEther VPN 4.0 添加的 命令
+# Eissoft VPN 4.0 添加的 命令
 # IPsecEnable 命令
 CMD_IPsecEnable						啟用或禁用 IPsec VPN Server 功能
-CMD_IPsecEnable_Help				在 SoftEther VPN Server 上啟用或禁用IPsec VPN Server 功能。\n如果您禁用了此功能，VPN Server 上的虛擬 HUB 將會接受從 L2TP 相容的 PC，Mac OS X 和智慧手機的遠端 VPN 連接，同時也會接受 EtherIP 網站到網站的 VPN 連接。從智能手機上的 VPN 連接，如iPhone、iPad 和 Android, 和從 Mac OS X 和 Windows 上的本地 VPN Client 的連接也都會接受。\n\n要執行此命令，您必須具有 VPN Server 管理員許可權。\n該命令在 VPN Bridge 上不能運行。\n以集群成員運行的 VPN Server 的虛擬 HUB 不能執行此命令。
+CMD_IPsecEnable_Help				在 Eissoft VPN Server 上啟用或禁用IPsec VPN Server 功能。\n如果您禁用了此功能，VPN Server 上的虛擬 HUB 將會接受從 L2TP 相容的 PC，Mac OS X 和智慧手機的遠端 VPN 連接，同時也會接受 EtherIP 網站到網站的 VPN 連接。從智能手機上的 VPN 連接，如iPhone、iPad 和 Android, 和從 Mac OS X 和 Windows 上的本地 VPN Client 的連接也都會接受。\n\n要執行此命令，您必須具有 VPN Server 管理員許可權。\n該命令在 VPN Bridge 上不能運行。\n以集群成員運行的 VPN Server 的虛擬 HUB 不能執行此命令。
 CMD_IPsecEnable_Args				IPsecEnable [/L2TP:yes|no] [/L2TPRAW:yes|no] [/ETHERIP:yes|no] [/PSK:pre-shared-key] [/DEFAULTHUB:default_hub]
 CMD_IPsecEnable_L2TP				啟用或禁用 L2TP over IPsec 伺服器功能。要接受來自 iPhone, iPad, Android, Windows 或者 Mac OS X 的 VPN 連接，請啟用本選項。
 CMD_IPsecEnable_L2TPRAW				啟用或禁用 L2TP 伺服器功能 (未加密的原始 L2TP).要接受特殊 VPN 客服端，請啟用本選項。
@@ -6380,7 +6380,7 @@ CMD_IPsecEnable_Prompt_DEFAULTHUB	為避免在用戶名中遺漏 HUB，請默認
 
 # IPsecGet 命令
 CMD_IPsecGet					獲得當前IPsec VPN Server 設置
-CMD_IPsecGet_Help				獲得並顯示在 SoftEther VPN Server 上的當前 IPsec VPN Server 設置。\n\n要執行此命令，您必須具有 VPN Server 管理員許可權。\n該命令在 VPN Bridge 上不能運行。\n以集群成員運行的 VPN Server 的虛擬 HUB 不能執行此命令。
+CMD_IPsecGet_Help				獲得並顯示在 Eissoft VPN Server 上的當前 IPsec VPN Server 設置。\n\n要執行此命令，您必須具有 VPN Server 管理員許可權。\n該命令在 VPN Bridge 上不能運行。\n以集群成員運行的 VPN Server 的虛擬 HUB 不能執行此命令。
 CMD_IPsecGet_Args				IPsecGet
 CMD_IPsecGet_PRINT_L2TP			L2TP over IPsec 伺服器功能已啟用
 CMD_IPsecGet_PRINT_L2TPRAW		原始 L2TP 伺服器功能已啟用
@@ -6473,7 +6473,7 @@ CMD_DynamicDnsSetHostname_Prompt_hostname	Dynamic 動態 DNS 主機名稱 (3 –
 
 # VpnAzureGetStatus command
 CMD_VpnAzureGetStatus			顯示 VPN Azure 功能的當前狀態
-CMD_VpnAzureGetStatus_Help		獲取和顯示 VPN Azure 功能的當前狀態。\n\nVPN Azure 可以更容易地從你家裡的電腦到你辦公室的電腦建立一個VPN會話。當一個 VPN 連接建立了，您可以訪問您公司私人網路上的任何其他伺服器。在辦公室的電腦（VPN 伺服器）上，你並不需要一個全球 IP 位址。它可以在防火牆或 NAT 後面工作。無需網路系統管理員的配置。您可以在您的家用電腦使用 Windows 內置的 SSTP VPN 用戶端。\nVPN Azure 是一個雲 VPN 服務由 SoftEther 公司經營。VPN Azure 是免費的，可提供給任何人。訪問 http://www.vpnazure.net/ 查看詳細資訊和如何使用的說明。\n\nVPN Azure 主機名稱與動態 DNS 設置的主機名稱相同，但改變的功能變數名稱尾碼為“vpnazure.net”。要改變主機名稱使用 DynamicDnsSetHostname 命令。\n\n要執行此命令，你必須具有VPN 伺服器管理員許可權。\n此命令不能在 VPN 橋接器上運行。\n以集群成員運行的 VPN 伺服器的虛擬 HUB 不能執行此命令。
+CMD_VpnAzureGetStatus_Help		獲取和顯示 VPN Azure 功能的當前狀態。\n\nVPN Azure 可以更容易地從你家裡的電腦到你辦公室的電腦建立一個VPN會話。當一個 VPN 連接建立了，您可以訪問您公司私人網路上的任何其他伺服器。在辦公室的電腦（VPN 伺服器）上，你並不需要一個全球 IP 位址。它可以在防火牆或 NAT 後面工作。無需網路系統管理員的配置。您可以在您的家用電腦使用 Windows 內置的 SSTP VPN 用戶端。\nVPN Azure 是一個雲 VPN 服務由 Eissoft 公司經營。VPN Azure 是免費的，可提供給任何人。訪問 http://www.vpnazure.net/ 查看詳細資訊和如何使用的說明。\n\nVPN Azure 主機名稱與動態 DNS 設置的主機名稱相同，但改變的功能變數名稱尾碼為“vpnazure.net”。要改變主機名稱使用 DynamicDnsSetHostname 命令。\n\n要執行此命令，你必須具有VPN 伺服器管理員許可權。\n此命令不能在 VPN 橋接器上運行。\n以集群成員運行的 VPN 伺服器的虛擬 HUB 不能執行此命令。
 CMD_VpnAzureGetStatus_Args		VpnAzureGetStatus
 CMD_VpnAzureGetStatus_PRINT_ENABLED		VPN Azure 功能已啟用
 CMD_VpnAzureGetStatus_PRINT_CONNECTED	至 VPN Azure 雲伺服器的連接建立
@@ -6482,7 +6482,7 @@ CMD_VpnAzureGetStatus_PRINT_HOSTNAME	在 VPN Azure 服務上的本 VPN 伺服器
 
 # VpnAzureSetEnable command
 CMD_VpnAzureSetEnable			啟用/禁用 VPN Azure 功能
-CMD_VpnAzureSetEnable_Help		啟用或禁用 VPN Azure 功能。\n\nVPN Azure 可以更容易地從你家裡的電腦到你辦公室的電腦建立一個 VPN 會話。當一個 VPN 連接建立了，您可以訪問您公司私人網路絡上的任何其他伺服器。\n在辦公室的電腦（VPN 伺服器）上，你並不需要一個全球 IP 位址。它可以在防火牆或 NAT 後面工作。無需網路系統管理員的配置。您可以在您的家用電腦使用 Windows 內置的 SSTP VPN 用戶端。\nVPN Azure 是一個雲 VPN 服務由 SoftEther 公司經營。VPN Azure 是免費的，可提供給任何人。訪問 http://www.vpnazure.net/ 查看詳細資訊和如何使用的說明。\n\nVPN Azure 主機名稱與動態 DNS 設置的主機名稱相同，但改變的功能變數名稱尾碼為“vpnazure.net”。要改變主機名稱使用 DynamicDnsSetHostname 命令。\n\n要執行此命令，你必須具有 VPN 伺服器管理員許可權。\n此命令不能在 VPN 橋接器上運行。\n以集群成員運行的 VPN 伺服器的虛擬 HUB 不能執行此命令。
+CMD_VpnAzureSetEnable_Help		啟用或禁用 VPN Azure 功能。\n\nVPN Azure 可以更容易地從你家裡的電腦到你辦公室的電腦建立一個 VPN 會話。當一個 VPN 連接建立了，您可以訪問您公司私人網路絡上的任何其他伺服器。\n在辦公室的電腦（VPN 伺服器）上，你並不需要一個全球 IP 位址。它可以在防火牆或 NAT 後面工作。無需網路系統管理員的配置。您可以在您的家用電腦使用 Windows 內置的 SSTP VPN 用戶端。\nVPN Azure 是一個雲 VPN 服務由 Eissoft 公司經營。VPN Azure 是免費的，可提供給任何人。訪問 http://www.vpnazure.net/ 查看詳細資訊和如何使用的說明。\n\nVPN Azure 主機名稱與動態 DNS 設置的主機名稱相同，但改變的功能變數名稱尾碼為“vpnazure.net”。要改變主機名稱使用 DynamicDnsSetHostname 命令。\n\n要執行此命令，你必須具有 VPN 伺服器管理員許可權。\n此命令不能在 VPN 橋接器上運行。\n以集群成員運行的 VPN 伺服器的虛擬 HUB 不能執行此命令。
 CMD_VpnAzureSetEnable_Args		VpnAzureSetEnable [yes|no]
 CMD_VpnAzureSetEnable_[yes|no]	指定“yes”，啟用 VPN Azure。“no”禁用它。
 CMD_VpnAzureSetEnable_PROMPT	啟用 VPN Azure (yes/no): 
@@ -7070,7 +7070,7 @@ CMD_GetPublicX25519_PUBLIC_KEY	Public key:
 
 # MakeCert 命令
 CMD_MakeCert				創建新的 X.509 證書和金鑰 (1024 位)
-CMD_MakeCert_Help			創建新的 X.509 證書和金鑰，將其保存為一個檔。\n證書公共金鑰和秘密金鑰的生成演算法使用 RSA 1024 位元。\n作為證書類型，可以創建由根證書 (自簽章憑證) 和其他證書簽名的某個證書。要創建由其他證書簽名的證書，需要與用於簽名的證書 (X.509格式檔) 相對應的金鑰檔 (Base 64 編碼)。\n\n創建的證書可以指定名稱 (CN)，所屬機構 (O)，組織單位 (OU)，國家 (C)，州 (ST)，當地 (L)，序號，有效期限。\n創建的證書以 X.509 格式的檔，金鑰檔以 RSA 1024 位元的 Base 64 編碼檔，被分別保存。\n\nMakeCert 指令是一個工具，它提供創建證書所需的最低功能。如果想創建一個真正的證書，建議使用 OpenSSL 等免費軟體和出售的 CA (認證機構) 軟體。\n\n※注意: 此指令可以從 SoftEther VPN 命令列管理工具調用。雖然目前以管理模式連接到 VPN Server 和 VPN Client 時可以運行，但要實際運行 RSA 演算，生成證書資料的，是運行此指令的電腦，和以管理模式連接的連結目的電腦沒有任何關係。
+CMD_MakeCert_Help			創建新的 X.509 證書和金鑰，將其保存為一個檔。\n證書公共金鑰和秘密金鑰的生成演算法使用 RSA 1024 位元。\n作為證書類型，可以創建由根證書 (自簽章憑證) 和其他證書簽名的某個證書。要創建由其他證書簽名的證書，需要與用於簽名的證書 (X.509格式檔) 相對應的金鑰檔 (Base 64 編碼)。\n\n創建的證書可以指定名稱 (CN)，所屬機構 (O)，組織單位 (OU)，國家 (C)，州 (ST)，當地 (L)，序號，有效期限。\n創建的證書以 X.509 格式的檔，金鑰檔以 RSA 1024 位元的 Base 64 編碼檔，被分別保存。\n\nMakeCert 指令是一個工具，它提供創建證書所需的最低功能。如果想創建一個真正的證書，建議使用 OpenSSL 等免費軟體和出售的 CA (認證機構) 軟體。\n\n※注意: 此指令可以從 Eissoft VPN 命令列管理工具調用。雖然目前以管理模式連接到 VPN Server 和 VPN Client 時可以運行，但要實際運行 RSA 演算，生成證書資料的，是運行此指令的電腦，和以管理模式連接的連結目的電腦沒有任何關係。
 CMD_MakeCert_Args			MakeCert [/CN:cn] [/O:o] [/OU:ou] [/C:c] [/ST:st] [/L:l] [/SERIAL:serial] [/EXPIRES:expires] [/SIGNCERT:signcert] [/SIGNKEY:signkey] [/SAVECERT:savecert] [/SAVEKEY:savekey]
 CMD_MakeCert_CN				指定創建證書的名稱 (CN) 項目。還可以指定 none。
 CMD_MakeCert_O				指定創建證書的所屬機構 (O) 專案。還可以指定 none。
@@ -7101,7 +7101,7 @@ CMD_MakeCert_ERROR_GEN_FAILED	無法生成證書和私密金鑰。
 
 # MakeCert2048 命令
 CMD_MakeCert2048				創建新的 X.509 證書和金鑰 (2048 位)
-CMD_MakeCert2048_Help			創建新的 X.509 證書和金鑰，將其保存為一個檔。\n證書公共金鑰和秘密金鑰的生成演算法使用 RSA 1024 位元。\n作為證書類型，可以創建由根證書 (自簽章憑證) 和其他證書簽名的某個證書。要創建由其他證書簽名的證書，需要與用於簽名的證書 (X.509 格式檔) 相對應的金鑰檔 (Base 64 編碼)。\n\n創建的證書可以指定名稱 (CN)，所屬機構 (O)，組織單位 (OU)，國家 (C)，州 (ST)，當地 (L)，序號，有效期限。\n創建的證書以 X.509 格式的檔，金鑰檔以 RSA 2048 位元的 Base 64 編碼檔，被分別保存。\n\nMakeCert 指令是一個工具，它提供創建證書所需的最低功能。如果想創建一個真正的證書，建議使用 OpenSSL 等免費軟體和出售的 CA (認證機構) 軟體。\n\n※注意: 此指令可以從 SoftEther VPN 命令列管理工具調用。雖然目前以管理模式連接到 VPN Server 和 VPN Client 時可以運行，但要實際運行 RSA 演算，生成證書資料的，是運行此指令的電腦，和以管理模式連接的連結目的電腦沒有任何關係。
+CMD_MakeCert2048_Help			創建新的 X.509 證書和金鑰，將其保存為一個檔。\n證書公共金鑰和秘密金鑰的生成演算法使用 RSA 1024 位元。\n作為證書類型，可以創建由根證書 (自簽章憑證) 和其他證書簽名的某個證書。要創建由其他證書簽名的證書，需要與用於簽名的證書 (X.509 格式檔) 相對應的金鑰檔 (Base 64 編碼)。\n\n創建的證書可以指定名稱 (CN)，所屬機構 (O)，組織單位 (OU)，國家 (C)，州 (ST)，當地 (L)，序號，有效期限。\n創建的證書以 X.509 格式的檔，金鑰檔以 RSA 2048 位元的 Base 64 編碼檔，被分別保存。\n\nMakeCert 指令是一個工具，它提供創建證書所需的最低功能。如果想創建一個真正的證書，建議使用 OpenSSL 等免費軟體和出售的 CA (認證機構) 軟體。\n\n※注意: 此指令可以從 Eissoft VPN 命令列管理工具調用。雖然目前以管理模式連接到 VPN Server 和 VPN Client 時可以運行，但要實際運行 RSA 演算，生成證書資料的，是運行此指令的電腦，和以管理模式連接的連結目的電腦沒有任何關係。
 CMD_MakeCert2048_Args			MakeCert2048 [/CN:cn] [/O:o] [/OU:ou] [/C:c] [/ST:st] [/L:l] [/SERIAL:serial] [/EXPIRES:expires] [/SIGNCERT:signcert] [/SIGNKEY:signkey] [/SAVECERT:savecert] [/SAVEKEY:savekey]
 CMD_MakeCert2048_CN				指定創建證書的名稱 (CN) 項目。還可以指定 none。
 CMD_MakeCert2048_O				指定創建證書的所屬機構 (O) 專案。還可以指定 none。
@@ -7119,7 +7119,7 @@ CMD_MakeCert2048_SAVEKEY		指定檔案名保存對應創建的證書的金鑰。
 
 # TrafficClient 命令
 CMD_TrafficClient			在使用者模式下，運行網路流量速度測試工具
-CMD_TrafficClient_Help		運行通信輸送量測量工具的用戶端程式。\n通信輸送量測量工具，作為 TrafficClient 和 TrafficServer 兩個指令使用，可以測量在 IP 網路上連接的 2 台電腦之間可傳送的通信輸送量。在另一台電腦上使用 TrafficServer 指令使通信輸送量測量工具伺服器處於待機狀態，用 TrafficClient 指令指定並連接其伺服器的主機名稱或 IP 位址和埠號，測量通信速度。\n同時建立多個連接，計算各連接最大限度傳送流資料的結果，及在指定時間內能夠實際傳送的資料的比特數，以此為依據計算通信輸送量的平均值 (bps)，用此方法進行通信速度的測量。通常，用一個 TCP 連接時，由於 TCP 演算法的限制，大多數時候只能用比實際的網路輸送量慢的速度通信。因此，建議測量同時建立多個 TCP 連接進行通信的結果。用此方法測量的輸送量，以實際上作為 TCP 流到達接收方的資料的比特長度來計算，因此途中產生的封包丟失和封包損壞不包括在實際到達的封包中，因而能夠計算出純粹的網路最大通信頻寬的近似值。\n用作為測量結構的，在 TCP 內被傳輸的 TCP 流的大小，來計算在網路上實際傳輸的資料量的近似值，將其除以時間，計算出比特每秒 (bps)。假定計算的物理網路類型為乙太網 (IEEE802.3) ,MAC 幀有效載荷的大小是 1,500 比特 (TCP 的 MSS 是 1,460 比特)。如果指定 /RAW 選項，不會對 TCP/IP 頭和 MAC 頭的資料量進行更正計算。\n\n※注意: 此指令可以從 SoftEther VPN 命令列管理工具調用。雖然目前以管理模式連接到 VPN Server 和 VPN Client 時可以運行，但要實際進行通信，測量輸送量的，是運行此指令的電腦，與以管理模式連接的連接目的電腦沒有任何關係。
+CMD_TrafficClient_Help		運行通信輸送量測量工具的用戶端程式。\n通信輸送量測量工具，作為 TrafficClient 和 TrafficServer 兩個指令使用，可以測量在 IP 網路上連接的 2 台電腦之間可傳送的通信輸送量。在另一台電腦上使用 TrafficServer 指令使通信輸送量測量工具伺服器處於待機狀態，用 TrafficClient 指令指定並連接其伺服器的主機名稱或 IP 位址和埠號，測量通信速度。\n同時建立多個連接，計算各連接最大限度傳送流資料的結果，及在指定時間內能夠實際傳送的資料的比特數，以此為依據計算通信輸送量的平均值 (bps)，用此方法進行通信速度的測量。通常，用一個 TCP 連接時，由於 TCP 演算法的限制，大多數時候只能用比實際的網路輸送量慢的速度通信。因此，建議測量同時建立多個 TCP 連接進行通信的結果。用此方法測量的輸送量，以實際上作為 TCP 流到達接收方的資料的比特長度來計算，因此途中產生的封包丟失和封包損壞不包括在實際到達的封包中，因而能夠計算出純粹的網路最大通信頻寬的近似值。\n用作為測量結構的，在 TCP 內被傳輸的 TCP 流的大小，來計算在網路上實際傳輸的資料量的近似值，將其除以時間，計算出比特每秒 (bps)。假定計算的物理網路類型為乙太網 (IEEE802.3) ,MAC 幀有效載荷的大小是 1,500 比特 (TCP 的 MSS 是 1,460 比特)。如果指定 /RAW 選項，不會對 TCP/IP 頭和 MAC 頭的資料量進行更正計算。\n\n※注意: 此指令可以從 Eissoft VPN 命令列管理工具調用。雖然目前以管理模式連接到 VPN Server 和 VPN Client 時可以運行，但要實際進行通信，測量輸送量的，是運行此指令的電腦，與以管理模式連接的連接目的電腦沒有任何關係。
 CMD_TrafficClient_Args		TrafficClient [host:port] [/NUMTCP:numtcp] [/TYPE:download|upload|full] [/SPAN:span] [/DOUBLE:yes|no] [/RAW:yes|no]
 CMD_TrafficClient_[host:port]	指定通信輸送量測量伺服器 (TrafficServer) 待機時的主機名稱，或 IP 位址和埠號。如果省略埠號，9821 將被使用。
 CMD_TrafficClient_NUMTCP	指定同時在用戶端和伺服器進行資料傳輸的 TCP 連接數量。如果省略，32 將被使用。
@@ -7135,7 +7135,7 @@ CMD_TrafficClient_ERROR_HOSTPORT	指定的主機名稱或埠號不正確。
 
 # TrafficServer 命令
 CMD_TrafficServer			在伺服器模式下，運行網路流量速度測試工具
-CMD_TrafficServer_Help		運行通信輸送量測量工具的伺服器程式。\n通信輸送量測量工具，作為 TrafficClient 和 TrafficServer 兩個指令使用，可以測量在 IP 網路上連接的 2 台電腦之間可傳送的通信輸送量。\n要使此電腦上的 TCP 埠處於待機狀態，等待從另一台電腦的 TrafficClient 連接，啟動 TrafficServer 指令並指定埠號。\n關於通信輸送量測量工具的詳細情況，輸入 "TrafficClient ?" 將顯示。\n\n※注意: 此指令可以從 SoftEther VPN 命令列管理工具調用。雖然目前以管理模式連接 VPN Server 和 VPN Client 時可以運行，但要進行實際通信並測量輸送量的，是運行此指令的電腦，與用管理模式連接終端的電腦沒有任何關係。
+CMD_TrafficServer_Help		運行通信輸送量測量工具的伺服器程式。\n通信輸送量測量工具，作為 TrafficClient 和 TrafficServer 兩個指令使用，可以測量在 IP 網路上連接的 2 台電腦之間可傳送的通信輸送量。\n要使此電腦上的 TCP 埠處於待機狀態，等待從另一台電腦的 TrafficClient 連接，啟動 TrafficServer 指令並指定埠號。\n關於通信輸送量測量工具的詳細情況，輸入 "TrafficClient ?" 將顯示。\n\n※注意: 此指令可以從 Eissoft VPN 命令列管理工具調用。雖然目前以管理模式連接 VPN Server 和 VPN Client 時可以運行，但要進行實際通信並測量輸送量的，是運行此指令的電腦，與用管理模式連接終端的電腦沒有任何關係。
 CMD_TrafficServer_Args	TrafficServer [port] [/NOHUP:yes|no]
 CMD_TrafficServer_[port]	以整數指定等待連接的埠號。被指定的埠，如果已經由另一個程式在使用，或不能打開該埠時，將發生錯誤。
 CMD_TrafficServer_NOHUP		若指定為 yes ， console 的輸入將不會結束。用做測試伺服器的場合想要永久運作時很方便。
@@ -7197,20 +7197,20 @@ TTC_RES_BPS_TOTAL			總平均輸送量
 
 
 # Check 命令
-CMD_Check					檢測 SoftEther VPN 是否能正常運行
-CMD_Check_Help				正在運行 vpncmd 的電腦上，正檢測 SoftEther VPN Server / Bridge 的運行平臺是否適合。\n通過了這一檢查的系統，SoftEther VPN 軟體有較高的可能性進行正常運行。此外，無法通過此檢查的系統，如果使用了 SoftEther VPN 軟體可能會發生一些問題。
+CMD_Check					檢測 Eissoft VPN 是否能正常運行
+CMD_Check_Help				正在運行 vpncmd 的電腦上，正檢測 Eissoft VPN Server / Bridge 的運行平臺是否適合。\n通過了這一檢查的系統，Eissoft VPN 軟體有較高的可能性進行正常運行。此外，無法通過此檢查的系統，如果使用了 Eissoft VPN 軟體可能會發生一些問題。
 CMD_Check_Args				Check
 
 
 # 關於系統 checker
 # (包含著一部分奇怪的字串,不過，是檢測字元編碼變換用的)
-CHECK_TITLE					---------------------------------------------------\nSoftEther VPN 運行環境檢查工具\nDeveloper Edition\n\nCopyright (c) all contributors on SoftEther VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.\nAll Rights Reserved.\n\n
-CHECK_NOTE					如果運行了此運行環境檢測工具的系統通過了測試，SoftEther VPN 軟體有較高的運行可能性。檢測可能需要一定的時間。請稍候...\n\n
+CHECK_TITLE					---------------------------------------------------\nEissoft VPN 運行環境檢查工具\n\n\nCopyright (c) all contributors on Eissoft VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.\nAll Rights Reserved.\n\n
+CHECK_NOTE					如果運行了此運行環境檢測工具的系統通過了測試，Eissoft VPN 軟體有較高的運行可能性。檢測可能需要一定的時間。請稍候...\n\n
 CHECK_EXEC_TAG				'%s' 的檢測中...\n
 CHECK_PASS					[合格] ○
 CHECK_FAIL					[不合格] ×
-CHECK_RESULT_1				全部檢測通過，說明 SoftEther VPN Server / Bridge 在此系統上正常運行的可能性很高。
-CHECK_RESULT_2				一部分的檢測結果是不合格。請確認系統的運行環境。如果在這個系統上實行 SoftEther VPN Server / Bridge，有發生問題的可能性。
+CHECK_RESULT_1				全部檢測通過，說明 Eissoft VPN Server / Bridge 在此系統上正常運行的可能性很高。
+CHECK_RESULT_2				一部分的檢測結果是不合格。請確認系統的運行環境。如果在這個系統上實行 Eissoft VPN Server / Bridge，有發生問題的可能性。
 CHECK_TEST_123456789		123456789
 
 
@@ -7228,27 +7228,27 @@ CHECK_PROC_NETWORK			網路系統
 #                                                    #
 ######################################################
 
-SW_TITLE				SoftEther VPN Developer Edition 安裝精靈 (版本 %S)
-SW_EXIT_CONFIRM			SoftEther VPN 的安裝未完成。\r\n\r\n您確定要退出嗎？
+SW_TITLE				Eissoft VPN  安裝精靈 (版本 %S)
+SW_EXIT_CONFIRM			Eissoft VPN 的安裝未完成。\r\n\r\n您確定要退出嗎？
 SW_UNINSTALL_CONFIRM	開啟%s移除程式。\r\n\r\n您確定要繼續嗎？
 
 
-SW_COMPONENT_VPNSERVER_TITLE				SoftEther VPN Server
+SW_COMPONENT_VPNSERVER_TITLE				Eissoft VPN Server
 SW_COMPONENT_VPNSERVER_DESCRIPTION			把它安裝在伺服器電腦上作為 VPN 的中心網站。管理工具也會同時安裝。
 
-SW_COMPONENT_VPNCLIENT_TITLE				SoftEther VPN Client
+SW_COMPONENT_VPNCLIENT_TITLE				Eissoft VPN Client
 SW_COMPONENT_VPNCLIENT_DESCRIPTION			安裝它在 VPN Client 電腦上。VPN Client 電腦將能連接到中心 VPN Server 。管理工具也會同時安裝。
 
-SW_COMPONENT_VPNBRIDGE_TITLE				SoftEther VPN Bridge
+SW_COMPONENT_VPNBRIDGE_TITLE				Eissoft VPN Bridge
 SW_COMPONENT_VPNBRIDGE_DESCRIPTION			安裝它在每個網站的電腦上。每個 VPN Bridge 將會建立一個通向中心 VPN Server 的 VPN 連接。管理工具也會同時安裝。
 
-SW_COMPONENT_VPNSMGR_TITLE					SoftEther VPN Server 管理工具 (僅限管理工具)
+SW_COMPONENT_VPNSMGR_TITLE					Eissoft VPN Server 管理工具 (僅限管理工具)
 SW_COMPONENT_VPNSMGR_DESCRIPTION			安裝的只有 VPN Server 管理工具。不會安裝 VPN Server 服務程式。您可以在 Windows, Linux, Mac OS X, Solaris, FreeBSD 的系統上使用此 VPN Server 管理工具進行連接和管理遠端的 VPN Server / Bridge 端。
 
-SW_COMPONENT_VPNCMGR_TITLE					SoftEther VPN Client 管理工具(僅限管理工具)
+SW_COMPONENT_VPNCMGR_TITLE					Eissoft VPN Client 管理工具(僅限管理工具)
 SW_COMPONENT_VPNCMGR_DESCRIPTION			安裝的只有 VPN Client 管理工具。不會安裝 VPN Client 服務程式。您可以在 Windows 或 Linux 的系統上使用此 VPN Client 管理工具進行連接和管理遠端的 VPN Client 。
 
-SW_WELCOME_TITLE					歡迎來到 SoftEther VPN Developer Edition 安裝精靈
+SW_WELCOME_TITLE					歡迎來到 Eissoft VPN  安裝精靈
 SW_MODE_TITLE						選擇一個安裝模式
 SW_NOT_ADMIN_TITLE					沒有足夠許可權
 SW_COMPONENTS_TITLE					選擇要安裝的軟體
@@ -7260,16 +7260,16 @@ SW_PERFORM_TITLE					安裝正在進行中
 SW_ERROR_TITLE						安裝結果
 SW_FINISH_TITLE						安裝結束
 SW_UNINST1_TITLE					移除程式
-SW_LANG1_TITLE						SoftEther VPN : 設定顯示語言
-SW_EASY1_TITLE						歡迎來到 SoftEther VPN Client 簡單安裝程式創建工具
+SW_LANG1_TITLE						Eissoft VPN : 設定顯示語言
+SW_EASY1_TITLE						歡迎來到 Eissoft VPN Client 簡單安裝程式創建工具
 SW_EASY2_TITLE						指定資料夾
-SW_WEB1_TITLE						歡迎來到 SoftEther VPN Client Web安裝程式創建工具
+SW_WEB1_TITLE						歡迎來到 Eissoft VPN Client Web安裝程式創建工具
 SW_WEB2_TITLE						指定資料夾
 
 SW_UNINSTALLINFO_URL					http://selinks.org/
-SW_UNINSTALLINFO_PUBLISHER				SoftEther VPN Project
+SW_UNINSTALLINFO_PUBLISHER				Eissoft VPN Project
 
-SW_KB3033929_REQUIRED						In Windows 7 and Windows Server 2008 R2, some SoftEther VPN functions require the Microsoft's Windows Update module KB3033929 installed.\r\n\r\nIf KB3033929 is not installed in your Windows, please install it from Windows Update or Microsoft website before installing SoftEther VPN.
+SW_KB3033929_REQUIRED						In Windows 7 and Windows Server 2008 R2, some Eissoft VPN functions require the Microsoft's Windows Update module KB3033929 installed.\r\n\r\nIf KB3033929 is not installed in your Windows, please install it from Windows Update or Microsoft website before installing Eissoft VPN.
 
 SW_COMPONENTS_ABOUT_TAG				關於 %s
 SW_COMPONENTS_REQUIRE_ADMIN			安裝需要管理員許可權
@@ -7291,8 +7291,8 @@ SW_SYSTEM_MODE_ALREADY_INSTALLED	本軟體 "%s" 以系統模式被安裝在這�
 SW_SETUPLOG_CORRUPTED				"setuplog.dat" 檔已被破壞。
 SW_MSI_UNINSTALL_FAILED				之前的版本 %s (產品號: "%S")已安裝。 Windows安裝工具移除舊版本失敗。\r\n\r\n請您手動移除並且重啟本安裝工具。
 SW_MSI_UNINSTALL_REBOOT_REQUIRED	Windows 安裝工具已經移除舊版本 %s。請重啟電腦。\r\n\r\n點擊結束按鈕並且手動重啟電腦，然後在電腦重啟後，重啟本安裝工具。
-SW_NOTICE_VPNSERVER_IS_INSTALLED	SoftEther VPN Bridge 端作為軟體一部分來安裝。但是，本電腦已經安裝了 SoftEther VPN Server。\r\n\r\n通常，您不需要在同一台電腦上同時安裝 SoftEther VPN Server 端和 SoftEther VPN Bridge 端。\r\n如果您同時安裝了這兩個軟體，那麼有些衝突就會發生，例如埠號重複。\r\n如果您想把 SoftEther VPN Server 端替換成 SoftEther VPN Bridge 端，您應該退出本安裝工具，移除 SoftEther VPN Server 端，並在移除成功後重啟本安裝工具。\r\n\r\n您確定要繼續 SoftEther VPN Bridge 端的安裝嗎？
-SW_NOTICE_VPNBRIDGE_IS_INSTALLED	SoftEther VPN Server 端被選為一個部分來安裝。但是，本電腦已安裝 SoftEther VPN Bridge 端。通常，您不需要在同一台電腦上同時安裝 SoftEther VPN Server 端和 SoftEther VPN Bridge 端。\r\n如果您同時安裝了這兩個軟體，那麼有些衝突就會發生，例如埠號重複。\r\n如果您想把 SoftEther VPN Bridge 替換成 SoftEther VPN Server 端，您應該退出本安裝工具，移除 SoftEther VPN Bridge，並在移除成功後重啟本安裝工具。\r\n\r\n您確定要繼續 SoftEther VPN Server 端的安裝嗎？
+SW_NOTICE_VPNSERVER_IS_INSTALLED	Eissoft VPN Bridge 端作為軟體一部分來安裝。但是，本電腦已經安裝了 Eissoft VPN Server。\r\n\r\n通常，您不需要在同一台電腦上同時安裝 Eissoft VPN Server 端和 Eissoft VPN Bridge 端。\r\n如果您同時安裝了這兩個軟體，那麼有些衝突就會發生，例如埠號重複。\r\n如果您想把 Eissoft VPN Server 端替換成 Eissoft VPN Bridge 端，您應該退出本安裝工具，移除 Eissoft VPN Server 端，並在移除成功後重啟本安裝工具。\r\n\r\n您確定要繼續 Eissoft VPN Bridge 端的安裝嗎？
+SW_NOTICE_VPNBRIDGE_IS_INSTALLED	Eissoft VPN Server 端被選為一個部分來安裝。但是，本電腦已安裝 Eissoft VPN Bridge 端。通常，您不需要在同一台電腦上同時安裝 Eissoft VPN Server 端和 Eissoft VPN Bridge 端。\r\n如果您同時安裝了這兩個軟體，那麼有些衝突就會發生，例如埠號重複。\r\n如果您想把 Eissoft VPN Bridge 替換成 Eissoft VPN Server 端，您應該退出本安裝工具，移除 Eissoft VPN Bridge，並在移除成功後重啟本安裝工具。\r\n\r\n您確定要繼續 Eissoft VPN Server 端的安裝嗎？
 SW_OS_FAILED						本作業系統不支援%s.
 SW_LANG_NOT_CHANGED					%s的語言設置沒有改變。
 SW_LANG_LIST_LOAD_FAILED			載入可用語言清單失敗。
@@ -7304,14 +7304,14 @@ SW_EXE_FILTER						Windows 可執行檔 (*.EXE)|*.exe|All Files (*.*)|*.*
 SW_PERFORM_MSG_EASY_INFO			編輯 VPN Client 簡單安裝工具
 SW_EASY_FINISHED_MSG				VPN Client 簡單安裝工具創建成功。\r\n本安裝工具保存為如下檔案名。\r\n\r\n%s\r\n\r\n您可以在公司裡分配以上的檔。
 SW_EASY_ERROR_MSG					VPN Client 簡單安裝工具創建失敗。
-SW_OTHER_INSTANCE_EXISTS			另外一個 SoftEther VPN 安裝精靈正在運行中\r\n\r\n您可以在那個安裝精靈退出後，繼續運行此安裝精靈。
+SW_OTHER_INSTANCE_EXISTS			另外一個 Eissoft VPN 安裝精靈正在運行中\r\n\r\n您可以在那個安裝精靈退出後，繼續運行此安裝精靈。
 SW_PERFORM_MSG_WEB_INFO				編譯 VPN Client Web安裝工具
 SW_WEB_ERROR_MSG					VPN Client Web 安裝工具創建失敗。
-SW_INSTALLER_CACHE_IS_NOT_SIGNED	目前已安裝 SoftEther VPN Client 的這台電腦沒有安 SoftEther 公司簽署 Authenticode 數位憑證的數位簽章包。\r\n它有可能是從一個客戶定制的安裝工具上安裝的(例如：簡單安裝程式生成器製造的一個安裝程式。)\r\n\r\n如果您繼續創建 Web 安裝工具，當下載的時候，會在使用者介面上出現一個警示資訊。\r\n為避免出現警示資訊，您需要取消本創建精靈，從 SoftEther 公司官網下載最新版本的 SoftEther VPN Client，重新安裝並開啟本 Web 安裝工具創建器精靈。\r\n\r\n你確定要繼續創建一個 Web 安裝工具嗎？
+SW_INSTALLER_CACHE_IS_NOT_SIGNED	目前已安裝 Eissoft VPN Client 的這台電腦沒有安 Eissoft 公司簽署 Authenticode 數位憑證的數位簽章包。\r\n它有可能是從一個客戶定制的安裝工具上安裝的(例如：簡單安裝程式生成器製造的一個安裝程式。)\r\n\r\n如果您繼續創建 Web 安裝工具，當下載的時候，會在使用者介面上出現一個警示資訊。\r\n為避免出現警示資訊，您需要取消本創建精靈，從 Eissoft 公司官網下載最新版本的 Eissoft VPN Client，重新安裝並開啟本 Web 安裝工具創建器精靈。\r\n\r\n你確定要繼續創建一個 Web 安裝工具嗎？
 SW_FILE_NOT_FOUNT					沒有找到檔案 "%s"
 SW_WEB_FINISHED						Web安裝工具已創建，並保存為 "%s"。\r\n\r\n請將 ZIP 檔解壓縮，並將解壓後的檔上傳到 Web 伺服器，編輯一個HTML檔和一個 inf 檔來適當替換URL。\r\n\r\n部署 Web 安裝程式的解釋說明在ZIP檔中描述。
 
-SW_VG_CONFIRM_MSG					您想用 SoftEther VPN 用戶端安裝並啟動 VPN Gate P2P 中繼功能的外掛程式嗎 ?\r\n\r\n本外掛程式可以規避官方防火牆的限制實現通信的穩定性。同時 VPN Gate 的通信經常會消耗一定的網路頻寬。所以不推薦在移動連接上使用 VPN Gate。\r\n\r\n請注意，一些國家和地區有規定禁止加密通信繞過官方防火牆。在這種情況下，請您不要在您的電腦上使用 VPN Gate 功能。VPN Gate 主要在日本使用。VPN Gate 僅僅是一個學術研究項目。VPN Gate 受日本法律管轄。使用此軟體和服務期間，請您遵守本國相關的法律法規，這是您自己的責任。您將完全承擔使用此軟體和服務造成的任何損失和責任，不管在日本境內還是境外。
+SW_VG_CONFIRM_MSG					您想用 Eissoft VPN 用戶端安裝並啟動 VPN Gate P2P 中繼功能的外掛程式嗎 ?\r\n\r\n本外掛程式可以規避官方防火牆的限制實現通信的穩定性。同時 VPN Gate 的通信經常會消耗一定的網路頻寬。所以不推薦在移動連接上使用 VPN Gate。\r\n\r\n請注意，一些國家和地區有規定禁止加密通信繞過官方防火牆。在這種情況下，請您不要在您的電腦上使用 VPN Gate 功能。VPN Gate 主要在日本使用。VPN Gate 僅僅是一個學術研究項目。VPN Gate 受日本法律管轄。使用此軟體和服務期間，請您遵守本國相關的法律法規，這是您自己的責任。您將完全承擔使用此軟體和服務造成的任何損失和責任，不管在日本境內還是境外。
 
 
 
@@ -7363,63 +7363,63 @@ SW_DIRNAME_CONFIG_TOOLS					設定工具
 SW_DIRNAME_ADMIN_TOOLS					管理工具
 SW_DIRNAME_LANGUAGE_TOOLS				語言設定
 
-SW_RUN_TEXT_VPNSMGR					開啟 SoftEther VPN Server 管理工具
-SW_RUN_TEXT_VPNCMGR					開啟 SoftEther VPN Client 管理工具.
+SW_RUN_TEXT_VPNSMGR					開啟 Eissoft VPN Server 管理工具
+SW_RUN_TEXT_VPNCMGR					開啟 Eissoft VPN Client 管理工具.
 
-SW_NIC_UNINSTALL						SoftEther VPN 用戶端的虛擬網路介面卡已在系統上創建。\r\n你要刪除這些虛擬網路介面卡?
+SW_NIC_UNINSTALL						Eissoft VPN 用戶端的虛擬網路介面卡已在系統上創建。\r\n你要刪除這些虛擬網路介面卡?
 
 # --- Do not translate this section !!! stay them in English !!! ---
 SW_TAG_USERNAME_ENGLISH					\ (User-Mode)
-SW_LINK_NAME_VPNSERVER_SVC				SoftEther VPN Server Developer User-mode Service
-SW_LINK_NAME_VPNBRIDGE_SVC				SoftEther VPN Bridge Developer User-mode Service
-SW_LONG_VPNSERVER						SoftEther VPN Server Developer Edition
-SW_LONG_VPNCLIENT						SoftEther VPN Client Developer Edition
-SW_LONG_VPNBRIDGE						SoftEther VPN Bridge Developer Edition
-SW_LONG_VPNSMGR						SoftEther VPN Server Manager Developer Edition
-SW_LONG_VPNCMGR						SoftEther VPN Client Manager Developer Edition
+SW_LINK_NAME_VPNSERVER_SVC				Eissoft VPN Server Developer User-mode Service
+SW_LINK_NAME_VPNBRIDGE_SVC				Eissoft VPN Bridge Developer User-mode Service
+SW_LONG_VPNSERVER						Eissoft VPN Server 
+SW_LONG_VPNCLIENT						Eissoft VPN Client 
+SW_LONG_VPNBRIDGE						Eissoft VPN Bridge 
+SW_LONG_VPNSMGR						Eissoft VPN Server Manager 
+SW_LONG_VPNCMGR						Eissoft VPN Client Manager 
 SW_LANG_SET_FAILED						Failed to write the new language setting on lang.config file.
 # --- end of "Do not translate this section" ---
 
 
 # 快捷方式檔案名
-SW_LINK_NAME_VPNSMGR_SHORT				SoftEther VPN Server 管理工具 (Dev)
+SW_LINK_NAME_VPNSMGR_SHORT				Eissoft VPN Server 管理工具 (Dev)
 SW_LINK_NAME_VPNSMGR_SHORT_UM				SE-VPN Server Manager (Dev・User)
 SW_LINK_NAME_VPNSMGR_SHORT_TOOLSONLY		SE-VPN Server Manager (Dev・Tools)
 SW_LINK_NAME_VPNSMGR_SHORT_TOOLSONLY_UM	SE-VPN Server Manager (Dev・Tools・User)
-SW_LINK_NAME_VPNSMGR_FULL				SoftEther VPN Server 管理工具 Developer Edition
-SW_LINK_NAME_VPNSMGR_COMMENT			您在一個遠端電腦上可以管理 SoftEther VPN Server 或者 SoftEther VPN Bridge 端。
+SW_LINK_NAME_VPNSMGR_FULL				Eissoft VPN Server 管理工具 
+SW_LINK_NAME_VPNSMGR_COMMENT			您在一個遠端電腦上可以管理 Eissoft VPN Server 或者 Eissoft VPN Bridge 端。
 
-SW_LINK_NAME_VPNCMGR_SHORT				SoftEther VPN Client 管理工具 (Dev)
-SW_LINK_NAME_VPNCMGR_FULL				SoftEther VPN Client 管理工具 Developer Edition
-SW_LINK_NAME_VPNCMGR_COMMENT			您可以通過使用 SoftEther VPN Client Developer Edition 連接到 VPN Server。
+SW_LINK_NAME_VPNCMGR_SHORT				Eissoft VPN Client 管理工具 (Dev)
+SW_LINK_NAME_VPNCMGR_FULL				Eissoft VPN Client 管理工具 
+SW_LINK_NAME_VPNCMGR_COMMENT			您可以通過使用 Eissoft VPN Client  連接到 VPN Server。
 
-SW_LINK_NAME_VPNCMGRTOOLS_SHORT		SoftEther VPN Client 遠端系統管理工具 (Dev)
+SW_LINK_NAME_VPNCMGRTOOLS_SHORT		Eissoft VPN Client 遠端系統管理工具 (Dev)
 SW_LINK_NAME_VPNCMGRTOOLS_SHORT_UM			SE-VPN Client Remote Manager (Dev・User)
-SW_LINK_NAME_VPNCMGRTOOLS_FULL			SoftEther VPN Client 遠端系統管理工具 Developer Edition
+SW_LINK_NAME_VPNCMGRTOOLS_FULL			Eissoft VPN Client 遠端系統管理工具 
 
-SW_LINK_NAME_VPNCMGR2_FULL				管理遠端電腦上的 SoftEther VPN Client
-SW_LINK_NAME_VPNCMGR2_COMMENT			您可以建立一個遠端連接來管理遠端電腦上的 SoftEther VPN Client 。
+SW_LINK_NAME_VPNCMGR2_FULL				管理遠端電腦上的 Eissoft VPN Client
+SW_LINK_NAME_VPNCMGR2_COMMENT			您可以建立一個遠端連接來管理遠端電腦上的 Eissoft VPN Client 。
 
-SW_LINK_NAME_VPNCMGRTRAY_FULL			SoftEther VPN Client 管理工具啟動功能表
-SW_LINK_NAME_VPNCMGRTRAY_COMMENT		在工作列的通知區域註冊一個 SoftEther VPN Client 圖示。
+SW_LINK_NAME_VPNCMGRTRAY_FULL			Eissoft VPN Client 管理工具啟動功能表
+SW_LINK_NAME_VPNCMGRTRAY_COMMENT		在工作列的通知區域註冊一個 Eissoft VPN Client 圖示。
 
 SW_LINK_NAME_EASYINSTALLER				簡單安裝工具創建工具
-SW_LINK_NAME_EASYINSTALLER_COMMENT		為公司系統管理員創建 SoftEther VPN Client 簡單安裝工具的工具，有自動快速啟動到指定目標 VPN 連接的功能。
+SW_LINK_NAME_EASYINSTALLER_COMMENT		為公司系統管理員創建 Eissoft VPN Client 簡單安裝工具的工具，有自動快速啟動到指定目標 VPN 連接的功能。
 
 SW_LINK_NAME_WEBINSTALLER				Web安裝工具創建工具
-SW_LINK_NAME_WEBINSTALLER_COMMENT		為公司系統管理員創建 SoftEther VPN Client Web安裝工具(ActiveX 安裝工具)的工具，有自動快速啟動到指定目標 VPN 連接的功能。
+SW_LINK_NAME_WEBINSTALLER_COMMENT		為公司系統管理員創建 Eissoft VPN Client Web安裝工具(ActiveX 安裝工具)的工具，有自動快速啟動到指定目標 VPN 連接的功能。
 
 
-SW_LINK_NAME_VPNCMD					SoftEther VPN 命令列實用工具(vpncmd)
-SW_LINK_NAME_VPNCMD_COMMENT			用 vpncmd 在命令列介面管理 SoftEther VPN Server ， SoftEther VPN Bridge 端和 SoftEther VPN Client 。
+SW_LINK_NAME_VPNCMD					Eissoft VPN 命令列實用工具(vpncmd)
+SW_LINK_NAME_VPNCMD_COMMENT			用 vpncmd 在命令列介面管理 Eissoft VPN Server ， Eissoft VPN Bridge 端和 Eissoft VPN Client 。
 SW_LINK_NAME_TRAFFIC					網路傳送速率測量工具
 SW_LINK_NAME_TRAFFIC_COMMENT			工具執行用 TCP/IP 連接的兩台電腦之間的封包傳輸，會用儘量大的輸送量，從而測量出精確的網路可用傳送速率。本工具不僅限於 VPN，也可以用在物理網路中。
 SW_LINK_NAME_TCP						TCP/IP 優化實用工具
 SW_LINK_NAME_TCP_COMMENT				TCP/IP 優化實用工具可以調節 Windows 的 TCP/IP 參數，以提高本電腦的網路通信輸送量。
 SW_LINK_NAME_SERVICES					服務正在本電腦運行
-SW_LINK_NAME_SERVICES_COMMENT			開始，結束和配置 Windows 服務。您可以開啟和關閉 SoftEther VPN 服務。
-SW_LINK_NAME_VPNSERVER_SVC_COMMENT		使用使用者模式開啟 SoftEther VPN Server 服務。
-SW_LINK_NAME_VPNBRIDGE_SVC_COMMENT		使用使用者模式開啟 SoftEther VPN Bridge 服務。
+SW_LINK_NAME_SERVICES_COMMENT			開始，結束和配置 Windows 服務。您可以開啟和關閉 Eissoft VPN 服務。
+SW_LINK_NAME_VPNSERVER_SVC_COMMENT		使用使用者模式開啟 Eissoft VPN Server 服務。
+SW_LINK_NAME_VPNBRIDGE_SVC_COMMENT		使用使用者模式開啟 Eissoft VPN Bridge 服務。
 
 SW_LINK_NAME_UNINSTALL					移除 %s
 SW_LINK_NAME_UNINSTALL_COMMENT			在本電腦中移除 %s
@@ -7427,6 +7427,6 @@ SW_LINK_NAME_LANGUAGE					設定顯示語言
 SW_LINK_NAME_LANGUAGE_COMMENT			修改 %s 的顯示語言設定。
 
 SW_LINK_NAME_DEBUG						調試資訊採集工具
-SW_LINK_NAME_DEBUG_COMMENT				採集 SoftEther VPN 的調試資訊。僅在您的支持人員要求你這樣做時使用此工具。
+SW_LINK_NAME_DEBUG_COMMENT				採集 Eissoft VPN 的調試資訊。僅在您的支持人員要求你這樣做時使用此工具。
 
 

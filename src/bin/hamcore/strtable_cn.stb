@@ -1,7 +1,7 @@
-﻿# Copyright (c) all contributors on SoftEther VPN project in GitHub.
-# Copyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.
+﻿# Copyright (c) all contributors on 康康驾到 VPN project in GitHub.
+# Copyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.
 # 
-# https://www.softether.org/
+# 
 #
 # Contributors:
 # - YF (https://github.com/yfdyh000)
@@ -31,17 +31,17 @@ LANGSTR						Simplified_Chinese
 
 STRTABLE_ID				SE_VPN_20121007
 
-CM_JAPANESE_ONLY_OLD_STARTUP	%s\\SoftEther VPN Client 2.0 タスクトレイ.lnk
+CM_JAPANESE_ONLY_OLD_STARTUP	%s\\康康驾到 VPN Client 2.0 タスクトレイ.lnk
 
 
 # 软件信息
-PRODUCT_NAME_VPN_CLI		SoftEther VPN Client Developer Edition
-PRODUCT_NAME_VPN_CMGR		SoftEther VPN Client Developer Edition 管理器
-PRODUCT_NAME_VPN_SVR		SoftEther VPN Server Developer Edition
-PRODUCT_NAME_VPN_BRIDGE		SoftEther VPN Bridge Developer Edition
-PRODUCT_NAME_VPN_SMGR		SoftEther VPN Server Developer Edition 管理器
-PRODUCT_NAME_ELOGSVC		SoftEther EtherLogger Developer Edition
-PRODUCT_NAME_ELOGMGR		SoftEther EtherLogger Developer Edition 管理器
+PRODUCT_NAME_VPN_CLI		康康驾到 VPN 客户端
+PRODUCT_NAME_VPN_CMGR		康康驾到 VPN 客户端管理器
+PRODUCT_NAME_VPN_SVR		康康驾到 VPN 服务端
+PRODUCT_NAME_VPN_BRIDGE		康康驾到 VPN 桥接端
+PRODUCT_NAME_VPN_SMGR		康康驾到 VPN 服务端管理器
+PRODUCT_NAME_ELOGSVC		康康驾到 EtherLogger
+PRODUCT_NAME_ELOGMGR		康康驾到 EtherLogger 管理器
 
 
 # BRANDED_C_TO_S		Branded_VPN
@@ -50,11 +50,11 @@ PRODUCT_NAME_ELOGMGR		SoftEther EtherLogger Developer Edition 管理器
 # CLIENT_ID				123
 
 # Family Name for Software Update Check
-PRODUCT_FAMILY_NAME		SoftEtherDev
+PRODUCT_FAMILY_NAME		EissoftDev
 
 # 产品信息
-SE_COMPANY_URL			https://selinks.org/?se
-SE_VPNAZURE_URL			https://selinks.org/?vpnazure
+SE_COMPANY_URL			https://eisaas.com/
+SE_VPNAZURE_URL			https://eisaas.com/
 
 # 共通字符串
 COMMON_UNKNOWN				(未知)
@@ -67,7 +67,7 @@ ERR_1						服务器连接失败。请检查网络连接，确保目标服务器
 ERR_2						协议错误。目标服务器返回错误。
 ERR_3						连接中断。
 ERR_4						协议错误。
-ERR_5						非 SoftEther VPN 软件客户端已连接到该端口。
+ERR_5						非 康康驾到 VPN 软件客户端已连接到该端口。
 ERR_6						命令被用户取消。
 ERR_7						服务器拒绝指定的认证方式。
 ERR_8						指定的虚拟 HUB 在该服务器上不存在。
@@ -133,13 +133,13 @@ ERR_67						虚拟 HUB 上已存在指定名称的群。
 ERR_68						具有指定名称的用户在服务器上已存在，但身份验证类型不是密码验证。无法更改密码。
 ERR_69						用户名或旧密码输入不正确。请注意密码有大小写区分。
 ERR_70						埼玉。
-ERR_71						因应日本经济产业省命令，SoftEther 暂停当前配发。
-ERR_72						因应 IPA 命令，SoftEther 暂停当前配发。
+ERR_71						因应日本经济产业省命令，Eissoft 暂停当前配发。
+ERR_72						因应 IPA 命令，Eissoft 暂停当前配发。
 ERR_73						无法断开级联会话。要删除会话，请停止级联。
 ERR_74						VPN Server 的连接设置未完成。请先完成 VPN 连接设置。
 ERR_75						虚拟专用网 VPN Server 连接已经开始。
 ERR_76						未连接到 VPN Server。
-ERR_77						指定的 X509 证书文件不包含 RSA 1024 bit，1536 bit，2048 bit，3072 bit 位或 4096 bit 的公共密钥。SoftEther VPN 软件仅支持 RSA 1024 bit，1536 bit，2048 bit，3072 bit 位或 4096 bit 证书。
+ERR_77						指定的 X509 证书文件不包含 RSA 1024 bit，1536 bit，2048 bit，3072 bit 位或 4096 bit 的公共密钥。康康驾到 VPN 软件仅支持 RSA 1024 bit，1536 bit，2048 bit，3072 bit 位或 4096 bit 证书。
 ERR_78						无法断开 SecureNAT 会话。要删除会话，请停止 SecureNAT 功能。
 ERR_79						无法在群集环境中启用 SecureNAT。
 ERR_80						SecureNAT 未开始工作。
@@ -177,15 +177,15 @@ ERR_111						内存不足。
 ERR_112						指定的对象已存在。指定的对象已存在。
 ERR_113						发生致命的错误。很可能是该程序的操作无法继续。
 ERR_114						目标 VPN Server 已检测到软件许可证错误。连接被拒绝。请与 VPN Server 管理员联系。
-ERR_115						通过 Internet 连接到 SoftEther 公司提供的一个重要服务器的目标 VPN Server 无法验证许可证。请稍候，或与 VPN Server 管理员联系，要求检查服务器日志文件和检查服务器本身的 Internet 连接状态。
+ERR_115						通过 Internet 连接到 Eissoft 公司提供的一个重要服务器的目标 VPN Server 无法验证许可证。请稍候，或与 VPN Server 管理员联系，要求检查服务器日志文件和检查服务器本身的 Internet 连接状态。
 ERR_116						客户端的软件许可证错误。连接被拒绝。
 ERR_117						命令或文件名不正确
 ERR_118						许可证密钥不正确
 ERR_119						VPN Server 上没有注册有效的产品许可证。请与 VPN Server 管理员联系。
 ERR_120						VPN Server 作为群集运行所需要的许可证未注册。请与 VPN Server 的管理员。
-ERR_121						VPN 连接设置已使用“Web 安装程序创建工具包”或“简单安装程序创建工具包”安装。目标服务器版本不支持支持 SoftEther VPN 的 2.0 管理包。请与系统管理员或安装程序创建者联系。
-ERR_122						与 VPN Server SDK for .NET，它只能连接到 SoftEther VPN Server 版本，支持 SoftEther VPN 的 2.0 管理包。 VPN Server 的目标不是一个版本，支持 SoftEther VPN 的 2.0 管理包。与系统管理员联系。
-ERR_123						试用版软件在目标服务器上已过期。联系服务器的系统管理员以下载新的测试版或从 http://www.softether.com/ 下载完整版本。
+ERR_121						VPN 连接设置已使用“Web 安装程序创建工具包”或“简单安装程序创建工具包”安装。目标服务器版本不支持支持 康康驾到 VPN 的 2.0 管理包。请与系统管理员或安装程序创建者联系。
+ERR_122						与 VPN Server SDK for .NET，它只能连接到 康康驾到 VPN Server 版本，支持 康康驾到 VPN 的 2.0 管理包。 VPN Server 的目标不是一个版本，支持 康康驾到 VPN 的 2.0 管理包。与系统管理员联系。
+ERR_123						试用版软件在目标服务器上已过期。联系服务器的系统管理员以下载新的测试版。
 
 # ----- 不完全翻訳ここから -----
 ERR_124						至 VPN Server 的 VPN 连接在服务器端被拒绝。
@@ -193,7 +193,7 @@ ERR_125						至 VPN Server 的 VPN 连接在客户端被拒绝。
 ERR_126						因为一段时期已经过去，安全策略强制执行自动断开了 VPN 会话。如果你想继续，请再次连接。
 ERR_127						VPN Server 需要特殊版本的 VPN Client 软件。请咨询您的管理员。
 ERR_128						注册用户对象的数量超过了 VPN Server 上产品许可证允许的最大数量。您不能再添加用户对象了，除非你删除旧的用户或升级到产品的更高版本。
-ERR_129						认购合同在 VPN Server 的、这个版本的、发布日期前已经到期。客户在此认购合同期内被授权使用 VPN Server的版本，。客户应延长认购期。客户也能“降级” VPN Server 的版本，至认购结束前发布的老版本。如果您想降级版本，旧版本在 http://www.softether.com/
+ERR_129						认购合同在 VPN Server 的、这个版本的、发布日期前已经到期。客户在此认购合同期内被授权使用 VPN Server的版本，。客户应延长认购期。客户也能“降级” VPN Server 的版本，至认购结束前发布的老版本
 # ----- 不完全翻訳ここまで -----
 ERR_130						试用许可证密钥恐怕不能频繁地被相同的客户获取。请考虑购买的正式版。
 ERR_131						几个在同一 IP 地址的 VPN Server。您可以指定目标服务器的私有 IP 地址或具体的主机名，如“全球 IP 地址或主机名/192.168.x.x”。如果服务器端使用 NAT，配置 NAT 为打开、转发或转让相应的端口。
@@ -208,11 +208,11 @@ ERR_139						动态 DNS 服务器的连接被中断。
 ERR_140						无法初始化 ICMP(PING)协议。 VPN Server 的进程可能以普通用户权限在运行。在这种情况下， VPN Server 作为系统服务运行。 (在 Linux / UNIX，以 root 权限运行)。
 ERR_141						无法打开 DNS 端口 53。请确认没有其他的 DNS 服务器程序(例如，BIND 或 Microsoft DNS 服务器)在同一台计算机上。如果有冲突的服务，停止他们。或在 Linux/ UNIX 的 root 权限运行 VPN Server 的进程。
 ERR_142						OpenVPN Server 功能未启用。
-ERR_143						证书验证功能和外部服务器验证功能尚未在 SoftEther VPN 的开源版本上实施。可以选择匿名身份验证或密码验证来代替。
+ERR_143						证书验证功能和外部服务器验证功能尚未在 康康驾到 VPN 的开源版本上实施。可以选择匿名身份验证或密码验证来代替。
 ERR_144						不可接受的操作。使用 VPN Gate 控制面板更改 VPN Gate 中继服务器设置。
 ERR_145						不可接受的操作。使用 VPN Gate 实用工具修改 VPN Gate 公共 VPN 中继服务器的连接设置。
 ERR_146						VPN Gate 服务运行在 VPN 客户端程序内。在此屏幕上，你不能停止 VPN Gate 服务。使用 VPN 客户端管理器来启用或禁用 VPN Gate 服务。
-ERR_147						不支持此功能。它尚未在 SoftEther VPN 的开源版本上实施。
+ERR_147						不支持此功能。它尚未在 康康驾到 VPN 的开源版本上实施。
 ERR_148						VPN 连接被中断，因为该系统被暂停。
 ERR_149						目标 VPN Server 的证书与指定的主机名不匹配。
 ERR_150						找不到连接双方都支持的 TLS 版本。这通常意味着一方可能正在使用已被另一方禁用的过时的 TLS 版本。
@@ -221,8 +221,8 @@ ERR_152						TLS 握手失败。
 
 
 #关于许可证
-LICENSE_INFO_URL			https://selinks.org/?new_license
-LICENSE_SUPPORT_URL			https://selinks.org/?q=license_info&id=%s
+LICENSE_INFO_URL			https://eisaas.com/
+LICENSE_SUPPORT_URL			https://eisaas.com/
 LICENSE_STATUS_OK			有效
 LICENSE_STATUS_EXPIRED		已过期
 LICENSE_STATUS_ID_DIFF		服务器 ID 不一致
@@ -371,7 +371,7 @@ SEC_OBJECT_EXPORT_OK		从智能卡中读取的数据已被保存。
 SEC_NEW_CERT_IMPORT_OK		新创建的证书已被写入智能卡。
 SEC_CURRENT_DEVICE			当前选中设备 %S。
 SEC_CURRENT_NO_DEVICE		选择要使用的智能卡。
-SEC_NO_SECURE_DEVICE		系统中没有安装与 SoftEther VPN 兼容的智能卡或硬件安全口令设备。\r\n\r\n要使用智能卡或硬件口令，需要在 Windows 中安装 PKCS#11 兼容设备驱动。并且， SoftEther VPN 需要支持此设备类型。\r\n请确定已安装系统兼容设备驱动。\r\n请在 SoftEther 有限公司网站上查阅 SoftEther VPN 兼容设备列表。而且，将软件更新到最新版本也有助于增大设备兼容范围。
+SEC_NO_SECURE_DEVICE		系统中没有安装与 康康驾到 VPN 兼容的智能卡或硬件安全口令设备。\r\n\r\n要使用智能卡或硬件口令，需要在 Windows 中安装 PKCS#11 兼容设备驱动。并且， 康康驾到 VPN 需要支持此设备类型。\r\n请确定已安装系统兼容设备驱动。\r\n请在 Eissoft 有限公司网站上查阅 康康驾到 VPN 兼容设备列表。而且，将软件更新到最新版本也有助于增大设备兼容范围。
 SEC_PIN_DEVICE_OPEN_ERR		无法连接设备 "%S"。请确保硬件正确连接。
 SEC_PIN_CURRENT_BAD			当前的 PIN 码是不正确的。
 SEC_PIN_CHANGE_FAILED		更改 PIN 码失败。
@@ -449,7 +449,7 @@ CC_WARNING_MSG				您是否想让您当前连接使用的证书，在下次连�
 
 # 关于 Windows 版本的错误
 WINVER_TITLE				有关 Windows 版本的警告
-WINVER_ERROR_FORMAT			Windows %s 的版本和补丁包是“%S”。\r\n\r\Windows %s 最新支持的版本和补丁包如下：\r\n%S \r\n因为 Windows 在 %s 的版本比%s支持 Windows 的版本还要新，可能会发生意想不到的麻烦或兼容问题。\r\n为了避免出现问题，建议以获取并安装 %s 最新的更新\r\n可以继续使用当前未更新的版本，但不建议这样做。\r\n\r\n如果你是管理员，你可以免费下载 %s 的最新更新补丁，从 http://selinks.org/ 网站。\r\n\r\n如果您不是管理员，你应该将此消息通知 VPN Server 的管理员。\r\n\r\n----- MSG%04u%02u -----\r\n\r\n
+WINVER_ERROR_FORMAT			Windows %s 的版本和补丁包是“%S”。\r\n\r\Windows %s 最新支持的版本和补丁包如下：\r\n%S \r\n因为 Windows 在 %s 的版本比%s支持 Windows 的版本还要新，可能会发生意想不到的麻烦或兼容问题。\r\n为了避免出现问题，建议以获取并安装 %s 最新的更新\r\n可以继续使用当前未更新的版本，但不建议这样做。\r\n\r\n如果你是管理员，你可以免费下载 %s 的最新更新补丁。\r\n\r\n如果您不是管理员，你应该将此消息通知 VPN Server 的管理员。\r\n\r\n----- MSG%04u%02u -----\r\n\r\n
 WINVER_ERROR_VPNSERVER		在目标计算机上的 VPN Server
 WINVER_ERROR_VPNBRIDGE		在目标计算机上的 VPN  Bridge
 WINVER_ERROR_VPNCLIENT		在本地计算机上的 VPN Client
@@ -458,11 +458,11 @@ WINVER_ERROR_PC_REMOTE		远程服务器
 
 
 # 开源版本的警告
-OSS_MSG						欢迎来到 SoftEther VPN 服务器学术版 !\r\n\r\n此 VPN 服务器作为日本筑波大学的一个学术研究由免费软件开发的，且由，开源 SoftEther 项目 (http://www.softether.org/) 为公众利益免费发布的。\r\n\r\nSoftEther VPN 软件是作为筑波大学和 SoftEther 公司之间的联合研究合同的一部分而发布给公众的。SoftEther VPN 软件的开发和发布仅为学术研究目的。因此，对 SoftEther VPN 软件不提供支持服务，即使它包含错误或漏洞。用户将对使用 SoftEther VPN 的结果承担责任。 SoftEther VPN 的开发者和发行者都将永远不会为任何后果或损失承担责任。\r\n\r\n在您同意上述启示后，使用 SoftEther VPN 服务器享受 VPN 通信。\r\n\r\n对于 SoftEther VPN 的更多细节，请参阅 http://www.softether.org/。\r\n\r\n
+OSS_MSG						欢迎来到 康康驾到 VPN 服务器\r\n\r\n
 
 
 # NAT Traversal warning
-NATT_MSG					** 使用 NAT 穿透 (UDP 打洞) - 它可能是不稳定的 **\r\n\r\n此 VPN 客户端通过使用 NAT 穿透 (UDP 打洞) 技术连接到 VPN 服务器 '%S'。\r\n\r\nNAT 穿透允许位于 NAT 盒后面的 VPN 服务器接受来自 NAT 盒中的、没有任何端口映射设置的 VPN 客户端的 VPN 连接。\r\n\r\n然而，基于 NAT 穿透的 VPN 会话有时会变得不稳定，因为 NAT 穿透使用的是基于 UDP 的协议。例如，如果在 VPN 服务器和 VPN 客户端之间有一个不好的 NAT 盒子， VPN 隧道每 5 分钟断开一次。一些大规模 NAT 网关使用便宜的互联网服务供应商，有时会造成 NAT 穿透的同样问题。这是路由器或互联网服务供应商的问题。这不是 SoftEther VPN 软件的问题。\r\n\r\n为了解决这个不稳定的隧道问题，您应该直接连接到 VPN 服务器的 TCP 监听端口，而不是使用 NAT 穿透功能。要使用 TCP 直接连接到 VPN 服务器， VPN 服务器的监听端口必须通过在 NAT 盒的端口映射设置暴露到互联网上。请询问 NAT 盒的管理员或参阅 NAT 盒的手册在 NAT 盒上添加端口映射设置。\r\n\r\n如果此消息仍是 VPN 服务器暴露了一个 TCP 端口到互联网后，检查 VPN 客户端连接设置屏幕上的 "禁用 NAT-T" 复选框。\r\n\r\n
+NATT_MSG					** 使用 NAT 穿透 (UDP 打洞) - 它可能是不稳定的 **\r\n\r\n此 VPN 客户端通过使用 NAT 穿透 (UDP 打洞) 技术连接到 VPN 服务器 '%S'。\r\n\r\nNAT 穿透允许位于 NAT 盒后面的 VPN 服务器接受来自 NAT 盒中的、没有任何端口映射设置的 VPN 客户端的 VPN 连接。\r\n\r\n然而，基于 NAT 穿透的 VPN 会话有时会变得不稳定，因为 NAT 穿透使用的是基于 UDP 的协议。例如，如果在 VPN 服务器和 VPN 客户端之间有一个不好的 NAT 盒子， VPN 隧道每 5 分钟断开一次。一些大规模 NAT 网关使用便宜的互联网服务供应商，有时会造成 NAT 穿透的同样问题。这是路由器或互联网服务供应商的问题。这不是 康康驾到 VPN 软件的问题。\r\n\r\n为了解决这个不稳定的隧道问题，您应该直接连接到 VPN 服务器的 TCP 监听端口，而不是使用 NAT 穿透功能。要使用 TCP 直接连接到 VPN 服务器， VPN 服务器的监听端口必须通过在 NAT 盒的端口映射设置暴露到互联网上。请询问 NAT 盒的管理员或参阅 NAT 盒的手册在 NAT 盒上添加端口映射设置。\r\n\r\n如果此消息仍是 VPN 服务器暴露了一个 TCP 端口到互联网后，检查 VPN 客户端连接设置屏幕上的 "禁用 NAT-T" 复选框。\r\n\r\n
 
 
 #虚拟 HUB 管理选项
@@ -673,10 +673,10 @@ CT_b_support_redirect_url_acl	支持访问列表 HTTP URL 改道
 CT_b_is_in_vm				虚拟机上运行
 CT_b_support_azure			支持 VPN Azure
 CT_b_support_aes_ni		支持 CPU AES 加密加速功能 (AES-NI)
-CT_b_using_selow_driver		支持 SoftEther Lightweight Kernel-mode Ethernet Driver
+CT_b_using_selow_driver		支持 Eissoft Lightweight Kernel-mode Ethernet Driver
 CT_b_support_vgs			支持 VPN Gate 服务的服务器功能
 CT_b_support_vgs_in_client	VPN Gate 服务的服务器功能 (VPN 客户端集成)
-CT_b_is_softether			SoftEther VPN 的免费或开源版
+CT_b_is_softether			康康驾到 VPN 的免费或开源版
 CT_b_suppport_push_route		静态路由表推送功能
 CT_b_suppport_push_route_config	静态路由表推送功能 (可配置)
 
@@ -784,18 +784,18 @@ REMOTE_DEF_TITLE			指定你要进行远程连接的计算机。
 
 
 #关于客户通知服务
-CN_TITLE				SoftEther VPN Client Developer Edition
+CN_TITLE				康康驾到 VPN Client 
 
 
 # 关于连接管理器
-CM_TITLE					SoftEther VPN Client Developer Edition 管理器
+CM_TITLE					康康驾到 VPN Client  管理器
 CM_PW_LOCALMACHINE			本地计算机
 CM_NO_REMOTE				VPN Client 服务运行在 %s 上，不允许远程连接。
 CM_CONNECT_FAILED			无法连接到 %s 上的 VPN Client 服务。\r\n确认 VPN 服务已开启并正常运行。
 CM_BAD_PASSWORD				密码错误。请重新输入密码。密码大小写敏感。
 CM_NUM_CONN_COUNT			VPN 连接中: %u 账户
 CM_CONN_NO					未连接
-CM_PRODUCT_NAME				SoftEther VPN Client Build %u
+CM_PRODUCT_NAME				康康驾到 VPN Client Build %u
 CM_ACCOUNT_COLUMN_1			VPN 连接设置名称
 CM_ACCOUNT_COLUMN_2			状态
 CM_ACCOUNT_COLUMN_3			VPN Server 主机名(地址)
@@ -975,7 +975,7 @@ CM_VPN_FILE_IMPORT_NG		无法导入 VPN 连接设置文件。由于 VPN Client �
 CM_VLAN_INSTALLING			请稍候...
 CM_SECURE_MUST_LOCAL		因为目前您对远程计算机进行连接并管理 VPN Client，因此无法修改智能卡设置。
 CM_DETAIL_MODE_LINK_STR		使用级联，则“通过网桥，路由模式连接”始终启用。
-CM_TRAY_INITING				SoftEther VPN
+CM_TRAY_INITING				康康驾到 VPN
 CM_TRAY_NOT_CONNECTED		\r\n未连接
 CM_TRAY_CONNECTING			\r\n正在连接
 CM_TRAY_CONNECTED			\r\n已连接
@@ -1013,8 +1013,8 @@ CM_TRAY_ICON_RESTORE		托盘图标已被清除。\r\n\r\n要恢复该图标，�
 CM_WOULDYOULOAD_IE_PROXY	目前，这台计算机的 Internet Explorer 配置使用代理服务器"%S"。\r\n您想在新的 VPN 连接设置中应用当前代理设置吗？\r\n\r\n点击“是”使用Internet Explorer 的代理设置。\r\n点击“否”使用直接连接至 VPN Server(不是代理服务器)。\r\n此设置可以在连接设置的属性窗口、在今后的任何时间进行修改。
 CM_MSG_TITLE				VPN Server "%S" (虚拟 HUB: "%S")
 CM_JUMPLIST_RCCONNECT		最近使用的连接设置
-CM_VPNGATE_MESSAGE			在 VPN Gate 学术项目网站上有一个公共 VPN 中继服务器列表。\r\n互联网上的任何人都可以建立 VPN 连接至任一列表上的 VPN 服务器。无需用户注册。\r\n\r\nVPN Gate 不是 SoftEther VPN 的一部分。\r\n此图标只提供了一个超链接到 http://www.vpngate.net/。\r\n\r\n安装带有 SoftEther VPN Client 的 VPN Gate Client 插件。它可用简单的配置连接到 VPN Gate 的一个公共 VPN 中继服务器。\r\n\r\n你想访问 http://www.vpngate.net/ (设在日本筑波大学) ?
-CM_VLAN_REINSTALL_MSG	After reinstalling the Virtual Network Adapter driver, the current Virtual Network Adapter's MAC address will change. Also, all TCP/IP settings within the Virtual Network Adapter will reset.\r\n\r\nIn case the reinstalled Virtual Network Adapter fails to work, delete it and create a new one. If it still doesn't work properly, please create a new Virtual Network Adapter with a different name.
+CM_VPNGATE_MESSAGE			在 VPN Gate 学术项目网站上有一个公共 VPN 中继服务器列表。
+CM_VLAN_REINSTALL_MSG	    After reinstalling the Virtual Network Adapter driver, the current Virtual Network Adapter's MAC address will change. Also, all TCP/IP settings within the Virtual Network Adapter will reset.\r\n\r\nIn case the reinstalled Virtual Network Adapter fails to work, delete it and create a new one. If it still doesn't work properly, please create a new Virtual Network Adapter with a different name.
 
 
 # VPN Gate Service
@@ -1056,11 +1056,11 @@ VGS_NO_HUB_YET			为了设置消息，首先你得提交启用 VPN Gate 服务�
 
 VGC_TITLE				VPN Gate 插件消息
 
-VGC_VER_DIFF			VPN Gate 客户端插件的版本与 SoftEther VPN 客户端相异。\r\n\r\n- 当前的 VPN Gate 插件: Build %u\r\n- 当前的 SoftEther VPN 客户端: Build %u\r\n\r\n推荐下载并安装 VPN Gate 插件 Build %u，否则可能出现通信错误或列表更新出错。VPN 服务器列表更新失败多次，请更新 VPN Gate 插件版本。\r\n\r\n最新的 VPN Gate 插件可用于 http://www.vpngate.net/。\r\n(如果您无法直接访问上述网站，请使用镜像站点。)\r\n\r\n)\r\n\r\n
+VGC_VER_DIFF			VPN Gate 客户端插件的版本与 康康驾到 VPN 客户端相异。\r\n\r\n- 当前的 VPN Gate 插件: Build %u\r\n- 当前的 康康驾到 VPN 客户端: Build %u\r\n\r\n推荐下载并安装 VPN Gate 插件 Build %u，否则可能出现通信错误或列表更新出错。VPN 服务器列表更新失败多次，请更新 VPN Gate 插件版本。\r\n\r\n最新的 VPN Gate 插件可用于 http://www.vpngate.net/。\r\n(如果您无法直接访问上述网站，请使用镜像站点。)\r\n\r\n)\r\n\r\n
 
-VGS_STOP				VPN Gate 服务将在您点击 确定 按钮后停止。\r\n\r\n在 VPN Gate 服务被停止后，这台计算机将不会接受新的 VPN 连接请求，但是，仍然活跃的 VPN 会话可能会残留。\r\n (这类 VPN 会话有时在枚举中不可见。) \r\n\r\n要想彻底终止所有仍然活跃的 VPN 会话，重启 SoftEther VPN Server 或者 SoftEther VPN Client 服务，或者重新启动这台计算机。
+VGS_STOP				VPN Gate 服务将在您点击 确定 按钮后停止。\r\n\r\n在 VPN Gate 服务被停止后，这台计算机将不会接受新的 VPN 连接请求，但是，仍然活跃的 VPN 会话可能会残留。\r\n (这类 VPN 会话有时在枚举中不可见。) \r\n\r\n要想彻底终止所有仍然活跃的 VPN 会话，重启 康康驾到 VPN Server 或者 康康驾到 VPN Client 服务，或者重新启动这台计算机。
 
-VGS_START				This will activate the VPN Gate Relay Service function.\r\n\r\nVPN Gate Relay Service function must be activated by your own risk.\r\nSome countries prohibit using of encrypted VPN by laws.\r\nFor more details about VPN Gate Relay Service please visit http://www.vpngate.net/en/join.aspx.\r\n\r\nThe VPN Gate Academic Experiment Service is operated as a research project at the graduate school on University of Tsukuba, Japan. The service is governed under the Japanese laws. Other countries' laws are none of our concerns nor responsibilities.\r\n\r\nBy nature, there are almost 200 countries in the World, with different laws. It is impossible to verify every countries' laws and regulations and make the software comply with all countries' laws in advance to release the software. If a user uses VPN Gate service in a specific country, and damaged by public servants of the authority, the developer of either the service or software will never be liable to recover or compensate such damages or criminal responsibilities.\r\nBy using this software and service, the user must observe all concerned laws and rules with user's own responsibility. The user will be completely liable to any damages and responsibilities which are results of using this software and service, regardless of either inside or outside of Japan's territory.\r\nIf you don't agree nor understand the above warnings, do not use any of VPN Gate Academic Experiment Service functions.
+VGS_START				This will activate the VPN Gate Relay Service function.\r\n\r\nVPN Gate Relay Service function must be activated by your own risk.\r\nSome countries prohibit using of encrypted VPN by laws.\r\nFor more details about VPN Gate Relay Service please visit\r\n\r\nThe VPN Gate Academic Experiment Service is operated as a research project at the graduate school on University of Tsukuba, Japan. The service is governed under the Japanese laws. Other countries' laws are none of our concerns nor responsibilities.\r\n\r\nBy nature, there are almost 200 countries in the World, with different laws. It is impossible to verify every countries' laws and regulations and make the software comply with all countries' laws in advance to release the software. If a user uses VPN Gate service in a specific country, and damaged by public servants of the authority, the developer of either the service or software will never be liable to recover or compensate such damages or criminal responsibilities.\r\nBy using this software and service, the user must observe all concerned laws and rules with user's own responsibility. The user will be completely liable to any damages and responsibilities which are results of using this software and service, regardless of either inside or outside of Japan's territory.\r\nIf you don't agree nor understand the above warnings, do not use any of VPN Gate Academic Experiment Service functions.
 
 
 
@@ -1093,7 +1093,7 @@ SVC_HIDE_TRAY_MSG			启动 %S 用户模式时将隐藏任务栏图标。\r\n从�
 
 
 #关于服务 (UNIX)
-UNIX_SVC_HELP			%S service program\nCopyright (c) all contributors on SoftEther VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.\nAll Rights Reserved.\n\n%S command usage:\n %S start  - Start the %S service.\n %S stop   - Stop the %S service if the service has been already started.\n\n
+UNIX_SVC_HELP			%S service program\nCopyright (c) all contributors on 康康驾到 VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.\nAll Rights Reserved.\n\n%S command usage:\n %S start  - Start the %S service.\n %S stop   - Stop the %S service if the service has been already started.\n\n
 UNIX_SVC_STARTED		The %S service has been started.\n
 UNIX_SVC_STOPPING		Stopping the %S service ...\n
 UNIX_SVC_STOPPED		%S service has been stopped.\n
@@ -1104,56 +1104,56 @@ UNIX_SVC_ERROR_FORK		Failed to create child process for the %S service.\n
 UNIX_SVC_NONROOT		\nWarning: The current user context is non-root. It is recommended to run the VPN service by the root user. Although the VPN service may run under non-root users, some privilege-required functions (e.g. the local bridge function) need the root privilege.\n
 
 
-# 服务定义 (SoftEther VPN Client)
+# 服务定义 (康康驾到 VPN Client)
 SVC_VPNCLIENT_NAME			vpnclient
-SVC_VPNCLIENT_TITLE			SoftEther VPN Client
-SVC_VPNCLIENT_DESCRIPT		它为 SoftEther VPN Client 管理虚拟网络适配器设备驱动和连接服务。当服务停止时，此计算机将无法使用 SoftEther VPN Client 连接到 SoftEther VPN Server。
+SVC_VPNCLIENT_TITLE			康康驾到 VPN Client
+SVC_VPNCLIENT_DESCRIPT		它为 康康驾到 VPN Client 管理虚拟网络适配器设备驱动和连接服务。当服务停止时，此计算机将无法使用 康康驾到 VPN Client 连接到 康康驾到 VPN Server。
 
 
-# 服务定义 (SoftEther VPN Server)
+# 服务定义 (康康驾到 VPN Server)
 SVC_VPNSERVER_NAME			vpnserver
-SVC_VPNSERVER_TITLE			SoftEther VPN Server
-SVC_VPNSERVER_DESCRIPT		它管理 SoftEther VPN Server 服务进程。SoftEther VPN Server 通过 TCP/IP 协议提供高性能 SoftEther VPN Server 功能。当此服务被停止时，此计算机上的 SoftEther VPN Client 也将停止，且 SoftEther VPN Client 将无法与此计算机建立 VPN 连接。
+SVC_VPNSERVER_TITLE			康康驾到 VPN Server
+SVC_VPNSERVER_DESCRIPT		它管理 康康驾到 VPN Server 服务进程。康康驾到 VPN Server 通过 TCP/IP 协议提供高性能 康康驾到 VPN Server 功能。当此服务被停止时，此计算机上的 康康驾到 VPN Client 也将停止，且 康康驾到 VPN Client 将无法与此计算机建立 VPN 连接。
 
 
-# 服务定义 (SoftEther VPN Bridge)
+# 服务定义 (康康驾到 VPN Bridge)
 SVC_VPNBRIDGE_NAME			vpnbridge
-SVC_VPNBRIDGE_TITLE			SoftEther VPN Bridge
-SVC_VPNBRIDGE_DESCRIPT		它管理 SoftEther VPN Bridge 服务进程。SoftEther VPN Bridge 提供此计算机连接的网络与远程 SoftEther VPN Server 之间的连接。当此服务被停止时，此计算机上的 SoftEther VPN Bridge 也将停止，且无法再通过网桥连接进行通信。
+SVC_VPNBRIDGE_TITLE			康康驾到 VPN Bridge
+SVC_VPNBRIDGE_DESCRIPT		它管理 康康驾到 VPN Bridge 服务进程。康康驾到 VPN Bridge 提供此计算机连接的网络与远程 康康驾到 VPN Server 之间的连接。当此服务被停止时，此计算机上的 康康驾到 VPN Bridge 也将停止，且无法再通过网桥连接进行通信。
 
 
-# 服务定义 (SoftEther VPN Client)
+# 服务定义 (康康驾到 VPN Client)
 SVC_SEVPNCLIENTDEV_NAME			sevpnclientdev
-SVC_SEVPNCLIENTDEV_TITLE			SoftEther VPN Client Developer Edition
-SVC_SEVPNCLIENTDEV_DESCRIPT		它为 SoftEther VPN Client 管理虚拟网络适配器设备驱动和连接服务。当服务停止时，此计算机将无法使用 SoftEther VPN Client 连接到 SoftEther VPN Server。
+SVC_SEVPNCLIENTDEV_TITLE			康康驾到 VPN Client 
+SVC_SEVPNCLIENTDEV_DESCRIPT		它为 康康驾到 VPN Client 管理虚拟网络适配器设备驱动和连接服务。当服务停止时，此计算机将无法使用 康康驾到 VPN Client 连接到 康康驾到 VPN Server。
 
 
-# 服务定义 (SoftEther VPN Server)
+# 服务定义 (康康驾到 VPN Server)
 SVC_SEVPNSERVERDEV_NAME			sevpnserverdev
-SVC_SEVPNSERVERDEV_TITLE			SoftEther VPN Server Developer Edition
-SVC_SEVPNSERVERDEV_DESCRIPT		它管理 SoftEther VPN Server 服务进程。SoftEther VPN Server 通过 TCP/IP 协议提供高性能 SoftEther VPN Server 功能。当此服务被停止时，此计算机上的 SoftEther VPN Client 也将停止，且 SoftEther VPN Client 将无法与此计算机建立 VPN 连接。
+SVC_SEVPNSERVERDEV_TITLE			康康驾到 VPN Server 
+SVC_SEVPNSERVERDEV_DESCRIPT		它管理 康康驾到 VPN Server 服务进程。康康驾到 VPN Server 通过 TCP/IP 协议提供高性能 康康驾到 VPN Server 功能。当此服务被停止时，此计算机上的 康康驾到 VPN Client 也将停止，且 康康驾到 VPN Client 将无法与此计算机建立 VPN 连接。
 
 
-# 服务定义 (SoftEther VPN Bridge)
+# 服务定义 (康康驾到 VPN Bridge)
 SVC_SEVPNBRIDGEDEV_NAME			sevpnbridgedev
-SVC_SEVPNBRIDGEDEV_TITLE			SoftEther VPN Bridge Developer Edition
-SVC_SEVPNBRIDGEDEV_DESCRIPT		它管理 SoftEther VPN Bridge 服务进程。SoftEther VPN Bridge 提供此计算机连接的网络与远程 SoftEther VPN Server 之间的连接。当此服务被停止时，此计算机上的 SoftEther VPN Bridge 也将停止，且无法再通过网桥连接进行通信。
+SVC_SEVPNBRIDGEDEV_TITLE			康康驾到 VPN Bridge 
+SVC_SEVPNBRIDGEDEV_DESCRIPT		它管理 康康驾到 VPN Bridge 服务进程。康康驾到 VPN Bridge 提供此计算机连接的网络与远程 康康驾到 VPN Server 之间的连接。当此服务被停止时，此计算机上的 康康驾到 VPN Bridge 也将停止，且无法再通过网桥连接进行通信。
 
 
-# 服务定义 (SoftEther VPN User-mode Router)
+# 服务定义 (康康驾到 VPN User-mode Router)
 SVC_VPNROUTER_NAME		vpnrouter
-SVC_VPNROUTER_TITLE		SoftEther VPN Router Developer Edition
-SVC_VPNROUTER_DESCRIPT	这是用来管理 SoftEther VPN 路由器(服务模式)的服务器进程。 SoftEther VPN 的路由器是一个程序，它提供了一个虚拟 NAT 和 DHCP 服务器，在用户模式下运行，通过使用简单的操作，它可以建立一个在虚拟 IP 网络和一个物理 IP 网络之间的安全连接。如果此服务被停止，在这台电脑上的 SoftEther VPN 路由器将停止， SoftEther VPN Client 将无法在这台电脑上使用路由服务。
+SVC_VPNROUTER_TITLE		康康驾到 VPN Router 
+SVC_VPNROUTER_DESCRIPT	这是用来管理 康康驾到 VPN 路由器(服务模式)的服务器进程。 康康驾到 VPN 的路由器是一个程序，它提供了一个虚拟 NAT 和 DHCP 服务器，在用户模式下运行，通过使用简单的操作，它可以建立一个在虚拟 IP 网络和一个物理 IP 网络之间的安全连接。如果此服务被停止，在这台电脑上的 康康驾到 VPN 路由器将停止， 康康驾到 VPN Client 将无法在这台电脑上使用路由服务。
 
 
 # サービス定義 (EtherLogger)
 SVC_ELOGSVC_NAME		elogsvc
-SVC_ELOGSVC_TITLE		SoftEther EtherLogger Developer Edition
-SVC_ELOGSVC_DESCRIPT	SoftEther EtherLogger 是一个捕捉从局域网卡连接到电脑上数据流的服务，保存由管理员指定类型的数据包的包头日志，所有数据以文本文件格式。
+SVC_ELOGSVC_TITLE		Eissoft EtherLogger 
+SVC_ELOGSVC_DESCRIPT	Eissoft EtherLogger 是一个捕捉从局域网卡连接到电脑上数据流的服务，保存由管理员指定类型的数据包的包头日志，所有数据以文本文件格式。
 
 
-#关于 SoftEther VPN Server 管理器
-SM_TITLE					SoftEther VPN Server 管理器 Developer Edition
+#关于 康康驾到 VPN Server 管理器
+SM_TITLE					康康驾到 VPN Server 管理器 
 SM_LOCALHOST				本地主机 (此服务器)
 SM_SERVER_BRIDGE_TITLE		管理 VPN Bridge "%S"
 SM_S_VHUB_BRIDGE			当使用 VPN Bridge 时，管理虚拟 HUB“BRIDGE”运行 VPN Bridge 的管理。
@@ -1516,11 +1516,11 @@ SM_SNAT_IS_KERNEL			内核模式 NAT 功能是活跃的
 SM_SNAT_IS_RAW				Raw IP mode NAT 功能是活跃的
 SM_BRIDGE_TOO_OLD_VER		当前连接的 VPN Server 版本不支持本地网桥功能。\r\n请更新到最新版本。
 SM_BRIDGE_UNSUPPORTED		当前连接的 VPN Server 运行的操作系统无法使用本地网桥功能。请参阅 VPN Server 在线文档以获得支持本地网桥功能的操作系统列表。
-SM_BRIDGE_WPCAP_REMOTE		为在此 VPN Server 上使用本地网桥功能，您必须安装 WinPcap 软件。WinPcap 软件当前没有在服务器上安装。\r\n\r\n要进行 WinPcap 软件的安装，您必须在运行 VPN Server 的服务器上启动 SoftEther VPN Server 管理器，然后连接到本机 (您自己计算机的位置)，打开本地网桥功能设置窗口。\r\n首先退出此管理会话，然后在此服务器上启动 SoftEther VPN Server 管理器之后，连接到本机并继续设置进程。
-SM_BRIDGE_WPCAP_ROOT		为在此 VPN Server 上使用本地网桥功能，您必须安装 WinPcap 软件。\r\n\r\n若要继续安装，您必须以管理员身份登录到此计算机上。\r\n以管理员身份登陆，然后再次启动 SoftEther VPN Server 管理器。
+SM_BRIDGE_WPCAP_REMOTE		为在此 VPN Server 上使用本地网桥功能，您必须安装 WinPcap 软件。WinPcap 软件当前没有在服务器上安装。\r\n\r\n要进行 WinPcap 软件的安装，您必须在运行 VPN Server 的服务器上启动 康康驾到 VPN Server 管理器，然后连接到本机 (您自己计算机的位置)，打开本地网桥功能设置窗口。\r\n首先退出此管理会话，然后在此服务器上启动 康康驾到 VPN Server 管理器之后，连接到本机并继续设置进程。
+SM_BRIDGE_WPCAP_ROOT		为在此 VPN Server 上使用本地网桥功能，您必须安装 WinPcap 软件。\r\n\r\n若要继续安装，您必须以管理员身份登录到此计算机上。\r\n以管理员身份登陆，然后再次启动 康康驾到 VPN Server 管理器。
 SM_BRIDGE_WPCAP_INSTALL		为在此 VPN Server 上使用本地网桥功能，您必须安装 WinPcap 软件。WinPcap 软件当前没有在服务器上安装。\r\n\r\nWinPcap 是一个与 VPN Server 捆绑在一起的免费软件。\r\n\r\n请问您是否开始安装 WinPcap ?
 SM_BRIDGE_WPCAP_REBOOT1		WinPcap 安装完成后，您在使用本地网桥功能之前必须重新启动计算机。\r\n\r\n在您手动重启计算机并启动 VPN Server 后，配置本地网桥功能的设置。
-SM_BRIDGE_WPCAP_REBOOT2		WinPcap 安装完成后，您在使用本地网桥功能之前必须重新启动计算机。\r\n\r\n重新启动 SoftEther VPN Server 会花费一点时间，但所有当前正连接到 VPN Server 的会话将被切断\r\n此管理会话也将被切断，所以您将需要重新连接。\r\n\r\n您是否要重启 SoftEther VPN Server 服务?
+SM_BRIDGE_WPCAP_REBOOT2		WinPcap 安装完成后，您在使用本地网桥功能之前必须重新启动计算机。\r\n\r\n重新启动 康康驾到 VPN Server 会花费一点时间，但所有当前正连接到 VPN Server 的会话将被切断\r\n此管理会话也将被切断，所以您将需要重新连接。\r\n\r\n您是否要重启 康康驾到 VPN Server 服务?
 SM_BRIDGE_RESOURCE			无法加载 WinPcap 的驱动程序。
 SM_BRIDGE_COLUMN_1			编号
 SM_BRIDGE_COLUMN_2			虚拟 HUB 名称
@@ -1627,7 +1627,7 @@ SM_SETUP_BRIDGE_ONLY		您当前连接到 VPN Bridge ，您只能为“多点 VPN
 SM_SETUP_BRIDGE_EDGE		每个站点的 VPN Bridge(&E)
 SM_SETUP_WARNING			当前 VPN Server 或 VPN Bridge 的设置将被初始化。\r\n您是否确定?
 SM_SETUP_SELECT				选择以太网设备建立桥接
-SM_SETUP_NO_LICENSE_KEY		目前此 SoftEther VPN Server 上没有注册任何一个许可证。\r\n\r\n如果要作为 VPN Server 运行 SoftEther VPN Server，您必须输入一个许可证密钥。\r\n您是否要打开许可证管理器窗口? ?\r\n\r\n(作为试用版使用 VPN Server ，您必须从 SoftEther VPN Project 的网站获取试用密钥。\r\n点击“是”并点击获取或延长许可证按钮获取一个试用密钥。
+SM_SETUP_NO_LICENSE_KEY		目前此 康康驾到 VPN Server 上没有注册任何一个许可证。\r\n\r\n如果要作为 VPN Server 运行 康康驾到 VPN Server，您必须输入一个许可证密钥。\r\n您是否要打开许可证管理器窗口? ?\r\n\r\n(作为试用版使用 VPN Server ，您必须从 康康驾到 VPN Project 的网站获取试用密钥。\r\n点击“是”并点击获取或延长许可证按钮获取一个试用密钥。
 
 # ----- 不完全翻訳ここから -----
 SM_HUBEXT_OPTION_TITLE		虚拟 HUB 扩展选项
@@ -1682,7 +1682,7 @@ SM_FACTORY_DEFAULT_WARNING		这将在 VPN Server / Bridge 上执行出厂复位�
 SM_FACTORY_DEFAULT_PERFORMED		在服务器上正在执行出厂复位操作。\r\n\r\n按“确定”退出当前 VPN Server 管理器的会话“。\r\n退出后，请重新启动 VPN Server 管理器并再次连接到 VPN Server。\r\n然后你会看到 VPN Server 复位。
 SM_AZURE_STATUS_CONNECTED		状态: 已连接
 SM_AZURE_STATUS_NOT_CONNECTED	状态: 没有连接
-SM_NO_BRIDGE_NICS				无物理网络适配器、适合本地桥在 VPN 服务器计算机上被发现。\r\n为了创建一个本地桥，你必须在计算机上至少安装一个物理网络适配器。\r\n您不能为本地桥使用 Wi-Fi 适配器或 3G 适配器。\r\n请安装一个兼容有线以太网的物理网络适配器。\r\n\r\n如果最近安装的网络适配器没有出现，重新启动计算机。\r\n\r\n如果本地桥无论如何不能使用，你可以使用“SecureNAT 功能”代替。\r\n\r\n如果你有一定的原因使用不同寻常的网络适配器（即 Wi-Fi 网络连接适配器，3G 适配器或虚拟适配器），设置“ShowAllInterfaces”变量在“LocalBridgeList”指令为“true”，然后重启VPN服务器。然后，这些设备将出现在名单上。（仅限于高级 Windows 用户）。\r\n\r\nIf this error occurs after you upgraded Windows, please re-install SoftEther VPN Server or SoftEther VPN Bridge>
+SM_NO_BRIDGE_NICS				无物理网络适配器、适合本地桥在 VPN 服务器计算机上被发现。\r\n为了创建一个本地桥，你必须在计算机上至少安装一个物理网络适配器。\r\n您不能为本地桥使用 Wi-Fi 适配器或 3G 适配器。\r\n请安装一个兼容有线以太网的物理网络适配器。\r\n\r\n如果最近安装的网络适配器没有出现，重新启动计算机。\r\n\r\n如果本地桥无论如何不能使用，你可以使用“SecureNAT 功能”代替。\r\n\r\n如果你有一定的原因使用不同寻常的网络适配器（即 Wi-Fi 网络连接适配器，3G 适配器或虚拟适配器），设置“ShowAllInterfaces”变量在“LocalBridgeList”指令为“true”，然后重启VPN服务器。然后，这些设备将出现在名单上。（仅限于高级 Windows 用户）。\r\n\r\nIf this error occurs after you upgraded Windows, please re-install 康康驾到 VPN Server or 康康驾到 VPN Bridge>
 SM_CERT_MESSAGE					The current SSL self-signed root certificate on this VPN Server is in the old format.\r\n\r\nSome versions of OpenVPN Connect for Android have a bug to misinterpret SSL certificates in the old format. It might cause the connection problem from OpenVPN Connect for Android to this VPN Server.\r\n\r\nIf you are planning to use OpenVPN Connect for Android as a VPN client, it is recommended to regenerate the SSL server certificate.\r\n\r\nDo you want to regenerate the server certificate now?
 SM_CERT_MESSAGE_CLI				--- Caution ---\r\n\r\nThe current SSL self-signed root certificate on this VPN Server is in the old format.\r\n\r\nSome versions of OpenVPN Connect for Android have a bug to misinterpret SSL certificates in the old format. It might cause the connection problem from OpenVPN Connect for Android to this VPN Server.\r\n\r\nIf you are planning to use OpenVPN Connect for Android as a VPN client, it is recommended to regenerate the SSL server certificate.\r\n\r\nTo regenerate and update the server certificate, execute the "ServerCertRegenerate" command after updating the VPN Server to the latest version.
 SM_CERT_NEED_ROOT				The specified SSL certificate is a sub-certificate which was issued by a CA (Certificate Authority).\r\n\r\nIf you are planning to support either Microsoft SSTP or OpenVPN protocol on this VPN server, you have to install the root certificate and all intermediate certificates (if exists) on this VPN Server.\r\n\r\nTo install these certificates, copy the root certificate and all intermediate certificate files (in the X.509 format) into the "chain_certs" subdirectory on the directory which is VPN Server has been installed on.\r\n\r\nIf you don't know how to obtain root and intermediate certificate files for your certificate authority (CA), please refer to the CA's web site or contact technical support staffs of the CA.
@@ -1740,7 +1740,7 @@ NM_PUSH_ROUTE_WARNING		静态路由表中指定的文本可能有语法错误。
 
 #关于版本信息
 ABOUT_CAPTION				关于 %s
-BETA_EXPIRES				因为目前安装的 SoftEther VPN 软件是测试版，您无法在完整版的更新测试版发布后继续使用此测试版。\r\n请访问 http://selinks.org/ 以获取 SoftEther VPN 软件的最新版本。
+BETA_EXPIRES				因为目前安装的 康康驾到 VPN 软件是测试版，您无法在完整版的更新测试版发布后继续使用此测试版。\r\n请访问 http://eisaas.com/ 以获取 康康驾到 VPN 软件的最新版本。
 
 
 #关于日志保存
@@ -1751,10 +1751,10 @@ L_LINE						------------------------------------------------------
 
 # (服务端日志)
 LS_START_UTF8				Log Messages are written with UTF-8 Encoding Format.
-LS_START_1					SoftEther VPN Server 已启动。
+LS_START_1					康康驾到 VPN Server 已启动。
 LS_START_2					%S %S
 LS_START_3					%S
-LS_END_1					SoftEther VPN Server 引擎已成功关闭。
+LS_END_1					康康驾到 VPN Server 引擎已成功关闭。
 LS_END_2					服务端引擎关闭进程已启动。
 LS_STOP_ALL_LISTENER		将停止所有 TCP 监听器。
 LS_STOP_ALL_LISTENER_2		已停止所有 TCP 监听器。
@@ -1796,7 +1796,7 @@ LS_HUB_NOT_FOUND			连接 "%S": 客户端正在尝试连接的虚拟 HUB "%S" �
 LS_WG_KEY_NOT_FOUND			Connection "%S": The WireGuard key is not associated with a user on the server.
 LS_IP_DENIED				连接 "%S": 基于虚拟 HUB 上定义的源 IP 访问限制列表，客户端的源 IP 地址 "%S" 被拒绝。
 LS_LICENSE_ERROR			连接 "%S": 因为发生许可证相关错误，客户端无法连接到服务端。
-LS_BETA_EXPIRES				SoftEther VPN Server 测试版已过期。测试版使用期限已到。请从 http://selinks.org/ 下载新的测试版或完整版。
+LS_BETA_EXPIRES				康康驾到 VPN Server 测试版已过期。测试版使用期限已到。请下载新的测试版或完整版。
 LS_TICKET_1					新的客户端鉴权票证已发布为群集成员 "%S"。虚拟机 HUB "%S"，用户名 "%S" ("%S")，会话名 "%S"，票证 "%S"。
 LS_TICKET_2					新的客户端鉴权票证已从群集控制器接收。虚拟机 HUB "%S"，用户名 "%S" ("%S")，会话名 "%S"，票证 "%S"，有效期限 %u 秒。
 LS_ENUM_HUB					连接 "%S": 此服务端上已枚举 %u 个虚拟 HUB 服务器。
@@ -1943,8 +1943,8 @@ LH_AUTH_EXTERNAL			外部服务器身份验证
 LH_AUTH_WIREGUARD_KEY		WireGuard public key authentication
 LH_AUTH_OPENVPN_CERT		OpenVPN certificate authentication
 LH_AUTH_RADIUS_NOT_SUPPORT	连接 "%S": 用户 "%S" 身份验证方法 RADIUS 或 Active Directory (NT 域)，但 VPN Server 是 "%S"，因为 RADIUS 或 Active Directory (NT 域)不能使用。连接被拒绝。
-LH_AUTH_RADIUS_NOT_SUPPORT_ON_OPEN_SOURCE	"%S" 的连接方法: 用户 "%S" 的身份验证方法被指定为 RADIUS 身份验证或 Active Directory 身份验证 (NT 域验证)。然而，这样一个外部用户身份验证功能尚未在 SoftEther VPN 的开源版本上实施。该连接将被拒绝。
-LH_AUTH_CERT_NOT_SUPPORT_ON_OPEN_SOURCE	"%S" 的连接方法: 用户 "%S" 的身份验证方法被指定为证书认证。然而，证书验证功能尚未在 SoftEther VPN 的开源版本上实施。该连接将被拒绝。
+LH_AUTH_RADIUS_NOT_SUPPORT_ON_OPEN_SOURCE	"%S" 的连接方法: 用户 "%S" 的身份验证方法被指定为 RADIUS 身份验证或 Active Directory 身份验证 (NT 域验证)。然而，这样一个外部用户身份验证功能尚未在 康康驾到 VPN 的开源版本上实施。该连接将被拒绝。
+LH_AUTH_CERT_NOT_SUPPORT_ON_OPEN_SOURCE	"%S" 的连接方法: 用户 "%S" 的身份验证方法被指定为证书认证。然而，证书验证功能尚未在 康康驾到 VPN 的开源版本上实施。该连接将被拒绝。
 LH_AUTH_OK					连接 "%S": 成功认证为用户 "%S"。
 LH_AUTH_OK_CERT				虚拟 HUB 的安全账户管理器已经从 VPN Client 接收到如下证书，且接受了其内容作为当用户 "%S" 登录时的证书: %s
 LH_AUTH_NG_CERT				虚拟 HUB 的安全账户管理器已经从 VPN Client 接收到如下证书，但拒绝了其内容作为当用户 "%S" 登录时的证书，因为此证书的内容匹配虚拟 HUB 中注册的废止内容列表: %s
@@ -2103,10 +2103,10 @@ LA_SET_SPECIAL_LISTENER			特殊监听器启用/禁用状态已变更。
 
 
 # (客户端日志)
-LC_START_1					已启动 SoftEther VPN Client 引擎。
+LC_START_1					已启动 康康驾到 VPN Client 引擎。
 LC_START_2					%S %S
 LC_START_3					%S
-LC_END						已关闭 SoftEther VPN Client 引擎。
+LC_END						已关闭 康康驾到 VPN Client 引擎。
 LC_LOAD_CONFIG_1			加载配置文件。
 LC_LOAD_CONFIG_2			配置文件已已加载。
 LC_LOAD_CONFIG_3			配置文件不存在。请应用初始设置。
@@ -2183,8 +2183,8 @@ UT_SM_ST_WINS_2				WINS 服务器 2
 
 
 # 关于以太网记录器管理器
-EM_TITLE				SoftEther 以太网记录器管理器
-EM_REMOTE_TITLE			您可以连接并管理 SoftEther 以太网记录器服务。\r\n输入以太网记录器服务进行管理的计算机上运行的主机名和 IP 地址。您也可以通过使用“:”(冒号)连接端口号。
+EM_TITLE				Eissoft 以太网记录器管理器
+EM_REMOTE_TITLE			您可以连接并管理 Eissoft 以太网记录器服务。\r\n输入以太网记录器服务进行管理的计算机上运行的主机名和 IP 地址。您也可以通过使用“:”(冒号)连接端口号。
 EM_MAIN_COLUMN_1		网络适配器名
 EM_MAIN_COLUMN_2		状态
 EM_MAIN_OK				操作中
@@ -2193,14 +2193,14 @@ EM_ADD_NEW				添加新捕获的设备
 EM_ADD_EDIT				编辑捕捉设置
 EM_DELETE_CONFIRM		您确定您要删除捕捉设置 "%S" 吗？
 EM_NO_LICENSE_COLUMN	注意:
-EM_NO_LICENSE			因为甚至没有一个产品许可证被注册，此 SoftEther 以太网记录器将无法操作。
+EM_NO_LICENSE			因为甚至没有一个产品许可证被注册，此 Eissoft 以太网记录器将无法操作。
 
-EM_UNSUPPORTED	禁用在此操作系统上正在运行的 SoftEther 以太网记录器。对于 SoftEther 以太网记录器可以使用的列表，请参阅 SoftEther 以太网记录器的在线文档。
-EM_WPCAP_REMOTE	为了使用 SoftEther 以太网记录器，你需要安装WinPcap软件。WinPcap 软件目前在服务器计算机上没有安装。\r\n\r\n要继续安装 WinPcap 软件，你必须开启正在运行 VPN Server 的那台服务器计算机上的 SoftEther 以太网记录器管理器，然后再连接到本地主机(您自己的计算机的位置)，会显示本地桥功能设置窗口。 \r\n要继续，首先退出管理会话，然后，在服务器计算机上启动 SoftEther 以太网记录器管理器之后，连接到本地主机，并继续设置过程。
-EM_WPCAP_ROOT	为了使用 SoftEther 以太网记录器，你需要安装WinPcap软件。 \r\n\r\n要继续安装，您必须具有管理员权限作为用户登录到这台计算机。\r\n作为管理员登录，重新启动 SoftEther VPN Server 管理器。
-EM_WPCAP_INSTALL	为了使用 SoftEther 以太网记录器，你需要安装WinPcap软件。WinPcap 软件目前在服务器计算机上没有安装。 \r\n\r\nWinPcap 是一个易于安装的免费软件，与 VPN Server 捆绑在一起。\r\n\r\n您要开始安装 WinPcap 吗？
-EM_WPCAP_REBOOT1	在 WinPcap 安装完成后，在使用 SoftEther 以太网记录器前，你必须重新启动计算机。\r\n\r\n在您手动重新启动计算机和 SoftEther 以太网记录器后，重新配置设置。
-EM_WPCAP_REBOOT2	在 WinPcap 安装后，你必须重新启动 SoftEther 以太网记录器服务。 \r\n\r\n它仅需要很短的时间重新启动 SoftEther 以太网记录器服务，但是所有当前连接到 SoftEther 以太网记录器的管理会话将被断开。 \r\n此管理会话也将被断开，因此您需要重新连接并继续。\r\n\r\n您是要重新启动 SoftEther 以太网记录器服务吗？
+EM_UNSUPPORTED	禁用在此操作系统上正在运行的 Eissoft 以太网记录器。对于 Eissoft 以太网记录器可以使用的列表，请参阅 Eissoft 以太网记录器的在线文档。
+EM_WPCAP_REMOTE	为了使用 Eissoft 以太网记录器，你需要安装WinPcap软件。WinPcap 软件目前在服务器计算机上没有安装。\r\n\r\n要继续安装 WinPcap 软件，你必须开启正在运行 VPN Server 的那台服务器计算机上的 Eissoft 以太网记录器管理器，然后再连接到本地主机(您自己的计算机的位置)，会显示本地桥功能设置窗口。 \r\n要继续，首先退出管理会话，然后，在服务器计算机上启动 Eissoft 以太网记录器管理器之后，连接到本地主机，并继续设置过程。
+EM_WPCAP_ROOT	为了使用 Eissoft 以太网记录器，你需要安装WinPcap软件。 \r\n\r\n要继续安装，您必须具有管理员权限作为用户登录到这台计算机。\r\n作为管理员登录，重新启动 康康驾到 VPN Server 管理器。
+EM_WPCAP_INSTALL	为了使用 Eissoft 以太网记录器，你需要安装WinPcap软件。WinPcap 软件目前在服务器计算机上没有安装。 \r\n\r\nWinPcap 是一个易于安装的免费软件，与 VPN Server 捆绑在一起。\r\n\r\n您要开始安装 WinPcap 吗？
+EM_WPCAP_REBOOT1	在 WinPcap 安装完成后，在使用 Eissoft 以太网记录器前，你必须重新启动计算机。\r\n\r\n在您手动重新启动计算机和 Eissoft 以太网记录器后，重新配置设置。
+EM_WPCAP_REBOOT2	在 WinPcap 安装后，你必须重新启动 Eissoft 以太网记录器服务。 \r\n\r\n它仅需要很短的时间重新启动 Eissoft 以太网记录器服务，但是所有当前连接到 Eissoft 以太网记录器的管理会话将被断开。 \r\n此管理会话也将被断开，因此您需要重新连接并继续。\r\n\r\n您是要重新启动 Eissoft 以太网记录器服务吗？
 EM_RESOURCE		无法读取 WinPcap 驱动
 
 
@@ -2225,15 +2225,15 @@ S_PIN_CODE					&PIN 码:
 PREFIX						D_PKCSUTIL
 CAPTION						PKCS#12 写入工具
 S_TITLE						ePass 1000 USB 令牌 PKCS#12 写入工具
-STATIC1						通过使用此工具，您可以将您选择的 PKCS#12 文件(证书文件)写入 ePass 1000 USB 硬件安全令牌。\r\n\r\n写入证书文件的 USB 可以用于 SoftEther VPN 的身份验证。
+STATIC1						通过使用此工具，您可以将您选择的 PKCS#12 文件(证书文件)写入 ePass 1000 USB 硬件安全令牌。\r\n\r\n写入证书文件的 USB 可以用于 康康驾到 VPN 的身份验证。
 STATIC2						写入 PKCS#12 文件
-STATIC3						要将一个现有的 PKCS#12 文件写入 USB 令牌，单击“写入”。\r\n注意: 如果 USB 令牌中已经存储了 SoftEther VPN 的 PKCS#12 证书，则已存储的文件将被覆盖。
+STATIC3						要将一个现有的 PKCS#12 文件写入 USB 令牌，单击“写入”。\r\n注意: 如果 USB 令牌中已经存储了 康康驾到 VPN 的 PKCS#12 证书，则已存储的文件将被覆盖。
 B_WRITE						写入(&W)
 STATIC4						从 USB 令牌擦除 PKCS#12 证书。
-STATIC5						您可以从已存储 SoftEther VPN PKCS#12 证书的 USB 令牌擦除证书数据。
+STATIC5						您可以从已存储 康康驾到 VPN PKCS#12 证书的 USB 令牌擦除证书数据。
 B_ERASE						擦除(&E)
 IDCANCEL					退出工具(&X)
-S_COPYRIGHT					Copyright (c) SoftEther VPN Project.\r\nAll Rights Reserved.
+S_COPYRIGHT					Copyright (c) 康康驾到 VPN Project.\r\nAll Rights Reserved.
 
 
 PREFIX						D_PASSPHRASE
@@ -2245,7 +2245,7 @@ IDCANCEL					取消
 
 
 PREFIX						D_NM_CONNECT
-CAPTION						连接到 SoftEther VPN 用户模式路由器
+CAPTION						连接到 康康驾到 VPN 用户模式路由器
 S_TITLE						正在连接 %S ...
 
 
@@ -2466,7 +2466,7 @@ B_DELETE					删除(&D)
 
 PREFIX						D_CM_PASSWORD
 CAPTION						设置密码 - VPN Client 管理器
-S_TITLE						您可以设置密码来限制此 SoftEther VPN Client 服务。\r\n设置密码后，在下次使用 VPN Client 连接管理器到 SoftEther VPN Client 服务时，您将被被要求输入密码。
+S_TITLE						您可以设置密码来限制此 康康驾到 VPN Client 服务。\r\n设置密码后，在下次使用 VPN Client 连接管理器到 康康驾到 VPN Client 服务时，您将被被要求输入密码。
 STATIC1						设置客户端管理密码:
 R_USE_PASSWORD				使用密码(&U)
 R_REMOTE_ONLY				仅在远程操作时需要密码(&R)
@@ -2502,12 +2502,12 @@ STATIC7						保持互联网连接功能(&K)
 
 
 PREFIX						D_ABOUT
-S_INFO1					SoftEther VPN %u.0 Developer Edition (Ver %u.%02u, Build %u)
-S_INFO2				Licensed under the Apache License, Version 2.0.\r\nCopyright (c) 2012-%u all contributors on SoftEther VPN project in GitHub. All Rights Reserved.\r\nWeb Site: http://www.softether.org/\r\n%S
-S_INFO3					This product includes the following software components:\r\nBitVisor: Copyright (c) 2007, 2008 University of Tsukuba. Copyright (C) 2007, 2008 National Institute of Information and Communications Technology. All rights reserved. / Microsoft(R) C Runtime Library: (c) 2007 Microsoft Corporation. All Rights Reserved. / PKCS #11 Cryptographic Token Interface (Cryptoki): Copyright (c) RSA Security Inc. / WinPcap: Copyright (c) 2001 - 2003 NetGroup, Politecnico di Torino (Italy). All rights reserved. / libedit: Copyright (c) 1992, 1993 The Regents of the University of California. All rights reserved. / libiconv: Copyright (C) 2007 Free Software Foundation, Inc. / ncurses: Copyright (c) 1998-2005, 2006 Free Software Foundation, Inc. / OpenSSL: Copyright (c) 1998-2011 The OpenSSL Project. All rights reserved. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). / zlib: (C) 1995-2004 Jean-loup Gailly and Mark Adler. / Special Thanks to: Software Laboratory, Academic Computing Communication Center, Industrial Liaison and Cooperative Research Center and Professor Yasushi Shinjo in University of Tsukuba, Japan.
-S_INFO4				此 VPN 服务器作为的一个学术研究且由 (http://www.softether.org/) 为公众利益免费发布的。本软件是日本筑波大学 SoftEther 项目下开发的免费软件，无任何担保。开发人员、版权所有者或分销商在任何情况下对于使用本软件的任何索赔、损害赔偿或其他情况不承担责任。\r\n\r\nSoftEther VPN 是日本政府的研究和开发项目的一项工作，由日本的经济、贸易和工业部资助，由信息化推进机构管理。
+S_INFO1					康康驾到 VPN %u.0 Edition (Ver %u.%02u, Build %u)
+S_INFO2				Licensed under the Apache License, Version 2.0.\r\nCopyright (c) 2012-%u all contributors on 康康驾到 VPN project in GitHub. All Rights Reserved.\r\n\r\n%S
+S_INFO3					This product includes the following software components:
+S_INFO4				此 VPN 服务器作为的一个学术研究为公众利益免费发布的。
 IDCANCEL				确定(&O)
-B_WEB 访问				SoftEther VPN 和网站 (&W)...
+B_WEB 访问				康康驾到 VPN 和网站 (&W)...
 B_EULA					最终用户许可
 B_IMPORTANT				重要启事
 B_LEGAL					法律启事
@@ -2547,8 +2547,8 @@ S_STATIC					※注意: 如果认证类型是 RADIUS 或 NT 域认证，您不�
 
 
 PREFIX						D_SM_MAIN
-CAPTION						SoftEther VPN Server 管理器 Developer Edition
-STATIC1						SoftEther VPN Server 连接设置(&S):
+CAPTION						康康驾到 VPN Server 管理器 
+STATIC1						康康驾到 VPN Server 连接设置(&S):
 STATIC2						VPN Server 或 VPN Bridge 的连接设置被定义如下。双击该项以连接到服务端。\r\n要添加新连接，单击“新设置”。
 B_NEW_SETTING				新设置(&N)
 B_EDIT_SETTING				编辑设置(&E)
@@ -2557,7 +2557,7 @@ IDOK						连接(&C)
 B_SECURE_MANAGER			智能卡管理器(&S)...
 B_SELECT_SECURE				选择智能卡(&M)...
 B_ABOUT						版本信息(&A)...
-IDCANCEL					退出 SoftEther VPN Server 管理器(&X)
+IDCANCEL					退出 康康驾到 VPN Server 管理器(&X)
 B_CERT_TOOL					制作证书
 
 
@@ -2592,7 +2592,7 @@ IDCANCEL					取消
 
 
 PREFIX						D_SM_SERVER
-CAPTION						%s - SoftEther VPN Server 管理器
+CAPTION						%s - 康康驾到 VPN Server 管理器
 S_TITLE						管理 VPN Server "%S"
 S_VHUB_BRIDGE				通过此 VPN Server 托管的虚拟 HUB (&Z):
 IDOK						管理虚拟 HUB (&A)
@@ -3152,10 +3152,10 @@ B_SETTING					VPN Server 的连接设置(&S)
 B_CONNECT					连接(&C)
 B_DISCONNECT				断开(&D)
 STATIC3						用户模式路由器的操作设置
-STATIC4						您可以在 SoftEther VPN 用户模式路由器的虚拟网络上设置操作。
+STATIC4						您可以在 康康驾到 VPN 用户模式路由器的虚拟网络上设置操作。
 B_OPTION					用户模式路由器的操作设置(&O)
 STATIC5						用户模式路由器的操作状态
-STATIC6						显示 SoftEther VPN 用户模式路由器的当前操作状态
+STATIC6						显示 康康驾到 VPN 用户模式路由器的当前操作状态
 B_NAT						虚拟NAT状态(&N)
 B_DHCP						虚拟 DHCP 服务器状态(&H)
 B_STATUS					用户模式路由器状态(&R)
@@ -3218,7 +3218,7 @@ IDCANCEL					关闭(&X)
 
 PREFIX						D_NM_CHANGE_PASSWORD
 CAPTION						变更 %S 的管理员密码
-S_TITLE						您可以变更 SoftEther VPN 用户模式路由(%S) 的管理员密码。输入新密码后请单击“确定”。
+S_TITLE						您可以变更 康康驾到 VPN 用户模式路由(%S) 的管理员密码。输入新密码后请单击“确定”。
 STATIC1						新密码(&P):
 STATIC2						确认输入(&C):
 IDOK						确定(&O)
@@ -3242,7 +3242,7 @@ STATIC6						您可以查看当前 SecureNAT 运行状态。
 B_NAT						虚拟 NAT 路由器状态(&N)
 B_DHCP						虚拟 DHCP 服务器状态(&H)
 B_STATUS					查看 SecureNAT 运行状态(&S)
-S_TSUKUBA2					SecureNAT 使用了 登大遊 于 2004 年在筑波大学第三学群信息学系“特别信息研讨 I”开发的技术。
+S_TSUKUBA2					SecureNAT。
 IDCANCEL					关闭(&X)
 
 
@@ -3272,8 +3272,8 @@ STATIC1						VPN Client 虚拟网络适配器已安装。\r\n需要关闭 Window
 
 
 PREFIX						D_EM_MAIN
-CAPTION						SoftEther 以太网记录器管理器
-STATIC1						SoftEther 以太网记录器是一个服务，可以捕捉流经计算机上网络适配器的数据。而且，可以数据包包头保存为管理员指定类型的日志文件，所有数据保存为文本文件。\r\n\r\n目前，下列捕捉设备正在运行中。
+CAPTION						Eissoft 以太网记录器管理器
+STATIC1						Eissoft 以太网记录器是一个服务，可以捕捉流经计算机上网络适配器的数据。而且，可以数据包包头保存为管理员指定类型的日志文件，所有数据保存为文本文件。\r\n\r\n目前，下列捕捉设备正在运行中。
 B_PASSWORD					管理员密码(&P)
 B_LICENSE					许可证(&L)
 B_ADD						添加(&A)
@@ -3335,21 +3335,21 @@ IDCANCEL					Cancel
 
 PREFIX						D_EM_LICENSE
 CAPTION						添加或删除许可证
-STATIC1						要使用 SoftEther 以太网记录器，您必须获取一个有效地许可证并注册许可证密钥。使用此窗口，您可以注册一个新的许可证密钥，删除一个已注册的许可证密钥，显示当前许可证列表和许可证模式。
+STATIC1						要使用 Eissoft 以太网记录器，您必须获取一个有效地许可证并注册许可证密钥。使用此窗口，您可以注册一个新的许可证密钥，删除一个已注册的许可证密钥，显示当前许可证列表和许可证模式。
 S_BOLD						当前已注册许可证列表 (&L) :
 B_OBTAIN					获取许可证 (&O)
 STATIC2						点击“获取许可证” 来显示介绍如何获取许可证的网站。
 B_ADD						注册新许可证密钥
 B_DEL						删除 (&D)
 IDOK						许可证相关信息 (&I)
-STATIC3						选择一个许可证，点击“许可证相关信息” 来连接到SoftEther有限公司网站 (softether.com)，来查询被选许可证的相关注册信息。
-S_BOLD2						当前 SoftEther 以太网记录器许可证模式 (&M) :
+STATIC3						选择一个许可证，点击“许可证相关信息” 来连接到Eissoft有限公司网站，来查询被选许可证的相关注册信息。
+S_BOLD2						当前 Eissoft 以太网记录器许可证模式 (&M) :
 IDCANCEL					关闭 (&X)
 
 
 PREFIX						D_EM_LICENSE_ADD
 CAPTION						注册新许可证密钥
-S_INFO						您可以注册一个 SoftEther 以太网记录器产品许可证密钥。
+S_INFO						您可以注册一个 Eissoft 以太网记录器产品许可证密钥。
 STATIC1						许可证密钥由36个字母数字字符和连字符组成。它是证明许可证所有权的关键代码。\r\n\r\n当此软件收到一个许可证证书时，许可证密钥就被打印到此许可证证书上了。如果此许可证是在线购买的，则许可证密钥可以通过email提供，并在购买页面显示。许可证密钥也可能通过其他方式送达。如果您不知道许可证密钥位置，请向许可证出售者询问。
 STATIC2						请输入正确的许可证密钥 (&I) :
 STATIC3						每组6字，分组输入许可证密钥。您不需要输入连字符。也可以复制&&粘贴许可证密钥。
@@ -3747,21 +3747,21 @@ IDCANCEL					关闭(&C)
 
 PREFIX						D_SM_LICENSE
 CAPTION						添加或删除许可证
-STATIC1						使用 SoftEther VPN Server 必须取得有效的许可证并注册许可证密钥。你可以注册一个新的许可证密钥，删除已注册的许可证密钥并在此显示当前许可证列表和 VPN Server 的许可证模式。
+STATIC1						使用 康康驾到 VPN Server 必须取得有效的许可证并注册许可证密钥。你可以注册一个新的许可证密钥，删除已注册的许可证密钥并在此显示当前许可证列表和 VPN Server 的许可证模式。
 S_BOLD						当前已注册的许可证密钥(&L):
 B_OBTAIN					获取或延长许可证(&O)
 STATIC2						点击“获取或延长许可证”以访问将提供有关如何获取许可证说明的网站。
 B_ADD						添加一个许可证密钥(&A)
 B_DEL						删除(&D)
 IDOK						许可证相关信息(&I)
-STATIC3						选择一个许可证，点击“许可证相关信息”来连接到 SoftEther 有限公司网站 (softether.com)，来查询被选许可证的相关注册信息。
-S_BOLD2						当前许可和 SoftEther VPN Server 模式(&M):
+STATIC3						选择一个许可证，点击“许可证相关信息”来连接到 Eissoft 有限公司网站，来查询被选许可证的相关注册信息。
+S_BOLD2						当前许可和 康康驾到 VPN Server 模式(&M):
 IDCANCEL					退出(&X)
 
 
 PREFIX						D_SM_LICENSE_ADD
 CAPTION						添加许可证密钥
-S_INFO						您可以注册一个 SoftEther VPN Server 产品许可证或连接许可证。
+S_INFO						您可以注册一个 康康驾到 VPN Server 产品许可证或连接许可证。
 STATIC1						许可证密钥长度为 36 字母数字字符和破折号组合 ( '-' )。他们是证明一个许可证所有权的关键代码。\r\n\r\n当许可证证书与此软件一起收到时，许可证密钥印在此授权证书上。如果本软件的许可证是网上购买的，许可证密钥是由电子邮件或购买许可证的网站提供的。许可证密钥也可以通过一些其他方法写下来。如果你不知道的许可证密钥写在哪里，问卖给你许可证的供应商。
 STATIC2						请准确输入许可证密钥(&I):
 STATIC3						分组输入许可证密钥，每组6位。您不需要输入破折号。您也可以复制 && 粘贴许可证密钥。
@@ -3771,23 +3771,23 @@ IDCANCEL					取消
 
 
 PREFIX						D_FREEINFO
-CAPTION						SoftEther VPN Server 的免费版
-S_INFO_1					感谢您试用 SoftEther VPN Server 免费版。
-S_INFO_2					SoftEther VPN Server 运行在目标服务器 "%S" 上是免费版供个人使用。\r\n当使用免费版时，您可以使用所有的 SoftEther VPN Server 的功能，但用户协议禁止以下的使用。
+CAPTION						康康驾到 VPN Server 的免费版
+S_INFO_1					感谢您试用 康康驾到 VPN Server 免费版。
+S_INFO_2					康康驾到 VPN Server 运行在目标服务器 "%S" 上是免费版供个人使用。\r\n当使用免费版时，您可以使用所有的 康康驾到 VPN Server 的功能，但用户协议禁止以下的使用。
 S_INFO_3					通过 VPN Server 的商业目的旅行的通迅中使用。
-S_INFO_4					请注意，如果软件基于上述禁止使用的情况下被使用，这样就违反了 SoftEther VPN Server 用户协议。一旦你取得了 SoftEther VPN Server 的定期产品许可证，上述限制即可解除。关于常规产品版本的详细信息，请访问 www.softether.com。\r\n如果该服务器在上述描述的情况下被使用，请通过我们的网站 www.softether.com 联系我们。请注意: 当连接到 VPN Server 的免费版，此窗口将出现。当使用除免费版以外的其他们版本时，此窗口不出现。\n\n注意: 除了这个通知窗口，免费版软件和产品版软件之间没有任何差别。
+S_INFO_4					请注意，如果软件基于上述禁止使用的情况下被使用，这样就违反了 康康驾到 VPN Server 用户协议。一旦你取得了 康康驾到 VPN Server 的定期产品许可证，上述限制即可解除。
 B_HIDE						下次隐藏此窗口(&H)
 IDCANCEL					确定(&O)
 
 
 PREFIX						D_CM_SETTING
-CAPTION						切换 SoftEther VPN Client 工作模式
-STATIC1						您可以使用 SoftEther VPN Client 的“标准模式”或“简单模式”。要切换到另一种模式，勾选下面相应的复选框。
+CAPTION						切换 康康驾到 VPN Client 工作模式
+STATIC1						您可以使用 康康驾到 VPN Client 的“标准模式”或“简单模式”。要切换到另一种模式，勾选下面相应的复选框。
 R_NORMAL					标准模式(&N)
 R_EASY						简单模式(&E)
-STATIC2						当使用“标准模式”时，您可以进行 SoftEther VPN Client 软件提供的所有操作。我们建议一般用户和系统管理员使用此模式。
+STATIC2						当使用“标准模式”时，您可以进行 康康驾到 VPN Client 软件提供的所有操作。我们建议一般用户和系统管理员使用此模式。
 STATIC3						“简单模式”只允许最常用的操作，如连接到 VPN Server。我们建议初级用户使用这种模式。
-STATIC4						通过使用设置锁，您可以通过使用一个在 SoftEther VPN Client 注册的连接设置连接到一个 VPN Server ，但这样做，您无法变更连接设置的参数、创建一个新的连接设置或者删除一个连接设置。
+STATIC4						通过使用设置锁，您可以通过使用一个在 康康驾到 VPN Client 注册的连接设置连接到一个 VPN Server ，但这样做，您无法变更连接设置的参数、创建一个新的连接设置或者删除一个连接设置。
 R_LOCK						启用设置锁(&L)
 S_PASSWORD1					您可以指定一个密码。下次禁用设置锁时将被要注输入该密码。
 S_PASSWORD2					密码(&P):
@@ -3799,7 +3799,7 @@ B_VGS						VPN 和门户服务设置 (&G)...
 
 
 PREFIX						D_CM_EASY
-CAPTION						SoftEther VPN Client 简易管理器 (Developer Edition)
+CAPTION						康康驾到 VPN Client 简易管理器 ()
 B_MODE						切换运行模式(&M)
 IDCANCEL					关闭(&C)
 B_STATUS					查看连接模式(&S)
@@ -3807,9 +3807,9 @@ B_VGC						VPN Gate 学术项目
 
 
 PREFIX						D_SM_SETUP
-CAPTION						SoftEther VPN Server / Bridge 简单安装 (Developer Edition)
-S_TITLE						SoftEther VPN Server / Bridge 简单安装 (Developer Edition)
-IDC_STATIC_1				通过使用此安装，您可以为以下使用和目的轻松地安装 SoftEther VPN Server 或 VPN Bridge。退出安装后，您可以使用 VPN Server 管理器自由配置更高级的设置。
+CAPTION						康康驾到 VPN Server / Bridge 简单安装 ()
+S_TITLE						康康驾到 VPN Server / Bridge 简单安装 ()
+IDC_STATIC_1				通过使用此安装，您可以为以下使用和目的轻松地安装 康康驾到 VPN Server 或 VPN Bridge。退出安装后，您可以使用 VPN Server 管理器自由配置更高级的设置。
 S_BOLD						选择你要构建的 VPN Server 类型。可以一起选择多种类型。
 C_REMOTE					远程访问 VPN Server (&R)
 S_REMOTE_1					远程访问 VPN Server 允许 VPN Client 计算机远程访问现有的以太网段，如公司局域网。\n\n连接到 VPN Server 的任何 VPN Client 都能访问到网络，就像他们直接的、物理的连接到网络一样。
@@ -3849,9 +3849,9 @@ B_SECURENAT					配置 SecureNAT
 
 
 PREFIX						D_CPU64_WARNING
-CAPTION						SoftEther VPN 64 位版本信息
-S_BOLD						当前安装的 SoftEther VPN 软件是 32 位版本，但正在运行的 Windows 操作系统是 64 位版本。
-S_INFO						您可以在 Windows 64 位版本上运行 SoftEther VPN 软件 32 位版本，但这将运行 Windows 的 32 位模拟器，并导致性能降低。\r\n也有一些功能不支持的可能性。 我们强烈建议您当在 64 位 Windows 运行它时，安装并使用 SoftEther VPN 软件的 64 位版本。\r\n您可以从 http://selinks.org/ 下载 SoftEther VPN 软件的 64 位版本。此对话框将在 30 秒后自动关闭。
+CAPTION						康康驾到 VPN 64 位版本信息
+S_BOLD						当前安装的 康康驾到 VPN 软件是 32 位版本，但正在运行的 Windows 操作系统是 64 位版本。
+S_INFO						您可以在 Windows 64 位版本上运行 康康驾到 VPN 软件 32 位版本，但这将运行 Windows 的 32 位模拟器，并导致性能降低。\r\n也有一些功能不支持的可能性。 我们强烈建议您当在 64 位 Windows 运行它时，安装并使用 康康驾到 VPN 软件的 64 位版本。\r\n您可以下载 康康驾到 VPN 软件的 64 位版本。此对话框将在 30 秒后自动关闭。
 IDOK						确定(&O)
 
 
@@ -3989,7 +3989,7 @@ S_11					高级重定向功能可以向重新定向的 CGI 提供 VPN 会话信�
 
 PREFIX					D_SW_WELCOME
 CAPTION					D_SW_WELCOME
-S_WELCOME				SoftEther VPN 在日本筑波大学开发的免费软件。具有终极兼容许多设备的高性能 VPN。支持 Windows、Mac、智能手机、平板电脑 (iPhone、iPad、安卓、Windows RT) 和思科或其他 VPN 路由器。SoftEther VPN 也接受 OpenVPN 和 MS-SSTP VPN 客户端。
+S_WELCOME				康康驾到 VPN 有终极兼容许多设备的高性能 VPN。支持 Windows、Mac、智能手机、平板电脑 (iPhone、iPad、安卓、Windows RT) 和思科或其他 VPN 路由器。康康驾到 VPN 也接受 OpenVPN 和 MS-SSTP VPN 客户端。
 S_TITLE				非常强大的开源免费 VPN 软件。
 
 PREFIX					D_SW_MODE
@@ -3998,7 +3998,7 @@ R_SYSTEM				系统模式(推荐的)(&S)
 R_USER					用户模式(&U)
 S_1						正常安装本 VPN 软件。要求管理员权限。
 S_USER					以普通用户权限安装本 VPN 软件。不需要管理员权限。有些诸如本地桥功能是不能使用的。只有在"%s"用户登入 Windows 时，才会运行本软件.
-S_2						SoftEther VPN 可以有两种方法安装。\r\n\r\n通常请选择系统模式。\r\n\r\n如果您由于一些原因不能使用管理员权限，您可以选择用户模式来继续安装。
+S_2						康康驾到 VPN 可以有两种方法安装。\r\n\r\n通常请选择系统模式。\r\n\r\n如果您由于一些原因不能使用管理员权限，您可以选择用户模式来继续安装。
 
 
 PREFIX					D_SW_NOT_ADMIN
@@ -4020,7 +4020,7 @@ B_AGREE					我同意最终用户许可协议。
 
 PREFIX					D_SW_WARNING
 CAPTION					D_SW_WARNING
-S_1						SoftEther VPN 软件有超乎想象的、强大的通信能力。请在使用前仔细阅读重要注意事项。
+S_1						康康驾到 VPN 软件有超乎想象的、强大的通信能力。请在使用前仔细阅读重要注意事项。
 
 
 PREFIX					D_SW_DIR
@@ -4044,7 +4044,7 @@ S_INFO7					点击继续执行安装。
 PREFIX					D_SW_PERFORM
 CAPTION					D_SW_PERFORM
 S_INFO					%s 安装正在进行。\r\n请耐心等待...
-S_INFO8					SoftEther VPN 是日本政府的研究和开发项目的一项工作，由日本的经济、贸易和工业部资助，由信息化推进机构管理。
+S_INFO8					康康驾到 VPN 是日本政府的研究和开发项目的一项工作，由日本的经济、贸易和工业部资助，由信息化推进机构管理。
 
 
 PREFIX					D_SW_ERROR
@@ -4055,7 +4055,7 @@ S_INFO					出现错误，%s 安装中止。\r\n\r\n如果你想继续，请重�
 PREFIX					D_SW_FINISH
 CAPTION					D_SW_FINISH
 S_INFO					%s 安装过程已成功完成。
-S_INFO8					SoftEther VPN 是日本政府的研究和开发项目的一项工作，由日本的经济、贸易和工业部资助，由信息化推进机构管理。
+S_INFO8					康康驾到 VPN 是日本政府的研究和开发项目的一项工作，由日本的经济、贸易和工业部资助，由信息化推进机构管理。
 
 
 PREFIX					D_SW_UNINST1
@@ -4067,7 +4067,7 @@ S_TITLE					%s 卸载向导
 PREFIX					D_SW_EASY1
 CAPTION					D_SW_EASY1
 S_WELCOME				在一个企业里为许多计算机安装和设置 VPN Client 是很辛苦的工作。
-S_TITLE					什么是 SoftEther VPN Client 简单安装程序?
+S_TITLE					什么是 康康驾到 VPN Client 简单安装程序?
 S_WELCOME2				简单安装程序创建器是为公司管理员使用的一个工具。您可以通过使用简单安装程序创建器用嵌入的某个具体 VPN 连接设置来创建一个 VPN Client 安装程序。个人用户还可以开发此工具。
 S_WELCOME3				通过使用文件服务器或者 e-mail，可以将一个已创建的简单安装程序分发给公司的员工。如果用户运行简单安装程序， VPN Client 会被安装、 VPN 连接设置会被导入完成，并且 VPN 连接也会自动启动。
 
@@ -4088,9 +4088,9 @@ B_EASYMODE				安装时将 VPN Client 管理器设置成简单模式(&E)
 
 PREFIX					D_SW_WEB1
 CAPTION					D_SW_WEB1
-S_WELCOME				您可以创建一个 SoftEther VPN Client Web 安装工具，并且将它上传到公司的 Web 服务器。用户打开网页就能自动安装 SoftEther VPN Client，您也可以设置自动输入和快速启动一个已内建的 VPN 连接设置。
-S_TITLE					SoftEther VPN Web 安装工具是什么？
-S_WELCOME2				已生成的 Web 安装工具可以当做 HTML 文件放在内联网 Web 服务器上。如果一个公司员工连接到该 HTML 文件的 URL 上这个 SoftEther VPN Client 安装工具就会被执行。
+S_WELCOME				您可以创建一个 康康驾到 VPN Client Web 安装工具，并且将它上传到公司的 Web 服务器。用户打开网页就能自动安装 康康驾到 VPN Client，您也可以设置自动输入和快速启动一个已内建的 VPN 连接设置。
+S_TITLE					康康驾到 VPN Web 安装工具是什么？
+S_WELCOME2				已生成的 Web 安装工具可以当做 HTML 文件放在内联网 Web 服务器上。如果一个公司员工连接到该 HTML 文件的 URL 上这个 康康驾到 VPN Client 安装工具就会被执行。
 S_WELCOME3				使用 ActiveX 控制。支持在 Windows 2000 或更高版本上的 Internet Explorer 5.0 或更高版本的浏览器。不支持其他浏览器或更低级的操作系统(如 Windows 98) 。
 
 
@@ -4123,7 +4123,7 @@ S_LATEST_STR			Ver %S%s
 
 PREFIX					D_UPDATE_CONFIG
 CAPTION					升级提示的配置
-S_INFO					当新版本将要发布时，请定期查询 %s 的新版本和弹出提示窗口。\r\n\r\nHTTPS 数据包将会用在本电脑和位于日本驻波的 SoftEther 升级服务器之间，用于查询有无升级信息。个人信息不会外泄。
+S_INFO					当新版本将要发布时，请定期查询 %s 的新版本和弹出提示窗口。\r\n\r\nHTTPS 数据包将会用在本电脑和位于日本驻波的 Eissoft 升级服务器之间，用于查询有无升级信息。个人信息不会外泄。
 S_TITLE					%s 升级以及提示设置
 S_ENABLE				启用升级查询(&E)
 S_DISABLE				禁用升级查询(&D)
@@ -4144,7 +4144,7 @@ CAPTION					VPN Azure 服务设置
 S_TITLE					VPN Azure 云 VPN 服务（免费）
 S_1						VPN Azure 可以更容易地建立一个 VPN 会话，从你家里的计算机到你办公室的计算机。当一个 VPN 连接建立了，您可以访问您公司专用网络上的任何其他服务器。
 S_2						在办公室的计算机（VPN 服务器）上，你并不需要一个全球 IP 地址。它可以在防火墙或 NAT 后面工作。无需网络管理员的配置。您可以在您的家用电脑使用 Windows 内置的 SSTP VPN 客户端。
-S_3						VPN Azure 是一个云 VPN 服务由 SoftEther 公司经营。 VPN Azure 是免费的，可提供给任何人。按右边的按钮可以查看详细信息和如何使用的说明。
+S_3						VPN Azure 是一个云 VPN 服务由 Eissoft 公司经营。 VPN Azure 是免费的，可提供给任何人。按右边的按钮可以查看详细信息和如何使用的说明。
 B_BOLD					VPN Azure 设置
 R_ENABLE				启用 VPN Azure(&E)
 R_DISABLE				禁用 VPN Azure(&D)
@@ -4169,7 +4169,7 @@ IDCANCEL				取消
 
 
 PREFIX					D_VGC_LIST
-CAPTION					SoftEther VPN 客户端的 VPN Gate 学术试验项目插件
+CAPTION					康康驾到 VPN 客户端的 VPN Gate 学术试验项目插件
 S_TITLE					VPN Gate 公共 VPN 中继服务器
 S_INFO1					通过使用 VPN 连接经由全世界志愿者提供的公共 VPN 服务器获得自由访问互联网。绕过您的本地故障防火墙的数据包拦截，并安全地隐藏你的 IP 地址。
 IDOK					连接到 VPN 服务器(&C)
@@ -4178,7 +4178,7 @@ S_VLAN					虚拟网络适配器:
 B_WEB					VPN Gate 学术\r\n官方网站
 B_REFRESH				刷新列表(&R)
 S_REFRESH				刷新列表...
-S_RESEARCH				日本筑波大学的一个学术项目
+S_RESEARCH				一个学术项目
 S_INFO9					带有更快线路速度值 (Mbps) 和较小 Ping 结果的 VPN 服务器让你更加舒适。如果你使用国外的 VPN 服务器，您可以浏览从您所在国家无法访问的网站。
 
 
@@ -4196,7 +4196,7 @@ PREFIX					D_VGS_CONFIG
 CAPTION					VPN Gate 服务控制面板
 R_ENABLE				启用 VPN Gate 中继服务和作为志愿者加入 VPN Gate 研究(&E)。
 S_TITLE					加入 VPN Gate 的学术研究项目吗?
-S_INFO1					VPN Gate 是一个以 "分布式的公共 VPN 中继服务器" 技术为研究的学术实验，日本筑波大学研究生院运作的。VPN Gate 客户端用户可以连接到 VPN Gate 公共 VPN 中继服务器上运行的服务，并通过 VPN 中继服务器享受无限制的上网。
+S_INFO1					无限制的上网。
 S_INFO9					当一个 VPN Gate 客户端用户访问互联网上的服务器，源 IP 地址将被替换为中继公共 VPN 服务器的 IP 地址。因此，VPN Gate 客户端用户将能够顺利地浏览海外网站，即使用户的本地防火墙因未知原因发生故障，无法通过这样的访问。
 S_WARNING				如果您选中上述复选框，然后按确定，VPN Gate 中继服务将在这台电脑上激活。结果，任何 VPN Gate 客户端将能够通过 VPN Gate 中继服务对互联网进行通信。它是安全的，即使你的计算机是专用网络 (如企业网)，因为任何私有 IP 地址的访问不会被允许经由 VPN Gate 中继服务通过。
 B_OPTION				VPN Gate 服务选项设置(&O)...
@@ -4229,11 +4229,11 @@ IDCANCEL				取消
 
 PREFIX					D_VGS_WARNING
 CAPTION					在连接 VPN Gate 学术实验前的注意事项
-S1						VPN Gate 学术实验服务是作为日本筑波大学研究生院的一个研究项目运营的。该服务受制于日本法律。其他国家的法律不受我们关注也不承担责任。
+S1						VPN 学术实验服务。
 S2						从本质上讲，在世界上有近 200 个国家，都有不同的法律。不可能在软件发布前去验证每一个国家的法律和法规，并使我们的软件符合所有国家的法律。如果用户在一个特定的国家使用 VPN Gate 服务，损坏公务人员的权力，服务或软件的开发者将永远不会负责恢复或补偿等损害或刑事责任。
 S3						通过使用本软件和服务，用户有自己的义务必须遵守所有相关的法律和规则。用户将完全承担任何损失和使用本软件及服务导致的责任，无论日本领土以内还是以外。
 S4						如果你不同意也不理解上述警告，不要使用任何 VPN Gate 学术实验服务功能。
-S5						注: VPN Gate 仅仅是学术目的的一个研究项目。VPN Gate 是作为 SoftEther VPN 的一个插件被开发的。然而，VPN Gate 的每一部分都是在筑波大学的这一研究项目被开发的。VPN Gate 的任何部分都不是 SoftEther 公司开发的。VPN Gate 研究项目不是由 SoftEther 公司引导、经营，推广和保证的。
+S5						注: VPN Gate 仅仅是学术目的的一个研究项目。
 R_NEVER					请不要再次显示此消息(&S)
 B_WEB					访问 VPN Gate 和网站 ...
 IDOK					同意(&A)
@@ -4244,7 +4244,7 @@ S_BOLD					注意! 不要在 VPN 通讯禁止的国家使用 VPN Gate 服务。
 PREFIX					D_NM_PUSH
 CAPTION					编辑该静态路由表以推送
 S1						这个虚拟 DHCP 服务器可以推送带 DHCP 应答消息的无类静态路由 (RFC 3442) 至 VPN 客户端。
-S2						VPN 客户端是否能够识别无类静态路由 (RFC 3442) 取决于目标 VPN 客户端软件。SoftEther VPN 客户端和 OpenVPN 客户端都支持无类静态路由。在 L2TP/IPSec 和 MS-SSTP 协议上，兼容性取决于客户端软件的实施。
+S2						VPN 客户端是否能够识别无类静态路由 (RFC 3442) 取决于目标 VPN 客户端软件。康康驾到 VPN 客户端和 OpenVPN 客户端都支持无类静态路由。在 L2TP/IPSec 和 MS-SSTP 协议上，兼容性取决于客户端软件的实施。
 S3						如果你清除了虚拟 DHCP 服务器选项的默认网关字段，您就可以实现拆分隧道。在客户端一侧，为了使用拆分隧道， L2TP/IPSec 和 MS-SSTP 客户端需要配置为不创建默认网关。
 S4						您还可以通过现有的外部 DHCP 服务器推送无类静态路由 (RFC 3442)。在这种情况下，在 SecureNAT 禁用虚拟 DHCP 服务器功能，在这一屏幕上你不需要设置无类路由。
 S5						编辑该静态路由表以推送
@@ -4494,8 +4494,8 @@ CMD_DISCONNECTED_MSG		\n---Error---\n\n与您正管理的主机通信会话被�
 
 
 # VPN CMD 命令
-CMD_VPNCMD					SoftEther VPN Developer Edition 命令行管理工具
-CMD_VPNCMD_HELP				“vpncmd ”程序是一个允许您通过使用命令行来管理 SoftEther VPN 软件的实用工具。通过使用 vpncmd，您可以连接到运行在本地或远程计算机的 VPN Client，VPN Server 或 VPN Bridge 并管理它们。此外，通过使用 VPN 工具模式，您可以调用网络传输速度测试工具和证书创建功能。即使不连接到 VPN Server 或 VPN Client，vpncmd 也是可以使用的。\n当使用 vpncmd 时，如果文件名是通过使用 /IN 和 /OUT 参数指定的，该命令就可以根据一个文件被批量执行。该文件列举了可执行命令的文件和执行结果可以被写入文件中。通常，vpncmd 启动后命令提示符会出现，但是，当用 /IN 参数指定一个输入文件时，在输入文件的所有行执行完成后，该程序将自动终止。此外，当指定 /CMD 参数来执行一个命令时，在命令执行完成后，程序将自动终止。您不能同时刻指定 /IN 参数和 /CMD 参数。vpncmd 程序的终止代码将是最后执行命令的错误代码 (在成功执行的情况下是 0)。在 Windows 环境下，当具有管理员权限的用户一次或多次启动 vpncmd 时，有可能只需输入 "vpncmd" 到 Windows 命令提示符或 [运行...] Windows 启动 vpncmd。为了在 UNIX 系统下得到同样的结果，您可以手动设置，PATH 环境是可变的。
+CMD_VPNCMD					康康驾到 VPN  命令行管理工具
+CMD_VPNCMD_HELP				“vpncmd ”程序是一个允许您通过使用命令行来管理 康康驾到 VPN 软件的实用工具。通过使用 vpncmd，您可以连接到运行在本地或远程计算机的 VPN Client，VPN Server 或 VPN Bridge 并管理它们。此外，通过使用 VPN 工具模式，您可以调用网络传输速度测试工具和证书创建功能。即使不连接到 VPN Server 或 VPN Client，vpncmd 也是可以使用的。\n当使用 vpncmd 时，如果文件名是通过使用 /IN 和 /OUT 参数指定的，该命令就可以根据一个文件被批量执行。该文件列举了可执行命令的文件和执行结果可以被写入文件中。通常，vpncmd 启动后命令提示符会出现，但是，当用 /IN 参数指定一个输入文件时，在输入文件的所有行执行完成后，该程序将自动终止。此外，当指定 /CMD 参数来执行一个命令时，在命令执行完成后，程序将自动终止。您不能同时刻指定 /IN 参数和 /CMD 参数。vpncmd 程序的终止代码将是最后执行命令的错误代码 (在成功执行的情况下是 0)。在 Windows 环境下，当具有管理员权限的用户一次或多次启动 vpncmd 时，有可能只需输入 "vpncmd" 到 Windows 命令提示符或 [运行...] Windows 启动 vpncmd。为了在 UNIX 系统下得到同样的结果，您可以手动设置，PATH 环境是可变的。
 CMD_VPNCMD_ARGS				vpncmd [host:port] [/CLIENT|/SERVER|/TOOLS] [/HUB:hub] [/ADMINHUB:adminhub] [/PASSWORD:password] [/IN:infile] [/OUT:outfile] [/CMD commands...]
 CMD_VPNCMD_[host:port]		通过指定格式的参数 [主机名:端口号]，可自动连接到主机。如果这是没有指定的，会出现一个提示让输入连接目的地。当连接到一个 VPN Client，您不能指定一个端口号。
 CMD_VPNCMD_CLIENT			连接到 VPN 客户做管理。您不能指定它与 /SERVER 一起做。
@@ -4515,7 +4515,7 @@ CMD_VPNCMD_HOST_2			指定的主机名或正在运行的目标 VPN Client 计算
 CMD_VPNCMD_HOST_3			目标 IP 地址的主机名:
 CMD_VPNCMD_HUB_1			如果通过虚拟 HUB 管理模式连接到服务器，请输入虚拟 HUB 的名称。\n如果通过服务器管理模式连接，无须输入任何内容请按回车键。\n
 CMD_VPNCMD_HUB_2			指定虚拟 HUB 名称:
-CMD_VPNCMD_ABOUT			SoftEther VPN 命令行管理工具 (vpncmd 命令)\nDeveloper Edition\n%S\n%S\nCopyright (c) all contributors on SoftEther VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.\nAll rights reserved.\n
+CMD_VPNCMD_ABOUT			康康驾到 VPN 命令行管理工具 (vpncmd 命令)\n\n%S\n%S\nCopyright (c) all contributors on 康康驾到 VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.\nAll rights reserved.\n
 CMD_VPNCMD_PASSWORD_1		访问被拒绝。可能是密码不正确，或者是您以不正确的管理模式连接。您可以尝试再次输入密码。要取消，请按 Ctrl + D。
 CMD_VPNCMD_PASSWORD_2		密码: 
 CMD_VPNCMD_ERROR			发生错误。(错误代码: %u)\n%s
@@ -4638,7 +4638,7 @@ CMD_ProtoOptionsGet_Column_Description	Description
 
 
 # ProtoOptions
-CMD_ProtoOptions_Description_OpenVPN_DefaultClientOption			When OpenVPN is compiled without OCC code, it doesn't send the options string to the server. The original OpenVPN server still works, because the configuration is static. SoftEther VPN is heuristic and wants to support as many different configurations as possible. This option allows to define the string that is sent to clients built without OCC code, so that they can successfully connect.
+CMD_ProtoOptions_Description_OpenVPN_DefaultClientOption			When OpenVPN is compiled without OCC code, it doesn't send the options string to the server. The original OpenVPN server still works, because the configuration is static. 康康驾到 VPN is heuristic and wants to support as many different configurations as possible. This option allows to define the string that is sent to clients built without OCC code, so that they can successfully connect.
 CMD_ProtoOptions_Description_OpenVPN_Obfuscation					This may help an OpenVPN client bypass firewalls that are aware of the protocol and block it. The same XOR mask has to be applied client-side, otherwise it will not be able to connect with certain obfuscation methods!
 CMD_ProtoOptions_Description_OpenVPN_ObfuscationMask				Mask used to XOR the bytes in the packet (used for certain obfuscation modes).
 CMD_ProtoOptions_Description_OpenVPN_PingSendInterval				Interval in milliseconds between each ping packet transmission.
@@ -6197,7 +6197,7 @@ CMD_DhcpSet_DNS				指定被通知到客户端的主 DNS 服务器的 IP 地址�
 CMD_DhcpSet_DNS2			指定被通知到客户端的次要 DNS 服务器 IP 地址。当 SecureNAT 功能的虚拟 NAT 功能已经启用并正在运行时，您可以为此指定一个 SecureNAT 虚拟主机 IP 地址。如果您指定的是 0 或者 none，那么客户端就不会被 DNS 服务器地址通知。
 CMD_DhcpSet_DOMAIN			指定域名通知客户。如果指定 none，该域名不通知客户。
 CMD_DhcpSet_LOG				指定是否将虚拟 DHCP 服务器运行保存为安全日志。指定 "yes" 则保存。此值与虚拟 NAT 功能的日志保存设置是联动的。
-CMD_DhcpSet_PUSHROUTE	指定静态路由表推送。\n例如: "192.168.5.0/255.255.255.0/192.168.4.254, 10.0.0.0/255.0.0.0/192.168.4.253"\n用逗号或空格字符来拆分多条目 (最多 64 条目)。每个条目必须以 "IP 网络地址/子网掩码/网关 IP 地址" 的格式来指定。 \n这个虚拟 DHCP 服务器可以推送带DHCP应答消息的无类静态路由 (RFC 3442) 至 VPN 客户端。\nVPN 客户端是否能够识别无类静态路由 (RFC 3442) 取决于目标VPN客户端软件。SoftEther VPN 客户端和 OpenVPN 客户端都支持无类静态路由。在 L2TP/IPSec 和 MS-SSTP 协议上，兼容性取决于客户端软件的实施。如果你清除了虚拟 DHCP 服务器选项的默认网关字段，您就可以实现拆分隧道。在客户端一侧，为了使用拆分隧道，L2TP/IPSec 和 MS-SSTP 客户端需要配置为不创建默认网关。\n您还可以通过现有的外部 DHCP 服务器推送无类静态路由 (RFC 3442)。在这种情况下，在 SecureNAT 禁用虚拟 DHCP 服务器功能，在这一屏幕上你不需要设置无类路由。\n请参阅 RFC 3442 以了解无类路由。
+CMD_DhcpSet_PUSHROUTE	指定静态路由表推送。\n例如: "192.168.5.0/255.255.255.0/192.168.4.254, 10.0.0.0/255.0.0.0/192.168.4.253"\n用逗号或空格字符来拆分多条目 (最多 64 条目)。每个条目必须以 "IP 网络地址/子网掩码/网关 IP 地址" 的格式来指定。 \n这个虚拟 DHCP 服务器可以推送带DHCP应答消息的无类静态路由 (RFC 3442) 至 VPN 客户端。\nVPN 客户端是否能够识别无类静态路由 (RFC 3442) 取决于目标VPN客户端软件。康康驾到 VPN 客户端和 OpenVPN 客户端都支持无类静态路由。在 L2TP/IPSec 和 MS-SSTP 协议上，兼容性取决于客户端软件的实施。如果你清除了虚拟 DHCP 服务器选项的默认网关字段，您就可以实现拆分隧道。在客户端一侧，为了使用拆分隧道，L2TP/IPSec 和 MS-SSTP 客户端需要配置为不创建默认网关。\n您还可以通过现有的外部 DHCP 服务器推送无类静态路由 (RFC 3442)。在这种情况下，在 SecureNAT 禁用虚拟 DHCP 服务器功能，在这一屏幕上你不需要设置无类路由。\n请参阅 RFC 3442 以了解无类路由。
 CMD_DhcpSet_Prompt_START	分发地址范围的开始: 
 CMD_DhcpSet_Prompt_END		分发地址范围的结束: 
 CMD_DhcpSet_Prompt_MASK		子网掩码: 
@@ -6334,7 +6334,7 @@ CMD_AcDel_Prompt_ID			要删除的规则的 ID:
 
 # LicenseAdd 命令
 CMD_LicenseAdd				注册新的许可证密钥
-CMD_LicenseAdd_Help			在 SoftEther VPN Server 注册新的许可证密钥。\n要使用 SoftEther VPN Server，需获取有效的许可证，并注册许可证密钥。许可证密钥是由 36 个字母数字字符和连字符 ( '-' ) 组成的，以证明许可证所有权的密钥的代码。\n一起获得本软件及许可证证书时，许可证密钥会被印刷在许可证证书上。如果在线购买本软件的许可证时，许可证密钥会在购买时的网页画面或邮件中记载。此外，许可证密钥还可能其他以方法被记载。如有不明，请咨询许可证的销售方。\n\n要获取目前注册的许可证列表，使用 LicenseList 指令。\n要显示目前 VPN Server 的许可证状态，使用 LicenseStatus 指令。\n要运行此指令，需要 VPN Server 的管理员权限。\n该指令虚拟专用桥不能运行。
+CMD_LicenseAdd_Help			在 康康驾到 VPN Server 注册新的许可证密钥。\n要使用 康康驾到 VPN Server，需获取有效的许可证，并注册许可证密钥。许可证密钥是由 36 个字母数字字符和连字符 ( '-' ) 组成的，以证明许可证所有权的密钥的代码。\n一起获得本软件及许可证证书时，许可证密钥会被印刷在许可证证书上。如果在线购买本软件的许可证时，许可证密钥会在购买时的网页画面或邮件中记载。此外，许可证密钥还可能其他以方法被记载。如有不明，请咨询许可证的销售方。\n\n要获取目前注册的许可证列表，使用 LicenseList 指令。\n要显示目前 VPN Server 的许可证状态，使用 LicenseStatus 指令。\n要运行此指令，需要 VPN Server 的管理员权限。\n该指令虚拟专用桥不能运行。
 CMD_LicenseAdd_Args			LicenseAdd [key]
 CMD_LicenseAdd_[key]		指定要注册的许可证密钥。36 位字母数字，6 个一组以连字符分隔，进行指定。
 CMD_LicenseAdd_Prompt_Key	许可证密钥: 
@@ -6342,7 +6342,7 @@ CMD_LicenseAdd_Prompt_Key	许可证密钥:
 
 # LicenseDel 命令
 CMD_LicenseDel				删除已注册许可
-CMD_LicenseDel_Help			从 SoftEther VPN Server 上目前注册的许可证名单中删除指定的许可证。\n\n要获得目前注册的许可证名单，使用 LicenseList 指令。\n要显示目前的 VPN Server 的许可证状态，使用 LicenseStatus 指令。\n要运行此指令，需要 VPN Server 管理员权限。\n此指令，虚拟专用桥不能运行。
+CMD_LicenseDel_Help			从 康康驾到 VPN Server 上目前注册的许可证名单中删除指定的许可证。\n\n要获得目前注册的许可证名单，使用 LicenseList 指令。\n要显示目前的 VPN Server 的许可证状态，使用 LicenseStatus 指令。\n要运行此指令，需要 VPN Server 管理员权限。\n此指令，虚拟专用桥不能运行。
 CMD_LicenseDel_Args			LicenseDel [id]
 CMD_LicenseDel_[id]			指定要删除的的许可证的号码。
 CMD_LicenseDel_Prompt_ID	删除许可证号码: 
@@ -6350,19 +6350,19 @@ CMD_LicenseDel_Prompt_ID	删除许可证号码:
 
 # LicenseList 命令
 CMD_LicenseList				获得已注册许可证的列表
-CMD_LicenseList_Help		在 SoftEther VPN Server 上显示目前注册许可证的许可证密钥，许可证类型，状态，有效期限，许可证 ID，许可证类型 ID，服务器 ID 和编号 ID 的列表。\n\n要显示目前的 VPN Server 的许可证状态，使用 LicenseStatus 指令。\n要运行此指令，需要 VPN Server 管理员权限。\n此命令，虚拟专用桥不能运行。
+CMD_LicenseList_Help		在 康康驾到 VPN Server 上显示目前注册许可证的许可证密钥，许可证类型，状态，有效期限，许可证 ID，许可证类型 ID，服务器 ID 和编号 ID 的列表。\n\n要显示目前的 VPN Server 的许可证状态，使用 LicenseStatus 指令。\n要运行此指令，需要 VPN Server 管理员权限。\n此命令，虚拟专用桥不能运行。
 CMD_LicenseList_Args		LicenseList
 
 
 # LicenseStatus 命令
 CMD_LicenseStatus			获取目前的 VPN Server 状态
-CMD_LicenseStatus_Help		获取并显示当前 SoftEther VPN Server 的许可证状态。 \n显示 SoftEther VPN Server 目前产品版本名称，服务器 ID，产品许可证的有效期限，及可以利用的客户端连接许可证数和桥连接许可证数。\n\n要运行此指令，需要 VPN Server 管理员权限。\n此指令，虚拟专用桥不能运行。
+CMD_LicenseStatus_Help		获取并显示当前 康康驾到 VPN Server 的许可证状态。 \n显示 康康驾到 VPN Server 目前产品版本名称，服务器 ID，产品许可证的有效期限，及可以利用的客户端连接许可证数和桥连接许可证数。\n\n要运行此指令，需要 VPN Server 管理员权限。\n此指令，虚拟专用桥不能运行。
 CMD_LicenseStatus_Args		LicenseStatus
 
-# SoftEther VPN 4.0 添加的 命令
+# 康康驾到 VPN 4.0 添加的 命令
 # IPsecEnable 命令
 CMD_IPsecEnable						启用或禁用 IPsec VPN Server 功能
-CMD_IPsecEnable_Help				在 SoftEther VPN Server 上启用或禁用IPsec VPN Server 功能。\n如果您禁用了此功能，VPN Server 上的虚拟 HUB 将会接受从 L2TP 兼容的 PC，Mac OS X 和智能手机的远程 VPN 连接，同时也会接受 EtherIP 站点到站点的 VPN 连接。从智能手机上的 VPN 连接，如iPhone、iPad 和 Android, 和从 Mac OS X 和 Windows 上的本地 VPN Client 的连接也都会接受。\n\n要执行此命令，您必须具有 VPN Server 管理员权限。\n该命令在 VPN Bridge 上不能运行。\n以集群成员运行的 VPN Server 的虚拟 HUB 不能执行此命令。
+CMD_IPsecEnable_Help				在 康康驾到 VPN Server 上启用或禁用IPsec VPN Server 功能。\n如果您禁用了此功能，VPN Server 上的虚拟 HUB 将会接受从 L2TP 兼容的 PC，Mac OS X 和智能手机的远程 VPN 连接，同时也会接受 EtherIP 站点到站点的 VPN 连接。从智能手机上的 VPN 连接，如iPhone、iPad 和 Android, 和从 Mac OS X 和 Windows 上的本地 VPN Client 的连接也都会接受。\n\n要执行此命令，您必须具有 VPN Server 管理员权限。\n该命令在 VPN Bridge 上不能运行。\n以集群成员运行的 VPN Server 的虚拟 HUB 不能执行此命令。
 CMD_IPsecEnable_Args				IPsecEnable [/L2TP:yes|no] [/L2TPRAW:yes|no] [/ETHERIP:yes|no] [/PSK:pre-shared-key] [/DEFAULTHUB:default_hub]
 CMD_IPsecEnable_L2TP				启用或禁用 L2TP over IPsec 服务器功能。要接受来自 iPhone, iPad, Android, Windows 或者 Mac OS X 的 VPN 连接，请启用本选项。
 CMD_IPsecEnable_L2TPRAW				启用或禁用 L2TP 服务器功能 (未加密的原始 L2TP).要接受特殊 VPN 客服端，请启用本选项。
@@ -6378,7 +6378,7 @@ CMD_IPsecEnable_Prompt_DEFAULTHUB	为避免在用户名中遗漏 HUB，请默认
 
 # IPsecGet 命令
 CMD_IPsecGet					获得当前IPsec VPN Server 设置
-CMD_IPsecGet_Help				获得并显示在 SoftEther VPN Server 上的当前 IPsec VPN Server 设置。\n\n要执行此命令，您必须具有 VPN Server 管理员权限。\n该命令在 VPN Bridge 上不能运行。\n以集群成员运行的 VPN Server 的虚拟 HUB 不能执行此命令。
+CMD_IPsecGet_Help				获得并显示在 康康驾到 VPN Server 上的当前 IPsec VPN Server 设置。\n\n要执行此命令，您必须具有 VPN Server 管理员权限。\n该命令在 VPN Bridge 上不能运行。\n以集群成员运行的 VPN Server 的虚拟 HUB 不能执行此命令。
 CMD_IPsecGet_Args				IPsecGet
 CMD_IPsecGet_PRINT_L2TP			L2TP over IPsec 服务器功能已启用
 CMD_IPsecGet_PRINT_L2TPRAW		原始 L2TP 服务器功能已启用
@@ -6471,7 +6471,7 @@ CMD_DynamicDnsSetHostname_Prompt_hostname	Dynamic 动态 DNS 主机名 (3 – 31
 
 # VpnAzureGetStatus command
 CMD_VpnAzureGetStatus			显示 VPN Azure 功能的当前状态
-CMD_VpnAzureGetStatus_Help		获取和显示 VPN Azure 功能的当前状态。\n\nVPN Azure 可以更容易地从你家里的计算机到你办公室的计算机建立一个VPN会话。当一个 VPN 连接建立了，您可以访问您公司专用网络上的任何其他服务器。在办公室的计算机（VPN 服务器）上，你并不需要一个全球 IP 地址。它可以在防火墙或 NAT 后面工作。无需网络管理员的配置。您可以在您的家用电脑使用 Windows 内置的 SSTP VPN 客户端。\nVPN Azure 是一个云 VPN 服务由 SoftEther 公司经营。VPN Azure 是免费的，可提供给任何人。访问 http://www.vpnazure.net/ 查看详细信息和如何使用的说明。\n\nVPN Azure 主机名与动态 DNS 设置的主机名相同，但改变的域名后缀为“vpnazure.net”。要改变主机名使用 DynamicDnsSetHostname 命令。\n\n要执行此命令，你必须具有VPN 服务器管理员权限。\n此命令不能在 VPN 网桥上运行。\n以集群成员运行的 VPN 服务器的虚拟 HUB 不能执行此命令。
+CMD_VpnAzureGetStatus_Help		获取和显示 VPN Azure 功能的当前状态。\n\nVPN Azure 可以更容易地从你家里的计算机到你办公室的计算机建立一个VPN会话。当一个 VPN 连接建立了，您可以访问您公司专用网络上的任何其他服务器。在办公室的计算机（VPN 服务器）上，你并不需要一个全球 IP 地址。它可以在防火墙或 NAT 后面工作。无需网络管理员的配置。您可以在您的家用电脑使用 Windows 内置的 SSTP VPN 客户端。\nVPN Azure 是一个云 VPN 服务由 Eissoft 公司经营。VPN Azure 是免费的，可提供给任何人。访问 http://www.vpnazure.net/ 查看详细信息和如何使用的说明。\n\nVPN Azure 主机名与动态 DNS 设置的主机名相同，但改变的域名后缀为“vpnazure.net”。要改变主机名使用 DynamicDnsSetHostname 命令。\n\n要执行此命令，你必须具有VPN 服务器管理员权限。\n此命令不能在 VPN 网桥上运行。\n以集群成员运行的 VPN 服务器的虚拟 HUB 不能执行此命令。
 CMD_VpnAzureGetStatus_Args		VpnAzureGetStatus
 CMD_VpnAzureGetStatus_PRINT_ENABLED		VPN Azure 功能已启用
 CMD_VpnAzureGetStatus_PRINT_CONNECTED	至 VPN Azure 云服务器的连接建立
@@ -6480,7 +6480,7 @@ CMD_VpnAzureGetStatus_PRINT_HOSTNAME	在 VPN Azure 服务上的本 VPN 服务器
 
 # VpnAzureSetEnable command
 CMD_VpnAzureSetEnable			启用/禁用 VPN Azure 功能
-CMD_VpnAzureSetEnable_Help		启用或禁用 VPN Azure 功能。\n\nVPN Azure 可以更容易地从你家里的计算机到你办公室的计算机建立一个 VPN 会话。当一个 VPN 连接建立了，您可以访问您公司专用网络上的任何其他服务器。\n在办公室的计算机（VPN 服务器）上，你并不需要一个全球 IP 地址。它可以在防火墙或 NAT 后面工作。无需网络管理员的配置。您可以在您的家用电脑使用 Windows 内置的 SSTP VPN 客户端。\nVPN Azure 是一个云 VPN 服务由 SoftEther 公司经营。VPN Azure 是免费的，可提供给任何人。访问 http://www.vpnazure.net/ 查看详细信息和如何使用的说明。\n\nVPN Azure 主机名与动态 DNS 设置的主机名相同，但改变的域名后缀为“vpnazure.net”。要改变主机名使用 DynamicDnsSetHostname 命令。\n\n要执行此命令，你必须具有 VPN 服务器管理员权限。\n此命令不能在 VPN 网桥上运行。\n以集群成员运行的 VPN 服务器的虚拟 HUB 不能执行此命令。
+CMD_VpnAzureSetEnable_Help		启用或禁用 VPN Azure 功能。\n\nVPN Azure 可以更容易地从你家里的计算机到你办公室的计算机建立一个 VPN 会话。当一个 VPN 连接建立了，您可以访问您公司专用网络上的任何其他服务器。\n在办公室的计算机（VPN 服务器）上，你并不需要一个全球 IP 地址。它可以在防火墙或 NAT 后面工作。无需网络管理员的配置。您可以在您的家用电脑使用 Windows 内置的 SSTP VPN 客户端。\nVPN Azure 是一个云 VPN 服务由 Eissoft 公司经营。VPN Azure 是免费的，可提供给任何人。访问 http://www.vpnazure.net/ 查看详细信息和如何使用的说明。\n\nVPN Azure 主机名与动态 DNS 设置的主机名相同，但改变的域名后缀为“vpnazure.net”。要改变主机名使用 DynamicDnsSetHostname 命令。\n\n要执行此命令，你必须具有 VPN 服务器管理员权限。\n此命令不能在 VPN 网桥上运行。\n以集群成员运行的 VPN 服务器的虚拟 HUB 不能执行此命令。
 CMD_VpnAzureSetEnable_Args		VpnAzureSetEnable [yes|no]
 CMD_VpnAzureSetEnable_[yes|no]	指定“yes”，启用 VPN Azure。“no”禁用它。
 CMD_VpnAzureSetEnable_PROMPT	启用 VPN Azure (yes/no): 
@@ -7068,7 +7068,7 @@ CMD_GetPublicX25519_PUBLIC_KEY	Public key:
 
 # MakeCert 命令
 CMD_MakeCert				创建新的 X.509 证书和密钥 (1024 位)
-CMD_MakeCert_Help			创建新的 X.509 证书和密钥，将其保存为一个文件。\n证书公共密钥和秘密密钥的生成算法使用 RSA 1024 位。\n作为证书类型，可以创建由根证书 (自签名证书) 和其他证书签名的某个证书。要创建由其他证书签名的证书，需要与用于签名的证书 (X.509格式文件) 相对应的密钥文件 (Base 64 编码)。\n\n创建的证书可以指定名称 (CN)，所属机构 (O)，组织单位 (OU)，国家 (C)，州 (ST)，当地 (L)，序列号，有效期限。\n创建的证书以 X.509 格式的文件，密钥文件以 RSA 1024 位的 Base 64 编码文件，被分别保存。\n\nMakeCert 指令是一个工具，它提供创建证书所需的最低功能。如果想创建一个真正的证书，建议使用 OpenSSL 等免费软件和出售的 CA (认证机构) 软件。\n\n※注意: 此指令可以从 SoftEther VPN 命令行管理工具调用。虽然目前以管理模式连接到 VPN Server 和 VPN Client 时可以运行，但要实际运行 RSA 演算，生成证书数据的，是运行此指令的计算机，和以管理模式连接的链接目标计算机没有任何关系。
+CMD_MakeCert_Help			创建新的 X.509 证书和密钥，将其保存为一个文件。\n证书公共密钥和秘密密钥的生成算法使用 RSA 1024 位。\n作为证书类型，可以创建由根证书 (自签名证书) 和其他证书签名的某个证书。要创建由其他证书签名的证书，需要与用于签名的证书 (X.509格式文件) 相对应的密钥文件 (Base 64 编码)。\n\n创建的证书可以指定名称 (CN)，所属机构 (O)，组织单位 (OU)，国家 (C)，州 (ST)，当地 (L)，序列号，有效期限。\n创建的证书以 X.509 格式的文件，密钥文件以 RSA 1024 位的 Base 64 编码文件，被分别保存。\n\nMakeCert 指令是一个工具，它提供创建证书所需的最低功能。如果想创建一个真正的证书，建议使用 OpenSSL 等免费软件和出售的 CA (认证机构) 软件。\n\n※注意: 此指令可以从 康康驾到 VPN 命令行管理工具调用。虽然目前以管理模式连接到 VPN Server 和 VPN Client 时可以运行，但要实际运行 RSA 演算，生成证书数据的，是运行此指令的计算机，和以管理模式连接的链接目标计算机没有任何关系。
 CMD_MakeCert_Args			MakeCert [/CN:cn] [/O:o] [/OU:ou] [/C:c] [/ST:st] [/L:l] [/SERIAL:serial] [/EXPIRES:expires] [/SIGNCERT:signcert] [/SIGNKEY:signkey] [/SAVECERT:savecert] [/SAVEKEY:savekey]
 CMD_MakeCert_CN				指定创建证书的名称 (CN) 项目。还可以指定 none。
 CMD_MakeCert_O				指定创建证书的所属机构 (O) 项目。还可以指定 none。
@@ -7099,7 +7099,7 @@ CMD_MakeCert_ERROR_GEN_FAILED	无法生成证书和私钥。
 
 # MakeCert2048 命令
 CMD_MakeCert2048				创建新的 X.509 证书和密钥 (2048 位)
-CMD_MakeCert2048_Help			创建新的 X.509 证书和密钥，将其保存为一个文件。\n证书公共密钥和秘密密钥的生成算法使用 RSA 1024 位。\n作为证书类型，可以创建由根证书 (自签名证书) 和其他证书签名的某个证书。要创建由其他证书签名的证书，需要与用于签名的证书 (X.509 格式文件) 相对应的密钥文件 (Base 64 编码)。\n\n创建的证书可以指定名称 (CN)，所属机构 (O)，组织单位 (OU)，国家 (C)，州 (ST)，当地 (L)，序列号，有效期限。\n创建的证书以 X.509 格式的文件，密钥文件以 RSA 2048 位的 Base 64 编码文件，被分别保存。\n\nMakeCert 指令是一个工具，它提供创建证书所需的最低功能。如果想创建一个真正的证书，建议使用 OpenSSL 等免费软件和出售的 CA (认证机构) 软件。\n\n※注意: 此指令可以从 SoftEther VPN 命令行管理工具调用。虽然目前以管理模式连接到 VPN Server 和 VPN Client 时可以运行，但要实际运行 RSA 演算，生成证书数据的，是运行此指令的计算机，和以管理模式连接的链接目标计算机没有任何关系。
+CMD_MakeCert2048_Help			创建新的 X.509 证书和密钥，将其保存为一个文件。\n证书公共密钥和秘密密钥的生成算法使用 RSA 1024 位。\n作为证书类型，可以创建由根证书 (自签名证书) 和其他证书签名的某个证书。要创建由其他证书签名的证书，需要与用于签名的证书 (X.509 格式文件) 相对应的密钥文件 (Base 64 编码)。\n\n创建的证书可以指定名称 (CN)，所属机构 (O)，组织单位 (OU)，国家 (C)，州 (ST)，当地 (L)，序列号，有效期限。\n创建的证书以 X.509 格式的文件，密钥文件以 RSA 2048 位的 Base 64 编码文件，被分别保存。\n\nMakeCert 指令是一个工具，它提供创建证书所需的最低功能。如果想创建一个真正的证书，建议使用 OpenSSL 等免费软件和出售的 CA (认证机构) 软件。\n\n※注意: 此指令可以从 康康驾到 VPN 命令行管理工具调用。虽然目前以管理模式连接到 VPN Server 和 VPN Client 时可以运行，但要实际运行 RSA 演算，生成证书数据的，是运行此指令的计算机，和以管理模式连接的链接目标计算机没有任何关系。
 CMD_MakeCert2048_Args			MakeCert2048 [/CN:cn] [/O:o] [/OU:ou] [/C:c] [/ST:st] [/L:l] [/SERIAL:serial] [/EXPIRES:expires] [/SIGNCERT:signcert] [/SIGNKEY:signkey] [/SAVECERT:savecert] [/SAVEKEY:savekey]
 CMD_MakeCert2048_CN				指定创建证书的名称 (CN) 项目。还可以指定 none。
 CMD_MakeCert2048_O				指定创建证书的所属机构 (O) 项目。还可以指定 none。
@@ -7117,7 +7117,7 @@ CMD_MakeCert2048_SAVEKEY		指定文件名保存对应创建的证书的密钥。
 
 # TrafficClient 命令
 CMD_TrafficClient			在用户模式下，运行网络流量速度测试工具
-CMD_TrafficClient_Help		运行通信吞吐量测量工具的客户端程序。\n通信吞吐量测量工具，作为 TrafficClient 和 TrafficServer 两个指令使用，可以测量在 IP 网络上连接的 2 台计算机之间可传送的通信吞吐量。在另一台计算机上使用 TrafficServer 指令使通信吞吐量测量工具服务器处于待机状态，用 TrafficClient 指令指定并连接其服务器的主机名或 IP 地址和端口号，测量通信速度。\n同时建立多个连接，计算各连接最大限度传送流数据的结果，及在指定时间内能够实际传送的数据的比特数，以此为依据计算通信吞吐量的平均值 (bps)，用此方法进行通信速度的测量。通常，用一个 TCP 连接时，由于 TCP 算法的限制，大多数时候只能用比实际的网络吞吐量慢的速度通信。因此，建议测量同时建立多个 TCP 连接进行通信的结果。用此方法测量的吞吐量，以实际上作为 TCP 流到达接收方的数据的比特长度来计算，因此途中产生的数据包丢失和数据包损坏不包括在实际到达的数据包中，因而能够计算出纯粹的网络最大通信带宽的近似值。\n用作为测量结构的，在 TCP 内被传输的 TCP 流的大小，来计算在网络上实际传输的数据量的近似值，将其除以时间，计算出比特每秒 (bps)。假定计算的物理网络类型为以太网 (IEEE802.3) ,MAC 帧有效载荷的大小是 1,500 比特 (TCP 的 MSS 是 1,460 比特)。如果指定 /RAW 选项，不会对 TCP/IP 头和 MAC 头的数据量进行更正计算。\n\n※注意: 此指令可以从 SoftEther VPN 命令行管理工具调用。虽然目前以管理模式连接到 VPN Server 和 VPN Client 时可以运行，但要实际进行通信，测量吞吐量的，是运行此指令的计算机，与以管理模式连接的连接目标计算机没有任何关系。
+CMD_TrafficClient_Help		运行通信吞吐量测量工具的客户端程序。\n通信吞吐量测量工具，作为 TrafficClient 和 TrafficServer 两个指令使用，可以测量在 IP 网络上连接的 2 台计算机之间可传送的通信吞吐量。在另一台计算机上使用 TrafficServer 指令使通信吞吐量测量工具服务器处于待机状态，用 TrafficClient 指令指定并连接其服务器的主机名或 IP 地址和端口号，测量通信速度。\n同时建立多个连接，计算各连接最大限度传送流数据的结果，及在指定时间内能够实际传送的数据的比特数，以此为依据计算通信吞吐量的平均值 (bps)，用此方法进行通信速度的测量。通常，用一个 TCP 连接时，由于 TCP 算法的限制，大多数时候只能用比实际的网络吞吐量慢的速度通信。因此，建议测量同时建立多个 TCP 连接进行通信的结果。用此方法测量的吞吐量，以实际上作为 TCP 流到达接收方的数据的比特长度来计算，因此途中产生的数据包丢失和数据包损坏不包括在实际到达的数据包中，因而能够计算出纯粹的网络最大通信带宽的近似值。\n用作为测量结构的，在 TCP 内被传输的 TCP 流的大小，来计算在网络上实际传输的数据量的近似值，将其除以时间，计算出比特每秒 (bps)。假定计算的物理网络类型为以太网 (IEEE802.3) ,MAC 帧有效载荷的大小是 1,500 比特 (TCP 的 MSS 是 1,460 比特)。如果指定 /RAW 选项，不会对 TCP/IP 头和 MAC 头的数据量进行更正计算。\n\n※注意: 此指令可以从 康康驾到 VPN 命令行管理工具调用。虽然目前以管理模式连接到 VPN Server 和 VPN Client 时可以运行，但要实际进行通信，测量吞吐量的，是运行此指令的计算机，与以管理模式连接的连接目标计算机没有任何关系。
 CMD_TrafficClient_Args		TrafficClient [host:port] [/NUMTCP:numtcp] [/TYPE:download|upload|full] [/SPAN:span] [/DOUBLE:yes|no] [/RAW:yes|no]
 CMD_TrafficClient_[host:port]	指定通信吞吐量测量服务器 (TrafficServer) 待机时的主机名，或 IP 地址和端口号。如果省略端口号，9821 将被使用。
 CMD_TrafficClient_NUMTCP	指定同时在客户端和服务器进行数据传输的 TCP 连接数量。如果省略，32 将被使用。
@@ -7133,7 +7133,7 @@ CMD_TrafficClient_ERROR_HOSTPORT	指定的主机名或端口号不正确。
 
 # TrafficServer 命令
 CMD_TrafficServer			在服务器模式下，运行网络流量速度测试工具
-CMD_TrafficServer_Help		运行通信吞吐量测量工具的服务器程序。\n通信吞吐量测量工具，作为 TrafficClient 和 TrafficServer 两个指令使用，可以测量在 IP 网络上连接的 2 台计算机之间可传送的通信吞吐量。\n要使此计算机上的 TCP 端口处于待机状态，等待从另一台计算机的 TrafficClient 连接，启动 TrafficServer 指令并指定端口号。\n关于通信吞吐量测量工具的详细情况，输入 "TrafficClient ?" 将显示。\n\n※注意: 此指令可以从 SoftEther VPN 命令行管理工具调用。虽然目前以管理模式连接 VPN Server 和 VPN Client 时可以运行，但要进行实际通信并测量吞吐量的，是运行此指令的计算机，与用管理模式连接终端的计算机没有任何关系。
+CMD_TrafficServer_Help		运行通信吞吐量测量工具的服务器程序。\n通信吞吐量测量工具，作为 TrafficClient 和 TrafficServer 两个指令使用，可以测量在 IP 网络上连接的 2 台计算机之间可传送的通信吞吐量。\n要使此计算机上的 TCP 端口处于待机状态，等待从另一台计算机的 TrafficClient 连接，启动 TrafficServer 指令并指定端口号。\n关于通信吞吐量测量工具的详细情况，输入 "TrafficClient ?" 将显示。\n\n※注意: 此指令可以从 康康驾到 VPN 命令行管理工具调用。虽然目前以管理模式连接 VPN Server 和 VPN Client 时可以运行，但要进行实际通信并测量吞吐量的，是运行此指令的计算机，与用管理模式连接终端的计算机没有任何关系。
 CMD_TrafficServer_Args	TrafficServer [port] [/NOHUP:yes|no]
 CMD_TrafficServer_[port]	以整数指定等待连接的端口号。被指定的端口，如果已经由另一个程序在使用，或不能打开该端口时，将发生错误。
 CMD_TrafficServer_NOHUP		When "yes" is specified, the server process never stops without regard to any input from the console. It is convenient when you want to run the TrafficServer endlessly.
@@ -7195,20 +7195,20 @@ TTC_RES_BPS_TOTAL			总平均吞吐量
 
 
 # Check 命令
-CMD_Check					检测 SoftEther VPN 是否能正常运行
-CMD_Check_Help				正在运行 vpncmd 的计算机上，正检测 SoftEther VPN Server / Bridge 的运行平台是否适合。\n通过了这一检查的系统，SoftEther VPN 软件有较高的可能性进行正常运行。此外，无法通过此检查的系统，如果使用了 SoftEther VPN 软件可能会发生一些问题。
+CMD_Check					检测 康康驾到 VPN 是否能正常运行
+CMD_Check_Help				正在运行 vpncmd 的计算机上，正检测 康康驾到 VPN Server / Bridge 的运行平台是否适合。\n通过了这一检查的系统，康康驾到 VPN 软件有较高的可能性进行正常运行。此外，无法通过此检查的系统，如果使用了 康康驾到 VPN 软件可能会发生一些问题。
 CMD_Check_Args				Check
 
 
 # 关于系统 checker
 # (包含着一部分奇怪的字符串,不过，是检测字符编码变换用的)
-CHECK_TITLE					---------------------------------------------------\nSoftEther VPN 运行环境检查工具\nDeveloper Edition\n\nCopyright (c) all contributors on SoftEther VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.\nAll Rights Reserved.\n\n
-CHECK_NOTE					如果运行了此运行环境检测工具的系统通过了测试，SoftEther VPN 软件有较高的运行可能性。检测可能需要一定的时间。请稍候...\n\n
+CHECK_TITLE					---------------------------------------------------\n康康驾到 VPN 运行环境检查工具\n\n\nCopyright (c) all contributors on 康康驾到 VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.\nAll Rights Reserved.\n\n
+CHECK_NOTE					如果运行了此运行环境检测工具的系统通过了测试，康康驾到 VPN 软件有较高的运行可能性。检测可能需要一定的时间。请稍候...\n\n
 CHECK_EXEC_TAG				'%s' 的检测中...\n
 CHECK_PASS					[合格] ○
 CHECK_FAIL					[不合格] ×
-CHECK_RESULT_1				全部检测通过，说明 SoftEther VPN Server / Bridge 在此系统上正常运行的可能性很高。
-CHECK_RESULT_2				一部分的检测结果是不合格。请确认系统的运行环境。如果在这个系统上实行 SoftEther VPN Server / Bridge，有发生问题的可能性。
+CHECK_RESULT_1				全部检测通过，说明 康康驾到 VPN Server / Bridge 在此系统上正常运行的可能性很高。
+CHECK_RESULT_2				一部分的检测结果是不合格。请确认系统的运行环境。如果在这个系统上实行 康康驾到 VPN Server / Bridge，有发生问题的可能性。
 CHECK_TEST_123456789		123456789
 
 
@@ -7226,27 +7226,27 @@ CHECK_PROC_NETWORK			网络系统
 #                                                    #
 ######################################################
 
-SW_TITLE				SoftEther VPN Developer Edition 安装向导 (版本 %S)
-SW_EXIT_CONFIRM			SoftEther VPN 的安装未完成。\r\n\r\n您确定要退出吗？
+SW_TITLE				康康驾到 VPN  安装向导 (版本 %S)
+SW_EXIT_CONFIRM			康康驾到 VPN 的安装未完成。\r\n\r\n您确定要退出吗？
 SW_UNINSTALL_CONFIRM	开启%s卸载程序。\r\n\r\n您确定要继续吗？
 
 
-SW_COMPONENT_VPNSERVER_TITLE				SoftEther VPN Server
+SW_COMPONENT_VPNSERVER_TITLE				康康驾到 VPN Server
 SW_COMPONENT_VPNSERVER_DESCRIPTION			把它安装在服务器计算机上作为 VPN 的中心站点。管理工具也会同时安装。
 
-SW_COMPONENT_VPNCLIENT_TITLE				SoftEther VPN Client
+SW_COMPONENT_VPNCLIENT_TITLE				康康驾到 VPN Client
 SW_COMPONENT_VPNCLIENT_DESCRIPTION			安装它在 VPN Client 电脑上。VPN Client 台电脑将能连接到中心 VPN Server 了。管理工具也会同时安装。
 
-SW_COMPONENT_VPNBRIDGE_TITLE				SoftEther VPN Bridge
+SW_COMPONENT_VPNBRIDGE_TITLE				康康驾到 VPN Bridge
 SW_COMPONENT_VPNBRIDGE_DESCRIPTION			安装它在每个站点的电脑上。每个 VPN Bridge 将会建立一个通向中心 VPN Server 的 VPN 连接。管理工具也会同时安装。
 
-SW_COMPONENT_VPNSMGR_TITLE					SoftEther VPN Server 管理工具 (仅限管理工具)
+SW_COMPONENT_VPNSMGR_TITLE					康康驾到 VPN Server 管理工具 (仅限管理工具)
 SW_COMPONENT_VPNSMGR_DESCRIPTION			安装的只有 VPN Server 管理工具。不会安装 VPN Server 服务程序。您可以在 Windows, Linux, Mac OS X, Solaris, FreeBSD 的系统上使用此 VPN Server 管理工具进行连接和管理远程的 VPN Server / Bridge 端。
 
-SW_COMPONENT_VPNCMGR_TITLE					SoftEther VPN Client 管理工具(仅限管理工具)
+SW_COMPONENT_VPNCMGR_TITLE					康康驾到 VPN Client 管理工具(仅限管理工具)
 SW_COMPONENT_VPNCMGR_DESCRIPTION			安装的只有 VPN Client 管理工具。不会安装 VPN Client 服务程序。您可以在 Windows 或 Linux 的系统上使用此 VPN Client 管理工具进行连接和管理远程的 VPN Client 。
 
-SW_WELCOME_TITLE					欢迎来到 SoftEther VPN Developer Edition 安装向导
+SW_WELCOME_TITLE					欢迎来到 康康驾到 VPN 安装向导
 SW_MODE_TITLE						选择一个安装模式
 SW_NOT_ADMIN_TITLE					没有足够权限
 SW_COMPONENTS_TITLE					选择安装一个软件部分
@@ -7258,16 +7258,16 @@ SW_PERFORM_TITLE					安装正在进行中
 SW_ERROR_TITLE						安装结果
 SW_FINISH_TITLE						安装结束
 SW_UNINST1_TITLE					卸载程序r
-SW_LANG1_TITLE						SoftEther VPN : 配置显示语言
-SW_EASY1_TITLE						欢迎来到 SoftEther VPN Client 简单安装程序创建工具
+SW_LANG1_TITLE						康康驾到 VPN : 配置显示语言
+SW_EASY1_TITLE						欢迎来到 康康驾到VPN客户端简单安装程序创建工具
 SW_EASY2_TITLE						指定文件夹
-SW_WEB1_TITLE						欢迎来到 SoftEther VPN Client Web安装程序创建工具
+SW_WEB1_TITLE						欢迎来到 康康驾到VPN客户端Web安装程序创建工具
 SW_WEB2_TITLE						指定文件夹
 
-SW_UNINSTALLINFO_URL					http://selinks.org/
-SW_UNINSTALLINFO_PUBLISHER				SoftEther VPN Project
+SW_UNINSTALLINFO_URL					http://eisaas.com/
+SW_UNINSTALLINFO_PUBLISHER				康康驾到 VPN Project
 
-SW_KB3033929_REQUIRED						在 Windows 7 以及 Windows Server 2008 R2系统上, SoftEther VPN 的一些功能需要安全更新程序KB3033929。\r\n\r\n如果 KB3033929 未在你的系统中安装, 在安装SoftEther VPN 前请从 Windows Update 或 Microsoft 网站上下载安装该更新程序。
+SW_KB3033929_REQUIRED						在 Windows 7 以及 Windows Server 2008 R2系统上, 康康驾到 VPN 的一些功能需要安全更新程序KB3033929。\r\n\r\n如果 KB3033929 未在你的系统中安装, 在安装康康驾到 VPN 前请从 Windows Update 或 Microsoft 网站上下载安装该更新程序。
 
 
 SW_COMPONENTS_ABOUT_TAG				关于 %s
@@ -7290,8 +7290,8 @@ SW_SYSTEM_MODE_ALREADY_INSTALLED	本软件 "%s" 以系统模式被安装在这�
 SW_SETUPLOG_CORRUPTED				"setuplog.dat" 文件已被破坏。
 SW_MSI_UNINSTALL_FAILED				之前的版本 %s (产品号: "%S")已安装。 Windows安装工具卸载旧版本失败。\r\n\r\n请您手动卸载并且重启本安装工具。
 SW_MSI_UNINSTALL_REBOOT_REQUIRED	Windows 安装工具已经卸载旧版本 %s。请重启电脑。\r\n\r\n点击结束按钮并且手动重启电脑，然后在电脑重启后，重启本安装工具。
-SW_NOTICE_VPNSERVER_IS_INSTALLED	SoftEther VPN Bridge 端作为软件一部分来安装。但是，本电脑已经安装了 SoftEther VPN Server。\r\n\r\n通常，您不需要在同一台电脑上同时安装 SoftEther VPN Server 端和 SoftEther VPN Bridge 端。\r\n如果您同时安装了这两个软件，那么有些冲突就会发生，例如端口号重复。\r\n如果您想把 SoftEther VPN Server 端替换成 SoftEther VPN Bridge 端，您应该退出本安装工具，卸载 SoftEther VPN Server 端，并在卸载成功后重启本安装工具。\r\n\r\n您确定要继续 SoftEther VPN Bridge 端的安装吗？
-SW_NOTICE_VPNBRIDGE_IS_INSTALLED	SoftEther VPN Server 端被选为一个部分来安装。但是，本电脑已安装 SoftEther VPN Bridge 端。通常，您不需要在同一台电脑上同时安装 SoftEther VPN Server 端和 SoftEther VPN Bridge 端。\r\n如果您同时安装了这两个软件，那么有些冲突就会发生，例如端口号重复。\r\n如果您想把 SoftEther VPN Bridge 替换成 SoftEther VPN Server 端，您应该退出本安装工具，卸载 SoftEther VPN Bridge，并在卸载成功后重启本安装工具。\r\n\r\n您确定要继续 SoftEther VPN Server 端的安装吗？
+SW_NOTICE_VPNSERVER_IS_INSTALLED	康康驾到 VPN Bridge 端作为软件一部分来安装。但是，本电脑已经安装了 康康驾到 VPN Server。\r\n\r\n通常，您不需要在同一台电脑上同时安装 康康驾到 VPN Server 端和 康康驾到 VPN Bridge 端。\r\n如果您同时安装了这两个软件，那么有些冲突就会发生，例如端口号重复。\r\n如果您想把 康康驾到 VPN Server 端替换成 康康驾到 VPN Bridge 端，您应该退出本安装工具，卸载 康康驾到 VPN Server 端，并在卸载成功后重启本安装工具。\r\n\r\n您确定要继续 康康驾到 VPN Bridge 端的安装吗？
+SW_NOTICE_VPNBRIDGE_IS_INSTALLED	康康驾到 VPN Server 端被选为一个部分来安装。但是，本电脑已安装 康康驾到 VPN Bridge 端。通常，您不需要在同一台电脑上同时安装 康康驾到 VPN Server 端和 康康驾到 VPN Bridge 端。\r\n如果您同时安装了这两个软件，那么有些冲突就会发生，例如端口号重复。\r\n如果您想把 康康驾到 VPN Bridge 替换成 康康驾到 VPN Server 端，您应该退出本安装工具，卸载 康康驾到 VPN Bridge，并在卸载成功后重启本安装工具。\r\n\r\n您确定要继续 康康驾到 VPN Server 端的安装吗？
 SW_OS_FAILED						本操作系统不支持%s.
 SW_LANG_NOT_CHANGED					%s的语言设置没有改变。
 SW_LANG_LIST_LOAD_FAILED			载入可用语言列表失败。
@@ -7303,14 +7303,14 @@ SW_EXE_FILTER						Windows 可执行文件 (*.EXE)|*.exe|All Files (*.*)|*.*
 SW_PERFORM_MSG_EASY_INFO			编辑 VPN Client 简单安装工具
 SW_EASY_FINISHED_MSG				VPN Client 简单安装工具创建成功。\r\n本安装工具保存为如下文件名。\r\n\r\n%s\r\n\r\n您可以在公司里分配以上的文件。
 SW_EASY_ERROR_MSG					VPN Client 简单安装工具创建失败。
-SW_OTHER_INSTANCE_EXISTS			另外一个 SoftEther VPN 安装向导正在运行中\r\n\r\n您可以在那个向导退出后，继续运行此向导。
+SW_OTHER_INSTANCE_EXISTS			另外一个 康康驾到 VPN 安装向导正在运行中\r\n\r\n您可以在那个向导退出后，继续运行此向导。
 SW_PERFORM_MSG_WEB_INFO				编译 VPN Client Web安装工具
 SW_WEB_ERROR_MSG					VPN Client Web 安装工具创建失败。
-SW_INSTALLER_CACHE_IS_NOT_SIGNED	目前已安装 SoftEther VPN Client 的这台电脑没有安 SoftEther 公司签署 Authenticode 数字证书的数字签名包。\r\n它有可能是从一个客户定制的安装工具上安装的(例如：简单安装程序生成器制造的一个安装程序。)\r\n\r\n如果您继续创建 Web 安装工具，当下载的时候，会在用户界面上出现一个警示信息。\r\n为避免出现警示信息，您需要取消本创建向导，从 SoftEther 公司官网下载最新版本的 SoftEther VPN Client，重新安装并开启本 Web 安装工具创建器向导。\r\n\r\n你确定要继续创建一个 Web 安装工具吗？
+SW_INSTALLER_CACHE_IS_NOT_SIGNED	目前已安装 康康驾到 VPN Client 的这台电脑没有安 Eissoft 公司签署 Authenticode 数字证书的数字签名包。\r\n它有可能是从一个客户定制的安装工具上安装的(例如：简单安装程序生成器制造的一个安装程序。)\r\n\r\n如果您继续创建 Web 安装工具，当下载的时候，会在用户界面上出现一个警示信息。\r\n为避免出现警示信息，您需要取消本创建向导，从 Eissoft 公司官网下载最新版本的 康康驾到 VPN Client，重新安装并开启本 Web 安装工具创建器向导。\r\n\r\n你确定要继续创建一个 Web 安装工具吗？
 SW_FILE_NOT_FOUNT					没有找到文件 "%s"
 SW_WEB_FINISHED						Web安装工具已创建，并保存为 "%s"。\r\n\r\n请将 ZIP 文件解压缩，并将解压后的文件上传到 Web 服务器，编辑一个HTML文件和一个 inf 文件来适当替换URL。\r\n\r\n部署 Web 安装程序的解释说明在ZIP文件中描述。
 
-SW_VG_CONFIRM_MSG					您想用 SoftEther VPN 客户端安装并激活 VPN Gate P2P 中继功能的插件吗 ?\r\n\r\n本插件可以规避官方防火墙的限制实现通信的稳定性。同时 VPN Gate 的通信经常会消耗一定的网络带宽。所以不推荐在移动连接上使用 VPN Gate。\r\n\r\n请注意，一些国家和地区有规定禁止加密通信绕过官方防火墙。在这种情况下，请您不要在您的计算机上使用 VPN Gate 功能。VPN Gate 主要在日本使用。VPN Gate 仅仅是一个学术研究项目。VPN Gate 受日本法律管辖。使用此软件和服务期间，请您遵守本国相关的法律法规，这是您自己的责任。您将完全承担使用此软件和服务造成的任何损失和责任，不管在日本境内还是境外。
+SW_VG_CONFIRM_MSG					您想用 康康驾到 VPN 客户端安装并激活 VPN Gate P2P 中继功能的插件吗 ?\r\n\r\n本插件可以规避官方防火墙的限制实现通信的稳定性。同时 VPN Gate 的通信经常会消耗一定的网络带宽。所以不推荐在移动连接上使用 VPN Gate。\r\n\r\n请注意，一些国家和地区有规定禁止加密通信绕过官方防火墙。在这种情况下，请您不要在您的计算机上使用 VPN Gate 功能。VPN Gate 主要在日本使用。VPN Gate 仅仅是一个学术研究项目。VPN Gate 受日本法律管辖。使用此软件和服务期间，请您遵守本国相关的法律法规，这是您自己的责任。您将完全承担使用此软件和服务造成的任何损失和责任，不管在日本境内还是境外。
 
 
 
@@ -7362,63 +7362,63 @@ SW_DIRNAME_CONFIG_TOOLS					配置工具
 SW_DIRNAME_ADMIN_TOOLS					管理工具
 SW_DIRNAME_LANGUAGE_TOOLS				语言设置
 
-SW_RUN_TEXT_VPNSMGR					开启 SoftEther VPN Server 管理工具
-SW_RUN_TEXT_VPNCMGR					开启 SoftEther VPN Client 管理工具.
+SW_RUN_TEXT_VPNSMGR					开启 康康驾到 VPN Server 管理工具
+SW_RUN_TEXT_VPNCMGR					开启 康康驾到 VPN Client 管理工具.
 
-SW_NIC_UNINSTALL						SoftEther VPN 客户端的虚拟网络适配器已在系统上创建。\r\n你要删除这些虚拟网络适配器?
+SW_NIC_UNINSTALL						康康驾到 VPN 客户端的虚拟网络适配器已在系统上创建。\r\n你要删除这些虚拟网络适配器?
 
 # --- Do not translate this section !!! stay them in English !!! ---
 SW_TAG_USERNAME_ENGLISH						\ (User-Mode)
-SW_LINK_NAME_VPNSERVER_SVC					SoftEther VPN Server Developer User-mode Service
-SW_LINK_NAME_VPNBRIDGE_SVC					SoftEther VPN Bridge Developer User-mode Service
-SW_LONG_VPNSERVER							SoftEther VPN Server Developer Edition
-SW_LONG_VPNCLIENT							SoftEther VPN Client Developer Edition
-SW_LONG_VPNBRIDGE							SoftEther VPN Bridge Developer Edition
-SW_LONG_VPNSMGR								SoftEther VPN Server Manager Developer Edition
-SW_LONG_VPNCMGR								SoftEther VPN Client Manager Developer Edition
+SW_LINK_NAME_VPNSERVER_SVC					康康驾到 VPN Server User-mode Service
+SW_LINK_NAME_VPNBRIDGE_SVC					康康驾到 VPN Bridge User-mode Service
+SW_LONG_VPNSERVER							康康驾到 VPN Server 
+SW_LONG_VPNCLIENT							康康驾到 VPN Client 
+SW_LONG_VPNBRIDGE							康康驾到 VPN Bridge 
+SW_LONG_VPNSMGR								康康驾到 VPN Server Manager 
+SW_LONG_VPNCMGR								康康驾到 VPN Client Manager 
 SW_LANG_SET_FAILED							Failed to write the new language setting on lang.config file.
 # --- end of "Do not translate this section" ---
 
 
 # 快捷方式文件名
-SW_LINK_NAME_VPNSMGR_SHORT				SoftEther VPN Server 管理工具 (Dev)
+SW_LINK_NAME_VPNSMGR_SHORT				康康驾到 VPN Server 管理工具 (Dev)
 SW_LINK_NAME_VPNSMGR_SHORT_UM				SE-VPN Server Manager (Dev User)
 SW_LINK_NAME_VPNSMGR_SHORT_TOOLSONLY		SE-VPN Server Manager (Dev Tools)
 SW_LINK_NAME_VPNSMGR_SHORT_TOOLSONLY_UM	SE-VPN Server Manager (Dev User Tools)
-SW_LINK_NAME_VPNSMGR_FULL				SoftEther VPN Server 管理工具 Developer Edition
-SW_LINK_NAME_VPNSMGR_COMMENT			您在一个远程计算机上可以管理 SoftEther VPN Server 或者 SoftEther VPN Bridge 端。
+SW_LINK_NAME_VPNSMGR_FULL				康康驾到 VPN Server 管理工具 
+SW_LINK_NAME_VPNSMGR_COMMENT			您在一个远程计算机上可以管理 康康驾到 VPN Server 或者 康康驾到 VPN Bridge 端。
 
-SW_LINK_NAME_VPNCMGR_SHORT				SoftEther VPN Client 管理工具 (Dev)
-SW_LINK_NAME_VPNCMGR_FULL				SoftEther VPN Client 管理工具 Developer Edition
-SW_LINK_NAME_VPNCMGR_COMMENT			您可以通过使用 SoftEther VPN Client 连接到 VPN Server。
+SW_LINK_NAME_VPNCMGR_SHORT				康康驾到 VPN Client 管理工具 (Dev)
+SW_LINK_NAME_VPNCMGR_FULL				康康驾到 VPN Client 管理工具 
+SW_LINK_NAME_VPNCMGR_COMMENT			您可以通过使用 康康驾到 VPN Client 连接到 VPN Server。
 
-SW_LINK_NAME_VPNCMGRTOOLS_SHORT		SoftEther VPN Client 远程管理工具 (Dev)
+SW_LINK_NAME_VPNCMGRTOOLS_SHORT		康康驾到 VPN Client 远程管理工具 (Dev)
 SW_LINK_NAME_VPNCMGRTOOLS_SHORT_UM			SE-VPN Client Remote Manager (Dev User)
-SW_LINK_NAME_VPNCMGRTOOLS_FULL			SoftEther VPN Client 远程管理工具 Developer Edition
+SW_LINK_NAME_VPNCMGRTOOLS_FULL			康康驾到 VPN Client 远程管理工具 
 
-SW_LINK_NAME_VPNCMGR2_FULL				管理远程电脑上的 SoftEther VPN Client
-SW_LINK_NAME_VPNCMGR2_COMMENT			您可以建立一个远程连接来管理远程电脑上的 SoftEther VPN Client 。
+SW_LINK_NAME_VPNCMGR2_FULL				管理远程电脑上的 康康驾到 VPN Client
+SW_LINK_NAME_VPNCMGR2_COMMENT			您可以建立一个远程连接来管理远程电脑上的 康康驾到 VPN Client 。
 
-SW_LINK_NAME_VPNCMGRTRAY_FULL			SoftEther VPN Client Manager Developer Edition Startup
-SW_LINK_NAME_VPNCMGRTRAY_COMMENT		在任务栏的通知区域注册一个 SoftEther VPN Client Developer Edition图标。
+SW_LINK_NAME_VPNCMGRTRAY_FULL			康康驾到 VPN Client Manager  Startup
+SW_LINK_NAME_VPNCMGRTRAY_COMMENT		在任务栏的通知区域注册一个 康康驾到 VPN Client 图标。
 
 SW_LINK_NAME_EASYINSTALLER				简单安装工具创建工具
-SW_LINK_NAME_EASYINSTALLER_COMMENT		为公司系统管理员创建 SoftEther VPN Client 简单安装工具的工具，有自动快速启动到指定目标 VPN 连接的功能。
+SW_LINK_NAME_EASYINSTALLER_COMMENT		为公司系统管理员创建 康康驾到 VPN Client 简单安装工具的工具，有自动快速启动到指定目标 VPN 连接的功能。
 
 SW_LINK_NAME_WEBINSTALLER				Web安装工具创建工具
-SW_LINK_NAME_WEBINSTALLER_COMMENT		为公司系统管理员创建 SoftEther VPN Client Web安装工具(ActiveX 安装工具)的工具，有自动快速启动到指定目标 VPN 连接的功能。
+SW_LINK_NAME_WEBINSTALLER_COMMENT		为公司系统管理员创建 康康驾到 VPN Client Web安装工具(ActiveX 安装工具)的工具，有自动快速启动到指定目标 VPN 连接的功能。
 
 
-SW_LINK_NAME_VPNCMD					SoftEther VPN 命令行实用工具(vpncmd)
-SW_LINK_NAME_VPNCMD_COMMENT			用 vpncmd 在命令行界面管理 SoftEther VPN Server ， SoftEther VPN Bridge 端和 SoftEther VPN Client 。
+SW_LINK_NAME_VPNCMD					康康驾到 VPN 命令行实用工具(vpncmd)
+SW_LINK_NAME_VPNCMD_COMMENT			用 vpncmd 在命令行界面管理 康康驾到 VPN Server ， 康康驾到 VPN Bridge 端和 康康驾到 VPN Client 。
 SW_LINK_NAME_TRAFFIC					网络传输速度测量工具
 SW_LINK_NAME_TRAFFIC_COMMENT			工具执行用 TCP/IP 连接的两台电脑之间的数据包传输，会用尽量大的吞吐量，从而测量出精确的网络可用传输速度。本工具不仅限于 VPN，也可以用在物理网络中。
 SW_LINK_NAME_TCP						TCP/IP 优化实用工具
 SW_LINK_NAME_TCP_COMMENT				TCP/IP 优化实用工具可以调节 Windows 的 TCP/IP 参数，以提高本电脑的网络通信吞吐量。
 SW_LINK_NAME_SERVICES					服务正在本电脑运行
-SW_LINK_NAME_SERVICES_COMMENT			开始，结束和配置 Windows 服务。您可以开启和关闭 SoftEther VPN 服务。
-SW_LINK_NAME_VPNSERVER_SVC_COMMENT		使用用户模式开启 SoftEther VPN Server 服务。
-SW_LINK_NAME_VPNBRIDGE_SVC_COMMENT		使用用户模式开启 SoftEther VPN Bridge 服务。
+SW_LINK_NAME_SERVICES_COMMENT			开始，结束和配置 Windows 服务。您可以开启和关闭 康康驾到 VPN 服务。
+SW_LINK_NAME_VPNSERVER_SVC_COMMENT		使用用户模式开启 康康驾到 VPN Server 服务。
+SW_LINK_NAME_VPNBRIDGE_SVC_COMMENT		使用用户模式开启 康康驾到 VPN Bridge 服务。
 
 SW_LINK_NAME_UNINSTALL					卸载 %s
 SW_LINK_NAME_UNINSTALL_COMMENT			在本电脑中卸载 %s
@@ -7426,6 +7426,6 @@ SW_LINK_NAME_LANGUAGE					配置显示语言
 SW_LINK_NAME_LANGUAGE_COMMENT			修改 %s 的显示语言设置。
 
 SW_LINK_NAME_DEBUG						调试信息采集工具
-SW_LINK_NAME_DEBUG_COMMENT				采集 SoftEther VPN 的调试信息。仅在您的支持人员要求你这样做时使用此工具。
+SW_LINK_NAME_DEBUG_COMMENT				采集 康康驾到 VPN 的调试信息。仅在您的支持人员要求你这样做时使用此工具。
 
 

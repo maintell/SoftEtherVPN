@@ -1,10 +1,10 @@
-# SoftEther VPN String Table
+# Eissoft VPN String Table
 
 
-# Copyright (c) all contributors on SoftEther VPN project in GitHub.
+# Copyright (c) all contributors on Eissoft VPN project in GitHub.
 
 
-# Copyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.
+# Copyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.
 
 
 #
@@ -39,17 +39,17 @@ STRTABLE_ID				SE_VPN_20121007
 
 
 # Strings for Japanese version only (not required for other language versions.)
-CM_JAPANESE_ONLY_OLD_STARTUP	%s\\SoftEther VPN Client 2.0 タスクトレイ.lnk
+CM_JAPANESE_ONLY_OLD_STARTUP	%s\\Eissoft VPN Client 2.0 タスクトレイ.lnk
 
 
 # Software information
-PRODUCT_NAME_VPN_CLI	Edição de desenvolvedor do SoftEther VPN Cliente
-PRODUCT_NAME_VPN_CMGR	Edição de desenvolvedor do gerenciador SoftEther VPN Cliente
-PRODUCT_NAME_VPN_SVR	Edição de desenvolvedor do SoftEther VPN Servidor
-PRODUCT_NAME_VPN_BRIDGE	Edição de desenvolvedor do SoftEther VPN Bridge
-PRODUCT_NAME_VPN_SMGR	Edição de desenvolvedor do gerenciador SoftEther VPN Servidor
-PRODUCT_NAME_ELOGSVC	Edição de desenvolvedor do SoftEther EtherLogger
-PRODUCT_NAME_ELOGMGR	Edição de desenvolvedor do SoftEther EtherLogger
+PRODUCT_NAME_VPN_CLI	Edição de desenvolvedor do Eissoft VPN Cliente
+PRODUCT_NAME_VPN_CMGR	Edição de desenvolvedor do gerenciador Eissoft VPN Cliente
+PRODUCT_NAME_VPN_SVR	Edição de desenvolvedor do Eissoft VPN Servidor
+PRODUCT_NAME_VPN_BRIDGE	Edição de desenvolvedor do Eissoft VPN Bridge
+PRODUCT_NAME_VPN_SMGR	Edição de desenvolvedor do gerenciador Eissoft VPN Servidor
+PRODUCT_NAME_ELOGSVC	Edição de desenvolvedor do Eissoft EtherLogger
+PRODUCT_NAME_ELOGMGR	Edição de desenvolvedor do Eissoft EtherLogger
 
 
 # Branding String for Limited Connection
@@ -68,7 +68,7 @@ PRODUCT_NAME_ELOGMGR	Edição de desenvolvedor do SoftEther EtherLogger
 
 
 # Family Name for Software Update Check
-PRODUCT_FAMILY_NAME	SoftEtherDev
+PRODUCT_FAMILY_NAME	EissoftDev
 
 
 # Product information
@@ -87,7 +87,7 @@ ERR_1	Falha na conexão com o servidor. Verifique a conexão de rede e se o ende
 ERR_2	Ocorreu um erro no protocolo. Erro foi retornado do servidor de destino.
 ERR_3	A conexão foi desconectada.
 ERR_4	Ocorreu um erro de protocolo.
-ERR_5	Um cliente que não é um software VPN SoftEther se conectou à porta.
+ERR_5	Um cliente que não é um software VPN Eissoft se conectou à porta.
 ERR_6	O comando foi cancelado pelo usuário.
 ERR_7	O servidor negou o tipo de autenticação especificado.
 ERR_8	O Hub Virtual especificado não existe no servidor.
@@ -153,13 +153,13 @@ ERR_67	The group with the specified name already exists on the Virtual Hub.
 ERR_68	A user with the specified name exists on the server but the type of authentication is not password authentication. Unable to change the password.
 ERR_69	The user name or old password you entered is incorrect. Note that the password is case-sensitive.
 ERR_70	Saitama.
-ERR_71	SoftEther has temporarily stopped the current distribution by order of the Japan Ministry of Economy Trade and Industry.
-ERR_72	SoftEther has temporarily stopped the current distribution by order of the IPA.
+ERR_71	Eissoft has temporarily stopped the current distribution by order of the Japan Ministry of Economy Trade and Industry.
+ERR_72	Eissoft has temporarily stopped the current distribution by order of the IPA.
 ERR_73	Unable to disconnect the Cascade Connection's session. To delete the session, stop the Cascade Connection.
 ERR_74	The VPN Connection Setting for connection with the VPN Server is incomplete. At first you have to complete the VPN Connection Setting for connection with the VPN Server.
 ERR_75	VPN Connection to the VPN Server has already started.
 ERR_76	Not connected to the VPN Server.
-ERR_77	The specified X509 certificate file does not contain a RSA 1024 bit or 2048 bit public key. SoftEther VPN software supports only RSA 1024 bit or 2048 bit certificates.
+ERR_77	The specified X509 certificate file does not contain a RSA 1024 bit or 2048 bit public key. Eissoft VPN software supports only RSA 1024 bit or 2048 bit certificates.
 ERR_78	Unable to disconnect the SecureNAT session. To delete the session, stop the SecureNAT function.
 ERR_79	Cannot enable the SecureNAT in a clustering environment.
 ERR_80	The SecureNAT is not operating.
@@ -197,14 +197,14 @@ ERR_111	Out of memory.
 ERR_112	The specified object already exists.
 ERR_113	A fatal error occurred. It is possible that the program operation is unable to continue.
 ERR_114	The destination VPN Server has detected a software license violation. Connection is refused. Contact the VPN Server's administrator.
-ERR_115	The destination VPN Server has connected via the Internet to an important server provided by SoftEther VPN Project and cannot validate a license. Either wait a while, or contact the VPN Server administrator requesting that the server log file and the Internet connection status of the server itself be checked.
+ERR_115	The destination VPN Server has connected via the Internet to an important server provided by Eissoft VPN Project and cannot validate a license. Either wait a while, or contact the VPN Server administrator requesting that the server log file and the Internet connection status of the server itself be checked.
 ERR_116	A software license violation has been detected on the client side. Connection is refused.
 ERR_117	The command or file name is incorrect.
 ERR_118	The license key is incorrect.
 ERR_119	No valid product license is registered on the VPN Server. Contact the VPN Server's administrator.
 ERR_120	The product license required for the VPN Server to operate as a cluster is not registered. Contact the VPN Server's administrator.
-ERR_121	This VPN Connection Setting has been installed using the "Web Installer Creation Kit" or "Simple Installer Creation Kit". The destination server is not an edition that supports the SoftEther VPN 2.0 Administration Pack. Contact the system administrator or person who created the installer.
-ERR_122	With the VPN Server SDK for .NET, it is only possible to connect to the SoftEther VPN Server edition that supports the SoftEther VPN 2.0 Administration Pack. The destination VPN Server is not an edition that supports the SoftEther VPN 2.0 Administration Pack. Contact the system administrator.
+ERR_121	This VPN Connection Setting has been installed using the "Web Installer Creation Kit" or "Simple Installer Creation Kit". The destination server is not an edition that supports the Eissoft VPN 2.0 Administration Pack. Contact the system administrator or person who created the installer.
+ERR_122	With the VPN Server SDK for .NET, it is only possible to connect to the Eissoft VPN Server edition that supports the Eissoft VPN 2.0 Administration Pack. The destination VPN Server is not an edition that supports the Eissoft VPN 2.0 Administration Pack. Contact the system administrator.
 ERR_123	Beta Version Software on the destination server is expired. Contact to system administrator of the server to download a new beta version or full version from http://selinks.org/.
 ERR_124	The VPN connection to VPN Server is refused at server side.
 ERR_125	The VPN connection to VPN Server is refused at client side.
@@ -225,11 +225,11 @@ ERR_139	The connection to the Dynamic DNS server has been disconnected.
 ERR_140	Failed to initialize the ICMP (Ping) protocol. The process of the VPN Server might be running in a normal-user privileges. In such case, run the VPN Server as a system service. (in Linux / UNIX, run it in root privileges.)
 ERR_141	Failed to open the DNS port 53. Make sure that there are no other DNS server program (for example, BIND or Microsoft DNS Server) on the same computer. If there are conflicting services stop them. Or run the VPN Server's process in root privileges on Linux / UNIX/
 ERR_142	The OpenVPN Server function is not enabled.
-ERR_143	The Certificate Authentication function and the External Server Authentication function have not been implemented on the open-source version of SoftEther VPN yet. Choose either Anonymous Authentication or Password Authentication instead.
+ERR_143	The Certificate Authentication function and the External Server Authentication function have not been implemented on the open-source version of Eissoft VPN yet. Choose either Anonymous Authentication or Password Authentication instead.
 ERR_144	Unacceptable operation. Use the VPN Gate Control Panel to change the VPN Gate Relay Server settings.
 ERR_145	Unacceptable operation. Use the VPN Gate Utility to modify the connection setting for VPN Gate Public VPN Relay Servers.
 ERR_146	The VPN Gate Service is running inside the VPN Client program. You cannot stop the VPN Gate Service on this screen. Use the VPN Client Manager to enable or disable the VPN Gate Service.
-ERR_147	This feature is not supported. It hasn't been implemented yet on the open-source version of SoftEther VPN.
+ERR_147	This feature is not supported. It hasn't been implemented yet on the open-source version of Eissoft VPN.
 ERR_148	The VPN connection was disconnected because the system is being suspended.
 ERR_149	The destination VPN Server's certificate does not match the specified hostname.
 ERR_150	Failed to find the TLS version that is supported by both sides. This usually means that one side may be using an obsolete TLS version which is diabled by the other side.
@@ -388,7 +388,7 @@ SEC_OBJECT_EXPORT_OK	The data read from the smart card has been saved.
 SEC_NEW_CERT_IMPORT_OK	The newly created certificate has been written to the smart card.
 SEC_CURRENT_DEVICE	Currently the device %S is selected.
 SEC_CURRENT_NO_DEVICE	Select which smart card device to use. 
-SEC_NO_SECURE_DEVICE	A SoftEther VPN-compatible smart card or hardware security token device is not installed on the system. \r\n\r\nTo use a smart card or hardware token using SoftEther VPN it is necessary to install a PKCS#11-compatible device driver on Windows. In addition, it is necessary that SoftEther VPN supports the device type. \r\n\r\nMake sure a system-compatible device driver has been installed. \r\nRefer to the SoftEther VPN Project website for the list of SoftEther VPN-compatible devices. Also, it may be possible to increase the compatible devices by updating to the most recent software version.
+SEC_NO_SECURE_DEVICE	A Eissoft VPN-compatible smart card or hardware security token device is not installed on the system. \r\n\r\nTo use a smart card or hardware token using Eissoft VPN it is necessary to install a PKCS#11-compatible device driver on Windows. In addition, it is necessary that Eissoft VPN supports the device type. \r\n\r\nMake sure a system-compatible device driver has been installed. \r\nRefer to the Eissoft VPN Project website for the list of Eissoft VPN-compatible devices. Also, it may be possible to increase the compatible devices by updating to the most recent software version.
 SEC_PIN_DEVICE_OPEN_ERR	Unable to connect the device "%S". Make sure the hardware is correctly connected.
 SEC_PIN_CURRENT_BAD	Current PIN code is incorrect.
 SEC_PIN_CHANGE_FAILED	Changing of PIN code failed.
@@ -472,8 +472,8 @@ WINVER_ERROR_PC_REMOTE	the remote server
 
 
 # Warning for Open-source Version
-OSS_MSG	Welcome to the SoftEther VPN Server Academic Version!\r\n\r\n\r\nThis VPN Server is open-source free software developed as academic research at University of Tsukuba, Japan, and distributed from the SoftEther VPN Project (http://www.softether.org/), for free of charge for the public interests.\r\n\r\nSoftEther VPN software is distributed to public as a part of the joint-research contract between University of Tsukuba and SoftEther VPN Project. SoftEther VPN software is developed and published for JUST AN ACADEMIC RESEARCH PURPOSE. Therefore no support service are provided about SoftEther VPN software even if it contains bugs or vulnerabilities. A user will be liable for the result of use SoftEther VPN. The developers and publishers of SoftEther VPN will never be liable for either any consequences or damages.\r\n\r\nEnjoy using VPN with SoftEther VPN Server.\r\n\r\nFor more details of SoftEther VPN, visit http://www.softether.org/.\r\n\r\n
-NATT_MSG	** Connected with NAT traversal - might be unstable **\r\n\r\nThis VPN Client is connected to the VPN Server '%S' by using the NAT Traversal (UDP Hole Punching) technology.\r\n\r\nNAT Traversal allows the VPN Server behind the NAT-box to accept VPN connections from VPN Client without any port-forwarding setting on the NAT-box.\r\n\r\nHowever, NAT Traversal-based VPN sessions sometimes become unstable, because NAT Traversal uses UDP-based protocol. For example, the VPN tunnel disconnects every 5 minutes if there is a poor NAT-box between the VPN Server and the VPN Client. Some large-scale NAT gateways in cheap ISPs sometimes cause the same problem on NAT Traversal. This is a problem of routers or ISPs. This is not a problem of SoftEther VPN software.\r\n\r\nTo solve the unstable tunnel problem, you should connect to the VPN Server's TCP listener port directly, instead of using NAT Traversal. To connect to the VPN Server directly by using TCP, a listener port of the VPN Server must be exposed to the Internet by a port-forward setting on the NAT-box. Ask the administrator of the NAT-box, or refer to the manual of the NAT-box to add a port-forwarding setting on the NAT-box.\r\n\r\nIf this message still remains despite the VPN Server is exposing a TCP port to the Internet, check the "Disable NAT-T" checkbox on the VPN Client connection setting screen.\r\n\r\n
+OSS_MSG	Welcome to the Eissoft VPN Server Academic Version!\r\n\r\n\r\nThis VPN Server is open-source free software developed as academic research at University of Tsukuba, Japan, and distributed from the Eissoft VPN Project (http://www.softether.org/), for free of charge for the public interests.\r\n\r\nEissoft VPN software is distributed to public as a part of the joint-research contract between University of Tsukuba and Eissoft VPN Project. Eissoft VPN software is developed and published for JUST AN ACADEMIC RESEARCH PURPOSE. Therefore no support service are provided about Eissoft VPN software even if it contains bugs or vulnerabilities. A user will be liable for the result of use Eissoft VPN. The developers and publishers of Eissoft VPN will never be liable for either any consequences or damages.\r\n\r\nEnjoy using VPN with Eissoft VPN Server.\r\n\r\nFor more details of Eissoft VPN, visit http://www.softether.org/.\r\n\r\n
+NATT_MSG	** Connected with NAT traversal - might be unstable **\r\n\r\nThis VPN Client is connected to the VPN Server '%S' by using the NAT Traversal (UDP Hole Punching) technology.\r\n\r\nNAT Traversal allows the VPN Server behind the NAT-box to accept VPN connections from VPN Client without any port-forwarding setting on the NAT-box.\r\n\r\nHowever, NAT Traversal-based VPN sessions sometimes become unstable, because NAT Traversal uses UDP-based protocol. For example, the VPN tunnel disconnects every 5 minutes if there is a poor NAT-box between the VPN Server and the VPN Client. Some large-scale NAT gateways in cheap ISPs sometimes cause the same problem on NAT Traversal. This is a problem of routers or ISPs. This is not a problem of Eissoft VPN software.\r\n\r\nTo solve the unstable tunnel problem, you should connect to the VPN Server's TCP listener port directly, instead of using NAT Traversal. To connect to the VPN Server directly by using TCP, a listener port of the VPN Server must be exposed to the Internet by a port-forward setting on the NAT-box. Ask the administrator of the NAT-box, or refer to the manual of the NAT-box to add a port-forwarding setting on the NAT-box.\r\n\r\nIf this message still remains despite the VPN Server is exposing a TCP port to the Internet, check the "Disable NAT-T" checkbox on the VPN Client connection setting screen.\r\n\r\n
 
 
 # Virtual HUB Admin Options
@@ -687,10 +687,10 @@ CT_b_support_redirect_url_acl	HTTP URL Redirection in Access List is Supported
 CT_b_is_in_vm	Running on VM (Virtual Machine)
 CT_b_support_azure	VPN Azure is Supported
 CT_b_support_aes_ni	CPU AES Acceleration (AES-NI) is Active
-CT_b_using_selow_driver	SoftEther Lightweight Kernel-mode Ethernet Driver is Active
+CT_b_using_selow_driver	Eissoft Lightweight Kernel-mode Ethernet Driver is Active
 CT_b_support_vgs	VPN Gate Service Server Functions are Supported
 CT_b_support_vgs_in_client	VPN Gate Service Server Functions (VPN Client integrated)
-CT_b_is_softether	Either Free or Open-Source Version of SoftEther VPN
+CT_b_is_softether	Either Free or Open-Source Version of Eissoft VPN
 CT_b_suppport_push_route	Static Routing Table Pushing Function
 CT_b_suppport_push_route_config	Static Routing Table Pushing Function (Configurable)
 
@@ -798,18 +798,18 @@ REMOTE_DEF_TITLE	Specify the computer you want to remotely connect to.
 
 
 # Concerning client notification service
-CN_TITLE	Edição de desenvolvedor do SoftEther VPN Cliente
+CN_TITLE	Edição de desenvolvedor do Eissoft VPN Cliente
 
 
 # Concerning Connection Manager
-CM_TITLE	Edição de desenvolvedor do gerenciador SoftEther VPN Cliente
+CM_TITLE	Edição de desenvolvedor do gerenciador Eissoft VPN Cliente
 CM_PW_LOCALMACHINE	Computador local
 CM_NO_REMOTE	The VPN Client service running on %s disallows remote connections.
 CM_CONNECT_FAILED	Unable to connect to the VPN Client service operating on %s. \r\nMake sure the VPN Client service has started and is running normally.
 CM_BAD_PASSWORD	The password is incorrect. Re-enter password. The password is case-sensitive so be sure to discern between upper and lower case letters.
 CM_NUM_CONN_COUNT	%u Sessões VPN
 CM_CONN_NO	Não conectado
-CM_PRODUCT_NAME	SoftEther VPN Client Build %u
+CM_PRODUCT_NAME	Eissoft VPN Client Build %u
 CM_ACCOUNT_COLUMN_1	Nome da configuração da conexão VPN
 CM_ACCOUNT_COLUMN_2	Status
 CM_ACCOUNT_COLUMN_3	Nome do host do servidor VPN
@@ -985,7 +985,7 @@ CM_VPN_FILE_IMPORT_NG	Unable to import the VPN Connection Setting File. Because 
 CM_VLAN_INSTALLING	Please Wait a While
 CM_SECURE_MUST_LOCAL	It is currently not possible to configure smart card settings because you are connected to and managing a VPN Client on a remote computer.
 CM_DETAIL_MODE_LINK_STR	With a Cascade Connection, Connect by Bridge / Router mode is always enabled.
-CM_TRAY_INITING			SoftEther VPN
+CM_TRAY_INITING			Eissoft VPN
 CM_TRAY_NOT_CONNECTED	\r\nNot connected
 CM_TRAY_CONNECTING		\r\nConnecting
 CM_TRAY_CONNECTED		\r\nConnected
@@ -1023,7 +1023,7 @@ CM_TRAY_ICON_RESTORE	The icon in the task tray has been deleted.\r\n\r\nTo resto
 CM_WOULDYOULOAD_IE_PROXY	Currently the Internet Explorer on this computer is configured to use the proxy server "%S".\r\nDo you want to apply the current proxy settings on the new VPN connection setting?\r\n\r\nClick Yes to use the proxy settings of Internet Explorer.\r\nClick No to use direct connection to the VPN Server (does not a proxy server.)\r\nThis setting can be modified in the property screen of the connection settings any time later.
 CM_MSG_TITLE	VPN Server "%S" (Virtual Hub: "%S")
 CM_JUMPLIST_RCCONNECT	Servidores VPN recentes
-CM_VPNGATE_MESSAGE	There is the list of Public VPN Relay Servers on the VPN Gate Academic Project Web Site.\r\nAnyone on the Internet can connect a VPN connection to any VPN servers on the list.\r\n\r\nVPN Gate Academic Project is not a part of SoftEther VPN.\r\nThis icon provides just a link to http://www.vpngate.net/.\r\nYou need to install VPN Gate Plugin to connect VPN Gate.\r\n\r\nDo you want to visit http://www.vpngate.net/ (provided by University of Tsukuba) ?
+CM_VPNGATE_MESSAGE	There is the list of Public VPN Relay Servers on the VPN Gate Academic Project Web Site.\r\nAnyone on the Internet can connect a VPN connection to any VPN servers on the list.\r\n\r\nVPN Gate Academic Project is not a part of Eissoft VPN.\r\nThis icon provides just a link to http://www.vpngate.net/.\r\nYou need to install VPN Gate Plugin to connect VPN Gate.\r\n\r\nDo you want to visit http://www.vpngate.net/ (provided by University of Tsukuba) ?
 CM_VLAN_REINSTALL_MSG	After reinstalling the Virtual Network Adapter driver, the current Virtual Network Adapter's MAC address will change. Also, all TCP/IP settings within the Virtual Network Adapter will reset.\r\n\r\nIn case the reinstalled Virtual Network Adapter fails to work, delete it and create a new one. If it still doesn't work properly, please create a new Virtual Network Adapter with a different name.
 VGC_COLUMN_0	DDNS Hostname
 VGC_COLUMN_1	IP Address (Hostname)
@@ -1050,14 +1050,14 @@ VGC_NUM_VPN	%u Sessões
 VGC_NUM_LOGIN	%S logins
 VGC_UDP_AVAILABLE	UDP OK
 VGC_TITLE	VPN Gate Plug-in Message
-VGC_VER_DIFF	The version of VPN Gate Client Plug-in is different from SoftEther VPN Client.\r\n\r\n- Current VPN Gate Plug-in: Build %u\r\n- Current SoftEther VPN Client: Build %u\r\n\r\nIt is recommended to download and install VPN Gate Plug-in Build %u. Otherwise, communication errors or list-update errors might be occur. If the VPN Server List updating fails many times, update the VPN Gate Plug-in version.\r\n\r\nThe latest VPN Gate Plug-in is available at http://www.vpngate.net/.\r\n(Use a mirror-site if you cannot visit the above web-site directly.)\r\n\r\n
+VGC_VER_DIFF	The version of VPN Gate Client Plug-in is different from Eissoft VPN Client.\r\n\r\n- Current VPN Gate Plug-in: Build %u\r\n- Current Eissoft VPN Client: Build %u\r\n\r\nIt is recommended to download and install VPN Gate Plug-in Build %u. Otherwise, communication errors or list-update errors might be occur. If the VPN Server List updating fails many times, update the VPN Gate Plug-in version.\r\n\r\nThe latest VPN Gate Plug-in is available at http://www.vpngate.net/.\r\n(Use a mirror-site if you cannot visit the above web-site directly.)\r\n\r\n
 VGC_LIST_STR_OK	%S Public VPN Relay Servers on the Earth! (Updated at %S)
 VGC_LIST_STR_OK_2	%S Servers (at %S) - List update failed. Try again. If fails again, download the latest VPN Gate Client.
 VGC_LIST_STR_NG	List update failed. Try again. If fails again, download the latest VPN Gate Client.
 VGC_PROXY_MSG	If you are using a proxy server, you might not be able to use VPN Relay Servers which don't support the TCP port 443 as "SSL-VPN Connection" from such a proxy-mandated network.
 VGC_PROXY_TITLE	Notice for Proxy Server Users
 VGS_NO_HUB_YET	In order to set the message, first you have to commit enabling the VPN Gate service. After the service will be enabled, re-open this window and set the message.
-VGS_STOP	VPN Gate Service will stop after you click the OK button.\r\n\r\nAfter VPN Gate Service will be stopped, this computer will never accept new VPN connection requests, however, still-alive VPN Sessions might remain.\r\n (Such VPN sessions sometimes hidden from the enumeration.) \r\n\r\nTo terminate all of still-alive VPN Sessions completely, restart SoftEther VPN Server or SoftEther VPN Client service, or reboot the computer.
+VGS_STOP	VPN Gate Service will stop after you click the OK button.\r\n\r\nAfter VPN Gate Service will be stopped, this computer will never accept new VPN connection requests, however, still-alive VPN Sessions might remain.\r\n (Such VPN sessions sometimes hidden from the enumeration.) \r\n\r\nTo terminate all of still-alive VPN Sessions completely, restart Eissoft VPN Server or Eissoft VPN Client service, or reboot the computer.
 VGS_START	This will activate the VPN Gate Relay Service function.\r\n\r\nVPN Gate Relay Service function must be activated by your own risk.\r\nSome countries prohibit using of encrypted VPN by laws.\r\nFor more details about VPN Gate Relay Service please visit http://www.vpngate.net/en/join.aspx.\r\n\r\nThe VPN Gate Academic Experiment Service is operated as a research project at the graduate school on University of Tsukuba, Japan. The service is governed under the Japanese laws. Other countries' laws are none of our concerns nor responsibilities.\r\n\r\nBy nature, there are almost 200 countries in the World, with different laws. It is impossible to verify every countries' laws and regulations and make the software comply with all countries' laws in advance to release the software. If a user uses VPN Gate service in a specific country, and damaged by public servants of the authority, the developer of either the service or software will never be liable to recover or compensate such damages or criminal responsibilities.\r\nBy using this software and service, the user must observe all concerned laws and rules with user's own responsibility. The user will be completely liable to any damages and responsibilities which are results of using this software and service, regardless of either inside or outside of Japan's territory.\r\nIf you don't agree nor understand the above warnings, do not use any of VPN Gate Academic Experiment Service functions.
 
 
@@ -1090,7 +1090,7 @@ SVC_HIDE_TRAY_MSG	This will hide the tasktray icons when starting %S in user mod
 
 
 # Concerning services (UNIX)
-UNIX_SVC_HELP	%S service program\nCopyright (c) all contributors on SoftEther VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.\nAll Rights Reserved.\n\n%S command usage:\n %S start  - Start the %S service.\n %S stop   - Stop the %S service if the service has been already started.\n\n
+UNIX_SVC_HELP	%S service program\nCopyright (c) all contributors on Eissoft VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.\nAll Rights Reserved.\n\n%S command usage:\n %S start  - Start the %S service.\n %S stop   - Stop the %S service if the service has been already started.\n\n
 UNIX_SVC_STARTED	The %S service has been started.\n
 UNIX_SVC_STOPPING	Stopping the %S service ...\n
 UNIX_SVC_STOPPED	%S service has been stopped.\n
@@ -1101,56 +1101,56 @@ UNIX_SVC_ERROR_FORK	Failed to create child process for the %S service.\n
 UNIX_SVC_NONROOT	\nWarning: The current user context is non-root. It is recommended to run the VPN service by the root user. Although the VPN service may run under non-root users, some privilege-required functions (e.g. the local bridge function) need the root privilege.\n
 
 
-# Service definition (SoftEther VPN Client)
+# Service definition (Eissoft VPN Client)
 SVC_VPNCLIENT_NAME	vpnclient
-SVC_VPNCLIENT_TITLE	SoftEther VPN Cliente
-SVC_VPNCLIENT_DESCRIPT	This manages the Virtual Network Adapter device driver and connection service for the SoftEther VPN Client. When this service is stopped, it will not be possible to use SoftEther VPN Client on this computer to connect to a SoftEther VPN Server.
+SVC_VPNCLIENT_TITLE	Eissoft VPN Cliente
+SVC_VPNCLIENT_DESCRIPT	This manages the Virtual Network Adapter device driver and connection service for the Eissoft VPN Client. When this service is stopped, it will not be possible to use Eissoft VPN Client on this computer to connect to a Eissoft VPN Server.
 
 
-# Service Definition (SoftEther VPN Server)
+# Service Definition (Eissoft VPN Server)
 SVC_VPNSERVER_NAME	vpnserver
-SVC_VPNSERVER_TITLE	SoftEther VPN Servidor
-SVC_VPNSERVER_DESCRIPT	This manages the server processes of SoftEther VPN Server. SoftEther VPN Server provides high-performance SoftEther VPN Server functions via TCP/IP protocol. When this service is stopped, SoftEther VPN Server on this computer will stop and SoftEther VPN Client will be unable to establish a VPN connection with this computer.
+SVC_VPNSERVER_TITLE	Eissoft VPN Servidor
+SVC_VPNSERVER_DESCRIPT	This manages the server processes of Eissoft VPN Server. Eissoft VPN Server provides high-performance Eissoft VPN Server functions via TCP/IP protocol. When this service is stopped, Eissoft VPN Server on this computer will stop and Eissoft VPN Client will be unable to establish a VPN connection with this computer.
 
 
-# Service Definition (SoftEther VPN Bridge)
+# Service Definition (Eissoft VPN Bridge)
 SVC_VPNBRIDGE_NAME	vpnbridge
-SVC_VPNBRIDGE_TITLE	SoftEther VPN Bridge
-SVC_VPNBRIDGE_DESCRIPT	This manages the processes of SoftEther VPN Bridge. SoftEther VPN Bridge provides a bridging connection between the network this computer is connected to and a SoftEther VPN Server that is remotely located. When this service is stopped, SoftEther VPN Bridge on this computer will stop and it will no longer be possible to communicate via the bridge connection.
+SVC_VPNBRIDGE_TITLE	Eissoft VPN Bridge
+SVC_VPNBRIDGE_DESCRIPT	This manages the processes of Eissoft VPN Bridge. Eissoft VPN Bridge provides a bridging connection between the network this computer is connected to and a Eissoft VPN Server that is remotely located. When this service is stopped, Eissoft VPN Bridge on this computer will stop and it will no longer be possible to communicate via the bridge connection.
 
 
-# Service definition (SoftEther VPN Client)
+# Service definition (Eissoft VPN Client)
 SVC_SEVPNCLIENTDEV_NAME	sevpnclientdev
-SVC_SEVPNCLIENTDEV_TITLE	Edição de desenvolvedor do SoftEther VPN Cliente
-SVC_SEVPNCLIENTDEV_DESCRIPT	This manages the Virtual Network Adapter device driver and connection service for the SoftEther VPN Client. When this service is stopped, it will not be possible to use SoftEther VPN Client on this computer to connect to a SoftEther VPN Server.
+SVC_SEVPNCLIENTDEV_TITLE	Edição de desenvolvedor do Eissoft VPN Cliente
+SVC_SEVPNCLIENTDEV_DESCRIPT	This manages the Virtual Network Adapter device driver and connection service for the Eissoft VPN Client. When this service is stopped, it will not be possible to use Eissoft VPN Client on this computer to connect to a Eissoft VPN Server.
 
 
-# Service Definition (SoftEther VPN Server)
+# Service Definition (Eissoft VPN Server)
 SVC_SEVPNSERVERDEV_NAME	sevpnserverdev
-SVC_SEVPNSERVERDEV_TITLE	Edição de desenvolvedor do SoftEther VPN Servidor
-SVC_SEVPNSERVERDEV_DESCRIPT	This manages the server processes of SoftEther VPN Server. SoftEther VPN Server provides high-performance SoftEther VPN Server functions via TCP/IP protocol. When this service is stopped, SoftEther VPN Server on this computer will stop and SoftEther VPN Client will be unable to establish a VPN connection with this computer.
+SVC_SEVPNSERVERDEV_TITLE	Edição de desenvolvedor do Eissoft VPN Servidor
+SVC_SEVPNSERVERDEV_DESCRIPT	This manages the server processes of Eissoft VPN Server. Eissoft VPN Server provides high-performance Eissoft VPN Server functions via TCP/IP protocol. When this service is stopped, Eissoft VPN Server on this computer will stop and Eissoft VPN Client will be unable to establish a VPN connection with this computer.
 
 
-# Service Definition (SoftEther VPN Bridge)
+# Service Definition (Eissoft VPN Bridge)
 SVC_SEVPNBRIDGEDEV_NAME	sevpnbridgedev
-SVC_SEVPNBRIDGEDEV_TITLE	Edição de desenvolvedor do SoftEther VPN Bridge
-SVC_SEVPNBRIDGEDEV_DESCRIPT	This manages the processes of SoftEther VPN Bridge. SoftEther VPN Bridge provides a bridging connection between the network this computer is connected to and a SoftEther VPN Server that is remotely located. When this service is stopped, SoftEther VPN Bridge on this computer will stop and it will no longer be possible to communicate via the bridge connection.
+SVC_SEVPNBRIDGEDEV_TITLE	Edição de desenvolvedor do Eissoft VPN Bridge
+SVC_SEVPNBRIDGEDEV_DESCRIPT	This manages the processes of Eissoft VPN Bridge. Eissoft VPN Bridge provides a bridging connection between the network this computer is connected to and a Eissoft VPN Server that is remotely located. When this service is stopped, Eissoft VPN Bridge on this computer will stop and it will no longer be possible to communicate via the bridge connection.
 
 
-# Service definition (SoftEther VPN User-mode Router)
+# Service definition (Eissoft VPN User-mode Router)
 SVC_VPNROUTER_NAME	vpnrouter
-SVC_VPNROUTER_TITLE	Edição de desenvolvedor do SoftEther VPN Router
-SVC_VPNROUTER_DESCRIPT	This manages the server processes of SoftEther VPN Router (service mode). SoftEther VPN Router is a program that provides a virtual NAT and DHCP server that operates in user mode and by using simple operations it is possible to establish a safe connection between a virtual IP network and a physical IP network. When this service is stopped, SoftEther VPN Router on this computer will stop and SoftEther VPN Client will be unable to use the routing service on this computer.
+SVC_VPNROUTER_TITLE	Edição de desenvolvedor do Eissoft VPN Router
+SVC_VPNROUTER_DESCRIPT	This manages the server processes of Eissoft VPN Router (service mode). Eissoft VPN Router is a program that provides a virtual NAT and DHCP server that operates in user mode and by using simple operations it is possible to establish a safe connection between a virtual IP network and a physical IP network. When this service is stopped, Eissoft VPN Router on this computer will stop and Eissoft VPN Client will be unable to use the routing service on this computer.
 
 
 # Service Definition (EtherLogger)
 SVC_ELOGSVC_NAME	elogsvc
-SVC_ELOGSVC_TITLE	Edição de desenvolvedor do SoftEther EtherLogger
-SVC_ELOGSVC_DESCRIPT	SoftEther EtherLogger is a service that captures data flowing through LAN cards connected to the computer and keeps a log of the headers of the packet types specified by the administrator and all data in text file format.
+SVC_ELOGSVC_TITLE	Edição de desenvolvedor do Eissoft EtherLogger
+SVC_ELOGSVC_DESCRIPT	Eissoft EtherLogger is a service that captures data flowing through LAN cards connected to the computer and keeps a log of the headers of the packet types specified by the administrator and all data in text file format.
 
 
-# Concerning SoftEther VPN Server Manager
-SM_TITLE	Edição de desenvolvedor do gerenciador SoftEther VPN Servidor
+# Concerning Eissoft VPN Server Manager
+SM_TITLE	Edição de desenvolvedor do gerenciador Eissoft VPN Servidor
 SM_LOCALHOST	localhost (Este servidor)
 SM_SERVER_BRIDGE_TITLE	Manage VPN Bridge "%S"
 SM_S_VHUB_BRIDGE	When using VPN Bridge, you manage Virtual Hub "BRIDGE" to operate management of VPN Bridge.
@@ -1505,11 +1505,11 @@ SM_SNAT_IS_KERNEL	Kernel-mode NAT is Active
 SM_SNAT_IS_RAW	Raw IP mode NAT is Active
 SM_BRIDGE_TOO_OLD_VER	The Local Bridge function is not supported by the version of the VPN Server that is currently connected. \r\nTry update to a new version.
 SM_BRIDGE_UNSUPPORTED	Unable to use the Local Bridge function with the operating system that this VPN Server is operating on. For the list of operating system that the Local Bridge function can be used on, refer to the online documentation of the VPN Server.
-SM_BRIDGE_WPCAP_REMOTE	In order to use the Local Bridge function on this VPN Server, you must install the WinPcap software. The software WinPcap is currently not installed on the server computer. \r\n\r\nTo continue the installation of the WinPcap software, you must start SoftEther VPN Server Manager on the server computer that is running VPN Server and then while connected to localhost (location of your own computer), have the Local Bridge Function Setting window displayed. \r\nTo continue, first exit this management session, and then, after starting SoftEther VPN Server Manager on the server computer, connect to localhost and continue the setting process. 
-SM_BRIDGE_WPCAP_ROOT	In order to use the Local Bridge function on this VPN Server, you must install the WinPcap software. \r\n\r\nTo continue the installation you must log in to this computer as a user with administrator privileges. \r\nLog on as an administrator and start the SoftEther VPN Server Manager again.
+SM_BRIDGE_WPCAP_REMOTE	In order to use the Local Bridge function on this VPN Server, you must install the WinPcap software. The software WinPcap is currently not installed on the server computer. \r\n\r\nTo continue the installation of the WinPcap software, you must start Eissoft VPN Server Manager on the server computer that is running VPN Server and then while connected to localhost (location of your own computer), have the Local Bridge Function Setting window displayed. \r\nTo continue, first exit this management session, and then, after starting Eissoft VPN Server Manager on the server computer, connect to localhost and continue the setting process. 
+SM_BRIDGE_WPCAP_ROOT	In order to use the Local Bridge function on this VPN Server, you must install the WinPcap software. \r\n\r\nTo continue the installation you must log in to this computer as a user with administrator privileges. \r\nLog on as an administrator and start the Eissoft VPN Server Manager again.
 SM_BRIDGE_WPCAP_INSTALL	In order to use the Local Bridge function on this VPN Server, you must install the WinPcap software. The software WinPcap is currently not installed on the server computer. \r\n\r\nWinPcap is an easy-to-install free software that is bundled together with the VPN Server. \r\n\r\nDo you want to begin the installation of WinPcap?
 SM_BRIDGE_WPCAP_REBOOT1	After WinPcap installation has completed, you must restart the computer before you use the Local Bridge function again. \r\n\r\nAfter you restart the computer manually and start VPN Server, configure the settings for the Local Bridge function.
-SM_BRIDGE_WPCAP_REBOOT2	After WinPcap installation has completed, you must restart the SoftEther VPN Server service before you use the Local Bridge function again. \r\n\r\nIt only takes a short time to restart the SoftEther VPN Server service, however all sessions that are currently connected to the VPN Server will be disconnected. \r\nThis management session will also be disconnected, so you will need to reconnect to continue. \r\n\r\nDo you want to restart the SoftEther VPN Server service?
+SM_BRIDGE_WPCAP_REBOOT2	After WinPcap installation has completed, you must restart the Eissoft VPN Server service before you use the Local Bridge function again. \r\n\r\nIt only takes a short time to restart the Eissoft VPN Server service, however all sessions that are currently connected to the VPN Server will be disconnected. \r\nThis management session will also be disconnected, so you will need to reconnect to continue. \r\n\r\nDo you want to restart the Eissoft VPN Server service?
 SM_BRIDGE_RESOURCE	Unable to load the WinPcap driver.
 SM_BRIDGE_COLUMN_1	Número
 SM_BRIDGE_COLUMN_2	Nome do Hub Virtual
@@ -1614,7 +1614,7 @@ SM_SETUP_BRIDGE_ONLY	You are currently connected to VPN Bridge. You can only cre
 SM_SETUP_BRIDGE_EDGE	VPN Bridge at &Each Site
 SM_SETUP_WARNING	As configurações atuais deste servidor VPN ou Bridge VPN serão criadas.\r\nDeseja realmente fazer isso?
 SM_SETUP_SELECT	Select the Ethernet device to establish the bridge connection.
-SM_SETUP_NO_LICENSE_KEY	Currently there is no licenses registered for this SoftEther VPN Server. \r\n\r\nFor SoftEther VPN Server to operate as a VPN server, you must enter a license key. \r\nDo you want to display the License Manager?\r\n\r\n(To use the VPN Server as a Trial Version, you have to obtain a trial key from the SoftEther VPN Project web site.\r\nClick Yes and click Obtain or Extend of License button to obtain a trial key.
+SM_SETUP_NO_LICENSE_KEY	Currently there is no licenses registered for this Eissoft VPN Server. \r\n\r\nFor Eissoft VPN Server to operate as a VPN server, you must enter a license key. \r\nDo you want to display the License Manager?\r\n\r\n(To use the VPN Server as a Trial Version, you have to obtain a trial key from the Eissoft VPN Project web site.\r\nClick Yes and click Obtain or Extend of License button to obtain a trial key.
 SM_HUBEXT_OPTION_TITLE	Virtual Hub Extended Options
 SM_HUBEXT_OPTION_STATIC1	Virtual Hub Extended Options allows you to configure more detailed parameters of this Virtual Hub.
 SM_HUBEXT_OPTION_STATIC2	By default, both VPN Server's global administrators and individual Virtual Hub's administrators can modify the Virtual Hub Extended Options.\nHowever, if the deny_hub_admin_change_ext_option is set to 1 on the Virtual Hub Admin Options, the individual Virtual Hub's administrators cannot modify the Virtual Hub Extended Options. (View only.)
@@ -1664,7 +1664,7 @@ SM_FACTORY_DEFAULT_WARNING	This will perform a factory-reset on the VPN Server /
 SM_FACTORY_DEFAULT_PERFORMED	The factory-reset operation is performing on the server.\r\n\r\nPress OK to exit the current session of VPN Server Manager.\r\nAfter exiting, please re-start the VPN Server Manager and connect to the VPN Server again.\r\nThen you will see the VPN Server is reset.
 SM_AZURE_STATUS_CONNECTED	Status: Conectado
 SM_AZURE_STATUS_NOT_CONNECTED	Status: Desconectado
-SM_NO_BRIDGE_NICS	No physical network adapters suitable for Local Bridge were found on the VPN server computer.\r\nIn order to create a Local Bridge, you have to install at least one physical network adapters on the computer.\r\nYou cannot use Wi-Fi adapters or 3G adapters for Local Bridge.\r\nPlease install a physical network adapter which is compatible to wired Ethernet.\r\n\r\nIf a recently-installed network adapter doesn't appear, once reboot the computer.\r\n\r\nIf the Local Bridge cannot be used anyway, you can use "SecureNAT Function" instead.\r\n\r\nIf you have a certain reason to use unusual network adapters (i.e. Wi-Fi adapters, 3G adapters or virtual adapters), set the "ShowAllInterfaces" variable on the "LocalBridgeList" directive to "true" and restart the VPN Server. Then such devices will appear on the list. (For advanced Windows users only.)\r\n\r\nIf this error occurs after you upgraded Windows, please re-install SoftEther VPN Server or SoftEther VPN Bridge>
+SM_NO_BRIDGE_NICS	No physical network adapters suitable for Local Bridge were found on the VPN server computer.\r\nIn order to create a Local Bridge, you have to install at least one physical network adapters on the computer.\r\nYou cannot use Wi-Fi adapters or 3G adapters for Local Bridge.\r\nPlease install a physical network adapter which is compatible to wired Ethernet.\r\n\r\nIf a recently-installed network adapter doesn't appear, once reboot the computer.\r\n\r\nIf the Local Bridge cannot be used anyway, you can use "SecureNAT Function" instead.\r\n\r\nIf you have a certain reason to use unusual network adapters (i.e. Wi-Fi adapters, 3G adapters or virtual adapters), set the "ShowAllInterfaces" variable on the "LocalBridgeList" directive to "true" and restart the VPN Server. Then such devices will appear on the list. (For advanced Windows users only.)\r\n\r\nIf this error occurs after you upgraded Windows, please re-install Eissoft VPN Server or Eissoft VPN Bridge>
 SM_CERT_MESSAGE	The current SSL self-signed root certificate on this VPN Server is in the old format.\r\n\r\nSome versions of OpenVPN Connect for Android have a bug to misinterpret SSL certificates in the old format. It might cause the connection problem from OpenVPN Connect for Android to this VPN Server.\r\n\r\nIf you are planning to use OpenVPN Connect for Android as a VPN client, it is recommended to regenerate the SSL server certificate.\r\n\r\nDo you want to regenerate the server certificate now?
 SM_CERT_MESSAGE_CLI --- Caution ---\r\n\r\nThe current SSL self-signed root certificate on this VPN Server is in the old format.\r\n\r\nSome versions of OpenVPN Connect for Android have a bug to misinterpret SSL certificates in the old format. It might cause the connection problem from OpenVPN Connect for Android to this VPN Server.\r\n\r\nIf you are planning to use OpenVPN Connect for Android as a VPN client, it is recommended to regenerate the SSL server certificate.\r\n\r\nTo regenerate and update the server certificate, execute the "ServerCertRegenerate" command after updating the VPN Server to the latest version.
 SM_CERT_NEED_ROOT	The specified SSL certificate is a sub-certificate which was issued by a CA (Certificate Authority).\r\n\r\nIf you are planning to support either Microsoft SSTP or OpenVPN protocol on this VPN server, you have to install the root certificate and all intermediate certificates (if exists) on this VPN Server.\r\n\r\nTo install these certificates, copy the root certificate and all intermediate certificate files (in the X.509 format) into the "chain_certs" subdirectory on the directory which is VPN Server has been installed on.\r\n\r\nIf you don't know how to obtain root and intermediate certificate files for your certificate authority (CA), please refer to the CA's web site or contact technical support staffs of the CA.
@@ -1722,7 +1722,7 @@ NM_PUSH_ROUTE_WARNING	The specified text of the static routing table may have a 
 
 # Concerning version information
 ABOUT_CAPTION	Sobre %s
-BETA_EXPIRES	Because the currently installed SoftEther VPN software is a beta version, you cannot use it after the provision of a newer beta version of full version. \r\nAccess http://selinks.org/ and get the latest version of SoftEther VPN software.
+BETA_EXPIRES	Because the currently installed Eissoft VPN software is a beta version, you cannot use it after the provision of a newer beta version of full version. \r\nAccess http://selinks.org/ and get the latest version of Eissoft VPN software.
 
 
 # Concerning the saving of logs
@@ -1736,10 +1736,10 @@ L_LINE	------------------------------------------------------
 
 # (Server log)
 LS_START_UTF8	Log Messages are written with UTF-8 Encoding Format.
-LS_START_1	The SoftEther VPN Server has been started.
+LS_START_1	The Eissoft VPN Server has been started.
 LS_START_2	%S %S
 LS_START_3	%S
-LS_END_1	The SoftEther VPN Server Engine has been successfully shutdown.
+LS_END_1	The Eissoft VPN Server Engine has been successfully shutdown.
 LS_END_2	The Server Engine shutdown processing has started.
 LS_STOP_ALL_LISTENER	All TCP listeners will be stopped.
 LS_STOP_ALL_LISTENER_2	All TCP listeners have been stopped.
@@ -1781,7 +1781,7 @@ LS_HUB_NOT_FOUND	Connection "%S": Virtual Hub "%S" that the client is trying to 
 LS_WG_KEY_NOT_FOUND	Connection "%S": The WireGuard key is not associated with a user on the server.
 LS_IP_DENIED	Connection "%S": The source IP address "%S" of the client has refused based on the Source IP Address Limit List defined for the Virtual Hub.
 LS_LICENSE_ERROR	Connection "%S": Because a license-related error has been occurred, the client is unable to connect to the server.
-LS_BETA_EXPIRES	This beta version of SoftEther VPN Server is expired. The beta version period of use has expired. Download a new beta version or full version from http://selinks.org/.
+LS_BETA_EXPIRES	This beta version of Eissoft VPN Server is expired. The beta version period of use has expired. Download a new beta version or full version from http://selinks.org/.
 LS_TICKET_1	A new client authentication ticket has been issued for cluster member "%S". Virtual Hub "%S", User name "%S" ("%S"), Session name "%S", Ticket "%S"
 LS_TICKET_2	A new client authentication ticket has been received from the cluster controller. Virtual Hub "%S", User name "%S" ("%S"), Session name "%S", Ticket "%S", Expiration %u seconds
 LS_ENUM_HUB	Connection "%S": %u Virtual Hub servers have been enumerated on this server.
@@ -1928,8 +1928,8 @@ LH_AUTH_EXTERNAL		External server authentication
 LH_AUTH_WIREGUARD_KEY	WireGuard public key authentication
 LH_AUTH_OPENVPN_CERT	OpenVPN certificate authentication
 LH_AUTH_RADIUS_NOT_SUPPORT	Connection "%S": The authentication method of the user "%S" has been specified as RADIUS Authentication or Active Directory Authentication (NT Domain Authentication). However, the edition of the VPN Server is "%S". This edition does not support RADIUS Authentication nor Active Directory Authentication (NT Domain Authentication). The connection will be denied.
-LH_AUTH_RADIUS_NOT_SUPPORT_ON_OPEN_SOURCE	Connection "%S": The authentication method of the user "%S" has been specified as RADIUS Authentication or Active Directory Authentication (NT Domain Authentication). However, such an external user-authentication function hasn't been implemented on the Open-Source version of SoftEther VPN yet. The connection will be denied.
-LH_AUTH_CERT_NOT_SUPPORT_ON_OPEN_SOURCE	Connection "%S": The authentication method of the user "%S" has been specified as Certificate Authentication. However, the Certificate Authentication function hasn't been implemented on the Open-Source version of SoftEther VPN yet. The connection will be denied.
+LH_AUTH_RADIUS_NOT_SUPPORT_ON_OPEN_SOURCE	Connection "%S": The authentication method of the user "%S" has been specified as RADIUS Authentication or Active Directory Authentication (NT Domain Authentication). However, such an external user-authentication function hasn't been implemented on the Open-Source version of Eissoft VPN yet. The connection will be denied.
+LH_AUTH_CERT_NOT_SUPPORT_ON_OPEN_SOURCE	Connection "%S": The authentication method of the user "%S" has been specified as Certificate Authentication. However, the Certificate Authentication function hasn't been implemented on the Open-Source version of Eissoft VPN yet. The connection will be denied.
 LH_AUTH_OK	Connection "%S": Successfully authenticated as user "%S".
 LH_AUTH_OK_CERT	The Virtual Hub's Security Account Manager has received the following certificate from the VPN Client and accepted its contents as the certificate for when user "%S" logs in: %s
 LH_AUTH_NG_CERT	Although the Virtual Hub's Security Account Manager has received the following certificate, has refused its contents as the certificate for when user "%S" logs in because this certificate's contents matches the contents that are registered in the Virtual Hub's certificates revocation list: %s
@@ -2087,10 +2087,10 @@ LA_SET_SPECIAL_LISTENER	Special Listener enable / disable status has been change
 
 
 # (Client log)
-LC_START_1	The SoftEther VPN Client Engine has been started.
+LC_START_1	The Eissoft VPN Client Engine has been started.
 LC_START_2	%S %S
 LC_START_3	%S
-LC_END	The SoftEther VPN Client Engine has been shut down.
+LC_END	The Eissoft VPN Client Engine has been shut down.
 LC_LOAD_CONFIG_1	Loading configuration file...
 LC_LOAD_CONFIG_2	The configuration file has been loaded.
 LC_LOAD_CONFIG_3	Configuration file does not exist. Applying the initial settings.
@@ -2169,8 +2169,8 @@ UT_SM_ST_WINS_2	WINS Server 2
 
 
 # Concerning EtherLogger Manager
-EM_TITLE	SoftEther EtherLogger Gerenciador
-EM_REMOTE_TITLE	You can connect to and manage the SoftEther EtherLogger service. \r\nEnter the host name and IP address of the computer on which the EtherLogger service to be managed is operating. You can also concatenate the port number by using the ":" (colon).
+EM_TITLE	Eissoft EtherLogger Gerenciador
+EM_REMOTE_TITLE	You can connect to and manage the Eissoft EtherLogger service. \r\nEnter the host name and IP address of the computer on which the EtherLogger service to be managed is operating. You can also concatenate the port number by using the ":" (colon).
 EM_MAIN_COLUMN_1	Nome do adaptador de rede
 EM_MAIN_COLUMN_2	Status
 EM_MAIN_OK	Operativo
@@ -2179,13 +2179,13 @@ EM_ADD_NEW	Add new capture device
 EM_ADD_EDIT	Edit capture settings
 EM_DELETE_CONFIRM	Are you sure you want to delete capture setting "%S"?
 EM_NO_LICENSE_COLUMN	Nota: 
-EM_NO_LICENSE	Because not even one product license is registered, this SoftEther EtherLogger will not operate.
-EM_UNSUPPORTED	Unable to use SoftEther EtherLogger on the operating system that this SoftEther EtherLogger is operating on. For the list of operating system that the SoftEther EtherLogger can be used on, please refer to the online documentation of the SoftEther EtherLogger.
-EM_WPCAP_REMOTE	In order to use this SoftEther EtherLogger, you need to install WinPcap software. The software WinPcap is currently not installed on the server computer. \r\n\r\nTo continue the installation of the WinPcap software, you must start SoftEther EtherLogger Manager on the server computer that is running VPN Server and then while connected to localhost (location of your own computer), have the Local Bridge Function Setting window displayed. \r\nTo continue, first exit this management session, and then, after starting SoftEther EtherLogger Manager on the server computer, connect to localhost and continue the setting process. 
-EM_WPCAP_ROOT	In order to use this SoftEther EtherLogger, you need to install WinPcap software. \r\n\r\nTo continue the installation you must log in to this computer as a user with administrator privileges. \r\nLog on as an administrator and start the SoftEther VPN Server Manager again.
-EM_WPCAP_INSTALL	In order to use this SoftEther EtherLogger, you need to install WinPcap software. The software WinPcap is currently not installed on the server computer. \r\n\r\nWinPcap is an easy-to-install free software that is bundled together with the VPN Server. \r\n\r\nDo you want to begin the installation of WinPcap?
-EM_WPCAP_REBOOT1	After WinPcap installation has completed, you must restart the computer before you use the SoftEther EtherLogger. \r\n\r\nAfter you restart the computer manually and start SoftEther EtherLogger, configure the settings again.
-EM_WPCAP_REBOOT2	After WinPcap is installed, you must restart the SoftEther EtherLogger service. \r\n\r\nIt only takes a short time to restart the SoftEther EtherLogger service, however all management sessions that are currently connected to the SoftEther EtherLogger will be disconnected. \r\nThis management session will also be disconnected, so you will need to reconnect to continue. \r\n\r\nDo you want to restart the SoftEther Ether Logger service?
+EM_NO_LICENSE	Because not even one product license is registered, this Eissoft EtherLogger will not operate.
+EM_UNSUPPORTED	Unable to use Eissoft EtherLogger on the operating system that this Eissoft EtherLogger is operating on. For the list of operating system that the Eissoft EtherLogger can be used on, please refer to the online documentation of the Eissoft EtherLogger.
+EM_WPCAP_REMOTE	In order to use this Eissoft EtherLogger, you need to install WinPcap software. The software WinPcap is currently not installed on the server computer. \r\n\r\nTo continue the installation of the WinPcap software, you must start Eissoft EtherLogger Manager on the server computer that is running VPN Server and then while connected to localhost (location of your own computer), have the Local Bridge Function Setting window displayed. \r\nTo continue, first exit this management session, and then, after starting Eissoft EtherLogger Manager on the server computer, connect to localhost and continue the setting process. 
+EM_WPCAP_ROOT	In order to use this Eissoft EtherLogger, you need to install WinPcap software. \r\n\r\nTo continue the installation you must log in to this computer as a user with administrator privileges. \r\nLog on as an administrator and start the Eissoft VPN Server Manager again.
+EM_WPCAP_INSTALL	In order to use this Eissoft EtherLogger, you need to install WinPcap software. The software WinPcap is currently not installed on the server computer. \r\n\r\nWinPcap is an easy-to-install free software that is bundled together with the VPN Server. \r\n\r\nDo you want to begin the installation of WinPcap?
+EM_WPCAP_REBOOT1	After WinPcap installation has completed, you must restart the computer before you use the Eissoft EtherLogger. \r\n\r\nAfter you restart the computer manually and start Eissoft EtherLogger, configure the settings again.
+EM_WPCAP_REBOOT2	After WinPcap is installed, you must restart the Eissoft EtherLogger service. \r\n\r\nIt only takes a short time to restart the Eissoft EtherLogger service, however all management sessions that are currently connected to the Eissoft EtherLogger will be disconnected. \r\nThis management session will also be disconnected, so you will need to reconnect to continue. \r\n\r\nDo you want to restart the Eissoft Ether Logger service?
 EM_RESOURCE	Unable to read the WinPcap driver.
 
 
@@ -2206,15 +2206,15 @@ S_PIN_CODE	&Código PIN:
 PREFIX	D_PKCSUTIL
 CAPTION	PKCS#12 Write Utility
 S_TITLE	ePass 1000 USB token PKCS#12 Write Utility
-STATIC1	By using this utility, you can write a PKCS#12 file (certificate file) of your choice to an ePass 1000 USB hardware security token. \r\n\r\nThe USB token that the certificate file is written in can be used for SoftEther VPN authentication.
+STATIC1	By using this utility, you can write a PKCS#12 file (certificate file) of your choice to an ePass 1000 USB hardware security token. \r\n\r\nThe USB token that the certificate file is written in can be used for Eissoft VPN authentication.
 STATIC2	Write to PKCS#12 file
-STATIC3	To write an existing PKC#12 file to a USB token, click Write. \r\nNOTE: If a PKCS#12 certificate for SoftEther VPN is already stored in the USB token, it will be overwritten.
+STATIC3	To write an existing PKC#12 file to a USB token, click Write. \r\nNOTE: If a PKCS#12 certificate for Eissoft VPN is already stored in the USB token, it will be overwritten.
 B_WRITE	&Gravar
 STATIC4	Erase PKCS#12 certificate from USB token.
-STATIC5	You can erase the certificate data from a USB token on which a PKCS#12 certificate for SoftEther VPN is already stored.
+STATIC5	You can erase the certificate data from a USB token on which a PKCS#12 certificate for Eissoft VPN is already stored.
 B_ERASE	&Limpar
 IDCANCEL	E&xit Utilities
-S_COPYRIGHT	Copyright (c) SoftEther VPN Project.\r\nAll Rights Reserved.
+S_COPYRIGHT	Copyright (c) Eissoft VPN Project.\r\nAll Rights Reserved.
 PREFIX	D_PASSPHRASE
 CAPTION	Private Key Passphrase
 STATIC1	The private key is protected by passphrase. \r\n\r\nEnter the passphrase to read the private key.
@@ -2222,7 +2222,7 @@ STATIC2	&Senha:
 IDOK	&OK
 IDCANCEL	Cancelar
 PREFIX	D_NM_CONNECT
-CAPTION	Connect to SoftEther VPN User-mode Router
+CAPTION	Connect to Eissoft VPN User-mode Router
 S_TITLE	Connecting to "%S"...
 PREFIX	D_PASSWORD
 CAPTION	Acesso para %S
@@ -2413,7 +2413,7 @@ IDCANCEL	&Fechar
 B_DELETE	&Excluir
 PREFIX	D_CM_PASSWORD
 CAPTION	Set Password - VPN Client Manager
-S_TITLE	You can set the password to limit the SoftEther VPN Client Service.\r\nAfter setting a password, you will be asked to enter a password the next time you use the VPN Client Connect Manager to connect to the SoftEther VPN Client service.
+S_TITLE	You can set the password to limit the Eissoft VPN Client Service.\r\nAfter setting a password, you will be asked to enter a password the next time you use the VPN Client Connect Manager to connect to the Eissoft VPN Client service.
 STATIC1	Set Client Administration Password: 
 R_USE_PASSWORD	&Usar senha
 R_REMOTE_ONLY	Only &Request Password for Remote Operation
@@ -2445,12 +2445,12 @@ R_ALPHA	Transparency of UI:
 STATIC6	Note: The transparency setting will be applied after the connection manager is restarted.
 STATIC7	&Keep Alive Internet Connection Function:
 PREFIX	D_ABOUT
-S_INFO1	SoftEther VPN %u.0 Developer Edition (Ver %u.%02u, Build %u)
-S_INFO2	Licensed under the Apache License, Version 2.0.\r\nCopyright (c) 2012-%u all contributors on SoftEther VPN project in GitHub. All Rights Reserved.\r\nWeb Site: http://www.softether.org/\r\n%S
+S_INFO1	Eissoft VPN %u.0  (Ver %u.%02u, Build %u)
+S_INFO2	Licensed under the Apache License, Version 2.0.\r\nCopyright (c) 2012-%u all contributors on Eissoft VPN project in GitHub. All Rights Reserved.\r\nWeb Site: http://www.softether.org/\r\n%S
 S_INFO3	This product includes the following software components:\r\nBitVisor: Copyright (c) 2007, 2008 University of Tsukuba. Copyright (C) 2007, 2008 National Institute of Information and Communications Technology. All rights reserved. / Microsoft(R) C Runtime Library: (c) 2007 Microsoft Corporation. All Rights Reserved. / PKCS #11 Cryptographic Token Interface (Cryptoki): Copyright (c) RSA Security Inc. / WinPcap: Copyright (c) 2001 - 2003 NetGroup, Politecnico di Torino (Italy). All rights reserved. / libedit: Copyright (c) 1992, 1993 The Regents of the University of California. All rights reserved. / libiconv: Copyright (C) 2007 Free Software Foundation, Inc. / ncurses: Copyright (c) 1998-2005, 2006 Free Software Foundation, Inc. / OpenSSL: Copyright (c) 1998-2011 The OpenSSL Project. All rights reserved. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). / zlib: (C) 1995-2004 Jean-loup Gailly and Mark Adler. / Special Thanks to: Software Laboratory, Academic Computing Communication Center, Industrial Liaison and Cooperative Research Center and Professor Yasushi Shinjo in University of Tsukuba, Japan.
-S_INFO4	THIS SOFTWARE IS FREEWARE DEVELOPED UNDER THE SOFTETHER VPN PROJECT AT UNIVERSITY OF TSUKUBA, WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE DEVELOPERS, COPYRIGHT OWNERS OR DISTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY IN ANY WAY OUT OF THE USE OF THIS SOFTWARE.\r\n\r\nSoftEther VPN is a work of the research and development project of Japanese Government, subsidized by Ministry of Economy, Trade and Industry of Japan, administrated by Information Promotion Agency.
+S_INFO4	THIS SOFTWARE IS FREEWARE DEVELOPED UNDER THE Eissoft VPN PROJECT AT UNIVERSITY OF TSUKUBA, WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE DEVELOPERS, COPYRIGHT OWNERS OR DISTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY IN ANY WAY OUT OF THE USE OF THIS SOFTWARE.\r\n\r\nEissoft VPN is a work of the research and development project of Japanese Government, subsidized by Ministry of Economy, Trade and Industry of Japan, administrated by Information Promotion Agency.
 IDCANCEL	&OK
-B_WEB	Visite o &site da SoftEther VPN...
+B_WEB	Visite o &site da Eissoft VPN...
 B_EULA	&Licença de usuário final
 B_IMPORTANT	&Avisos importantes
 B_LEGAL	Informações &legais
@@ -2482,7 +2482,7 @@ IDOK	&OK
 IDCANCEL	Cancelar
 S_STATIC	Note: If authentication type is RADIUS or NT Domain Authentication, you cannot change the user's password here.
 PREFIX	D_SM_MAIN
-CAPTION	Edição de desenvolvedor do gerenciador SoftEther VPN Servidor
+CAPTION	Edição de desenvolvedor do gerenciador Eissoft VPN Servidor
 STATIC1	Con&figurações de conexão para o servidor VPN:
 STATIC2	As configurações de conexão do servidor VPN ou da Bridge VPN são definidas da seguinte maneira. Clique duas vezes no item para se conectar ao servidor.\r\nPara adicionar uma nova conexão, clique em Nova configuração.
 B_NEW_SETTING	&Nova configuração
@@ -2492,7 +2492,7 @@ IDOK	&Conectar
 B_SECURE_MANAGER	&Gerenciador de Smart Card...
 B_SELECT_SECURE	Selecionar S&mart Car...
 B_ABOUT	&Sobre o SoftEhter VPN...
-IDCANCEL	Sair do gerencidor de servidores SoftEther VPN
+IDCANCEL	Sair do gerencidor de servidores Eissoft VPN
 B_CERT_TOOL	Cria um certificado
 PREFIX	D_SM_EDIT_SETTING
 STATIC1	Por favor, defina a configuração de conexão para o servidor VPN ou a Bridge VPN gerenciar.
@@ -2522,7 +2522,7 @@ R_NO_SAVE	&Não salvar a senha do administrador.
 IDOK	&OK
 IDCANCEL	Cancelar
 PREFIX	D_SM_SERVER
-CAPTION	%s - Gerencidor SoftEther VPN Servidor
+CAPTION	%s - Gerencidor Eissoft VPN Servidor
 S_TITLE	Gerenciar servidor VPN "%S"
 S_VHUB_BRIDGE	Hubs virtuais hospedados neste servidor VPN:
 IDOK	&Gerenciar hub virtual
@@ -3030,10 +3030,10 @@ B_SETTING	Configuração de &conexão para o servidor VPN
 B_CONNECT	&Conectar
 B_DISCONNECT	&Desconectar
 STATIC3	Operation Settings of User-mode Router
-STATIC4	You can set the operations in a virtual network of a SoftEther VPN User-mode Router.
+STATIC4	You can set the operations in a virtual network of a Eissoft VPN User-mode Router.
 B_OPTION	&Operation Settings of User-mode Router
 STATIC5	Operating Status of User-mode Router
-STATIC6	Displays the current operating status of the SoftEther VPN User-mode Router.
+STATIC6	Displays the current operating status of the Eissoft VPN User-mode Router.
 B_NAT	Virtual &NAT Status
 B_DHCP	Status do servidor D&HCP virtual
 B_STATUS	User-mode &Router Status
@@ -3088,7 +3088,7 @@ B_REFRESH	A&tualizar
 IDCANCEL	S&air
 PREFIX	D_NM_CHANGE_PASSWORD
 CAPTION	Alterar senha do administrador de %S
-S_TITLE	You can change the administrator password of SoftEther VPN User-mode Router (%S). Click OK after entering the new password.
+S_TITLE	You can change the administrator password of Eissoft VPN User-mode Router (%S). Click OK after entering the new password.
 STATIC1	Nova &senha: 
 STATIC2	&Confirm Your Input: 
 IDOK	&OK
@@ -3134,8 +3134,8 @@ PREFIX	D_WIN9X_REBOOT
 CAPTION	Cliente VPN - Instalar adaptador de rede virtual
 STATIC1	The VPN Client Virtual Network Adapter has been installed. \r\nIt is necessary to shutdown Windows now and restart the computer. \r\n\r\nThe computer will restart automatically. If the computer does not restart, please restart the computer manually.
 PREFIX	D_EM_MAIN
-CAPTION	SoftEther EtherLogger Gerenciador
-STATIC1	SoftEther EtherLogger is a service that captures data flowing through LAN cards connected to the computer and keeps a log of the headers of the packet types specified by the administrator and all data in text file format. \r\n\r\nCurrently, the following capture devices are performing capture logging.
+CAPTION	Eissoft EtherLogger Gerenciador
+STATIC1	Eissoft EtherLogger is a service that captures data flowing through LAN cards connected to the computer and keeps a log of the headers of the packet types specified by the administrator and all data in text file format. \r\n\r\nCurrently, the following capture devices are performing capture logging.
 B_PASSWORD	Administration &Password
 B_LICENSE	&Licença
 B_ADD	&Adicionar
@@ -3191,19 +3191,19 @@ IDOK	&OK
 IDCANCEL	Cancelar
 PREFIX	D_EM_LICENSE
 CAPTION	Add or Delete License
-STATIC1	To use SoftEther EtherLogger you must acquire a valid license and register the license key. Using this window, you can register a new license key, delete a registered license key and display the current license list and the license mode of the SoftEther EtherLogger.
+STATIC1	To use Eissoft EtherLogger you must acquire a valid license and register the license key. Using this window, you can register a new license key, delete a registered license key and display the current license list and the license mode of the Eissoft EtherLogger.
 S_BOLD	&List of Currently Registered Licenses: 
 B_OBTAIN	&Obtain License
 STATIC2	Click Obtain License to display the website that will provide instructions on how to obtain a license.
 B_ADD	&Add License Key Registration
 B_DEL	&Excluir
 IDOK	&Informações sobre licença
-STATIC3	Select a license and click Information About License to connect to SoftEther VPN Project's website (softether.com) and view the registered information relating to the selected license.
-S_BOLD2	Current License &Mode of SoftEther EtherLogger: 
+STATIC3	Select a license and click Information About License to connect to Eissoft VPN Project's website (softether.com) and view the registered information relating to the selected license.
+S_BOLD2	Current License &Mode of Eissoft EtherLogger: 
 IDCANCEL	S&air
 PREFIX	D_EM_LICENSE_ADD
 CAPTION	Adicionar registro de chave de licença
-S_INFO	You can register a license key of a SoftEther EtherLogger product license.
+S_INFO	You can register a license key of a Eissoft EtherLogger product license.
 STATIC1	The license keys are 36 alphanumeric characters in length plus hyphens. They are key codes that certify the ownership of a license. \r\n\r\nWhen a license certificate is received together with this software, the license key is printed on this license certificate. If the license for this software has been purchased online, the license key is provided by email and on the website window at the time the license is purchased. The license key may also be written down by some other method. If you don't know where the license key is written down, ask the vendor who sold you the license.
 STATIC2	&Input the License Key Correctly: 
 STATIC3	Enter the license key by separating the input into 6-digit groups. You don't need to input the hyphens. It is also possible to copy && paste the license key.
@@ -3534,19 +3534,19 @@ STATIC1	Communication traffic has been measured. The results are shown below.
 IDCANCEL	&Fechar
 PREFIX	D_SM_LICENSE
 CAPTION	Add or Remove License
-STATIC1	To use SoftEther VPN Server you must acquire a valid license and register the license key. You can register a new license key, delete a registered license key and display the current license list and the license mode of the VPN Server here.
+STATIC1	To use Eissoft VPN Server you must acquire a valid license and register the license key. You can register a new license key, delete a registered license key and display the current license list and the license mode of the VPN Server here.
 S_BOLD	Currently Registered &License Keys:
 B_OBTAIN	&Obtain or Extend a License
 STATIC2	Click Obtain or Extend License to visit the website that will provide instructions on how to obtain a license.
 B_ADD	&Adicionar uma chave de licença
 B_DEL	&Excluir
 IDOK	&Informações sobre licença
-STATIC3	Select a license and click Information About License to connect to SoftEther VPN Project's website (softether.com) and view the registered information relating to the selected license.
-S_BOLD2	Current License &Mode of SoftEther VPN Server: 
+STATIC3	Select a license and click Information About License to connect to Eissoft VPN Project's website (softether.com) and view the registered information relating to the selected license.
+S_BOLD2	Current License &Mode of Eissoft VPN Server: 
 IDCANCEL	S&air
 PREFIX	D_SM_LICENSE_ADD
 CAPTION	Add License Keys
-S_INFO	You can register a SoftEther VPN Server product license or a connection license.
+S_INFO	You can register a Eissoft VPN Server product license or a connection license.
 STATIC1	The license keys are 36 alphanumeric characters in length plus dashes. They are key codes that certify the ownership of a license. \r\n\r\nWhen a license certificate is received together with this software, the license key is printed on this license certificate. If the license for this software has been purchased online, the license key is provided by email and on the website window at the time the license is purchased. The license key may also be written down by some other method. If you don't know where the license key is written down, ask the vendor who sold you the license.
 STATIC2	&Input the License Key Accurately:
 STATIC3	Enter the license key by separating the input into 6-digit groups. You don't need to input the dashes. It is also possible to copy && paste the license key.
@@ -3554,21 +3554,21 @@ B_INFO2	This software is protected by world-wide copyright laws. Customers can o
 IDOK	&Registrar
 IDCANCEL	Cancelar
 PREFIX	D_FREEINFO
-CAPTION	About SoftEther VPN Server Free Edition
-S_INFO_1	Thank you for trying out the SoftEther VPN Server Free Edition.
-S_INFO_2	The SoftEther VPN Server operating on destination server "%S" is the Free Edition intended for personal use. \r\nWhen using the Free Edition, you can use all the SoftEther VPN Server functions but the User Agreement prohibits the following usage.
+CAPTION	About Eissoft VPN Server Free Edition
+S_INFO_1	Thank you for trying out the Eissoft VPN Server Free Edition.
+S_INFO_2	The Eissoft VPN Server operating on destination server "%S" is the Free Edition intended for personal use. \r\nWhen using the Free Edition, you can use all the Eissoft VPN Server functions but the User Agreement prohibits the following usage.
 S_INFO_3	Use where communication for commercial purposes travels via the VPN Server. 
-S_INFO_4	Note that if the software is used based on the above mentioned prohibited usage, it is a breach of the SoftEther VPN Server user agreement. The above restriction is lifted once you obtain a regular product license for SoftEther VPN Server. For details on the regular product version, please visit www.softether.com. \r\n\r\nIf this server is being used under the usage described above, please contact us via our website at www.softether.com. \r\n\r\nNote: This window will appear when connected to a Free Edition of VPN Server. This window does not appear when Editions other than the Free Editions of the software product are used. \r\nNote: Apart from this notification window, there are absolutely no differences between the Free Edition software and the product version.
+S_INFO_4	Note that if the software is used based on the above mentioned prohibited usage, it is a breach of the Eissoft VPN Server user agreement. The above restriction is lifted once you obtain a regular product license for Eissoft VPN Server. For details on the regular product version, please visit www.softether.com. \r\n\r\nIf this server is being used under the usage described above, please contact us via our website at www.softether.com. \r\n\r\nNote: This window will appear when connected to a Free Edition of VPN Server. This window does not appear when Editions other than the Free Editions of the software product are used. \r\nNote: Apart from this notification window, there are absolutely no differences between the Free Edition software and the product version.
 B_HIDE	&Ocultar esta janela da próxima vez.
 IDCANCEL	&OK
 PREFIX	D_CM_SETTING
-CAPTION	Alterar modo de operação do SoftEther VPN Cliente
-STATIC1	You can use SoftEther VPN Client in either Normal Mode or Easy Mode. To switch to the other mode, check the respective checkbox below.
+CAPTION	Alterar modo de operação do Eissoft VPN Cliente
+STATIC1	You can use Eissoft VPN Client in either Normal Mode or Easy Mode. To switch to the other mode, check the respective checkbox below.
 R_NORMAL	&Modo normal
 R_EASY	&Modo fácil
-STATIC2	When using Normal Mode, you can perform all the operations that the SoftEther VPN Client software provides. We recommend that general users and system administrators use this mode.
+STATIC2	When using Normal Mode, you can perform all the operations that the Eissoft VPN Client software provides. We recommend that general users and system administrators use this mode.
 STATIC3	Easy Mode only allows the most frequently used operations such as connecting to the VPN Server. We recommend this mode to beginner users.
-STATIC4	By using the Setting Locker, you can connect to a VPN Server by using a Connection Setting registered in SoftEther VPN Client, but by doing so, you are prevented from changing the parameters of Connection Settings, creating a new Connection Setting or deleting a Connection Setting.
+STATIC4	By using the Setting Locker, you can connect to a VPN Server by using a Connection Setting registered in Eissoft VPN Client, but by doing so, you are prevented from changing the parameters of Connection Settings, creating a new Connection Setting or deleting a Connection Setting.
 R_LOCK	Enable Setting &Locker
 S_PASSWORD1	You can specify a password. The input of that password will be required next time to disable the Setting Locker.
 S_PASSWORD2	&Senha:
@@ -3578,15 +3578,15 @@ IDCANCEL	Cancelar
 S_VGS2	You can configure the VPN Gate Academic Service settings.
 B_VGS	VPN &Gate Service Settings...
 PREFIX	D_CM_EASY
-CAPTION	Edição de desenvolvedor do gerenciador fácil do SoftEther VPN Cliente 
+CAPTION	Edição de desenvolvedor do gerenciador fácil do Eissoft VPN Cliente 
 B_MODE	Alterar &modo de operação
 IDCANCEL	&Fechar
 B_STATUS	Ver &status da conexão
 B_VGC	VPN Gate Academic Project
 PREFIX	D_SM_SETUP
-CAPTION	Configuração fácil do SoftEther VPN Server / Bridge (Edição de desenvolvedor)
-S_TITLE	Configuração fácil do SoftEther VPN Server / Bridge (Edição de desenvolvedor)
-IDC_STATIC_1	Ao usar esta configuração, você pode configurar facilmente um servidor VPN SoftEther ou uma Bridge VPN para os seguintes usos e finalidades. Depois de sair da instalação, você pode usar o gerenciador de servidores  VPN para definir livremente configurações mais avançadas.
+CAPTION	Configuração fácil do Eissoft VPN Server / Bridge (Edição de desenvolvedor)
+S_TITLE	Configuração fácil do Eissoft VPN Server / Bridge (Edição de desenvolvedor)
+IDC_STATIC_1	Ao usar esta configuração, você pode configurar facilmente um servidor VPN Eissoft ou uma Bridge VPN para os seguintes usos e finalidades. Depois de sair da instalação, você pode usar o gerenciador de servidores  VPN para definir livremente configurações mais avançadas.
 S_BOLD	Selecione o tipo de servidor VPN que você deseja construir. Vários tipos podem ser selecionados juntos.
 C_REMOTE	Servidor VPN de acesso &remoto
 S_REMOTE_1	O servidor VPN de acesso remoto permite que computadores clientes VPN em locais remotos acessem os segmentos Ethernet existentes, por exemplo, a LAN da empresa.\r\nQualquer cliente VPN conectado ao servidor VPN poderá acessar a rede como se estivesse conectado diretamente e fisicamente a ela.
@@ -3620,9 +3620,9 @@ IDCANCEL	&Fechar
 IDC_STATIC_8	Depois que as configurações necessárias estiverem definidas, clique em Fechar. Uma ferramenta de gerenciamento avançado para o servidor VPN / VPN Bridge será exibida. Você pode definir as configurações avançadas conforme desejar.
 B_SECURENAT	Configurar Secure&NAT
 PREFIX	D_CPU64_WARNING
-CAPTION	Informações sobre o SoftEther VPN Edição de 64 bits
-S_BOLD	O software VPN SoftEther atualmente instalado é a edição de 32 bits, mas o sistema operacional Windows atualmente em execução é uma edição de 64 bits. 
-S_INFO	Você pode executar a edição de 32 bits do software SoftEther VPN em uma edição de 64 bits do Windows, mas será executada no emulador de 32 bits do Windows e isso resulta em desempenho reduzido.r\nHá também a possibilidade de que algumas funções não sejam suportadas.\r\n\r\n Recomendamos que você instale e use a edição de 64 bits do software SoftEther VPN ao executá-lo no Windows de 64 bits.\r\nVocê pode baixar a edição de 64 bits do software SoftEther VPN em http://selinks.org/. \r\n\r\nEsta caixa de diálogo será fechada automaticamente em 30 segundos.
+CAPTION	Informações sobre o Eissoft VPN Edição de 64 bits
+S_BOLD	O software VPN Eissoft atualmente instalado é a edição de 32 bits, mas o sistema operacional Windows atualmente em execução é uma edição de 64 bits. 
+S_INFO	Você pode executar a edição de 32 bits do software Eissoft VPN em uma edição de 64 bits do Windows, mas será executada no emulador de 32 bits do Windows e isso resulta em desempenho reduzido.r\nHá também a possibilidade de que algumas funções não sejam suportadas.\r\n\r\n Recomendamos que você instale e use a edição de 64 bits do software Eissoft VPN ao executá-lo no Windows de 64 bits.\r\nVocê pode baixar a edição de 64 bits do software Eissoft VPN em http://selinks.org/. \r\n\r\nEsta caixa de diálogo será fechada automaticamente em 30 segundos.
 IDOK	&OK
 PREFIX	D_ONCEMSG
 CAPTION	TITLE
@@ -3743,7 +3743,7 @@ IDCANCEL	Cancelar
 S_11	The advanced redirection function can provide the VPN Session information to the CGI which is redirected to.
 PREFIX	D_SW_WELCOME
 CAPTION	D_SW_WELCOME
-S_WELCOME	O SoftEther VPN é um freeware desenvolvido na Universidade de Tsukuba, no Japão. Software VPN de alto desempenho com as últimas compatibilidade para muitos dispositivos. Windows, Mac, smartphones, tablets (iPhone, iPad, Android, Windows RT), Cisco e outros roteadores VPN são suportados. O SoftEther VPN também aceita clientes VPN OpenVPN e MS-SSTP.
+S_WELCOME	O Eissoft VPN é um freeware desenvolvido na Universidade de Tsukuba, no Japão. Software VPN de alto desempenho com as últimas compatibilidade para muitos dispositivos. Windows, Mac, smartphones, tablets (iPhone, iPad, Android, Windows RT), Cisco e outros roteadores VPN são suportados. O Eissoft VPN também aceita clientes VPN OpenVPN e MS-SSTP.
 S_TITLE	Software VPN de código aberto extremamente poderoso.
 PREFIX	D_SW_MODE
 CAPTION	D_SW_MODE
@@ -3751,7 +3751,7 @@ R_SYSTEM	&System Mode (Recommended)
 R_USER	&Modo de usuário
 S_1	Install the VPN software to this computer normally. The administrator privilege is required.
 S_USER	Install the VPN software with the normal user privilege. No administrator privilege is required. Some functions such as Local Bridge will be disabled. Runs only the user "%s" is logged on Windows.
-S_2	SoftEther VPN can be installed by one of two methods.\r\n\r\nPlease select the System Mode normally.\r\n\r\nIf you cannot use the administrator privilege for some reasons, you can select the User Mode to continue the installation.
+S_2	Eissoft VPN can be installed by one of two methods.\r\n\r\nPlease select the System Mode normally.\r\n\r\nIf you cannot use the administrator privilege for some reasons, you can select the User Mode to continue the installation.
 PREFIX	D_SW_NOT_ADMIN
 CAPTION	D_SW_NOT_ADMIN
 S_INFO	The user "%s" which is logged on Windows does not have the administrator privilege.\r\n\r\nLog off Windows, log on by the user who has the administrator privilege and restart the Setup Wizard if you want to continue the setup.
@@ -3765,7 +3765,7 @@ S_1	Por favor, leia atentamente o contrato de licença do usuário final.
 B_AGREE	Eu concordo com o contrato de licença do usuário final.
 PREFIX	D_SW_WARNING
 CAPTION	D_SW_WARNING
-S_1	O software SoftEther VPN possui habilidades de comunicação extremamente poderosas. Antes de usar, leia atentamente os avisos importantes.
+S_1	O software Eissoft VPN possui habilidades de comunicação extremamente poderosas. Antes de usar, leia atentamente os avisos importantes.
 PREFIX	D_SW_DIR
 CAPTION	D_SW_DIR
 S_INFO	Por favor, especifique o diretório para instalar o %s.
@@ -3783,14 +3783,14 @@ S_INFO7	Clique em Avançar para instalar.
 PREFIX	D_SW_PERFORM
 CAPTION	D_SW_PERFORM
 S_INFO	A instalação do %s está em andamento.\r\nPor favor, aguarde...
-S_INFO8	O SoftEther VPN é um trabalho do projeto de pesquisa e desenvolvimento do governo japonês, subsidiado pelo Ministério da Economia, Comércio e Indústria do Japão, administrado pela Agência de Promoção da Informação.
+S_INFO8	O Eissoft VPN é um trabalho do projeto de pesquisa e desenvolvimento do governo japonês, subsidiado pelo Ministério da Economia, Comércio e Indústria do Japão, administrado pela Agência de Promoção da Informação.
 PREFIX	D_SW_ERROR
 CAPTION	D_SW_ERROR
 S_INFO	An error occurred and the setup of %s is aborted.\r\n\r\nRestart the Setup Wizard if you want to retry.
 PREFIX	D_SW_FINISH
 CAPTION	D_SW_FINISH
 S_INFO	O processo de instalação do %s foi concluído com êxito.
-S_INFO8	O SoftEther VPN é um trabalho do projeto de pesquisa e desenvolvimento do governo japonês, subsidiado pelo Ministério da Economia, Comércio e Indústria do Japão, administrado pela Agência de Promoção da Informação.
+S_INFO8	O Eissoft VPN é um trabalho do projeto de pesquisa e desenvolvimento do governo japonês, subsidiado pelo Ministério da Economia, Comércio e Indústria do Japão, administrado pela Agência de Promoção da Informação.
 PREFIX	D_SW_UNINST1
 CAPTION	D_SW_UNINST1
 S_WELCOME	O assistente de instalação pode desinstalar o %s do computador.\r\n\r\nClique em Próximo se desejar iniciar a desinstalação.
@@ -3798,7 +3798,7 @@ S_TITLE	%s Uninstall Wizard
 PREFIX	D_SW_EASY1
 CAPTION	D_SW_EASY1
 S_WELCOME	Installing and setting up the VPN Clients to a lot of computers in the enterprise is a hard work.
-S_TITLE	What is SoftEther VPN Client Easy Installer?
+S_TITLE	What is Eissoft VPN Client Easy Installer?
 S_WELCOME2	Easy Installer Creator is a tool for enterprise administrators. You can create a VPN Client installer with embedding a specific VPN connection setting by using Easy Installer Creator. Personal users can also exploit this tool.
 S_WELCOME3	A created Easy Installer can be distributed to employees in the enterprise by using file servers or e-mails. If a user runs the Easy Installer, VPN Client will be installed and the VPN connection setting will be imported, and then the VPN connection will be started automatically.
 PREFIX	D_SW_EASY2
@@ -3815,9 +3815,9 @@ B_BROWSE_OUT	P&esquisar...
 B_EASYMODE	Set the VPN Client Manager to &Easy Mode when Installation
 PREFIX	D_SW_WEB1
 CAPTION	D_SW_WEB1
-S_WELCOME	You can create a SoftEther VPN Client Web Installer and upload it on the Web server in the enterprise. A user opens that web page and can install the SoftEther VPN Client automatically. You can also setup the automatic import and kick-start of a built-in VPN connection setting.
-S_TITLE	What is SoftEther VPN Web Installer?
-S_WELCOME2	The generated Web Installer can be placed as HTML files on the intranet Web server. If an employee accesses to the URL of that HTML files, the SoftEther VPN Client Installer will be executed.
+S_WELCOME	You can create a Eissoft VPN Client Web Installer and upload it on the Web server in the enterprise. A user opens that web page and can install the Eissoft VPN Client automatically. You can also setup the automatic import and kick-start of a built-in VPN connection setting.
+S_TITLE	What is Eissoft VPN Web Installer?
+S_WELCOME2	The generated Web Installer can be placed as HTML files on the intranet Web server. If an employee accesses to the URL of that HTML files, the Eissoft VPN Client Installer will be executed.
 S_WELCOME3	Using ActiveX Control. Internet Explorer 5.0, greater on Windows 2000 or greater are supported. Other web browsers or older operating systems (for example Windows 98) are not supported.
 PREFIX	D_SW_WEB2
 CAPTION	D_SW_WEB2
@@ -3844,7 +3844,7 @@ S_LATEST	Latest Version:
 S_LATEST_STR	Ver %S%s
 PREFIX	D_UPDATE_CONFIG
 CAPTION	Configuration of Update Notification
-S_INFO	Checks the new versions of %s periodically and popup a notification when a new version will be released.\r\n\r\nHTTPS packets will be used between this computer and the SoftEther Update server located in Tsukuba-city, Ibaraki-prefecture, Japan in order to check updates. No personal information will be sent.
+S_INFO	Checks the new versions of %s periodically and popup a notification when a new version will be released.\r\n\r\nHTTPS packets will be used between this computer and the Eissoft Update server located in Tsukuba-city, Ibaraki-prefecture, Japan in order to check updates. No personal information will be sent.
 S_TITLE	%s Update and Notify Settings
 S_ENABLE	&Ativar virificação de atualizações
 S_DISABLE	&Desativar virificação de atualizações
@@ -3861,7 +3861,7 @@ CAPTION	VPN Azure Service Settings
 S_TITLE	Serviço de VPN Azure Cloud VPN (gratuito)
 S_1	O VPN Azure facilita o estabelecimento de uma sessão VPN do seu PC doméstico para o PC do escritório. Enquanto uma conexão VPN é estabelecida, você pode acessar outros servidores na rede privada da sua empresa.
 S_2	Você não precisa de um endereço IP global no PC do escritório (servidor VPN). Pode funcionar atrás de firewalls ou NATs. Nenhuma configuração de administrador de rede é necessária. Você pode usar o cliente SSTP-VPN interno do Windows em seu PC doméstico.
-S_3	O VPN Azure é um serviço de VPN em nuvem operado pelo SoftEther VPN Project. O VPN Azure é gratuito e disponível para qualquer pessoa. Pressione o botão ao lado para ver detalhes e instruções de uso.
+S_3	O VPN Azure é um serviço de VPN em nuvem operado pelo Eissoft VPN Project. O VPN Azure é gratuito e disponível para qualquer pessoa. Pressione o botão ao lado para ver detalhes e instruções de uso.
 B_BOLD	Configuração VPN Azure
 R_ENABLE	&Ativar VPN Azure
 R_DISABLE	&Desativar VPN Azure
@@ -3882,7 +3882,7 @@ B_PROXY_CONFIG	Configuração do servidor &proxy
 IDOK	&OK
 IDCANCEL	Cancelar
 PREFIX	D_VGC_LIST
-CAPTION	VPN Gate Academic Experimental Project Plugin for SoftEther VPN Client
+CAPTION	VPN Gate Academic Experimental Project Plugin for Eissoft VPN Client
 S_TITLE	VPN Gate Public VPN Relay Servers
 S_INFO1	Gain freedom access to Internet by using VPN connection via Public VPN Servers provided by volunteers abound the world. Bypass your local malfunctioning firewall's packet blocking, and hide your IP address safely.
 IDOK	&Connect to the VPN Server
@@ -3938,7 +3938,7 @@ S1	The VPN Gate Academic Experiment Service is operated as a research project at
 S2	By nature, there are almost 200 countries in the World, with different laws. It is impossible to verify every countries' laws and regulations and make the software comply with all countries' laws in advance to release the software. If a user uses VPN Gate service in a specific country, and damaged by public servants of the authority, the developer of either the service or software will never be liable to recover or compensate such damages or criminal responsibilities.
 S3	By using this software and service, the user must observe all concerned laws and rules with user's own responsibility. The user will be completely liable to any damages and responsibilities which are results of using this software and service, regardless of either inside or outside of Japan's territory.
 S4	If you don't agree nor understand the above warnings, do not use any of VPN Gate Academic Experiment Service functions.
-S5	Note: VPN Gate is a research project for just academic purpose only. VPN Gate was developed as a plug-in for SoftEther VPN and UT-VPN. However, all parts of VPN Gate were developed on this research project at University of Tsukuba. Any parts of VPN Gate are not developed by SoftEther VPN Project. The VPN Gate Research Project is not a subject to be led, operated, promoted nor guaranteed by SoftEther VPN Project.
+S5	Note: VPN Gate is a research project for just academic purpose only. VPN Gate was developed as a plug-in for Eissoft VPN and UT-VPN. However, all parts of VPN Gate were developed on this research project at University of Tsukuba. Any parts of VPN Gate are not developed by Eissoft VPN Project. The VPN Gate Research Project is not a subject to be led, operated, promoted nor guaranteed by Eissoft VPN Project.
 R_NEVER	Do Not &Show This Message Again
 B_WEB	Visite o &site do VPN Gate...
 IDOK	&Concordar
@@ -3947,7 +3947,7 @@ S_BOLD	Caution! Do Not Use the VPN Gate Services in Countries where VPN Communic
 PREFIX	D_NM_PUSH
 CAPTION	Edit the static routing table to push
 S1	This Virtual DHCP Server can push the classless static routes (RFC 3442) with DHCP reply messages to VPN clients.
-S2	Whether or not a VPN client can recognize the classless static routes (RFC 3442) depends on the target VPN client software. SoftEther VPN Client and OpenVPN Client are supporting the classless static routes. On L2TP/IPsec and MS-SSTP protocols, the compatibility depends on the implementation of the client software.
+S2	Whether or not a VPN client can recognize the classless static routes (RFC 3442) depends on the target VPN client software. Eissoft VPN Client and OpenVPN Client are supporting the classless static routes. On L2TP/IPsec and MS-SSTP protocols, the compatibility depends on the implementation of the client software.
 S3	You can realize the split tunneling if you clear the default gateway field on the Virtual DHCP Server options. On the client side, L2TP/IPsec and MS-SSTP clients need to be configured not to set up the default gateway for the split tunneling usage.
 S4	You can also push the classless static routes (RFC 3442) by your existing external DHCP server. In that case, disable the Virtual DHCP Server function on SecureNAT, and you need not to set up the classless routes on this screen.
 S5	Edit the static routing table to push
@@ -4195,8 +4195,8 @@ CMD_DISCONNECTED_MSG	\n--- Error ---\n\nThe communication session with the host 
 
 
 # VPNCMD ã‚³ãƒžãƒ³ãƒ‰
-CMD_VPNCMD	SoftEther VPN Command Line Management Utility Developer Edition
-CMD_VPNCMD_HELP	The 'vpncmd' program is a utility that allows you to manage SoftEther VPN software by using command lines. By using vpncmd, you can connect to a VPN Client, a VPN Server or VPN Bridge that is running on a local or remote computer and manage these services. Moreover, by using VPN Tools mode, you can call the Network Traffic Speed Test Tool and the certificate creation function. These can be used even when not connected to the VPN Server or VPN Client. \nWhen using vpncmd, if the file name is specified by using the /IN and /OUT parameter, the command can be executed in a batch according to a file in which the executable commands are enumerated and the execution results can be written to a file. Normally a command prompt will appear after vpncmd is launched but when an input file is specified by the /IN parameter, the program will automatically terminate after the execution of all lines in the input file is complete. Also, when a command to execute is specified by the /CMD parameter, the program will automatically terminate after the execution of that command is complete. You cannot specify the /IN parameter and the /CMD parameter at the same time. The termination code of the vpncmd program will be the error code of the last executed command (0 in the case of successful execution). \nUnder a Windows environment, when vpncmd is launched once or more by a user with administrator privileges, it is possible to simply input 'vpncmd' to a Windows command prompt or [Run...] window to launch vpncmd. To achieve the same result under a UNIX system, you can manually set, as appropriate, the PATH environment variable.
+CMD_VPNCMD	Eissoft VPN Command Line Management Utility 
+CMD_VPNCMD_HELP	The 'vpncmd' program is a utility that allows you to manage Eissoft VPN software by using command lines. By using vpncmd, you can connect to a VPN Client, a VPN Server or VPN Bridge that is running on a local or remote computer and manage these services. Moreover, by using VPN Tools mode, you can call the Network Traffic Speed Test Tool and the certificate creation function. These can be used even when not connected to the VPN Server or VPN Client. \nWhen using vpncmd, if the file name is specified by using the /IN and /OUT parameter, the command can be executed in a batch according to a file in which the executable commands are enumerated and the execution results can be written to a file. Normally a command prompt will appear after vpncmd is launched but when an input file is specified by the /IN parameter, the program will automatically terminate after the execution of all lines in the input file is complete. Also, when a command to execute is specified by the /CMD parameter, the program will automatically terminate after the execution of that command is complete. You cannot specify the /IN parameter and the /CMD parameter at the same time. The termination code of the vpncmd program will be the error code of the last executed command (0 in the case of successful execution). \nUnder a Windows environment, when vpncmd is launched once or more by a user with administrator privileges, it is possible to simply input 'vpncmd' to a Windows command prompt or [Run...] window to launch vpncmd. To achieve the same result under a UNIX system, you can manually set, as appropriate, the PATH environment variable.
 CMD_VPNCMD_ARGS	vpncmd [host:port] [/CLIENT|/SERVER|/TOOLS] [/HUB:hub] [/ADMINHUB:adminhub] [/PASSWORD:password] [/IN:infile] [/OUT:outfile] [/CMD commands...]
 CMD_VPNCMD_[host:port]	By specifying parameters in the format "host name:port number", a connection will automatically be made to that host. If this is not specified, a prompt will appear to input the connection destination. When connecting to a VPN Client, you cannot specify a port number.
 CMD_VPNCMD_CLIENT	This will connect to VPN Client to do management. You cannot specify it together with /SERVER.
@@ -4216,7 +4216,7 @@ CMD_VPNCMD_HOST_2	Specify the host name or IP address of the computer that the d
 CMD_VPNCMD_HOST_3	Hostname of IP Address of Destination: 
 CMD_VPNCMD_HUB_1	If connecting to the server by Virtual Hub Admin Mode, please input the Virtual Hub name. \nIf connecting by server admin mode, please press Enter without inputting anything.
 CMD_VPNCMD_HUB_2	Specify Virtual Hub Name: 
-CMD_VPNCMD_ABOUT	SoftEther VPN Command Line Management Utility (vpncmd command)\nDeveloper Edition\n%S\n%S\nCopyright (c) all contributors on SoftEther VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation.\nAll rights reserved.\n
+CMD_VPNCMD_ABOUT	Eissoft VPN Command Line Management Utility (vpncmd command)\n\n%S\n%S\nCopyright (c) all contributors on Eissoft VPN project in GitHub.\nCopyright (c) Daiyuu Nobori, Eissoft Project at University of Tsukuba, and Eissoft Corporation.\nAll rights reserved.\n
 CMD_VPNCMD_PASSWORD_1	Access has been denied. Possibly the password is incorrect, or perhaps you are connecting by an incorrect admin mode. You can try inputting the password again. To cancel, press Ctrl+D.
 CMD_VPNCMD_PASSWORD_2	Senha: 
 CMD_VPNCMD_ERROR	Error occurred. (Error code: %u)\n%s
@@ -4343,7 +4343,7 @@ CMD_ProtoOptionsGet_Column_Value		Value
 CMD_ProtoOptionsGet_Column_Description	Description
 
 # ProtoOptions
-CMD_ProtoOptions_Description_OpenVPN_DefaultClientOption			When OpenVPN is compiled without OCC code, it doesn't send the options string to the server. The original OpenVPN server still works, because the configuration is static. SoftEther VPN is heuristic and wants to support as many different configurations as possible. This option allows to define the string that is sent to clients built without OCC code, so that they can successfully connect.
+CMD_ProtoOptions_Description_OpenVPN_DefaultClientOption			When OpenVPN is compiled without OCC code, it doesn't send the options string to the server. The original OpenVPN server still works, because the configuration is static. Eissoft VPN is heuristic and wants to support as many different configurations as possible. This option allows to define the string that is sent to clients built without OCC code, so that they can successfully connect.
 CMD_ProtoOptions_Description_OpenVPN_Obfuscation					This may help an OpenVPN client bypass firewalls that are aware of the protocol and block it. The same XOR mask has to be applied client-side, otherwise it will not be able to connect with certain obfuscation methods!
 CMD_ProtoOptions_Description_OpenVPN_ObfuscationMask				Mask used to XOR the bytes in the packet (used for certain obfuscation modes).
 CMD_ProtoOptions_Description_OpenVPN_PingSendInterval				Interval in milliseconds between each ping packet transmission.
@@ -5908,7 +5908,7 @@ CMD_DhcpSet_DNS	Specify the IP address of the primary DNS Server to be notified 
 CMD_DhcpSet_DNS2	Specify the IP address of the secondary DNS Server to be notified to the client. You can specify a SecureNAT Virtual Host IP address for this when the SecureNAT Function's Virtual NAT Function has been enabled and is being used also. If you specify 0 or none, then the client will not be notified of the DNS Server address.
 CMD_DhcpSet_DOMAIN	Specify the domain name to be notified to the client. If you specify none, then the client will not be notified of the domain name.
 CMD_DhcpSet_LOG	Specify whether or not to save the Virtual DHCP Server operation in the Virtual Hub security log. Specify "yes" to save it. This value is interlinked with the Virtual NAT Function log save setting.
-CMD_DhcpSet_PUSHROUTE	Specify the static routing table to push.\nExample: "192.168.5.0/255.255.255.0/192.168.4.254, 10.0.0.0/255.0.0.0/192.168.4.253"\nSplit multiple entries (maximum: 64 entries) by comma or space characters. Each entry must be specified in the "IP network address/subnet mask/gateway IP address" format.\nThis Virtual DHCP Server can push the classless static routes (RFC 3442) with DHCP reply messages to VPN clients.\nWhether or not a VPN client can recognize the classless static routes (RFC 3442) depends on the target VPN client software. SoftEther VPN Client and OpenVPN Client are supporting the classless static routes. On L2TP/IPsec and MS-SSTP protocols, the compatibility depends on the implementation of the client software. You can realize the split tunneling if you clear the default gateway field on the Virtual DHCP Server options. On the client side, L2TP/IPsec and MS-SSTP clients need to be configured not to set up the default gateway for the split tunneling usage.\nYou can also push the classless static routes (RFC 3442) by your existing external DHCP server. In that case, disable the Virtual DHCP Server function on SecureNAT, and you need not to set up the classless routes on this command.\nSee the RFC 3442 to understand the classless routes.
+CMD_DhcpSet_PUSHROUTE	Specify the static routing table to push.\nExample: "192.168.5.0/255.255.255.0/192.168.4.254, 10.0.0.0/255.0.0.0/192.168.4.253"\nSplit multiple entries (maximum: 64 entries) by comma or space characters. Each entry must be specified in the "IP network address/subnet mask/gateway IP address" format.\nThis Virtual DHCP Server can push the classless static routes (RFC 3442) with DHCP reply messages to VPN clients.\nWhether or not a VPN client can recognize the classless static routes (RFC 3442) depends on the target VPN client software. Eissoft VPN Client and OpenVPN Client are supporting the classless static routes. On L2TP/IPsec and MS-SSTP protocols, the compatibility depends on the implementation of the client software. You can realize the split tunneling if you clear the default gateway field on the Virtual DHCP Server options. On the client side, L2TP/IPsec and MS-SSTP clients need to be configured not to set up the default gateway for the split tunneling usage.\nYou can also push the classless static routes (RFC 3442) by your existing external DHCP server. In that case, disable the Virtual DHCP Server function on SecureNAT, and you need not to set up the classless routes on this command.\nSee the RFC 3442 to understand the classless routes.
 CMD_DhcpSet_Prompt_START	Start Point for Distributed Address Band: 
 CMD_DhcpSet_Prompt_END	End Point for Distributed Address Band: 
 CMD_DhcpSet_Prompt_MASK	Máscara de sub-rede: 
@@ -6045,7 +6045,7 @@ CMD_AcDel_Prompt_ID	ID of Rule to Delete:
 
 # LicenseAdd command
 CMD_LicenseAdd	Adicionar registro de chave de licença
-CMD_LicenseAdd_Help	Use this to register a new license key on the SoftEther VPN Server. \nTo use SoftEther VPN Server you must acquire a valid license and register the license key. The license keys are 36 alphanumeric characters in length plus hyphens. They are key codes that certify the ownership of a license. \nWhen a license certificate is received together with this software, the license key is printed on this license certificate. If the license for this software has been purchased online, the license key is provided by email and on the website window at the time the license is purchased. The license key may also be written down by some other method. If you don't know where the license key is written down, ask the vendor who sold you the license. \n\nTo get the list of currently registered licenses, use the LicenseList command. \nTo display the license status of the current VPN Server, use the LicenseStatus command. \nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.
+CMD_LicenseAdd_Help	Use this to register a new license key on the Eissoft VPN Server. \nTo use Eissoft VPN Server you must acquire a valid license and register the license key. The license keys are 36 alphanumeric characters in length plus hyphens. They are key codes that certify the ownership of a license. \nWhen a license certificate is received together with this software, the license key is printed on this license certificate. If the license for this software has been purchased online, the license key is provided by email and on the website window at the time the license is purchased. The license key may also be written down by some other method. If you don't know where the license key is written down, ask the vendor who sold you the license. \n\nTo get the list of currently registered licenses, use the LicenseList command. \nTo display the license status of the current VPN Server, use the LicenseStatus command. \nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.
 CMD_LicenseAdd_Args	LicenseAdd [key]
 CMD_LicenseAdd_[key]	Specify the license key to register. Specify 36 digits of alphanumeric characters and group the digits in groups of 6 separating them by hyphen. 
 CMD_LicenseAdd_Prompt_Key	Chave de licença: 
@@ -6053,7 +6053,7 @@ CMD_LicenseAdd_Prompt_Key	Chave de licença:
 
 # LicenseDel command
 CMD_LicenseDel	Delete Registered License
-CMD_LicenseDel_Help	Use this to delete a specified license from the license list that is currently registered on the SoftEther VPN Server. \n\nTo get the list of currently registered licenses, use the LicenseList command. \nTo display the license status of the current VPN Server, use the LicenseStatus command. \nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.
+CMD_LicenseDel_Help	Use this to delete a specified license from the license list that is currently registered on the Eissoft VPN Server. \n\nTo get the list of currently registered licenses, use the LicenseList command. \nTo display the license status of the current VPN Server, use the LicenseStatus command. \nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.
 CMD_LicenseDel_Args	LicenseDel [id]
 CMD_LicenseDel_[id]	Specify the license number to delete.
 CMD_LicenseDel_Prompt_ID	License Number to Delete: 
@@ -6061,22 +6061,22 @@ CMD_LicenseDel_Prompt_ID	License Number to Delete:
 
 # LicenseList command
 CMD_LicenseList	Get List of Registered Licenses
-CMD_LicenseList_Help	Use this to display a list of license information currently registered on the SoftEther VPN Server including: license key, license type name, status, expiration date, license ID, license type ID, server ID and serial ID. \n\nTo display the license status of the current VPN Server, use the LicenseStatus command. \nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.
+CMD_LicenseList_Help	Use this to display a list of license information currently registered on the Eissoft VPN Server including: license key, license type name, status, expiration date, license ID, license type ID, server ID and serial ID. \n\nTo display the license status of the current VPN Server, use the LicenseStatus command. \nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.
 CMD_LicenseList_Args	Início da concessão
 
 
 # LicenseStatus command
 CMD_LicenseStatus	Get License Status of Current VPN Server
-CMD_LicenseStatus_Help	Use this to get and display the license status of the current SoftEther VPN Server. \nThe following current information on the SoftEther VPN Server will be displayed: product edition, server ID, product license expiration date, number of usable Client Connection Licenses and number of Bridge Connection Licenses. \n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.
+CMD_LicenseStatus_Help	Use this to get and display the license status of the current Eissoft VPN Server. \nThe following current information on the Eissoft VPN Server will be displayed: product edition, server ID, product license expiration date, number of usable Client Connection Licenses and number of Bridge Connection Licenses. \n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.
 CMD_LicenseStatus_Args	LicenseStatus
 
 
-# Commands added after SoftEther VPN 4.0
+# Commands added after Eissoft VPN 4.0
 
 
 # IPsecEnable command
 CMD_IPsecEnable	Enable or Disable IPsec VPN Server Function
-CMD_IPsecEnable_Help	Enable or Disable IPsec VPN Server Function on SoftEther VPN Server.\nIf you enable this function, Virtual Hubs on the VPN Server will be able to accept Remote-Access VPN connections from L2TP-compatible PCs, Mac OS X and Smartphones, and also can accept EtherIP Site-to-Site VPN Connection. VPN Connections from Smartphones suchlike iPhone, iPad and Android, and also from native VPN Clients on Mac OS X and Windows can be accepted.\n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.\nYou cannot execute this command for Virtual Hubs of VPN Servers operating as a cluster.
+CMD_IPsecEnable_Help	Enable or Disable IPsec VPN Server Function on Eissoft VPN Server.\nIf you enable this function, Virtual Hubs on the VPN Server will be able to accept Remote-Access VPN connections from L2TP-compatible PCs, Mac OS X and Smartphones, and also can accept EtherIP Site-to-Site VPN Connection. VPN Connections from Smartphones suchlike iPhone, iPad and Android, and also from native VPN Clients on Mac OS X and Windows can be accepted.\n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.\nYou cannot execute this command for Virtual Hubs of VPN Servers operating as a cluster.
 CMD_IPsecEnable_Args	IPsecEnable [/L2TP:yes|no] [/L2TPRAW:yes|no] [/ETHERIP:yes|no] [/PSK:pre-shared-key] [/DEFAULTHUB:default_hub]
 CMD_IPsecEnable_L2TP	Enable or Disable the L2TP over IPsec Server Function. To accept VPN connections from iPhone, iPad, Android, Windows or Mac OS X, enable this option.
 CMD_IPsecEnable_L2TPRAW	Enable or Disable the L2TP Server Function (Raw L2TP with No Encryptions). To accept special VPN clients, enable this option.
@@ -6092,7 +6092,7 @@ CMD_IPsecEnable_Prompt_DEFAULTHUB	Default Virtual HUB in a case of omitting the 
 
 # IPsecGet command
 CMD_IPsecGet	Get the Current IPsec VPN Server Settings
-CMD_IPsecGet_Help	Get and view the current IPsec VPN Server settings on the SoftEther VPN Server.\n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.\nYou cannot execute this command for Virtual Hubs of VPN Servers operating as a cluster.
+CMD_IPsecGet_Help	Get and view the current IPsec VPN Server settings on the Eissoft VPN Server.\n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.\nYou cannot execute this command for Virtual Hubs of VPN Servers operating as a cluster.
 CMD_IPsecGet_Args	IPsecGet
 CMD_IPsecGet_PRINT_L2TP	L2TP over IPsec Server Function Enabled
 CMD_IPsecGet_PRINT_L2TPRAW	Raw L2TP Server Function Enabled
@@ -6186,7 +6186,7 @@ CMD_DynamicDnsSetHostname_Prompt_hostname	Dynamic DNS Hostname (3 - 31 letters):
 
 # VpnAzureGetStatus command
 CMD_VpnAzureGetStatus	Show the current status of VPN Azure function
-CMD_VpnAzureGetStatus_Help	Get and show the current status of the VPN Azure function.\n\nVPN Azure makes it easier to establish a VPN Session from your home PC to your office PC. While a VPN connection is established, you can access to any other servers on the private network of your company.\nYou don't need a global IP address on the office PC (VPN Server). It can work behind firewalls or NATs. No network administrator's configuration required. You can use the built-in SSTP-VPN Client of Windows in your home PC.\nVPN Azure is a cloud VPN service operated by SoftEther VPN Project. VPN Azure is free of charge and available to anyone. Visit http://www.vpnazure.net/ to see details and how-to-use instructions.\n\nThe VPN Azure hostname is same to the hostname of the Dynamic DNS setting, but altering the domain suffix to "vpnazure.net". To change the hostname use the DynamicDnsSetHostname command.\n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.\nYou cannot execute this command for Virtual Hubs of VPN Servers operating as a cluster.
+CMD_VpnAzureGetStatus_Help	Get and show the current status of the VPN Azure function.\n\nVPN Azure makes it easier to establish a VPN Session from your home PC to your office PC. While a VPN connection is established, you can access to any other servers on the private network of your company.\nYou don't need a global IP address on the office PC (VPN Server). It can work behind firewalls or NATs. No network administrator's configuration required. You can use the built-in SSTP-VPN Client of Windows in your home PC.\nVPN Azure is a cloud VPN service operated by Eissoft VPN Project. VPN Azure is free of charge and available to anyone. Visit http://www.vpnazure.net/ to see details and how-to-use instructions.\n\nThe VPN Azure hostname is same to the hostname of the Dynamic DNS setting, but altering the domain suffix to "vpnazure.net". To change the hostname use the DynamicDnsSetHostname command.\n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.\nYou cannot execute this command for Virtual Hubs of VPN Servers operating as a cluster.
 CMD_VpnAzureGetStatus_Args	VpnAzureGetStatus
 CMD_VpnAzureGetStatus_PRINT_ENABLED	VPN Azure Function is Enabled
 CMD_VpnAzureGetStatus_PRINT_CONNECTED	Connection to VPN Azure Cloud Server is Established
@@ -6195,7 +6195,7 @@ CMD_VpnAzureGetStatus_PRINT_HOSTNAME	Hostname of this VPN Server on VPN Azure Se
 
 # VpnAzureSetStatus command
 CMD_VpnAzureSetEnable	Enable / Disable VPN Azure Function
-CMD_VpnAzureSetEnable_Help	Enable or disable the VPN Azure function.\n\nVPN Azure makes it easier to establish a VPN Session from your home PC to your office PC. While a VPN connection is established, you can access to any other servers on the private network of your company.\nYou don't need a global IP address on the office PC (VPN Server). It can work behind firewalls or NATs. No network administrator's configuration required. You can use the built-in SSTP-VPN Client of Windows in your home PC.\nVPN Azure is a cloud VPN service operated by SoftEther VPN Project. VPN Azure is free of charge and available to anyone. Visit http://www.vpnazure.net/ to see details and how-to-use instructions.\n\nThe VPN Azure hostname is same to the hostname of the Dynamic DNS setting, but altering the domain suffix to "vpnazure.net". To change the hostname use the DynamicDnsSetHostname command.\n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.\nYou cannot execute this command for Virtual Hubs of VPN Servers operating as a cluster.
+CMD_VpnAzureSetEnable_Help	Enable or disable the VPN Azure function.\n\nVPN Azure makes it easier to establish a VPN Session from your home PC to your office PC. While a VPN connection is established, you can access to any other servers on the private network of your company.\nYou don't need a global IP address on the office PC (VPN Server). It can work behind firewalls or NATs. No network administrator's configuration required. You can use the built-in SSTP-VPN Client of Windows in your home PC.\nVPN Azure is a cloud VPN service operated by Eissoft VPN Project. VPN Azure is free of charge and available to anyone. Visit http://www.vpnazure.net/ to see details and how-to-use instructions.\n\nThe VPN Azure hostname is same to the hostname of the Dynamic DNS setting, but altering the domain suffix to "vpnazure.net". To change the hostname use the DynamicDnsSetHostname command.\n\nTo execute this command, you must have VPN Server administrator privileges. \nThis command cannot be run on VPN Bridge.\nYou cannot execute this command for Virtual Hubs of VPN Servers operating as a cluster.
 CMD_VpnAzureSetEnable_Args	VpnAzureSetEnable [yes|no]
 CMD_VpnAzureSetEnable_[yes|no]	Specify 'yes' to enable VPN Azure. 'no' to disable it.
 CMD_VpnAzureSetEnable_PROMPT	Enable VPN Azure (yes / no): 
@@ -6793,7 +6793,7 @@ CMD_GetPublicX25519_PUBLIC_KEY	Public key:
 
 # MakeCert command
 CMD_MakeCert	Create New X.509 Certificate and Private Key (1024 bit)
-CMD_MakeCert_Help	Use this to create a new X.509 certificate and private key and save it as a file. \nThe algorithm used to create the public key and private key of the certificate is RSA 1024 bit. \nYou can choose to create a root certificate (self-signed certificate) or a certificate signed by another certificate. To create a certificate that is signed by another certificate, you require a private key file (base 64 encoded) that is compatible with the certificate that uses the signature (X.509 format file). \n\nWhen creating a certificate, you can specify the following: Name (CN), Organization (O), Organization Unit (OU), Country (C), State (ST), Locale (L), Serial Number, and Expiration Date. \nThe created certificate will be saved as an X.509 format file and the private key file will be saved in a Base 64 encoded RSA 1024 bit format file. \n\nThe MakeCert command is a tool that provides the most rudimentary function for creating certificates. If you want to create a more substantial certificate, we recommend that you use either free software such as OpenSSL, or commercial CA (certificate authority) software. \n\nNote: This command can be called from the SoftEther VPN Command Line Management Utility. You can also execute this command while connected to the current VPN Server or VPN Client in Administration Mode but, what actually performs the RSA computation, generates the certificate data and saves it to file is the computer on which the command is running, and all this is executed in a context that has absolutely no relationship to the computer that is the destination of the Administration Mode connection.
+CMD_MakeCert_Help	Use this to create a new X.509 certificate and private key and save it as a file. \nThe algorithm used to create the public key and private key of the certificate is RSA 1024 bit. \nYou can choose to create a root certificate (self-signed certificate) or a certificate signed by another certificate. To create a certificate that is signed by another certificate, you require a private key file (base 64 encoded) that is compatible with the certificate that uses the signature (X.509 format file). \n\nWhen creating a certificate, you can specify the following: Name (CN), Organization (O), Organization Unit (OU), Country (C), State (ST), Locale (L), Serial Number, and Expiration Date. \nThe created certificate will be saved as an X.509 format file and the private key file will be saved in a Base 64 encoded RSA 1024 bit format file. \n\nThe MakeCert command is a tool that provides the most rudimentary function for creating certificates. If you want to create a more substantial certificate, we recommend that you use either free software such as OpenSSL, or commercial CA (certificate authority) software. \n\nNote: This command can be called from the Eissoft VPN Command Line Management Utility. You can also execute this command while connected to the current VPN Server or VPN Client in Administration Mode but, what actually performs the RSA computation, generates the certificate data and saves it to file is the computer on which the command is running, and all this is executed in a context that has absolutely no relationship to the computer that is the destination of the Administration Mode connection.
 CMD_MakeCert_Args	MakeCert [/CN:cn] [/O:o] [/OU:ou] [/C:c] [/ST:st] [/L:l] [/SERIAL:serial] [/EXPIRES:expires] [/SIGNCERT:signcert] [/SIGNKEY:signkey] [/SAVECERT:savecert] [/SAVEKEY:savekey]
 CMD_MakeCert_CN	Specify the Name (CN) item of the certificate to create. You can specify "none".
 CMD_MakeCert_O	Specify the Organization (O) item of the certificate to create. You can specify "none".
@@ -6824,7 +6824,7 @@ CMD_MakeCert_ERROR_GEN_FAILED	Creation of certificate and private key failed.
 
 # MakeCert2048 command
 CMD_MakeCert2048	Create New X.509 Certificate and Private Key (2048 bit)
-CMD_MakeCert2048_Help	Use this to create a new X.509 certificate and private key and save it as a file. \nThe algorithm used to create the public key and private key of the certificate is RSA 2048 bit. \nYou can choose to create a root certificate (self-signed certificate) or a certificate signed by another certificate. To create a certificate that is signed by another certificate, you require a private key file (base 64 encoded) that is compatible with the certificate that uses the signature (X.509 format file). \n\nWhen creating a certificate, you can specify the following: Name (CN), Organization (O), Organization Unit (OU), Country (C), State (ST), Locale (L), Serial Number, and Expiration Date. \nThe created certificate will be saved as an X.509 format file and the private key file will be saved in a Base 64 encoded RSA 2048 bit format file. \n\nThe MakeCert command is a tool that provides the most rudimentary function for creating certificates. If you want to create a more substantial certificate, we recommend that you use either free software such as OpenSSL, or commercial CA (certificate authority) software. \n\nNote: This command can be called from the SoftEther VPN Command Line Management Utility. You can also execute this command while connected to the current VPN Server or VPN Client in Administration Mode but, what actually performs the RSA computation, generates the certificate data and saves it to file is the computer on which the command is running, and all this is executed in a context that has absolutely no relationship to the computer that is the destination of the Administration Mode connection.
+CMD_MakeCert2048_Help	Use this to create a new X.509 certificate and private key and save it as a file. \nThe algorithm used to create the public key and private key of the certificate is RSA 2048 bit. \nYou can choose to create a root certificate (self-signed certificate) or a certificate signed by another certificate. To create a certificate that is signed by another certificate, you require a private key file (base 64 encoded) that is compatible with the certificate that uses the signature (X.509 format file). \n\nWhen creating a certificate, you can specify the following: Name (CN), Organization (O), Organization Unit (OU), Country (C), State (ST), Locale (L), Serial Number, and Expiration Date. \nThe created certificate will be saved as an X.509 format file and the private key file will be saved in a Base 64 encoded RSA 2048 bit format file. \n\nThe MakeCert command is a tool that provides the most rudimentary function for creating certificates. If you want to create a more substantial certificate, we recommend that you use either free software such as OpenSSL, or commercial CA (certificate authority) software. \n\nNote: This command can be called from the Eissoft VPN Command Line Management Utility. You can also execute this command while connected to the current VPN Server or VPN Client in Administration Mode but, what actually performs the RSA computation, generates the certificate data and saves it to file is the computer on which the command is running, and all this is executed in a context that has absolutely no relationship to the computer that is the destination of the Administration Mode connection.
 CMD_MakeCert2048_Args	MakeCert2048 [/CN:cn] [/O:o] [/OU:ou] [/C:c] [/ST:st] [/L:l] [/SERIAL:serial] [/EXPIRES:expires] [/SIGNCERT:signcert] [/SIGNKEY:signkey] [/SAVECERT:savecert] [/SAVEKEY:savekey]
 CMD_MakeCert2048_CN	Specify the Name (CN) item of the certificate to create. You can specify "none".
 CMD_MakeCert2048_O	Specify the Organization (O) item of the certificate to create. You can specify "none".
@@ -6842,7 +6842,7 @@ CMD_MakeCert2048_SAVEKEY	Specify the file name to save private key that is compa
 
 # TrafficClient command
 CMD_TrafficClient	Run Network Traffic Speed Test Tool in Client Mode
-CMD_TrafficClient_Help	Use this to execute the communication throughput measurement tool's client program. \nTwo commands, TrafficClient and TrafficServer, are used for the communication throughput measurement tool to enable the measurement of communication throughput that can be transferred between two computers connected by IP network. The TrafficServer command is used first on another computer which puts the communication throughput measurement tool server in a listening condition. Then the TrafficClient command is used to connect to that server by specifying its host name or IP address and port number, which makes it possible to measure the communication speed. \nMeasurement of the communication speed is carried out by concurrently establishing multiple TCP connections and calculating the actual number of bits of data that can be transferred within a specified time based on the respective results of transferring the maximum stream data on each connection and then using that to calculate the average value (bps) of communication throughput. Normally when there is one TCP connection, it is common to only be able to achieve communication speeds slower than the actual net throughput because of limitations related to the TCP algorithm. We therefore recommend the establishment of multiple concurrent TCP connections when measuring communication results. Because the throughput that is measured using this measurement method is calculated from the bit length of the data that arrives on the receiver side as a stream by TCP, the packet loss that occurs during transfer and the packets with corrupted data are not included in the packets that actually arrive, which means it is possible to calculate a genuine value that is close to the maximum possible communication bandwidth of the network. \nUsing the measurement results, i.e. the stream size transferred by TCP, the approximate value of data volume that actually passed through the network is calculated and this is divided by time to calculate the bits per sec (bps). The calculation assumes the type of the physical network is Ethernet (IEEE802.3) and the MAC frame payload size is 1,500 bytes (TCP MSS is 1,460 bytes). By specifying the /RAW option, the calculation will not make corrections for the TCP/IP header and MAC header data volume. \n\nNote: This command can be called from the SoftEther VPN Command Line Management Utility. You can also execute this command while connected to the current VPN Server or VPN Client in Administration Mode but, what actually conducts communication and measures the throughput is the computer on which the command is running, and all this is executed in a context that has absolutely no relationship to the computer that is the destination of the Administration Mode connection.
+CMD_TrafficClient_Help	Use this to execute the communication throughput measurement tool's client program. \nTwo commands, TrafficClient and TrafficServer, are used for the communication throughput measurement tool to enable the measurement of communication throughput that can be transferred between two computers connected by IP network. The TrafficServer command is used first on another computer which puts the communication throughput measurement tool server in a listening condition. Then the TrafficClient command is used to connect to that server by specifying its host name or IP address and port number, which makes it possible to measure the communication speed. \nMeasurement of the communication speed is carried out by concurrently establishing multiple TCP connections and calculating the actual number of bits of data that can be transferred within a specified time based on the respective results of transferring the maximum stream data on each connection and then using that to calculate the average value (bps) of communication throughput. Normally when there is one TCP connection, it is common to only be able to achieve communication speeds slower than the actual net throughput because of limitations related to the TCP algorithm. We therefore recommend the establishment of multiple concurrent TCP connections when measuring communication results. Because the throughput that is measured using this measurement method is calculated from the bit length of the data that arrives on the receiver side as a stream by TCP, the packet loss that occurs during transfer and the packets with corrupted data are not included in the packets that actually arrive, which means it is possible to calculate a genuine value that is close to the maximum possible communication bandwidth of the network. \nUsing the measurement results, i.e. the stream size transferred by TCP, the approximate value of data volume that actually passed through the network is calculated and this is divided by time to calculate the bits per sec (bps). The calculation assumes the type of the physical network is Ethernet (IEEE802.3) and the MAC frame payload size is 1,500 bytes (TCP MSS is 1,460 bytes). By specifying the /RAW option, the calculation will not make corrections for the TCP/IP header and MAC header data volume. \n\nNote: This command can be called from the Eissoft VPN Command Line Management Utility. You can also execute this command while connected to the current VPN Server or VPN Client in Administration Mode but, what actually conducts communication and measures the throughput is the computer on which the command is running, and all this is executed in a context that has absolutely no relationship to the computer that is the destination of the Administration Mode connection.
 CMD_TrafficClient_Args	TrafficClient [host:port] [/NUMTCP:numtcp] [/TYPE:download|upload|full] [/SPAN:span] [/DOUBLE:yes|no] [/RAW:yes|no]
 CMD_TrafficClient_[host:port]	Specify the host name or IP address and port number that the communication throughput measurement tool server (TrafficServer) is listening for. If the port number is omitted, 9821 will be used.
 CMD_TrafficClient_NUMTCP	Specify the number of TCP connections to be concurrently established between the client and the server for data transfer. If omitted, 32 will be used.
@@ -6858,7 +6858,7 @@ CMD_TrafficClient_ERROR_HOSTPORT	The host name or port number is incorrectly spe
 
 # TrafficServer command
 CMD_TrafficServer	Run Network Traffic Speed Test Tool in Server Mode
-CMD_TrafficServer_Help	Use this to execute the communication throughput measurement tool's server program. \nTwo commands, TrafficClient and TrafficServer, are used for the communication throughput measurement tool to enable the measurement of communication throughput that can be transferred between two computers connected by IP network. \nTo set the TCP port of this computer to the Listen status to listen for the connection from the TrafficClient of another computer, specify the port number and start the server program using the TrafficServer command. \nYou can display more detailed information on the communication throughput measurement tool by inputting "TrafficClient ?". \n\nNote: This command can be called from the SoftEther VPN Command Line Management Utility. You can also execute this command while connected to the current VPN Server or VPN Client in Administration Mode but, what actually conducts communication and measures the throughput is the computer on which the command is running, and all this is executed in a context that has absolutely no relationship to the computer that is the destination of the Administration Mode connection.
+CMD_TrafficServer_Help	Use this to execute the communication throughput measurement tool's server program. \nTwo commands, TrafficClient and TrafficServer, are used for the communication throughput measurement tool to enable the measurement of communication throughput that can be transferred between two computers connected by IP network. \nTo set the TCP port of this computer to the Listen status to listen for the connection from the TrafficClient of another computer, specify the port number and start the server program using the TrafficServer command. \nYou can display more detailed information on the communication throughput measurement tool by inputting "TrafficClient ?". \n\nNote: This command can be called from the Eissoft VPN Command Line Management Utility. You can also execute this command while connected to the current VPN Server or VPN Client in Administration Mode but, what actually conducts communication and measures the throughput is the computer on which the command is running, and all this is executed in a context that has absolutely no relationship to the computer that is the destination of the Administration Mode connection.
 CMD_TrafficServer_Args	TrafficServer [port] [/NOHUP:yes|no]
 CMD_TrafficServer_[port]	Specify, using an integer, the port number at which to listen for the connection. If the specified port has been already being used by another program, or if the port cannot be opened, an error will occur.
 CMD_TrafficServer_NOHUP	When "yes" is specified, the server process never stops without regard to any input from the console. It is convenient when you want to run the TrafficServer endlessly.
@@ -6920,8 +6920,8 @@ TTC_RES_BPS_TOTAL	Total Average Throughput
 
 
 # Check command
-CMD_Check	Check whether SoftEther VPN Operation is Possible
-CMD_Check_Help	Use this to check if the current computer that is running vpncmd is a suitable operation platform for SoftEther VPN Server / Bridge. \nIf this check passes on a system, it is most likely that SoftEther VPN software will operate correctly on that system. \nAlso, if this check does not pass on a system, then this indicates that some type of trouble may arise if SoftEther VPN software is used on that system.
+CMD_Check	Check whether Eissoft VPN Operation is Possible
+CMD_Check_Help	Use this to check if the current computer that is running vpncmd is a suitable operation platform for Eissoft VPN Server / Bridge. \nIf this check passes on a system, it is most likely that Eissoft VPN software will operate correctly on that system. \nAlso, if this check does not pass on a system, then this indicates that some type of trouble may arise if Eissoft VPN software is used on that system.
 CMD_Check_Args	Verificar
 
 
@@ -6929,13 +6929,13 @@ CMD_Check_Args	Verificar
 
 
 # (This contains some strange character strings which are used to check character code conversion.)
-CHECK_TITLE	---------------------------------------------------\nSoftEther VPN Operation Environment Check Tool\nDeveloper Edition\n\nCopyright (c) SoftEther VPN Project.\nAll Rights Reserved.\n\n
-CHECK_NOTE	If this operation environment check tool is run on a system and that system passes, it is most likely that SoftEther VPN software can operate on that system. This check may take a while. Please wait...\n\n
+CHECK_TITLE	---------------------------------------------------\nEissoft VPN Operation Environment Check Tool\n\n\nCopyright (c) Eissoft VPN Project.\nAll Rights Reserved.\n\n
+CHECK_NOTE	If this operation environment check tool is run on a system and that system passes, it is most likely that Eissoft VPN software can operate on that system. This check may take a while. Please wait...\n\n
 CHECK_EXEC_TAG	Checking '%s'... \n
 CHECK_PASS	Senha
 CHECK_FAIL	Falha
-CHECK_RESULT_1	All checks passed. It is most likely that SoftEther VPN Server / Bridge can operate normally on this system.
-CHECK_RESULT_2	Some checks failed. Please check the operation environment of this system. If SoftEther VPN Server / Bridge were to be executed on this system, troubles may occur.
+CHECK_RESULT_1	All checks passed. It is most likely that Eissoft VPN Server / Bridge can operate normally on this system.
+CHECK_RESULT_2	Some checks failed. Please check the operation environment of this system. If Eissoft VPN Server / Bridge were to be executed on this system, troubles may occur.
 CHECK_TEST_123456789	123456789
 CHECK_PROC_KERNEL	Kernel System
 CHECK_PROC_MEMORY	Memory Operation System
@@ -6958,20 +6958,20 @@ CHECK_PROC_NETWORK	Network system
 
 
 ######################################################
-SW_TITLE	Assistente de configuração da Edição de Desenvolvedor do SoftEther VPN (Versão %S)
-SW_EXIT_CONFIRM	O processo de instalação do SoftEther VPN ainda não foi concluído.\r\n\r\nDeseja sair da instalação?
+SW_TITLE	Assistente de configuração da Edição de Desenvolvedor do Eissoft VPN (Versão %S)
+SW_EXIT_CONFIRM	O processo de instalação do Eissoft VPN ainda não foi concluído.\r\n\r\nDeseja sair da instalação?
 SW_UNINSTALL_CONFIRM	Starting the uninstall process of %s.\r\n\r\nDo you want to continue?
-SW_COMPONENT_VPNSERVER_TITLE	SoftEther VPN Servidor
+SW_COMPONENT_VPNSERVER_TITLE	Eissoft VPN Servidor
 SW_COMPONENT_VPNSERVER_DESCRIPTION	Instale-o num servidor central de VPN. As ferramentas de gerenciamento também serão instaladas.
-SW_COMPONENT_VPNCLIENT_TITLE	SoftEther VPN Cliente
+SW_COMPONENT_VPNCLIENT_TITLE	Eissoft VPN Cliente
 SW_COMPONENT_VPNCLIENT_DESCRIPTION	Instale-o em computadores cliente VPN. Um computador cliente VPN poderá se conectar ao servidor VPN central. As ferramentas de gerenciamento também serão instaladas.
-SW_COMPONENT_VPNBRIDGE_TITLE	SoftEther VPN Bridge
+SW_COMPONENT_VPNBRIDGE_TITLE	Eissoft VPN Bridge
 SW_COMPONENT_VPNBRIDGE_DESCRIPTION	Instale-o nos computadores de cada lugar. Cada VPN Bridge estabelecerá uma conexão VPN com o servidor VPN central. As ferramentas de gerenciamento também serão instaladas.
-SW_COMPONENT_VPNSMGR_TITLE	Gerenciador de servidores SoftEther VPN (apenas ferramentas administrativas)
+SW_COMPONENT_VPNSMGR_TITLE	Gerenciador de servidores Eissoft VPN (apenas ferramentas administrativas)
 SW_COMPONENT_VPNSMGR_DESCRIPTION	Somente o gerenciador de servidores VPN será instalado. O serviço do servidor VPN não será instalado. Você pode usar o gerenciador de servidores VPN para conectar e gerenciar servidores VPN remotos e Bridges VPN em outros computadores que podem ser executados no Windows, Linux, Mac OS X, Solaris e FreeBSD.
-SW_COMPONENT_VPNCMGR_TITLE	Gerenciador de clientes SoftEther VPN (apenas ferramentas administrativas)
+SW_COMPONENT_VPNCMGR_TITLE	Gerenciador de clientes Eissoft VPN (apenas ferramentas administrativas)
 SW_COMPONENT_VPNCMGR_DESCRIPTION	Apenas o Gerenciador de clientes VPN será instalado. O serviço do programa VPN Cliente não será instalado. Você pode usar o Gerenciador de clientes VPN para conectar e gerenciar clientes VPN remotos em outros computadores que podem ser executados no Windows e Linux.
-SW_WELCOME_TITLE	Bem-vindo ao Assistente de configuração da Edição de Desenvolvedor do SoftEther VPN
+SW_WELCOME_TITLE	Bem-vindo ao Assistente de configuração da Edição de Desenvolvedor do Eissoft VPN
 SW_MODE_TITLE	Select a Setup Mode
 SW_NOT_ADMIN_TITLE	Not Enough Privileges
 SW_COMPONENTS_TITLE	Selecione o componente de software que deseja instalar
@@ -6983,14 +6983,14 @@ SW_PERFORM_TITLE	A instalação está em andamento
 SW_ERROR_TITLE	Resultados da instalação
 SW_FINISH_TITLE	A instalação terminou
 SW_UNINST1_TITLE	Desinstalador
-SW_LANG1_TITLE	SoftEther VPN: Configure the Display Language
-SW_EASY1_TITLE	Welcome to SoftEther VPN Client Easy Installer Creator
+SW_LANG1_TITLE	Eissoft VPN: Configure the Display Language
+SW_EASY1_TITLE	Welcome to Eissoft VPN Client Easy Installer Creator
 SW_EASY2_TITLE	Especificar arquivos
-SW_WEB1_TITLE	Welcome to SoftEther VPN Client Web Installer Creator
+SW_WEB1_TITLE	Welcome to Eissoft VPN Client Web Installer Creator
 SW_WEB2_TITLE	Especificar arquivos
 SW_UNINSTALLINFO_URL	http://selinks.org/
-SW_UNINSTALLINFO_PUBLISHER	Projeto SoftEther VPN
-SW_KB3033929_REQUIRED	In Windows 7 and Windows Server 2008 R2, some SoftEther VPN functions require the Microsoft's Windows Update module KB3033929 installed.\r\n\r\nIf KB3033929 is not installed in your Windows, please install it from Windows Update or Microsoft website before installing SoftEther VPN.
+SW_UNINSTALLINFO_PUBLISHER	Projeto Eissoft VPN
+SW_KB3033929_REQUIRED	In Windows 7 and Windows Server 2008 R2, some Eissoft VPN functions require the Microsoft's Windows Update module KB3033929 installed.\r\n\r\nIf KB3033929 is not installed in your Windows, please install it from Windows Update or Microsoft website before installing Eissoft VPN.
 SW_COMPONENTS_ABOUT_TAG	Sobre o %s
 SW_COMPONENTS_REQUIRE_ADMIN	Installation Requires Administrators Privileges
 SW_COMPONENTS_REQUIRE_ADMIN_TEXT	You have to restart the setup wizard by a user who has Administrators privileges to install %s in the System Mode. To install in the System Mode, click Back.
@@ -7011,8 +7011,8 @@ SW_SYSTEM_MODE_ALREADY_INSTALLED	The software "%s" is already installed on this 
 SW_SETUPLOG_CORRUPTED	The "setuplog.dat" file is broken.
 SW_MSI_UNINSTALL_FAILED	The older version of %s (Product Code: "%S") is installed. Windows Installer failed to uninstall this older version.\r\n\r\nPlease uninstall this older version manually and restart this installer again.
 SW_MSI_UNINSTALL_REBOOT_REQUIRED	Windows Installer has uninstalled the older version of %s. The reboot of computer is required.\r\n\r\nPress Finish button and reboot the computer MANUALLY, and restart this installer after the reboot.
-SW_NOTICE_VPNSERVER_IS_INSTALLED	SoftEther VPN Bridge is selected as a component to install. However, this computer has already had SoftEther VPN Server installed.\r\n\r\nUsually, you don't need to install both SoftEther VPN Server and SoftEther VPN Bridge on the same computer.\r\nIf you install both software, conflicts such as port number duplication will occur.\r\nIf you want to replace the SoftEther VPN Server to SoftEther VPN Bridge, you should exit this installer, uninstall SoftEther VPN Server and restart this installer after that.\r\n\r\nDo you really want to continue the SoftEther VPN Bridge installation?
-SW_NOTICE_VPNBRIDGE_IS_INSTALLED	SoftEther VPN Server is selected as a component to install. However, this computer has already had SoftEther VPN Bridge installed.\r\n\r\nUsually, you don't need to install both SoftEther VPN Bridge and SoftEther VPN Server on the same computer.\r\nIf you install both software, conflicts such as port number duplication will occur.\r\nIf you want to replace the SoftEther VPN Server to SoftEther VPN Server, you should exit this installer, uninstall SoftEther VPN Bridge and restart this installer after that.\r\n\r\nDo you really want to continue the SoftEther VPN Server installation?
+SW_NOTICE_VPNSERVER_IS_INSTALLED	Eissoft VPN Bridge is selected as a component to install. However, this computer has already had Eissoft VPN Server installed.\r\n\r\nUsually, you don't need to install both Eissoft VPN Server and Eissoft VPN Bridge on the same computer.\r\nIf you install both software, conflicts such as port number duplication will occur.\r\nIf you want to replace the Eissoft VPN Server to Eissoft VPN Bridge, you should exit this installer, uninstall Eissoft VPN Server and restart this installer after that.\r\n\r\nDo you really want to continue the Eissoft VPN Bridge installation?
+SW_NOTICE_VPNBRIDGE_IS_INSTALLED	Eissoft VPN Server is selected as a component to install. However, this computer has already had Eissoft VPN Bridge installed.\r\n\r\nUsually, you don't need to install both Eissoft VPN Bridge and Eissoft VPN Server on the same computer.\r\nIf you install both software, conflicts such as port number duplication will occur.\r\nIf you want to replace the Eissoft VPN Server to Eissoft VPN Server, you should exit this installer, uninstall Eissoft VPN Bridge and restart this installer after that.\r\n\r\nDo you really want to continue the Eissoft VPN Server installation?
 SW_OS_FAILED	This operating system doesn't support %s.
 SW_LANG_NOT_CHANGED	The language settings of %s were not changed.
 SW_LANG_LIST_LOAD_FAILED	Loading the available language list failed.
@@ -7024,13 +7024,13 @@ SW_EXE_FILTER	Windows Executable Files (*.EXE)|*.exe|All Files (*.*)|*.*
 SW_PERFORM_MSG_EASY_INFO	Compiling the VPN Client Easy Installer...
 SW_EASY_FINISHED_MSG	The VPN Client Easy Installer is created successfully.\r\nThe installer is saved as the following filename.\r\n\r\n%s\r\n\r\nYou can distribute the above file in the enterprise.
 SW_EASY_ERROR_MSG	Failed to create a VPN Client Easy Installer.
-SW_OTHER_INSTANCE_EXISTS	Another SoftEther VPN Setup Wizard is running.\r\n\r\nYou can continue this wizard after another wizard exits.
+SW_OTHER_INSTANCE_EXISTS	Another Eissoft VPN Setup Wizard is running.\r\n\r\nYou can continue this wizard after another wizard exits.
 SW_PERFORM_MSG_WEB_INFO	Compiling the VPN Client Web Installer...
 SW_WEB_ERROR_MSG	Failed to create a VPN Client Web Installer.
-SW_INSTALLER_CACHE_IS_NOT_SIGNED	The currently installed SoftEther VPN Client of this computer has not been installed from the digital-signed package signed by an Authenticode digital certificate of SoftEther VPN Project.\r\nIt might be installed from a customized installer (for example, an installer created by Easy Installer Creator.)\r\n\r\nIf you continue to create a Web Installer, a warning message will be appeared on the user's screen when its loading.\r\nTo avoid showing the warning message, you should cancel this creating wizard, download the latest version of SoftEther VPN Client from the SoftEther VPN Project's web site, re-install it and restart the Web Installer Creator wizard.\r\n\r\nDo you really to continue to create a Web Installer?
+SW_INSTALLER_CACHE_IS_NOT_SIGNED	The currently installed Eissoft VPN Client of this computer has not been installed from the digital-signed package signed by an Authenticode digital certificate of Eissoft VPN Project.\r\nIt might be installed from a customized installer (for example, an installer created by Easy Installer Creator.)\r\n\r\nIf you continue to create a Web Installer, a warning message will be appeared on the user's screen when its loading.\r\nTo avoid showing the warning message, you should cancel this creating wizard, download the latest version of Eissoft VPN Client from the Eissoft VPN Project's web site, re-install it and restart the Web Installer Creator wizard.\r\n\r\nDo you really to continue to create a Web Installer?
 SW_FILE_NOT_FOUNT	The file "%s" not found.
 SW_WEB_FINISHED	The Web Installer is created and saved as "%s".\r\n\r\nPlease extract inner files from the ZIP file, upload them into the Web server, and edit a HTML file and an inf file to replace URLs appropriately.\r\n\r\nThe explanation to deploy the Web Installer is described on the ZIP file.
-SW_VG_CONFIRM_MSG	Do you really want to install and activate the VPN Gate P2P Relay Function plug-in module with SoftEther VPN Client?\r\n\r\nThis plug-in will realize the stability of communication to bypass the government censorship firewall. However, the communication of VPN Gate usually consumes some network bandwidth. VPN Gate is not recommended to be used in the mobile connections. \r\n\r\nPlease note that there are some countries and regions which have the regulation to forbid the encrypted communications to bypass government censorship firewalls. In such a case, you must not use the VPN Gate functions on your computer. VPN Gate is intended to be used mainly in Japan. VPN Gate is a research project for just academic purpose only. VPN Gate is governed under the Japanese laws. Other countries' laws are none of our concerns nor responsibilities. By using this software and service, you must observe all concerned laws and rules with your own responsibility. You will be completely liable to any damages and responsibilities which are results of using this software and service, regardless of either inside or outside of Japan's territory.
+SW_VG_CONFIRM_MSG	Do you really want to install and activate the VPN Gate P2P Relay Function plug-in module with Eissoft VPN Client?\r\n\r\nThis plug-in will realize the stability of communication to bypass the government censorship firewall. However, the communication of VPN Gate usually consumes some network bandwidth. VPN Gate is not recommended to be used in the mobile connections. \r\n\r\nPlease note that there are some countries and regions which have the regulation to forbid the encrypted communications to bypass government censorship firewalls. In such a case, you must not use the VPN Gate functions on your computer. VPN Gate is intended to be used mainly in Japan. VPN Gate is a research project for just academic purpose only. VPN Gate is governed under the Japanese laws. Other countries' laws are none of our concerns nor responsibilities. By using this software and service, you must observe all concerned laws and rules with your own responsibility. You will be completely liable to any damages and responsibilities which are results of using this software and service, regardless of either inside or outside of Japan's territory.
 SW_PERFORM_MSG_INIT_TASKS	Preparando as tarefas...
 SW_PERFORM_MSG_COPY_PREPARE	Preparando a cópia de arquivos...
 SW_PERFORM_MSG_WRITE_ERROR	Failed to write the destination file "%s".\r\n\r\nThere might be another person who has been keeping this file open.\r\nIf programs or services of %s are running, please terminate them and click Retry.
@@ -7073,20 +7073,20 @@ SW_TAG_USERNAME	\ (User-mode)
 SW_DIRNAME_CONFIG_TOOLS	Configuration Tools
 SW_DIRNAME_ADMIN_TOOLS	Administrative Tools
 SW_DIRNAME_LANGUAGE_TOOLS	Configurações de idioma
-SW_RUN_TEXT_VPNSMGR	Iniciar o gerenciador de servidores VPN SoftEther.
-SW_RUN_TEXT_VPNCMGR	Iniciar o gerenciador de clientes VPN SoftEther.
-SW_NIC_UNINSTALL	Virtual Network Adapters of SoftEther VPN Client have been created on the system.\r\nDo you want to delete these Virtual Network Adapters?
+SW_RUN_TEXT_VPNSMGR	Iniciar o gerenciador de servidores VPN Eissoft.
+SW_RUN_TEXT_VPNCMGR	Iniciar o gerenciador de clientes VPN Eissoft.
+SW_NIC_UNINSTALL	Virtual Network Adapters of Eissoft VPN Client have been created on the system.\r\nDo you want to delete these Virtual Network Adapters?
 
 
 # Do not translate this section !!!
 SW_TAG_USERNAME_ENGLISH						\ (User-Mode)
-SW_LINK_NAME_VPNSERVER_SVC					SoftEther VPN Server Developer User-mode Service
-SW_LINK_NAME_VPNBRIDGE_SVC					SoftEther VPN Bridge Developer User-mode Service
-SW_LONG_VPNSERVER							SoftEther VPN Server Developer Edition
-SW_LONG_VPNCLIENT							SoftEther VPN Client Developer Edition
-SW_LONG_VPNBRIDGE							SoftEther VPN Bridge Developer Edition
-SW_LONG_VPNSMGR								SoftEther VPN Server Manager Developer Edition
-SW_LONG_VPNCMGR								SoftEther VPN Client Manager Developer Edition
+SW_LINK_NAME_VPNSERVER_SVC					Eissoft VPN Server Developer User-mode Service
+SW_LINK_NAME_VPNBRIDGE_SVC					Eissoft VPN Bridge Developer User-mode Service
+SW_LONG_VPNSERVER							Eissoft VPN Server 
+SW_LONG_VPNCLIENT							Eissoft VPN Client 
+SW_LONG_VPNBRIDGE							Eissoft VPN Bridge 
+SW_LONG_VPNSMGR								Eissoft VPN Server Manager 
+SW_LONG_VPNCMGR								Eissoft VPN Client Manager 
 SW_LANG_SET_FAILED							Failed to write the new language setting on lang.config file.
 
 
@@ -7094,39 +7094,39 @@ SW_LANG_SET_FAILED							Failed to write the new language setting on lang.config
 
 
 # Shortcuts Filenames
-SW_LINK_NAME_VPNSMGR_SHORT	SoftEther VPN Server Manager (Dev)
+SW_LINK_NAME_VPNSMGR_SHORT	Eissoft VPN Server Manager (Dev)
 SW_LINK_NAME_VPNSMGR_SHORT_UM	SE-VPN Server Manager (Dev User)
 SW_LINK_NAME_VPNSMGR_SHORT_TOOLSONLY	SE-VPN Server Manager (Dev Tools)
 SW_LINK_NAME_VPNSMGR_SHORT_TOOLSONLY_UM	SE-VPN Server Manager (Dev Tools User)
-SW_LINK_NAME_VPNSMGR_FULL	Edição de desenvolvedor do gerenciador SoftEther VPN Servidor
-SW_LINK_NAME_VPNSMGR_COMMENT	You can manage SoftEther VPN Server or SoftEther VPN Bridge on a remote computer.
-SW_LINK_NAME_VPNCMGR_SHORT	Gerenciador do SoftEther VPN Cliente (Des)
-SW_LINK_NAME_VPNCMGR_FULL	Edição de desenvolvedor do gerenciador SoftEther VPN Cliente
-SW_LINK_NAME_VPNCMGR_COMMENT	You can connect to a VPN Server by using SoftEther VPN Client.
-SW_LINK_NAME_VPNCMGRTOOLS_SHORT	SoftEther VPN Client Remote Manager (Dev)
+SW_LINK_NAME_VPNSMGR_FULL	Edição de desenvolvedor do gerenciador Eissoft VPN Servidor
+SW_LINK_NAME_VPNSMGR_COMMENT	You can manage Eissoft VPN Server or Eissoft VPN Bridge on a remote computer.
+SW_LINK_NAME_VPNCMGR_SHORT	Gerenciador do Eissoft VPN Cliente (Des)
+SW_LINK_NAME_VPNCMGR_FULL	Edição de desenvolvedor do gerenciador Eissoft VPN Cliente
+SW_LINK_NAME_VPNCMGR_COMMENT	You can connect to a VPN Server by using Eissoft VPN Client.
+SW_LINK_NAME_VPNCMGRTOOLS_SHORT	Eissoft VPN Client Remote Manager (Dev)
 SW_LINK_NAME_VPNCMGRTOOLS_SHORT_UM	SE-VPN Client Remote Manager (Dev User)
-SW_LINK_NAME_VPNCMGRTOOLS_FULL	SoftEther VPN Client Remote Manager Developer Edition
-SW_LINK_NAME_VPNCMGR2_FULL	Manage Remote Computer's SoftEther VPN Client
-SW_LINK_NAME_VPNCMGR2_COMMENT	You can establish a remote connection to and manage a SoftEther VPN Client on a remote computer.
-SW_LINK_NAME_VPNCMGRTRAY_FULL	SoftEther VPN Client Manager Developer Edition Startup
-SW_LINK_NAME_VPNCMGRTRAY_COMMENT	Registers an icon of SoftEther VPN Client Developer Edition on the taskbar's notification area.
+SW_LINK_NAME_VPNCMGRTOOLS_FULL	Eissoft VPN Client Remote Manager 
+SW_LINK_NAME_VPNCMGR2_FULL	Manage Remote Computer's Eissoft VPN Client
+SW_LINK_NAME_VPNCMGR2_COMMENT	You can establish a remote connection to and manage a Eissoft VPN Client on a remote computer.
+SW_LINK_NAME_VPNCMGRTRAY_FULL	Eissoft VPN Client Manager  Startup
+SW_LINK_NAME_VPNCMGRTRAY_COMMENT	Registers an icon of Eissoft VPN Client  on the taskbar's notification area.
 SW_LINK_NAME_EASYINSTALLER	Easy Installer Creator
-SW_LINK_NAME_EASYINSTALLER_COMMENT	A tool for enterprise system administrators to create a SoftEther VPN Client Easy Installer which has a function to kick-start a VPN connection to the specific destination automatically.
+SW_LINK_NAME_EASYINSTALLER_COMMENT	A tool for enterprise system administrators to create a Eissoft VPN Client Easy Installer which has a function to kick-start a VPN connection to the specific destination automatically.
 SW_LINK_NAME_WEBINSTALLER	Web Installer Creator
-SW_LINK_NAME_WEBINSTALLER_COMMENT	A tool for enterprise system administrators to create a SoftEther VPN Client Web Installer (ActiveX Installer) which has a function to kick-start a VPN connection to the specific destination automatically.
-SW_LINK_NAME_VPNCMD	SoftEther VPN Command Line Utility (vpncmd)
-SW_LINK_NAME_VPNCMD_COMMENT	Manage SoftEther VPN Server, SoftEther VPN Bridge and SoftEther VPN Client on the command-line interface in vpncmd.
+SW_LINK_NAME_WEBINSTALLER_COMMENT	A tool for enterprise system administrators to create a Eissoft VPN Client Web Installer (ActiveX Installer) which has a function to kick-start a VPN connection to the specific destination automatically.
+SW_LINK_NAME_VPNCMD	Eissoft VPN Command Line Utility (vpncmd)
+SW_LINK_NAME_VPNCMD_COMMENT	Manage Eissoft VPN Server, Eissoft VPN Bridge and Eissoft VPN Client on the command-line interface in vpncmd.
 SW_LINK_NAME_TRAFFIC	Ferramenta de teste de velocidade do tráfego de rede
 SW_LINK_NAME_TRAFFIC_COMMENT	Performs transmitting packets between two computers connected with TCP/IP, with large amount of throughput as possible, in order to measure the actual network traffic speed available.
 SW_LINK_NAME_TCP	Utilitário de otimização de TCP
 SW_LINK_NAME_TCP_COMMENT	TCP Optimization Utility can adjust the parameters of TCP/IP of Windows in order to increase the network communication throughput of this computer.
 SW_LINK_NAME_SERVICES	Services Running on this Computer
-SW_LINK_NAME_SERVICES_COMMENT	Starts, stops, and configures Windows services. You can start and stop SoftEther VPN services.
-SW_LINK_NAME_VPNSERVER_SVC_COMMENT	Starts SoftEther VPN Server Service in the User Mode.
-SW_LINK_NAME_VPNBRIDGE_SVC_COMMENT	Starts SoftEther VPN Bridge Service in the User Mode.
+SW_LINK_NAME_SERVICES_COMMENT	Starts, stops, and configures Windows services. You can start and stop Eissoft VPN services.
+SW_LINK_NAME_VPNSERVER_SVC_COMMENT	Starts Eissoft VPN Server Service in the User Mode.
+SW_LINK_NAME_VPNBRIDGE_SVC_COMMENT	Starts Eissoft VPN Bridge Service in the User Mode.
 SW_LINK_NAME_UNINSTALL	Desinstalar %s
 SW_LINK_NAME_UNINSTALL_COMMENT	Uninstall %s on this computer.
 SW_LINK_NAME_LANGUAGE	Configure Display Language
 SW_LINK_NAME_LANGUAGE_COMMENT	Change the display language setting of %s.
 SW_LINK_NAME_DEBUG	Debugging Information Collecting Tool
-SW_LINK_NAME_DEBUG_COMMENT	Collects debugging information of SoftEther VPN. Use this tool only if your support staff asks you to do so.
+SW_LINK_NAME_DEBUG_COMMENT	Collects debugging information of Eissoft VPN. Use this tool only if your support staff asks you to do so.
