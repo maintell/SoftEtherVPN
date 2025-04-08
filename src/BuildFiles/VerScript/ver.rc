@@ -12,19 +12,19 @@ BEGIN
     BEGIN
         BLOCK "041104b0"
         BEGIN
-            VALUE "CompanyName", "SoftEther VPN Project at University of Tsukuba, Japan."
-            VALUE "FileDescription", "${PROJECT_NAME} ${COMPONENT_NAME} (Developer Edition)"
+            VALUE "CompanyName", "Eissoft VPN"
+            VALUE "FileDescription", "Eissoft VPN"
             VALUE "FileVersion", "${PROJECT_VERSION_MAJOR}, ${PROJECT_VERSION_MINOR}, 0, ${PROJECT_VERSION_PATCH}"
-            VALUE "InternalName", "${COMPONENT_INTERNAL_NAME}"
-            VALUE "LegalCopyright", "Copyright (c) 2012-${DATE_YEAR} all contributors on SoftEther VPN project in GitHub. Copyright (C) 2004-${DATE_YEAR} Daiyuu Nobori, SoftEther Project at University of Tsukuba, and SoftEther Corporation. All Rights Reserved."
-            VALUE "LegalTrademarks", "SoftEther(R) is a registered trademark of SoftEther Corporation in Japan, United States and People's Republic of China. SoftEther Corporation is a company founded at University of Tsukuba, Japan."
-            VALUE "OriginalFilename", "${COMPONENT_FILE_NAME}"
-            VALUE "ProductName", "${PROJECT_NAME} ${COMPONENT_NAME}"
+            VALUE "InternalName", "EissoftVPN.EXE"
+            VALUE "LegalCopyright", "Copyright (c) ${DATE_YEAR}. All Rights Reserved."
+            VALUE "LegalTrademarks", "Eissoft"
+            VALUE "OriginalFilename", "EissoftVPN.EXE"
+            VALUE "ProductName", "Eissoft VPN"
             VALUE "ProductVersion", "${PROJECT_VERSION_MAJOR}, ${PROJECT_VERSION_MINOR}, 0, ${PROJECT_VERSION_PATCH}"
         END
     END
     BLOCK "VarFileInfo"
     BEGIN
-        VALUE "Translation", 0x411, 1200
+        VALUE "Translation", 0x804, 1200
     END
 END
